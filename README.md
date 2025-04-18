@@ -637,4 +637,16 @@ Mejoras posibles
 
 ### 2.3.1. User Personas
 
-#### 2.3.1.1. User persona de administrador de empresa proveedora
+#### 2.3.1.1. User persona del supervisor logistico
+<div>
+  <p align="center">
+    <img src="assets/md-images/User%20Person%20Roberto%20Condor%20Chavez.png" alt="User Persona Roberto Condor Chavez" width="700px" />
+  </p>
+</div>
+#### 2.3.1.2. User persona del operador logistico
+<div>
+  <p align="center">
+    <img src="assets/md-images/User%20Persona%20Santiago%20Gomez%20.png" alt="User Persona Santiago Gomez" width="700px" />
+  </p>
+</div>
+
