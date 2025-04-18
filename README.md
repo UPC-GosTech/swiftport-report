@@ -557,3 +557,84 @@ Para diferenciar nuestra solución en el mercado de gestión logística, conside
 
 ### 2.2.1. Diseño de entrevista
 
+#### Segmento objetivo #1: Planificadores de actividades de campo
+
+Actividades actuales  
+
+- ¿Cómo organizas las actividades que tu equipo realiza en campo?  
+- ¿Qué herramientas usas para planificar y asignar tareas?
+- ¿Tienes algún proceso estándar para reagendar o modificar tareas?
+- ¿Cuánto tiempo te toma asignar tareas para un día o semana?
+
+Monitoreo y control
+
+- ¿Cómo haces seguimiento a la ejecución de las tareas?
+- ¿Cómo sabes si una actividad se completó correctamente?
+- ¿Con qué frecuencia ocurren imprevistos o desviaciones?
+- ¿Qué tan importante es para ti contar con reportes o estadísticas?
+
+Tecnología y digitalización
+
+- ¿Has usado alguna solución digital (app, sistema web) para estas tareas?
+- ¿Qué te gustó o no te gustó de esas herramientas?
+- ¿Qué funcionalidades consideras más importantes en un sistema de planificación y monitoreo?
+
+Dolores y frustraciones
+
+- ¿Qué es lo que más te complica en la planificación de campo?
+- ¿Te resulta difícil coordinar con los operarios durante el día?
+- ¿Qué consecuencias tiene una mala planificación en tu equipo?
+
+Expectativas
+
+- Si pudieras tener una herramienta ideal, ¿qué haría por ti?
+
+#### Segmento objetivo #2:  Operarios de campo
+
+Flujo de trabajo
+
+- ¿Cómo sabes qué tareas debes hacer cada día?
+- ¿Recibes instrucciones claras sobre lo que se espera de ti?
+- ¿Qué tipo de tareas haces normalmente?
+
+Herramientas y comunicación
+
+- ¿Qué dispositivos usas durante el trabajo? (celular, radio, tablet, etc.)
+- ¿Cómo reportas que una tarea ya fue completada?
+- ¿Te ha pasado que no sabes cómo proceder en una tarea? ¿Qué haces?
+
+Seguimiento y ubicación
+
+- ¿Alguna vez han rastreado tu ubicación mientras trabajas?
+- ¿Estás de acuerdo con que se monitoree tu ubicación por razones de seguridad u operación?
+
+Problemas frecuentes
+
+- ¿Qué es lo más difícil de tu trabajo diario?
+- ¿Qué pasa cuando hay un cambio de último minuto o problema en el campo?
+- ¿Cómo te sientes con la forma actual en que se te asignan tareas?
+
+Experiencia digital
+
+- ¿Has usado alguna aplicación para recibir o reportar tareas?
+- ¿Te parece fácil usar tecnología para trabajar o prefieres métodos tradicionales?
+
+Mejoras posibles
+
+- ¿Qué haría más fácil tu día a día en el campo?
+- Si una aplicación pudiera ayudarte, ¿qué te gustaría que hiciera?
+
+### 2.2.2. Registro de entrevistas
+
+# FALTA REGISTRO DE ENTREVISTAS
+
+### 2.2.3. Análisis de entrevistas
+
+# FALTA ANALISIS DE ENTREVISTAS
+
+
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+#### 2.3.1.1. User persona de administrador de empresa proveedora
