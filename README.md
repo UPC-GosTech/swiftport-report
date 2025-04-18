@@ -339,4 +339,60 @@ __¿Cómo debe verse nuestro producto y cómo debe comportarse?__
 
 Debe tener una interfaz intuitiva, responsiva y modular, con indicadores visuales, carga automática de datos desde sensores y herramientas de validación visual, rápida y confiable.
 
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+Hypothesis Statement 01
+
+**Creemos** que los supervisores y operadores adoptarán el sistema si pueden registrar el cumplimiento de tareas con tecnología RFID en lugar de formularios manuales.  
+**Sabremos** que hemos tenido éxito  
+**cuando** el 80% de los registros se realicen mediante escaneo RFID o sensores IoT durante la fase piloto.  
+
+Hypothesis Statement 02
+
+**Creemos** que permitir acceso en tiempo real al estado de cada envío, capturado por dispositivos IoT, mejorará la coordinación entre áreas.  
+**Sabremos** que hemos tenido éxito  
+**cuando** se reduzcan en un 40% los reportes sobre paquetes extraviados o enviados al destino incorrecto.  
+
+Hypothesis Statement 03
+
+**Creemos** que la combinación de códigos QR  reducirá errores en la asignación de destinos.  
+**Sabremos** que hemos tenido éxito  
+**cuando** se observe una disminución del 60% en entregas erróneas dentro de los primeros tres meses de uso.  
+
+Hypothesis Statement 04
+
+**Creemos** que las alertas automáticas generadas por sensores IoT permitirán al equipo logístico actuar rápidamente ante incidencias.  
+**Sabremos** que hemos tenido éxito  
+**cuando** el tiempo promedio de respuesta ante problemas logísticos se reduzca en un 40%.  
+
+Hypothesis Statement 05
+
+**Creemos** que un historial digital generado automáticamente por sensores, escaneos y registros IoT facilitará auditorías internas y prevención de errores.    
+**Sabremos** que hemos tenido éxito  
+**cuando** al menos el 70% de las auditorías logísticas utilicen los datos del sistema como fuente principal.  
+
+Hypothesis Statement 06
+
+**Creemos** que al integrarse con sistemas ERP, WMS o CRM, se incrementará la eficiencia y se reducirá la duplicidad de tareas administrativas.  
+**Sabremos** que hemos tenido éxito  
+**cuando** el tiempo promedio de registro y consulta de información de envíos se reduzca en un 50%.
+
+Hypothesis Statement 07
+
+**Creemos** que registrar automáticamente las incidencias detectadas por sensores IoT ayudará a prevenir errores mayores antes de la entrega.  
+**Sabremos** que hemos tenido éxito  
+**cuando** al menos el 60% de los eventos detectados se resuelvan antes de que el paquete llegue a destino.  
+
+Hypothesis Statement 8
+
+**Creemos** que añadir fotografías y validaciones por RFID o sensores IoT como evidencia aumentará la transparencia del proceso y reducirá disputas.  
+**Sabremos** que hemos tenido éxito  
+**cuando** los reclamos por daños sin evidencia disminuyan en un 50%.
+
+Hypothesis Statement 09
+
+**Creemos** que brindar dashboards analíticos en tiempo real, alimentados por dispositivos inteligentes, facilitará la toma de decisiones estratégicas.  
+**Sabremos** que hemos tenido éxito  
+**cuando** al menos el 75% de los responsables logísticos usen los reportes al menos una vez por semana.  
+
