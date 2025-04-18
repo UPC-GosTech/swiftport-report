@@ -396,3 +396,145 @@ Hypothesis Statement 09
 **Sabremos** que hemos tenido éxito  
 **cuando** al menos el 75% de los responsables logísticos usen los reportes al menos una vez por semana.  
 
+#### 1.2.2.4. Lean UX Canvas
+
+Lean UX Canvas es una de las herramientas que hemos utilizado para conmprender a nuestros posibles usuarios y sus necesidades. Esta es usada en el campo del diseño centrado en el usuario y la metodología Lean con la intención de desarrollar productos de forma eficientes y práctica para los usuarios. A su vez, esta puede ser utilizada por equipos multidisciplinarios para que colaboración de forma ordenada dentro un marco estructurado.
+
+<div>
+  <p align="center"><img src="assets/md-images/canvas-open.png" alt="Canvas" width="700px" /></p>
+</div>
+
+Enlace para acceder al [Canvas](https://www.canva.com/design/DAGjpb8uvJA/kFkhcvG5a6BCtdU2xvq5gw/edit?utm_content=DAGjpb8uvJA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+## 1.3 Segmentos Objetivos
+
+#FALTAN SEGMENTOS OBJETIVOS
+
+
+
+
+
+
+
+
+# 2. Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1 Competidores
+
+### 2.1.1. Análisis competitivo
+
+A continuación, realizamos un análisis competitivo para identificar oportunidades, amenazas, ventajas y posibles desventajas que podemos tener dentro del mercado en comparación a otras empresas que realicen actividades similares a las nuestras. De esta forma, podremos prepararnos para resaltar frente a los consumidores.
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="7"><b>Competitive Analysis Landscape</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" align="center">¿Por qué llevar a cabo este análisis?</td>
+      <td colspan="5" align="center">Identificar las fortalezas, debilidades, oportunidades y amenazas de nuestra solución, SwiftPort, frente a competidores consolidados del sector logístico, con el fin de validar nuestra propuesta de valor, afinar nuestra estrategia de posicionamiento y asegurar una ventaja competitiva que se pueda sostener a largo plazo en el mercado.</td>
+    </tr>
+    <tr>
+      <td colspan="2">PERFIL</td>
+      <td><picture><p align="center"><img src="assets/md-images/flexport.png" alt="flexport.png" height="50" width="200"></p> </picture></td>
+      <td><picture><p align="center"><img src="assets/md-images/turvo.png" alt="turvo.png" height="50" width="200"></p></picture></td>
+      <td><picture><p align="center"><img src="assets/md-images/wisetech.png" alt="wisetech.png" width="50" width="200"></p></picture></td>
+      <td><picture><p align="center"><img src="assets/md-images/impinj.png" alt="impinj.png" width="50" width="200"></p></picture></td>
+      <td><picture><p align="center"><img src="assets/md-images/logo.png" alt="Swifport" width="50" width="200"></p></picture></td>
+    </tr>
+    <tr>
+      <td rowspan="2">Perfil</td>
+      <td>Overview</td>
+      <td>Plataforma de gestión de cadena de suministro enfocada en envíos internacionales.</td>
+      <td>Plataforma colaborativa para la gestión logística unificada.</td>
+      <td>Software robusto para ejecución logística internacional.</td>
+      <td>Soluciones RFID + IoT para trazabilidad.</td>
+      <td>Plataforma de gestión logística con IoT, QRs y dashboard colaborativo.</td>
+    </tr>
+    <tr>
+      <td>Ventaja Competitiva ¿Qué valor ofrece a los clientes?</td>
+      <td>Visibilidad global en tiempo real y optimización de cadena de suministro.</td>
+      <td>Comunicación entre actores logísticos en una sola plataforma.</td>
+      <td>Gran escalabilidad y automatización en sistemas complejos.</td>
+      <td>Precisión en el escaneo y visibilidad en almacén.</td>
+      <td>Integración IoT/RFID/QR + interfaz colaborativa adaptada a múltiples roles.</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Perfil de Marketing</td>
+      <td>Mercado objetivo</td>
+      <td>Empresas exportadoras e importadoras.</td>
+      <td>PYMEs logísticas y grandes operadores.</td>
+      <td>Operadores logísticos globales y agentes de aduanas.</td>
+      <td>Logística, retail y salud.</td>
+      <td>Empresas proveedoras, operadores logísticos, industria nacional e internacional.</td>
+    </tr>
+    <tr>
+      <td>Estrategias de Marketing</td>
+      <td>Marketing digital, contenido técnico y casos de éxito.</td>
+      <td>Inbound marketing y demos personalizadas.</td>
+      <td>Ferias internacionales, canales de distribución.</td>
+      <td>Webinars, distribuidores autorizados.</td>
+      <td>Alianzas, pilotos, eventos sectoriales, marketing B2B.</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Perfil del Producto</td>
+      <td>Productos & Servicios</td>
+      <td>Gestión de envíos internacionales, visibilidad y análisis.</td>
+      <td>Plataforma de colaboración logística en tiempo real.</td>
+      <td>Software de ejecución logística, aduanas, documentación.</td>
+      <td>Lectores RFID, plataformas IoT.</td>
+      <td>Gestión logística integrada con IoT, RFID, QR y dashboards.</td>
+    </tr>
+    <tr>
+      <td>Precios & Costos</td>
+      <td>No público, con licencias y comisiones.</td>
+      <td>Desde $500/mes.</td>
+      <td>$1,000+ por licencia</td>
+      <td>Hardware $1,000–$8,000 + software.</td>
+      <td>Suscripción mensual por niveles.</td>
+    </tr>
+    <tr>
+      <td>Canales de Distribución (web / móvil)</td>
+      <td>Web, API.</td>
+      <td>Web, Móvil, API.</td>
+      <td>Software a medida, integración global.</td>
+      <td>Hardware + software, API.</td>
+      <td>Web, Móvil, Dashboards integrados con ERP/CRM/WMS.</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Análisis SWOT</td>
+      <td>Fortalezas</td>
+      <td>Red global, interfaz elegante, gran reputación.</td>
+      <td>Enfoque colaborativo único, buena integración con otros sistemas.</td>
+      <td>Escalabilidad, cumplimiento legal, alcance global.</td>
+      <td>Precisión RFID, experiencia técnica.</td>
+      <td>Interfaz intuitiva, integración con ERP/WMS/CRM, tecnología IoT, alertas en tiempo real.</td>
+    </tr>
+    <tr>
+      <td>Debilidades</td>
+      <td>Costos elevados, foco en grandes empresas.</td>
+      <td>Curva de aprendizaje, costos para pequeñas empresas.</td>
+      <td>Costoso, complejo de implementar.</td>
+      <td>Alta inversión inicial.</td>
+      <td>Riesgo de adopción en campo, requiere capacitación inicial.</td>
+    </tr>
+    <tr>
+      <td>Oportunidades</td>
+      <td>Alianzas con nuevos mercados.</td>
+      <td>Expansión en Latinoamérica.</td>
+      <td>Nuevos acuerdos con gobiernos.</td>
+      <td>Integración con software de gestión.</td>
+      <td>Ampliar a otros sectores (minería, agro, distribución), expansión regional.</td>
+    </tr>
+    <tr>
+      <td>Amenazas</td>
+      <td>Competencia de plataformas más baratas.</td>
+      <td>Competidores locales con soluciones más simples.</td>
+      <td>Aparición de plataformas más flexibles.</td>
+      <td>Disminución de inversión en hardware.</td>
+      <td>Baja adopción tecnológica en PYMEs, resistencia al cambio.</td>
+    </tr>
+  </tbody>
+</table>
