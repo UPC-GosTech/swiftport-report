@@ -98,7 +98,7 @@ __TB1__
 
 1. __[Capítulo I: Introducción](#Capítulo-i-introducción)__  
    1.1. [Startup Profile](#11-startup-profile)  
-   &nbsp;&nbsp;&nbsp;&nbsp;1.1.1. [Descripción del startup](#111-descripción-del-startup)  
+   &nbsp;&nbsp;&nbsp;&nbsp;1.1.1. [Descripción del startup](#111-descripción-de-la-startup)  
    &nbsp;&nbsp;&nbsp;&nbsp;1.1.2. [Perfiles de los integrantes del equipo](#112-perfiles-de-los-integrantes-del-equipo)  
    1.2. [Solution Profile](#12-solution-profile)  
    &nbsp;&nbsp;&nbsp;&nbsp;1.2.1. [Antecedentes y Problemática](#121-antecedentes-y-problemática)  
@@ -194,7 +194,7 @@ Misión: Optimizar la planificación, ejecución y trazabilidad de actividades l
 
 Visión: GosTech aspira a convertirse en el aliado tecnológico preferido por empresas logísticas en Latinoamérica, facilitando operaciones más eficientes, seguras y adaptables a través de innovación digital aplicada al terreno.
 
-### 1.1.2. Perfiles de integrantes del equipo
+### 1.1.2. Perfiles de los integrantes del equipo
 
 #### 1.1.2.1. Natalia Bertha Roman Cruz
 
@@ -233,6 +233,6 @@ Mi nombre es Santiago Armando Baldeon y tengo 18 años. Actualmente estoy cursan
 Mi nombre es Carlos Arturo Adrianzén Flores y soy estudiante de la carrera de ingeniería de software. Me entusiasman las nuevas tecnologías, sobre todo las que son útiles para solventar problemas reales. Tengo experiencia en lenguajes de programación como C + + y Python. Me gusta tocar la guitarra y jugar fútbol.
 
 <div>
-  <p><img src="assets/md-images/aruto-foto.png" alt="Arturo" width="150px" /></p>
+  <p><img src="assets/md-images/arturo-foto.png" alt="Arturo" width="150px" /></p>
 </div>
 
