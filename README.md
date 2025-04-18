@@ -198,3 +198,41 @@ Visión: GosTech aspira a convertirse en el aliado tecnológico preferido por em
 
 #### 1.1.2.1. Natalia Bertha Roman Cruz
 
+Mi nombre es Natalia Bertha Roman Cruz, tengo 19 años y soy estudiante de la carrera de Ingeniería de Software en la UPC. Me considero una persona perseverante y organizada, así como con capacidad de liderazgo, de forma que busco guiar a mi equipo y motivar la colaboración entre los integrantes. Me gusta investigar acerca de nuevas propuestas para utilizar las herramientas tecnológicas a nuestro favor. Antes de iniciar el curso, he tenido cierta experiencia en el manejo de Angular al estar realizando mis prácticas preprofesionales, así como he utilizado C + +, python y javaScript anteriormente.
+
+<div>
+  <p><img src="assets/md-images/natalia-foto.png" alt="Natalia" width="150px" /></p>
+</div>
+
+#### 1.1.2.2. Angelo Hector Solano Armas
+
+Mi nombre es Angelos Solano Armas, tengo 19 años y actualmente estudio Ingeniería de Software. Me encuentro cursando el quinto ciclo de la carrera, y me considero una persona alegre, responsable y con muchas ganas de aprender. Tengo grandes expectativas respecto a este curso, ya que espero que me brinde los conocimientos necesarios para desarrollar una estructura sólida de software, así como reforzar mis habilidades técnicas y mi lógica de programación. Aspiro a convertirme en un profesional capaz de diseñar soluciones eficientes y escalables, y sé que este curso será clave en ese camino.
+
+<div>
+  <p><img src="assets/md-images/angelo-foto.png" alt="Angelo" width="150px" /></p>
+</div>
+
+#### 1.1.2.3. Sergio Sebastián Iglesias Pérez
+
+Hola, soy estudiante de la carrera de Ingeniería de Software en la UPC. Tengo un alto interés en aprender sobre Arquitectura de Software y buenas prácticas de programación. Por motivos laborales, tengo experiencia en desarrollo web en un stack diferente al del curso, por lo cual espero poder adaptar mis conocimientos y poder apoyar a mis compañeros siempre que tenga disponibilidad. Finalmente, espero que la idea que proponemos sea de alto valor y la podamos implementar de forma adecuada.
+
+<div>
+  <p><img src="assets/md-images/sergio-foto.png" alt="Sergio" width="150px" /></p>
+</div>
+
+#### 1.1.2.4. Santiago Armando Baldeón Vivar
+
+Mi nombre es Santiago Armando Baldeon y tengo 18 años. Actualmente estoy cursando la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. En mi caso elegí esta carrera porque desde chico sentí gran pasión por la tecnología y siempre quise ser alguien importante en este mundo, brindando mis aportes a la humanidad. Creo que voy por buen camino y espero en un futuro cumplir estos sueños y objetivos que tengo
+
+<div>
+  <p><img src="assets/md-images/santiago-foto.png" alt="Santiago" width="150px" /></p>
+</div>
+
+#### 1.1.2.5. Carlos Arturo Adrianzén Flores
+
+Mi nombre es Carlos Arturo Adrianzén Flores y soy estudiante de la carrera de ingeniería de software. Me entusiasman las nuevas tecnologías, sobre todo las que son útiles para solventar problemas reales. Tengo experiencia en lenguajes de programación como C + + y Python. Me gusta tocar la guitarra y jugar fútbol.
+
+<div>
+  <p><img src="assets/md-images/aruto-foto.png" alt="Arturo" width="150px" /></p>
+</div>
+
