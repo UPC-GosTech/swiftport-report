@@ -236,3 +236,57 @@ Mi nombre es Carlos Arturo Adrianzén Flores y soy estudiante de la carrera de i
   <p><img src="assets/md-images/arturo-foto.png" alt="Arturo" width="150px" /></p>
 </div>
 
+## 1.2. Solution Profile
+
+### 1.2.1. Antecedentes y problemática
+
+#### 1.2.1.1. What
+
+__¿Cuál es el problema__
+
+El problema puede ser mencionado como la falta de un recurso tecnológico capaz de organizar equipos de trabajo y registrar datos sobre las actividades que estos deben cumplir en empresas dedicadas a la repartición de material o mercancía de forma industrial. Esto ocasiona consecuencias dentro de la empresa dado que, al no existir un registro de la secuencia de los procesos llevados a cabo para la entrega de lo solicitado, surgen errores que causan pérdidas de tiempo y económicas, así como la imagen de la empresa se ve afectada frente a sus empresas clientes.
+
+#### 1.2.1.2. Who
+
+__¿Quiénes están involucrados en el problema?__
+
+Al ser este un problema que afecta principalmente a las empresas proveedoras de materiales o productos, serán los usuarios de estas nuestros usuarios. Así, podemos colocar a los encargados de la administración y/o gerentes como usuarios con la capacidad de colocar las tareas a cumplir para la entrega de cada envío que se está preparando y de visualizar los datos registrados para verificar que todo se está cumpliendo correctamente. Al mismo tiempo, los trabajadores de campo que ejecutan las tareas listadas por los superiores también tendrían acceso a nuestros servicios para registrar los datos solicitados y visualizar los requisitos o pasos a cumplir.
+
+#### 1.2.1.3. Where
+
+__¿Dónde surge el problema?__
+
+El problema surge principalmente en los puntos de recojo y entrega de los productos o materiales encargados, siendo estos almacenes, dado que el recoger o dejar la carga dispone de procesos que frecuentemente no son completados ni verificados como deberían, lo que sube el riesgo de que ocurran errores que afecten el tiempo previsto de entrega o dañen la mercancía, lo que dispone problemas para ambas empresas involucradas.  
+
+Asimismo, puede mencionarse que los problemas ocurren en las oficinas de la empresa proveedora, puesto que esta, al no contar con los datos sobre sus propios envíos en tiempo real, sufre de dificultades para ofrecer soluciones de forma rápida frente a las adversidades que puedan ocurrir, así como percibe una desorganización general que dificulta el crecimiento y mejora de la calidad de sus servicios.
+
+#### 1.2.1.4. When
+
+__¿Cuándo se presenta el problema?__
+
+El problema inicia desde que una empresa externa realiza una solicitud a la empresa proveedora, dado que esta última debe registrar el pedido de manera correcta y considerando las especificaciones como medidas de seguridad a tomar durante el trayecto para proteger la carga. Cuando estas indicaciones no son correctamente especificadas, repartidas entre los equipos y verificadas, la carga puede no llegar en un estado óptimo, así como puede llegar a perderse por la gran cantidad de envíos simultáneos realizados. Asimismo, al no haberse seguido los pasos supuestos, la carga puede llegar con desperfectos, afectando el trabajo de la empresa receptora y generándole desconfianza hacia la proveedora.
+
+#### 1.2.1.5. Why
+
+__¿Por qué surge el problema?__
+
+El problema surge debido a la descoordinación y desorganización de la empresa en cuanto a la ejecución de sus actividades. Al no contar con un sistema adecuado mediante el cuál verificar el cumplimiento de todos los pasos y medidas que supone cada proceso, es imposible saber si el envío está siendo realizado adecuadamente, lo que provoca errores evitables.
+
+#### 1.2.1.6. How
+
+__¿Cómo se utilizará el producto?__
+
+El producto será utilizado como una herramienta de gestión logística que contendrá los pasos a realizar para cumplir exitosamente con cada etapa de envío de un pedido, así como con los requisitos adicionales de cada uno y sus datos cruciales (lugar de carga, lugar de entrega, encargados, entre otros). Así, quienes se encuentran en cargos administrativos podrán registrar la información mencionada y verificar el cumplimiento de lo solicitado de forma eficiente e inmediata, mientras que los trabajadores de campo tendrán las indicaciones que necesitan de forma clara y siempre disponible, junto a la opción de notificar el correcto cumplimiento de las operaciones detalladas o de una diversidad para lograr tomar acción inmediata de manera informada.
+
+#### 1.2.1.7. How much
+
+__¿¿Cuál es la magnitud del problema?__
+
+Según indica Carlos Pintado (2023), licenciado en contaduría pública, se ha observado que el 44% de las empresas de transporte son deficientes debido a que no logran concretar un sistema a seguir con procesos lógicos en el cual puedan detectarse errores con facilidad. Esto ocasiona pérdidas monetarias y retrasa tanto el término del envío en cuestión como los posteriores. Asimismo, dentro de los factores que retrasan el crecimiento de la empresa dadas las constantes adversidades en sus operaciones, se señala la falta de coordinación y unidad al trabajar en equipo, lo cual surge dada la falta de comunicación entre áreas y las indicaciones imprecisas.
+
+Por otro lado, el 63% de las empresas proveedoras encuestadas manifestaron que el cumplimiento del flujo de trabajo impacta directamente en su correcto desempeño, así como influye en sus gastos mensuales. De esta forma, se puede notar que el no contar con un sistema de logística útil y sencillo de utilizar que pueda mejorar la comunicación entre áreas y verificar el cumplimiento de tareas frena el crecimiento de la empresa y dificulta el cierre exitoso de los pedidos realizados.
+
+### 1.2.2. Lean UX Process
+
+#### 1.2.2.1. Lean UX Problem Statements
+
