@@ -538,3 +538,22 @@ A continuación, realizamos un análisis competitivo para identificar oportunida
     </tr>
   </tbody>
 </table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+Para diferenciar nuestra solución en el mercado de gestión logística, consideramos las siguientes estrategias:
+
+- Integración de Tecnologías Emergentes: Incorporar tecnologías como IoT, RFID y códigos QR para ofrecer una trazabilidad completa y en tiempo real de los envíos, superando las capacidades de algunos competidores que aún dependen de sistemas menos integrados.​
+
+- Interfaz Intuitiva y Colaborativa: Desarrollar una plataforma con una interfaz amigable que facilite la colaboración entre diferentes niveles de usuarios, desde operarios hasta gerentes, asegurando una rápida adopción y minimizando la resistencia al cambio.​
+
+- Modelo de Precios Escalable y Transparente: Ofrecer planes de suscripción flexibles basados en el volumen de envíos o dispositivos conectados, permitiendo a empresas de diferentes tamaños acceder a la solución sin inversiones iniciales prohibitivas.​
+
+- Soporte y Capacitación Personalizados: Proporcionar programas de capacitación adaptados a las necesidades específicas de cada cliente y un soporte técnico proactivo para garantizar el máximo aprovechamiento de la plataforma.​
+
+- Enfoque en Mercados Locales y Regionales: Centrarse inicialmente en empresas proveedoras y operadores logísticos en Perú y América Latina, atendiendo a las particularidades y desafíos específicos de estos mercados.​
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevista
+
