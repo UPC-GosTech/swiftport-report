@@ -23,7 +23,7 @@
 | Solano Armas, Angelo Hector      | U20231B775 |
 | Iglesias Pérez, Sergio Sebastián | U202316118 |
 | Baldeón Vivar, Santiago Armando  | U202319881 |
-| Adrianzén Flores, Carlos Arutro  | U202215705 |
+| Adrianzén Flores, Carlos Arturo  | U202215705 |
 
 <div>
   <p align="center"><b>Ciclo 2025 - 01</b></p>
@@ -54,7 +54,7 @@ Para el desarrollo del informe pertinente a la TB1, se dividió la implementaci�
 | Solano Armas, Angelo Hector      | Assumptions, Hypthesys statements, Análisis de Entrevistas, Needfinding, Requirements Specification, searching y navigation systems, wireframes, Domain-Driven Software Architecture, Database diagram, Class diagram, aspect leaders and collaborators, development evidence for sprint, landing page |
 | Iglesias Pérez, Sergio Sebastián | Descripción del Startup, segmentos objetivos, registro de entrevistas, style guidelines, wireframes, mockup, prototype, context diagram, Software Development Environment Configuration, landing page |
 | Baldeón Vivar, Santiago Armando  | Canvas, Diseño de entrevistas, style guidelines, wireframes, mockup, class dictionary, Source Code Style Guide & Conventions, Sprint Backlog 1, edición del video |
-| Céspedes Pillco, Jarod Jack      | Competidores, SEO Tags and Meta Tags, User Flow Diagrams, Software Configuration Management, Services Documentation Evidence for Sprint Review |
+|  Adrianzén Flores, Carlos Arturo | Competidores, SEO Tags and Meta Tags, User Flow Diagrams, Software Configuration Management, Services Documentation Evidence for Sprint Review |
 
 El proceso de colaboración durante el informe se realizó tanto con commits como compartiendo avances a través de documentos de google. 
 
@@ -69,7 +69,7 @@ Se puede identificar a los integrantes como:
 - Solano Armas, Angelo Hector: Angelo5214
 - Iglesias Pérez, Sergio Sebastián: ghostrider101218
 - Baldeón Vivar, Santiago Armando: Santibal11
-- Céspedes Pillco, Jarod Jack: PruebaJJC
+- Adrianzén Flores, Carlos Arturo: Choliwys
 
 Asimismo, se explican las ramas que tenemos hasta el momento: FALTA COMPLETAR E IMAGEN
 - main:
@@ -89,8 +89,8 @@ __TB1__
 
 | _Criterios específicos_ | _Acciones realizadas_ | _Conclusiones_ |
 | ----------------------- | ------------------------------------------------------------ | -------------- |
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Roman Cruz, Natalia Bertha <br>TB1<br>- Antecedentes y problemática <br>- Lean UX Problem Statements <br>- Análisis de entrevistas <br>- Needfinding <br>- Requirements Specification <br>- Organization Systems <br>- Labeling Systems <br>- Web Applications Wireflow Diagrams <br>- Domain-Driven Software Architecture <br>- Software Object-Oriented Design <br>- Database Design <br>- Team Collaboration Insights during Sprint <br>- Landing page <br>- Conclusiones <br>- Recomendaciones <br> <br>Solano Armas, Angelo Hector <br>TB1<br> <br>Iglesias Pérez, Sergio Sebastián <br>TB1<br> <br>Baldeón Vivar, Santiago Armando <br>TB1<br> <br>Céspedes Pillco, Jarod Jack <br>TB1<br> | Al haber concluido con la primera entrega, hemos llegado a la conclusión de que logramos comunicarnos no solamente a través de las grabaciones incluídas, las cuales son las entrevistas y video de exposición, sino también antes los maestros que consultamos para la realización del trabajo y entre nosotros mismos como grupo y nuestros demás compañeros. Al comunicarnos, logramos expresar nuestras ideas de forma clara, comprensible, respetuosa y con un lenguaje adecuado acorde con el contexto. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Roman Cruz, Natalia Bertha <br>TB1<br>- Antecedentes y problemática <br>- Lean UX Problem Statements <br>- Análisis de entrevistas <br>- Needfinding <br>- Requirements Specification <br>- Organization Systems <br>- Labeling Systems <br>- Web Applications Wireflow Diagrams <br>- Domain-Driven Software Architecture <br>- Software Object-Oriented Design <br>- Database Design <br>- Team Collaboration Insights during Sprint <br>- Landing page <br>- Conclusiones <br>- Recomendaciones <br> <br>Solano Armas, Angelo Hector <br>TB1<br> <br>Iglesias Pérez, Sergio Sebastián <br>TB1<br> <br>Baldeón Vivar, Santiago Armando <br>TB1<br> <br>Céspedes Pillco, Jarod Jack <br>TB1<br> | Al termino de la TB1, podemos concluir que logramos expresar nuestras ideas y le mnesjae central de nuestro trabajo de forma escrita. Esto, dado que redactamos todo el análisis que realizamos para comenzar a implementar nuestro trabajo. Esto es apreciable al revisar las historias de usuario, análisis Lean UX y descripción de demás elementos incluídos. Asimismo, logramos identificar el lengujae correcto a utilizar al diseñar nuestro landing page de forma que los usuarios puedan comprenderlo sin problema.|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Roman Cruz, Natalia Bertha <br>TB1<br>- Antecedentes y problemática <br>- Lean UX Problem Statements <br>- Análisis de entrevistas <br>- Needfinding <br>- Requirements Specification <br>- Organization Systems <br>- Labeling Systems <br>- Web Applications Wireflow Diagrams <br>- Domain-Driven Software Architecture <br>- Software Object-Oriented Design <br>- Database Design <br>- Team Collaboration Insights during Sprint <br>- Landing page <br>- Conclusiones <br>- Recomendaciones <br> <br>Solano Armas, Angelo Hector <br>TB1<br> <br>Iglesias Pérez, Sergio Sebastián <br>TB1<br> <br>Baldeón Vivar, Santiago Armando <br>TB1<br> <br>Adrianzén Flores, Carlos Arturo <br>TB1<br> | Al haber concluido con la primera entrega, hemos llegado a la conclusión de que logramos comunicarnos no solamente a través de las grabaciones incluídas, las cuales son las entrevistas y video de exposición, sino también antes los maestros que consultamos para la realización del trabajo y entre nosotros mismos como grupo y nuestros demás compañeros. Al comunicarnos, logramos expresar nuestras ideas de forma clara, comprensible, respetuosa y con un lenguaje adecuado acorde con el contexto. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Roman Cruz, Natalia Bertha <br>TB1<br>- Antecedentes y problemática <br>- Lean UX Problem Statements <br>- Análisis de entrevistas <br>- Needfinding <br>- Requirements Specification <br>- Organization Systems <br>- Labeling Systems <br>- Web Applications Wireflow Diagrams <br>- Domain-Driven Software Architecture <br>- Software Object-Oriented Design <br>- Database Design <br>- Team Collaboration Insights during Sprint <br>- Landing page <br>- Conclusiones <br>- Recomendaciones <br> <br>Solano Armas, Angelo Hector <br>TB1<br> <br>Iglesias Pérez, Sergio Sebastián <br>TB1<br> <br>Baldeón Vivar, Santiago Armando <br>TB1<br> <br>Adrianzén Flores, Carlos Arturo <br>TB1<br> | Al termino de la TB1, podemos concluir que logramos expresar nuestras ideas y le mnesjae central de nuestro trabajo de forma escrita. Esto, dado que redactamos todo el análisis que realizamos para comenzar a implementar nuestro trabajo. Esto es apreciable al revisar las historias de usuario, análisis Lean UX y descripción de demás elementos incluídos. Asimismo, logramos identificar el lengujae correcto a utilizar al diseñar nuestro landing page de forma que los usuarios puedan comprenderlo sin problema.|
 
 ---
 
@@ -183,4 +183,18 @@ __TB1__
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup  
+
+GosTech tiene como objetivo transformar digitalmente la planificación y supervisión de actividades logísticas de campo en zonas operativas de largo plazo, como aquellas vinculadas a la industria petrolera, minera o energética. A través de su plataforma principal, SwiftPort, GosTech permite a las empresas logísticas organizar de forma centralizada los requerimientos de transporte, asignar vehículos y cuadrillas de manera eficiente, y supervisar la ejecución operativa en tiempo real, incluso ante condiciones cambiantes del entorno.
+
+La solución busca resolver la falta de trazabilidad, flexibilidad y control en entornos donde las operaciones logísticas deben adaptarse constantemente a factores como el clima, el estado del equipo o la disponibilidad del personal. Para ello, SwiftPort integra simulaciones de dispositivos IoT, como rastreo GPS y monitoreo del estado operativo de la maquinaria, lo cual permite generar alertas tempranas y tomar decisiones informadas durante la ejecución de las actividades.
+
+Una de las principales fortalezas del sistema es su capacidad para adaptarse a la realidad del campo: contempla la reprogramación de actividades, el registro posterior de la ejecución por parte de los operarios y dashboards que reflejan el cumplimiento y desempeño operativo en todo momento. Esta solución aporta un valor diferencial tanto para los supervisores que planifican como para el personal que ejecuta tareas en terreno.
+
+Misión: Optimizar la planificación, ejecución y trazabilidad de actividades logísticas de campo mediante una plataforma inteligente que integre tecnología IoT simulada adaptada a zonas operativas remotas.
+
+Visión: GosTech aspira a convertirse en el aliado tecnológico preferido por empresas logísticas en Latinoamérica, facilitando operaciones más eficientes, seguras y adaptables a través de innovación digital aplicada al terreno.
+
+### 1.1.2. Perfiles de integrantes del equipo
+
+#### 1.1.2.1. Natalia Bertha Roman Cruz
 
