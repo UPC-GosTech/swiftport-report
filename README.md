@@ -555,7 +555,7 @@ Para diferenciar nuestra solución en el mercado de gestión logística, conside
 
 ## 2.2. Entrevistas
 
-### 2.2.1. Diseño de entrevista
+### 2.2.1. Diseño de entrevistas
 
 #### Segmento objetivo #1: Planificadores de actividades de campo
 
