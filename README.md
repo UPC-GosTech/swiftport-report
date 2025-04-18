@@ -103,7 +103,7 @@ __TB1__
    1.2. [Solution Profile](#12-solution-profile)  
    &nbsp;&nbsp;&nbsp;&nbsp;1.2.1. [Antecedentes y Problemática](#121-antecedentes-y-problemática)  
    &nbsp;&nbsp;&nbsp;&nbsp;1.2.2. [Lean UX Process](#122-lean-ux-process)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.1. [Lean UX Problem Statements](#1221-lean-ux-problem-statements)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.1. [Lean UX Problem Statement](#1221-lean-ux-problem-statement)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.2. [Lean UX Assumptions](#1222-lean-ux-assumptions)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.3. [Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.4. [Lean UX Canvas](#1224-lean-ux-canvas)  
@@ -288,5 +288,15 @@ Por otro lado, el 63% de las empresas proveedoras encuestadas manifestaron que e
 
 ### 1.2.2. Lean UX Process
 
-#### 1.2.2.1. Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statement
+
+El propósito de GosTech es crear un sistema de gestión logística que se ajuste a las necesidades de las empresas proveedoras que desean mejorar la organización de sus actividades y equipos durante todos los procesos realizados desde que un pedido es realizado hasta que este es entregado satisfactoriamente. 
+
+En este sentido, nuestra solución busca mostrar una interfaz amigable que sea sencilla de utilizar para ambos segmentos considerados, de forma que la información que uno introduzca sea útil para el otro. Asimismo, se considera la implementación de elementos IoT que ayuden a comprobar que la carga está siendo correctamente empaquetada y colocada en el transporte correspondiente, así como para seguir su camino. En resumen, será posible para todos los involucrados introducir y verificar datos, de forma que se mejorará y agilizará la gestión reduciendo el marco de error.
+
+Hemos notado que las empresas proveedoras suelen presentar errores al realizar sus servicios de entrega de productos debido a la deficiente organización y sistema logístico que manejan, lo que dificulta la comunicación entre áreas, representa mayores gastos económicas y pérdidas de tiempo y recursos, daña su imagen frente a las empresas que solicitan sus servicios, y no les permite terminar de consolidarse o expandirse. De esta forma, es notable que se necesitan emplear herramientas tecnológicas que faciliten la gestión logística en este sector.
+
+¿Cómo podemos emplear herramientas tecnológicas para proveer un sistema de logística eficiente que gestione las actividades de las empresas proveedoras?
+
+#### 1.2.2.2. Lean UX Assumptions
 
