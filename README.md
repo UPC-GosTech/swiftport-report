@@ -300,3 +300,43 @@ Hemos notado que las empresas proveedoras suelen presentar errores al realizar s
 
 #### 1.2.2.2. Lean UX Assumptions
 
+__Business Assumptions:__
+
+- __Creemos que nuestros usuarios necesitan__ una solución que automatice el control logístico, eliminando tareas manuales y mejorando la trazabilidad.
+- __Estas necesidades se pueden satisfacer__  mediante una plataforma digital conectada a sensores IoT, que registre y notifique automáticamente cada acción del proceso.
+- __Nuestros clientes iniciales serán__ empresas proveedoras, operadores logísticos y compañías industriales que trasladan productos o insumos entre sedes o hacia clientes.
+- __El valor más importante que un cliente quiere de nuestros servicios es__ la verificación automática del cumplimiento logístico, visibilidad en tiempo real y reducción del margen de error.
+- __Vamos a obtener la mayoría de los clientes mediante__ alianzas logísticas, pilotos con industrias clave, eventos sectoriales y marketing digital especializado en B2B (business to business).
+- __Vamos a obtener ingresos mediante__ suscripciones mensuales, con planes escalables según el número de envíos, dispositivos conectados o integración con otros sistemas.
+- __Nuestra competencia en el mercado será__ soluciones de rastreo parcial, herramientas no integradas o sistemas costosos sin soporte para tecnologías emergentes.
+- __Vamos a tener ventaja frente a nuestra competencia debido a__ la combinación de tecnología IoT, QR y una interfaz colaborativa, adaptable a todo tipo de envío.
+- __El mayor riesgo del servicio es__ que el personal de campo no registre correctamente o ignore el uso de los dispositivos.
+- __Lo resolveremos realizando__ una interfaz fácil, entrenamientos orientados a procesos reales y pilotos con iteración constante.
+
+__User Assumptions:__
+
+__¿Quién es el usuario?__
+
+Los usuarios principales son el personal técnico, supervisor y administrativo de empresas que gestionan envíos industriales en Perú. Esto incluye tanto al personal de planta como a operadores logísticos, transportistas, responsables de almacén y encargados de recibir mercancía en destino. Si la plataforma tiene éxito en este sector, se plantea su extensión a todo el ecosistema logístico nacional e internacional, incluyendo sectores como manufactura, minería, agroindustria, energía y distribución masiva.
+
+__¿Qué problemas busca resolver el producto?__
+
+La falta de control sobre tareas logísticas, los errores manuales en el embarque, y la imposibilidad de verificar el estado del envío de forma automática.
+
+__¿Qué funcionalidades son importantes?__
+
+Nuestra solución permite un seguimiento digital por etapas (embarque, transporte y entrega), con verificación automatizada, sensores IoT y códigos QR para asegurar el control de cada paquete. Ofrece mapas en tiempo real con el estado del envío, junto con alertas automáticas ante fallas o desviaciones. Permite además el registro fotográfico e informes de incidencias, integrándose con sistemas ERP(Planificación de Recursos Empresariales), WMS (Sistema de gestión de almacenes) y CRM (Gestión de Relaciones con el Cliente) para centralizar la información. Todo esto se complementa con reportes analíticos en tiempo real que apoyan la toma de decisiones logísticas.
+
+__¿Dónde encaja nuestro producto en su trabajo o vida?__
+
+En el flujo operativo diario: desde la preparación de pedidos, control de calidad y embarque, hasta la entrega, recepción y evaluación post-servicio.
+
+__¿Cuándo y cómo es nuestro producto usado?__
+
+Durante cada punto crítico del envío, por múltiples usuarios simultáneamente, a través de móviles, tablets, lectores o dashboards en oficina.
+
+__¿Cómo debe verse nuestro producto y cómo debe comportarse?__
+
+Debe tener una interfaz intuitiva, responsiva y modular, con indicadores visuales, carga automática de datos desde sensores y herramientas de validación visual, rápida y confiable.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
