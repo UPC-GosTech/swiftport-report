@@ -878,12 +878,23 @@ En la siguiente sección, se mostrarán los end-to-end journey maps para ilustra
   </p>
 </div>
 
+### 2.3.4. Empathy Mapping 
 
+#### 2.3.4.1 Supervisor Logístico
 
+<div>
+  <p align="center">
+    <img src="assets/md-images/impact mapping Supervisor Logistico .png" alt="impact mapping del Supervisor Logistico " width="700px" />
+  </p>
+</div>
 
+#### 2.3.4.2 Operador Logístico
 
-
-### 2.3.4. Empathy Mapping - FALTA
+<div>
+  <p align="center">
+    <img src="assets/md-images/impact mapping Operario.png" alt="impact mapping del Operario Logistico" width="700px" />
+  </p>
+</div>
 
 ### 2.3.5. As-is Scenario Mapping - FALTA
 
