@@ -920,6 +920,14 @@ En la siguiente sección, se mostrarán los end-to-end journey maps para ilustra
 
 ### 4.2.1. Organization Systems
 
+La organización que presentamos en pantalla se encuentra distribuida de distintas formas acorde con la sección y cantidad de información presentada en la misma. En términos generales, puede mencionarse una organización jerárquica que busca dar a resaltar los elementos principales como opciones que ayuden al usuario a navegar entre pantallas y funcionalidad, o títulos que le aclaren la sección en la que se encuentra.
+
+Comenzando con la landing page, esta está dividida en secciones que se diferencian por título y color de fondo, de forma que sean distinguibles y que cada una explique un aspecto particular de nuestro proyecto. Dentro de estas, se incluyen elementos más pequeños con un espacio razonable entre ellos para permitir su visualización clara, así como para evitar recargar la vista del usuario. En algunas de las secciones se ha optado por dividir los dos lados de la misma, colocando la información a un lado y una imagen o ícono referencial al otro, de forma que puedan apreciarse ambas partes en simultáneo mientras se hace un buen uso del espacio total.
+
+Continuando con la aplicación web en vista desktop, en la mayoría de los casos se está optando por una organización horizontal, comenzando por el título y continuando con opciones particulares. Asimismo, las opciones se presentan apiladas en el menú lateral. Al presentar información en pantallas como “Home” y “Clima”, se opta por presentar datos puntuales a un lado y una lista deslizable de opciones al otro, de forma que el usuario pueda tener un acercamiento a la información sin sobrecargar la pantalla. Además, cuenta con botones que permiten ingresar a una nueva pantalla con mayor información sobre el elemento que desea revisar.
+
+Por último, se ha decidido optar por diseños más reducidos en la versión de vista mobile de la aplicación considerando el espacio reducido. Esto implica que se han incluído más pantallas para reducir la información presentada por cada una, y que en el caso de las pantallas en que se están presentando dos secciones de información en simultáneo, ahora van una sobre la otra, considerando siempre un título que indique lo que se presenta y un botón que permita revisar una sección en particular.
+
 ### 4.2.2. Labeling Systems
 
 ### 4.2.3. SEO Tags and Meta Tags
@@ -940,9 +948,9 @@ En la siguiente sección, se mostrarán los end-to-end journey maps para ilustra
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-### 4.4.2. Web Applications Mock-ups
+### 4.4.3. Web Applications Mock-ups
 
-### 4.4.2. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams
 
 ## 4.5. Web Applications Prototyping
 
