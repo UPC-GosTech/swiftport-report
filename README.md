@@ -930,6 +930,8 @@ Por último, se ha decidido optar por diseños más reducidos en la versión de 
 
 ### 4.2.2. Labeling Systems
 
+Para el nombramiento en general, estamos optando por palabras del uso diario en el ámbito que se está trabajando, es decir, el sector de transporte de forma industrial. En este sentido, podemos estar seguros de que nuestros usuarios comprenderán las opciones que se les presentan. Cabe resaltar que siempre se incluyen títulos o subtítulos que mencionan el propósito de la sección en que el usuario se encuentra. Ejemplo de esto pueden ser los subtítulos “Alertas” o “Nueva tarea”. De la misma forma, los botones mencionan con verbos en la mayoría de los casos, y sustantivos en unos pocos, la funcionalidad que implican. Esto puede verse en botones como “Iniciar”, “Crear” o “Ver”. Así, el usuario puede estar seguro de lo que hará al seleccionar el botón. En cuanto al nombramiento de opciones de navegación, se usan palabras claves y puntuales para indicar al usuario la sección a la que se dirigirá.
+
 ### 4.2.3. SEO Tags and Meta Tags
 
 ### 4.2.4. Searching Systems
