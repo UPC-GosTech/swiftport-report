@@ -918,9 +918,19 @@ Conociendo todos los datos mostrados anteriormente, realizamos un As-Is Scenario
 
 ## 3.1. To-Be Scenario Mapping
 
-#### 3.1.1. Administrador de empresa proveedora
+A continuación, mostraremos los To-Be Scenario Mapping que creamos para mostrar el cambio en las actividades que realizarían nuestros segmentos objetivos en comparación a aquellas que realizan ahora, resaltando no solo el aumento en la eficiencia de las tareas sino también como mejora el sentir de los involucrados en los nuevos procesos.
 
-#### 3.1.2. Administrador de empresa cliente
+#### 3.1.1. Supervisor Logístico
+
+<div>
+  <p align="center"><img src="assets/md-images/TO BE Supervisor logístico.jpg" alt="Canvas" width="700px" /></p>
+</div>
+
+#### 3.1.2. Operario Logístico
+
+<div>
+  <p align="center"><img src="assets/md-images/TO BE Operario Logistico .jpg" alt="Canvas" width="700px" /></p>
+</div>
 
 ## 3.2. User Stories
 
