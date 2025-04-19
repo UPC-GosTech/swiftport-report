@@ -1019,6 +1019,16 @@ Para el nombramiento en general, estamos optando por palabras del uso diario en 
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint
 
+| **Nombre**                       | **Actividad** |
+| ---------------------------------|------------|
+| Roman Cruz, Natalia Bertha       | Implementación de las secciones "¿Qué es SwiftPort?", "¿Por qué nace SwiftPort?", "Funcionalidades de SwiftPort", "Funcionalidades de SwiftPort" y "¿Cómo funciona SwiftPort?" en la landing page |
+| Solano Armas, Angelo Hector      | Implementación de la sección "Elegí tu plan" en la landing page |
+| Iglesias Pérez, Sergio Sebastián | Implenmentación de la cabecera y de las secciones "Preguntas frecuentes y de presentación, y revisión general |
+| Baldeón Vivar, Santiago Armando  | Implementación de la sección "Contacto" y footer |
+| Adrianzén Flores, Carlos Arturo  | Implementación de la sección "Contacto" y footer |
+
+# FALTA PEGAR ANALISIS DE GITHUB
+
 # 6. Conclusiones
 
 ## 6.1. Conclusiones
