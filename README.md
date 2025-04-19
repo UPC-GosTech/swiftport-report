@@ -410,12 +410,47 @@ Enlace para acceder al [Canvas](https://www.canva.com/design/DAGjpb8uvJA/kFkhcvG
 
 #FALTAN SEGMENTOS OBJETIVOS
 
+#### Segmento objetivo #1: Supervisores y Planificadores de Campo (Empresas Logísticas)
 
+__Descripción General__
 
+Personal a cargo de planificar y supervisar operaciones logísticas en terreno, incluyendo la asignación de vehículos, maquinaria y cuadrillas para el cumplimiento de requerimientos operativos. Este segmento representa a mandos intermedios o jefaturas operativas dentro de empresas logísticas que atienden sectores como petróleo, minería o infraestructura.
 
+__Perfil Demográfico__
 
+- Edad: 30 a 55 años
+- Experiencia: técnica y logística, con alta carga operativa  
+- Ubicación: regiones con presencia de operaciones industriales (como Piura, Ica, Loreto, Cusco)  
+- Nivel digital: medio, familiarizados con hojas de cálculo, radios, GPS y plataformas básicas
 
+__Datos del Sector__
 
+De acuerdo con Logística360, la región latinoamericana enfrenta retos operativos debido a la infraestructura deficiente y la necesidad de digitalizar los procesos logísticos. Se proyecta un crecimiento del sector logístico en Sudamérica del 7.5% anual entre 2024 y 2032, lo que acentúa la necesidad de herramientas que optimicen la planificación y el seguimiento en campo.
+
+__Necesidad__
+
+Automatizar la planificación y trazabilidad de actividades, permitiendo la reprogramación dinámica ante imprevistos (clima, fallas, cambios de personal), y generar reportes confiables para la toma de decisiones.
+
+#### Segmento objetivo #2: Operarios de Campo / Técnicos Logísticos
+
+__Descripción General__
+
+Trabajadores responsables de ejecutar las actividades logísticas en terreno, como el traslado de carga, operación de maquinaria, asistencia a zonas de trabajo y reporte de condiciones reales. Interactúan directamente con la ejecución física de las actividades y son fundamentales para el registro de datos reales.  
+
+__Perfil Demográfico__
+
+- Edad: 20 a 50 años
+- Formación: técnica operativa o empírica 
+- Herramientas: teléfonos móviles, radios, tablets (ocasionalmente)  
+- Nivel digital: bajo a medio; priorizan sistemas simples, rápidos e intuitivos
+
+__Datos del Sector__
+
+La industria logística reconoce la necesidad de integrar herramientas de campo que funcionen en entornos desconectados o adversos. Según el mismo informe, la adopción de IoT y tecnologías móviles es clave para mejorar la visibilidad operativa, especialmente en regiones donde la logística es más compleja y los equipos humanos deben adaptarse constantemente.  
+
+__Necesidad__
+
+Contar con una herramienta que les facilite la consulta de tareas, registro de datos reales (como hora de ejecución, modificaciones de equipo) y alertas rápidas sin complicaciones, idealmente desde un celular o tablet.
 
 # 2. Capítulo II: Requirements Elicitation & Analysis
 
