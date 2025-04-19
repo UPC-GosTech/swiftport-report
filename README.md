@@ -896,7 +896,21 @@ En la siguiente sección, se mostrarán los end-to-end journey maps para ilustra
   </p>
 </div>
 
-### 2.3.5. As-is Scenario Mapping - FALTA
+### 2.3.5. As-is Scenario Mapping 
+
+Conociendo todos los datos mostrados anteriormente, realizamos un As-Is Scenario Mapping para plantear los procesos que seguían nuestros segmentos objetivos en este momento, resaltando las dificultades que están enfrentando en el día a día y su sentir hacia las mismas.
+
+#### 2.3.5.1 Supervisor Logístico
+
+<div>
+  <p align="center"><img src="assets/md-images/AS IS Supervisor logístico.jpg" alt="Canvas" width="700px" /></p>
+</div>
+
+#### 2.3.5.2 Operador Logístico
+
+<div>
+  <p align="center"><img src="assets/md-images/AS IS Supervisor logístico.jpg" alt="Canvas" width="700px" /></p>
+</div>
 
 ## 2.4. Ubiquitous Language - FALTA
 
