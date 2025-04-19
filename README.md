@@ -688,7 +688,175 @@ Mejoras posibles
   </p>
 </div>
 
-### 2.3.2. User Task Matrix - FALTA
+### 2.3.2 User Task Matrix
+
+A continuamos, se presenta el User Task Matrix que hemos elaborado, a través del cual se pueden ver las actividades que realizarán nuestros segmentos objetivos, tanto en común como por separado según sus deseos y necesidades.
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <tbody>
+    <tr>
+      <td rowspan="2">TASK</td>
+      <td colspan="2">Operario logístico</td>
+      <td colspan="2">Supervisor logístico</td>
+    </tr>
+    <tr>
+      <td>Frequency</td>
+      <td>Importance</td>
+      <td>Frequency</td>
+      <td>Importance</td>
+    </tr>
+    <tr>
+      <td>Iniciar sesión en la app web</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Ver tareas asignadas</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Confirmar disponibilidad (aceptar tarea)</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Often</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Asignar tareas al operario</td>
+      <td>Never</td>
+      <td>Never</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Coordinar con almacén</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Validar estado físico de la carga</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Cargar mercancía y confirmar en sistema</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Rarely</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Registrar guía y salida</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Registrar observaciones antes de salida</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+      <td>Rarely</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Salir del almacén hacia destino</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Never</td>
+    </tr>
+    <tr>
+      <td>Registrar demoras por factores externos</td>
+      <td>Sometimes</td>
+      <td>High</td>
+      <td>Often</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Visualizar mapa y seguimiento</td>
+      <td>Never</td>
+      <td>Never</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Recibir alertas por desvíos o demoras</td>
+      <td>Never</td>
+      <td>Never</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Llegar al punto de entrega</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Registrar entrega</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Tomar y subir fotos de la entrega</td>
+      <td>Often</td>
+      <td>Medium</td>
+      <td>Rarely</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Registrar observaciones o rechazos</td>
+      <td>Sometimes</td>
+      <td>High</td>
+      <td>Often</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Cerrar tarea desde app web</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Ver cumplimiento diario de tareas</td>
+      <td>Never</td>
+      <td>Never</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Descargar o revisar reportes automáticos</td>
+      <td>Never</td>
+      <td>Never</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Validar incidentes reportados</td>
+      <td>Never</td>
+      <td>Never</td>
+      <td>Often</td>
+      <td>High</td>
+    </tr>
+  </tbody>
+</table>
+
+Se puede observar que las tareas que se realizan con mayor frecuencia y que poseen mayor importancia están principalmente asociadas al operario logístico, ya que es quien se encarga de ejecutar físicamente las actividades del proceso de envío. Desde validar el estado de la carga, cargar la mercancía, registrar observaciones, hasta concretar la entrega, su rol es clave en la operación diaria. Por otro lado, el supervisor logístico cumple funciones estratégicas que también resultan altamente relevantes, como la asignación de tareas, el seguimiento del estado de las operaciones y la validación de incidentes. Asimismo, se evidencia que las tareas de monitoreo y control tienen un peso significativo en el flujo de trabajo, ya que el sistema propuesto busca garantizar la trazabilidad, la correcta ejecución de cada etapa y la minimización de errores en la cadena logística. Esta diferenciación entre roles permite optimizar la planificación y ejecución de las tareas en campo, asegurando una operación eficiente y coordinada.
+
 
 ### 2.3.3. User Journey Mapping - FALTA
 
