@@ -688,3 +688,142 @@ Mejoras posibles
   </p>
 </div>
 
+### 2.3.2. User Task Matrix - FALTA
+
+### 2.3.3. User Journey Mapping - FALTA
+
+### 2.3.4. Empathy Mapping - FALTA
+
+### 2.3.5. As-is Scenario Mapping - FALTA
+
+## 2.4. Ubiquitous Language - FALTA
+
+# 3. Capítulo III: Requirements Specification
+
+## 3.1. To-Be Scenario Mapping
+
+#### 3.1.1. Administrador de empresa proveedora
+
+#### 3.1.2. Administrador de empresa cliente
+
+## 3.2. User Stories
+
+## 3.3 Impact Mapping
+
+## 3.4 Product Backlog
+
+# 4. Capítulo IV: Product Design  
+
+## 4.1. Style Guidelines - FALTA TODO 4.1.
+
+### 4.1.1. General Style Guidelines
+
+### 4.1.2. Web Style Guidelines
+
+
+
+
+
+
+## 4.2. Information Architecture
+
+### 4.2.1. Organization Systems
+
+### 4.2.2. Labeling Systems
+
+### 4.2.3. SEO Tags and Meta Tags
+
+### 4.2.4. Searching Systems
+
+### 4.2.5. Navigation Systems
+
+## 4.3. Landing Page UI Design
+
+### 4.3.1. Landing Page Wireframe
+
+### 4.3.2. Landing Page Mock-up
+
+## 4.4. Web Applications UX/UI Design - FALTA
+
+### 4.4.1. Web Applications Wireframes
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+### 4.4.2. Web Applications Mock-ups
+
+### 4.4.2. Web Applications User Flow Diagrams
+
+## 4.5. Web Applications Prototyping
+
+## 4.6. Domain-Driven Software Architecture
+
+### 4.6.1. Software Architecture Context Diagram
+
+### 4.6.2. Software Architecture Container  Diagram
+
+### 4.6.3. Software Architecture Components  Diagram
+
+## 4.7. Software Object-Oriented Design
+
+### 4.7.1. Class Diagrams
+
+### 4.7.1. Class Dictionary
+
+## 4.8. Database Design
+
+### 4.8.1. Database Diagram
+
+
+# 5. Capítulo V: Product Implementation, Validation & Deployment
+
+## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration
+
+### 5.1.2. Source Code Management
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+### 5.1.4. Software Deployment Configuration
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+### 5.2.1. Sprint 1
+
+### 5.2.1.1. Sprint Planning 1
+
+| Sprint # | Sprint 1 |
+|----------|---------|
+| Date | 2025 - 04 - 12 |
+| Time | 11:45 PM |
+| Location | Reunión virtual a través de discord | 
+| Prepared by | Roman Cruz, Natalia Bertha | 
+| Attendees (to planning meeting) | Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando y Adrianzén Flores, Carlos Arturo | 
+| Sprint n – 1 Review Summary | No existe sprint previo | 
+| Sprint 1 Goal | Our focues is on deploying our landing page. We believe it delivers satisfaction and confidence to our team and future users. This will be confirmed when all the members of the team and a user are able to access and explore our landing page | 
+| Sprint 1 Velocity | 20 story points | 
+| Sum of story points | 20 story points |
+
+### 5.2.1.2. Aspect Leaders and Collaborators.
+
+### 5.2.1.3. Sprint Backlog 1
+
+### 5.2.1.4. Development Evidence for Sprint Review
+
+### 5.2.1.5. Execution Evidence for Sprint Review
+
+### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+### 5.2.1.8. Team Collaboration Insights during Sprint
+
+# 6. Conclusiones
+
+## 6.1. Conclusiones
+
+## 6.2. Recomendaciones
+
+# 7. Bibliografía 
+
+# 8. Anexos 
