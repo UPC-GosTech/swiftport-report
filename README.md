@@ -858,7 +858,30 @@ A continuamos, se presenta el User Task Matrix que hemos elaborado, a través de
 Se puede observar que las tareas que se realizan con mayor frecuencia y que poseen mayor importancia están principalmente asociadas al operario logístico, ya que es quien se encarga de ejecutar físicamente las actividades del proceso de envío. Desde validar el estado de la carga, cargar la mercancía, registrar observaciones, hasta concretar la entrega, su rol es clave en la operación diaria. Por otro lado, el supervisor logístico cumple funciones estratégicas que también resultan altamente relevantes, como la asignación de tareas, el seguimiento del estado de las operaciones y la validación de incidentes. Asimismo, se evidencia que las tareas de monitoreo y control tienen un peso significativo en el flujo de trabajo, ya que el sistema propuesto busca garantizar la trazabilidad, la correcta ejecución de cada etapa y la minimización de errores en la cadena logística. Esta diferenciación entre roles permite optimizar la planificación y ejecución de las tareas en campo, asegurando una operación eficiente y coordinada.
 
 
-### 2.3.3. User Journey Mapping - FALTA
+### 2.3.3. User Journey Mapping 
+
+En la siguiente sección, se mostrarán los end-to-end journey maps para ilustrar como es que el usuario empieza a usar la aplicación desde que la conoce y crea su cuenta hasta que llega a completar las actividades que deseaba, pasando por su proceso de experimentar con las funcionalidades que se le ofrecen.
+
+#### 2.3.3.1 Supervisor Logístico
+
+<div>
+  <p align="center">
+    <img src="https://github.com/UPC-GosTech/swiftport-report/blob/f416f76c83cdae9296f0f82cc531b189384bde5c/assets/md-images/Customer%20journey%20de%20Roberto%20Condor%20Chavezr%20(1).png" alt="Customer Journey Roberto" width="700px" />
+  </p>
+</div>
+
+#### 2.3.3.1 Operador Logístico
+
+<div>
+  <p align="center">
+    <img src="assets/md-images/Customer journey de Santiago Gomez.png" alt="Customer Journey Santiago" width="700px" />
+  </p>
+</div>
+
+
+
+
+
 
 ### 2.3.4. Empathy Mapping - FALTA
 
