@@ -406,9 +406,7 @@ Lean UX Canvas es una de las herramientas que hemos utilizado para conmprender a
 
 Enlace para acceder al [Canvas](https://www.canva.com/design/DAGjpb8uvJA/kFkhcvG5a6BCtdU2xvq5gw/edit?utm_content=DAGjpb8uvJA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-## 1.3 Segmentos Objetivos
-
-#FALTAN SEGMENTOS OBJETIVOS
+## 1.3. Segmentos Objetivos
 
 #### Segmento objetivo #1: Supervisores y Planificadores de Campo (Empresas Logísticas)
 
@@ -862,7 +860,7 @@ Se puede observar que las tareas que se realizan con mayor frecuencia y que pose
 
 En la siguiente sección, se mostrarán los end-to-end journey maps para ilustrar como es que el usuario empieza a usar la aplicación desde que la conoce y crea su cuenta hasta que llega a completar las actividades que deseaba, pasando por su proceso de experimentar con las funcionalidades que se le ofrecen.
 
-#### 2.3.3.1 Supervisor Logístico
+#### 2.3.3.1. Supervisor Logístico
 
 <div>
   <p align="center">
@@ -870,7 +868,7 @@ En la siguiente sección, se mostrarán los end-to-end journey maps para ilustra
   </p>
 </div>
 
-#### 2.3.3.1 Operador Logístico
+#### 2.3.3.2. Operador Logístico
 
 <div>
   <p align="center">
@@ -880,7 +878,7 @@ En la siguiente sección, se mostrarán los end-to-end journey maps para ilustra
 
 ### 2.3.4. Empathy Mapping 
 
-#### 2.3.4.1 Supervisor Logístico
+#### 2.3.4.1. Supervisor Logístico
 
 <div>
   <p align="center">
@@ -888,7 +886,7 @@ En la siguiente sección, se mostrarán los end-to-end journey maps para ilustra
   </p>
 </div>
 
-#### 2.3.4.2 Operador Logístico
+#### 2.3.4.2. Operador Logístico
 
 <div>
   <p align="center">
@@ -900,19 +898,24 @@ En la siguiente sección, se mostrarán los end-to-end journey maps para ilustra
 
 Conociendo todos los datos mostrados anteriormente, realizamos un As-Is Scenario Mapping para plantear los procesos que seguían nuestros segmentos objetivos en este momento, resaltando las dificultades que están enfrentando en el día a día y su sentir hacia las mismas.
 
-#### 2.3.5.1 Supervisor Logístico
+#### 2.3.5.1. Supervisor Logístico
 
 <div>
   <p align="center"><img src="assets/md-images/AS IS Supervisor logístico.jpg" alt="Canvas" width="700px" /></p>
 </div>
 
-#### 2.3.5.2 Operador Logístico
+#### 2.3.5.2. Operador Logístico
 
 <div>
   <p align="center"><img src="assets/md-images/AS IS Supervisor logístico.jpg" alt="Canvas" width="700px" /></p>
 </div>
 
 ## 2.4. Ubiquitous Language - FALTA
+
+
+
+
+
 
 # 3. Capítulo III: Requirements Specification
 
@@ -2221,8 +2224,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </tbody>
 </table>
 
-
-
 ## 3.3 Impact Mapping
 
 <div>
@@ -2656,7 +2657,7 @@ Para el nombramiento en general, estamos optando por palabras del uso diario en 
 
 ### 4.7.1. Class Diagrams
 
-### 4.7.1. Class Dictionary
+### 4.7.2. Class Dictionary
 
 ## 4.8. Database Design
 
