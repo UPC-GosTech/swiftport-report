@@ -2588,10 +2588,6 @@ Enlace para acceder a [PivotalTracker](https://www.pivotaltracker.com/n/projects
   </tbody>
 </table>
 
-
-
-  
-
 # 4. Capítulo IV: Product Design  
 
 ## 4.1. Style Guidelines - FALTA TODO 4.1.
@@ -2631,7 +2627,19 @@ Para el nombramiento en general, estamos optando por palabras del uso diario en 
 
 ### 4.3.1. Landing Page Wireframe
 
+A continuación, presentaremos nuestro landing page diseñado para presentarse en web browser. Este se encuentra dividido en secciones de forma que sea claro para el usuatio encontrar la información que busca. De la misma forma, se incluye una cabecera que guía a las secciones inferiores dependiendo del aspecto que se desea conocer. En la primera sección, además, se inclya la opción de solicitar un demo y el eslogan de nuestro proyecto. De esta manera, el usuario se sentirá más atraído y motivado a probar nuestro producto. A su vez, el diseño en los wireframes buscamos plantear una estructura orientada a proveer al usuario con la mayor información posible sin sobrecargar las pantallas.
+
+<div>
+  <p align="center"><img src="assets/md-images/open-landing-wireframe.png" alt="open-landing-wireframe.png" width="700px" /></p>
+</div>
+
 ### 4.3.2. Landing Page Mock-up
+
+Continuando con nuestra landing page, mostraremos el mockuo que hemos elaborado. Este ya incluye los colores y textos que mostraremos al usuario. Hemos optado por un color naranja brillantes que llame la atención del usuario. A esto le añadimos un tono blanco de fondo que lo haga resaltar junto con elementos y textos en color negro que sean legibles en contraste con ambos colores. Asimismo, se conserva la estructura ordenada y se respetan los títulos y opciones de navegación anteriormente considerados.
+
+<div>
+  <p align="center"><img src="assets/md-images/open-landing-mockup.png" alt="open-landing-mockup.png" width="700px" /></p>
+</div>
 
 ## 4.4. Web Applications UX/UI Design - FALTA
 
