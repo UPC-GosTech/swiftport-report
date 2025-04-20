@@ -934,6 +934,1295 @@ A continuación, mostraremos los To-Be Scenario Mapping que creamos para mostrar
 
 ## 3.2. User Stories
 
+Las historias de usuario constituyen una herramienta fundamental para traducir las necesidades detectadas en entrevistas con usuarios potenciales en especificaciones funcionales del sistema. Su adecuada formulación permite estructurar requisitos claros, priorizados y orientados al usuario final, facilitando así su interpretación por parte del equipo de desarrollo. Esta práctica no solo garantiza una mejor alineación entre las expectativas del cliente y las funcionalidades desarrolladas, sino que también mejora la planificación y asignación de tareas en el ciclo de vida del software. En el caso del proyecto TrackLab, se ha definido un conjunto estructurado de épicas e historias de usuario que sirven como base para el diseño de la landing page, el desarrollo de la aplicación web y la definición de los requerimientos técnicos asociados.
+
+<table>
+  <thead>
+    <tr>
+      <td>Epic/User Story ID</td>
+      <td>Título</td>
+      <td>Descripción</td>
+      <td>Criterios de aceptación</td>
+      <td>Relacionado con (Epic ID)</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EP01</td>
+      <td>Contacto</td>
+      <td>Como visitante de la landing page, quiero comunicarme con el equipo de desarrollo de la aplicación TrackLab para enviar mis comentarios y realizar consultas sobre su producto.</td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>EP02</td>
+      <td>Desarrollo de la landing page</td>
+      <td>Como visitante del sitio, quiero navegar una landing page clara, informativa y visualmente atractiva que me brinde acceso a las funcionalidades clave, preguntas frecuentes y formas de contacto, para entender mejor el valor de SwiftPort.</td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>EP03</td>
+      <td>Conectar la landing page con la aplicación</td>
+      <td>Como visitante de la landing page, quiero navegar hacia diferentes secciones de la aplicación a través de componentes interactivos, para acceder a las funciones y beneficios que ofrece TrackLab.</td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>EP04</td>
+      <td>Registro y Creación de Tareas</td>
+      <td>Como supervisor logístico, quiero crear y registrar tareas asignadas a los responsables del proceso para organizar la ejecución diaria de las operaciones.</td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>EP05</td>
+      <td>Seguimiento de Actividades</td>
+      <td>Como supervisor logístico, quiero hacer seguimiento del avance de cada tarea para identificar bloqueos, demoras y condiciones externas que puedan afectar su cumplimiento.</td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>EP06</td>
+      <td>Alertas y Notificaciones</td>
+      <td>Como trabajador de la empresa, quiero recibir notificaciones sobre asignaciones, cambios o bloqueos de tareas para mantenerme informado y actuar a tiempo.</td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>EP07</td>
+      <td>Validación y Control de Actividades</td>
+      <td>Como supervisor logístico, quiero validar el cumplimiento de las tareas ejecutadas o suspendidas para asegurar su correcta ejecución y documentar causas de no cumplimiento.</td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>EP08</td>
+      <td>Visualización y Tableros de Control</td>
+      <td>Como Supervisor logístico, quiero visualizar el estado general de tareas y procesos en dashboards para tomar decisiones basadas en datos actualizados.</td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>EP09</td>
+      <td>Integración con Sistemas Externos</td>
+      <td>Como operario, quiero integrar datos relevantes del clima, tránsito u otros sistemas para anticipar retrasos o problemas logísticos.</td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>EP10</td>
+      <td>Gestión de Usuarios y Roles</td>
+      <td>Como Supervisor logístico, quiero gestionar los usuarios y sus permisos según sus roles para garantizar un acceso seguro y adecuado a las funcionalidades del sistema.</td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>EP11</td>
+      <td>Planeamiento Diario de Operaciones</td>
+      <td>Como Supervisor logístico, quiero generar el plan diario de actividades considerando restricciones y recursos disponibles para optimizar el cumplimiento de las tareas.</td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>US01</td>
+      <td>Contactar al startup</td>
+      <td>Como visitante de la landing page, quiero contar con un medio para escribirle al equipo de desarrolladores, para compartir mis comentarios y sugerencias sobre la aplicación.</td>
+      <td>
+        Escenario 1: Acceder al formulario para enviar sugerencias<br>
+        DADO que el visitante ha accedido al landing page<br>
+        CUANDO el visitante selecciona la opción “Enviar sugerencia”<br>
+        ENTONCES el sistema debe desplegar un formulario breve para completar<br><br>
+        Escenario 2: Enviar una sugerencia al equipo de desarrollo<br>
+        DADO que el visitante está dentro del formulario de sugerencias<br>
+        CUANDO el visitante redacta su mensaje<br>
+        Y el visitante presiona el botón “Enviar”<br>
+        ENTONCES el sistema debe remitir el contenido del mensaje al correo del equipo de desarrolladores
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Obtener información sobre el uso de la aplicación</td>
+      <td>Como visitante de la landing page, quiero contar con un espacio donde pueda conocer las funcionalidades y beneficios de la aplicación, para utilizarlos fácilmente cuando los necesite.</td>
+      <td>
+        Escenario 1: Acceder a la sección de información sobre la aplicación<br>
+        DADO que el visitante ha accedido al landing page<br>
+        CUANDO el visitante selecciona el ícono con el signo de interrogación<br>
+        ENTONCES el sistema debe redirigirlo a una pantalla donde se detallan las funcionalidades y beneficios de la aplicación<br><br>
+        Escenario 2: Acceder a la sección de preguntas frecuentes<br>
+        DADO que el visitante ha ingresado al landing page<br>
+        CUANDO el visitante selecciona la opción “Preguntas Frecuentes”<br>
+        ENTONCES el sistema debe mostrar una lista de preguntas y respuestas
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Acceder a la aplicación desde el landing page</td>
+      <td>Como visitante de la landing page, quiero ingresar a la aplicación desde la landing page para acceder fácilmente a las funcionalidades de la aplicación.</td>
+      <td>
+        Escenario 1: Ingreso exitoso<br>
+        DADO que el visitante ha ingresado al landing page<br>
+        CUANDO el visitante selecciona la opción “Iniciar sesión”<br>
+        Y el visitante ingrese correctamente su usuario y contraseña<br>
+        ENTONCES el sistema redirigirá al usuario a su cuenta dentro de la aplicación<br><br>
+        Escenario 2: Error en el ingreso<br>
+        DADO que el usuario ha ingresado al landing page<br>
+        CUANDO el visitante seleccione la opción “Iniciar sesión”<br>
+        Y el visitante ingrese su usuario o su contraseña incorrectamente<br>
+        ENTONCES el sistema mostrará el mensaje “Datos ingresados incorrectamente, favor de reintentar”
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+  <td>US04</td>
+  <td>Crear una nueva tarea</td>
+  <td>Como supervisor logístico, quiero crear tareas logísticas para planificar los procesos de envío.</td>
+  <td>
+    Escenario 1: Crear una tarea con datos completos<br>
+    DADO que el supervisor logístico tiene acceso al módulo de planificación de tareas<br>
+    Y que el supervisor cuenta con los campos necesarios para el registro<br>
+    CUANDO ingresa la descripción, la fecha, la fase y asigna un responsable<br>
+    Y presiona el botón “Guardar”<br>
+    ENTONCES el sistema debe crear la nueva tarea<br>
+    Y mostrarla en la lista de planificación diaria<br><br>
+    Escenario 2: Intentar crear tarea sin completar campos obligatorios<br>
+    DADO que el supervisor intenta registrar una tarea<br>
+    CUANDO deja vacía la descripción o la fecha<br>
+    Y trata de guardarla<br>
+    ENTONCES el sistema debe mostrar un mensaje de error<br>
+    Y resaltar los campos faltantes<br><br>
+    Escenario 3: Crear varias tareas consecutivas<br>
+    DADO que el supervisor se encuentra en el módulo de tareas<br>
+    CUANDO crea una tarea<br>
+    Y selecciona la opción “crear otra”<br>
+    ENTONCES el sistema guarda la tarea actual<br>
+    Y muestra un nuevo formulario en blanco<br><br>
+    Escenario 4: Crear tarea programada a futuro<br>
+    DADO que el supervisor desea planificar tareas futuras<br>
+    CUANDO selecciona una fecha posterior a la actual<br>
+    ENTONCES el sistema debe guardarla<br>
+    Y marcarla como “programada”<br><br>
+    Escenario 5: Cancelar la creación de una tarea<br>
+    DADO que el supervisor ha iniciado el registro de una nueva tarea<br>
+    CUANDO presiona el botón “Cancelar”<br>
+    ENTONCES el sistema debe descartar los datos ingresados<br>
+    Y regresar a la lista principal sin guardar información
+    
+  </td>
+  <td>EP04</td>
+</tr>
+
+<tr>
+  <td>US05</td>
+  <td>Asignar tarea a un responsable</td>
+  <td>Como supervisor logístico, quiero asignar responsables a tareas para distribuir el trabajo adecuadamente.</td>
+  <td>
+    Escenario 1: Asignar responsable disponible a una tarea<br>
+    DADO que hay una tarea pendiente sin responsable<br>
+    CUANDO el supervisor selecciona un operario disponible<br>
+    ENTONCES el sistema debe asignarlo<br>
+    Y actualizar su estado a “Asignada”<br><br>
+    Escenario 2: Intentar asignar tarea a operario no disponible<br>
+    DADO que el supervisor selecciona un operario que ya tiene una tarea en el mismo horario<br>
+    CUANDO intenta asignarle otra<br>
+    ENTONCES el sistema debe mostrar una advertencia de conflicto de horario<br>
+    Y evitar la asignación<br><br>
+    Escenario 3: Reasignar tarea a otro responsable<br>
+    DADO que hay una tarea con un responsable asignado<br>
+    CUANDO el supervisor selecciona otro operario para reemplazarlo<br>
+    ENTONCES el sistema actualiza la asignación<br>
+    Y notifica al nuevo responsable<br><br>
+    Escenario 4: Ver lista filtrada de operarios por turno y zona<br>
+    DADO que se asigna una tarea para el turno mañana y zona norte<br>
+    CUANDO el supervisor aplica los filtros<br>
+    ENTONCES el sistema muestra solo los operarios que cumplen los criterios<br><br>
+    Escenario 5: Cancelar asignación antes de guardar<br>
+    DADO que se ha iniciado la asignación<br>
+    CUANDO el supervisor presiona “Cancelar” antes de confirmar<br>
+    ENTONCES el sistema debe descartar la acción<br>
+    Y dejar la tarea sin cambios
+  </td>
+  <td>EP04</td>
+</tr>
+<tr>
+  <td>US06</td>
+  <td>Establecer prioridad y riesgo externo</td>
+  <td>Como supervisor logístico, quiero registrar si una tarea está sujeta a factores externos para monitorear de cerca.</td>
+  <td>
+    Escenario 1: Marcar tarea con riesgo por clima<br>
+    DADO que el supervisor se encuentra creando una nueva tarea<br>
+    CUANDO selecciona la opción de riesgo “Clima”<br>
+    ENTONCES el sistema registra la tarea con marca de riesgo climático<br>
+    Y la muestra destacada en la lista<br><br>
+    Escenario 2: Asignar prioridad alta a una tarea crítica<br>
+    DADO que el supervisor está editando una tarea urgente<br>
+    CUANDO configura su prioridad como “Alta”<br>
+    ENTONCES el sistema debe resaltarla visualmente<br>
+    Y posicionarla primero en el panel<br><br>
+    Escenario 3: Intentar guardar una tarea con riesgo sin causa especificada<br>
+    DADO que el supervisor marca una tarea con riesgo externo<br>
+    CUANDO no indica la causa específica<br>
+    ENTONCES el sistema bloquea el guardado<br>
+    Y muestra un mensaje solicitando completar ese campo<br><br>
+    Escenario 4: Ver resumen de tareas con riesgos externos<br>
+    DADO que el supervisor desea revisar tareas con riesgo<br>
+    CUANDO aplica el filtro “Con riesgo”<br>
+    ENTONCES el sistema muestra las tareas marcadas<br>
+    Y permite agruparlas por tipo de riesgo<br><br>
+    Escenario 5: Editar riesgo y prioridad de una tarea ya registrada<br>
+    DADO que el supervisor desea modificar una tarea<br>
+    CUANDO accede al detalle y actualiza la información<br>
+    ENTONCES el sistema guarda los cambios<br>
+    Y actualiza los datos en tiempo real
+  </td>
+  <td>EP04</td>
+</tr>
+
+<tr>
+  <td>US07</td>
+  <td>Cambiar estado de tarea</td>
+  <td>Como operario, quiero actualizar el estado de una tarea para reflejar si está en proceso, finalizada o bloqueada.</td>
+  <td>
+    Escenario 1: Cambiar estado de tarea a “En Proceso”<br>
+    DADO que el operario se encuentra ejecutando una tarea<br>
+    CUANDO cambia el estado a “En Proceso”<br>
+    ENTONCES el sistema registra el nuevo estado<br>
+    Y lo muestra en el panel del supervisor<br><br>
+    Escenario 2: Marcar tarea como “Finalizada”<br>
+    DADO que el operario ha completado una tarea<br>
+    CUANDO selecciona la opción “Finalizada”<br>
+    ENTONCES el sistema actualiza el estado<br>
+    Y registra la hora de finalización<br><br>
+    Escenario 3: Bloquear tarea por causa externa<br>
+    DADO que el operario no puede continuar por una protesta<br>
+    CUANDO marca la tarea como “Bloqueada” y selecciona el motivo<br>
+    ENTONCES el sistema registra el estado como bloqueado<br>
+    Y genera una alerta al supervisor<br><br>
+    Escenario 4: Evitar cambio de estado sin motivo<br>
+    DADO que el operario intenta marcar como “Bloqueada”<br>
+    CUANDO no selecciona una causa<br>
+    ENTONCES el sistema impide el cambio<br>
+    Y solicita seleccionar un motivo<br><br>
+    Escenario 5: Corregir estado marcado por error<br>
+    DADO que el operario ha marcado erróneamente el estado<br>
+    CUANDO intenta corregirlo dentro de 5 minutos<br>
+    ENTONCES el sistema permite la edición<br>
+    Y guarda el historial del cambio
+  </td>
+  <td>EP05</td>
+</tr>
+<tr>
+  <td>US08</td>
+  <td>Ver tareas asignadas</td>
+  <td>Como operario, quiero ver todas las tareas que tengo pendientes con sus fechas y riesgos para poder gestionarlas adecuadamente.</td>
+  <td>
+    Escenario 1: Ver listado de tareas pendientes<br>
+    DADO que el operario accede al sistema<br>
+    CUANDO ingresa al módulo “Mis Tareas”<br>
+    ENTONCES el sistema muestra la lista de tareas asignadas<br>
+    Y cada una incluye fecha, estado y nivel de riesgo<br><br>
+    Escenario 2: Filtrar tareas por fecha de vencimiento<br>
+    DADO que el operario tiene múltiples tareas asignadas<br>
+    CUANDO utiliza el filtro “Fecha de entrega”<br>
+    ENTONCES el sistema muestra solo las tareas próximas a vencer<br>
+    Y oculta las que no cumplan con el criterio<br><br>
+    Escenario 3: Identificar tareas con riesgo<br>
+    DADO que el operario revisa la lista de tareas<br>
+    CUANDO existen tareas sujetas a factores externos<br>
+    ENTONCES el sistema las destaca visualmente<br>
+    Y muestra el tipo de riesgo asociado (clima, acceso, etc.)<br><br>
+    Escenario 4: Ordenar tareas por prioridad<br>
+    DADO que el operario desea organizar su jornada<br>
+    CUANDO selecciona “orden por prioridad”<br>
+    ENTONCES el sistema reordena la lista<br>
+    Y coloca primero las tareas urgentes<br><br>
+    Escenario 5: Actualización en tiempo real de nuevas tareas<br>
+    DADO que el operario mantiene abierta su lista de tareas<br>
+    CUANDO el supervisor le asigna una nueva tarea<br>
+    ENTONCES el sistema actualiza la lista automáticamente<br>
+    Y muestra la nueva asignación sin recargar la página
+  </td>
+  <td>EP05</td>
+</tr>
+
+<tr>
+  <td>US09</td>
+  <td>Reportar demora por clima u otros</td>
+  <td>Como operario, quiero indicar que no pude realizar una tarea debido al mal clima o situación externa para mantener la trazabilidad de los retrasos.</td>
+  <td>
+    Escenario 1: Reportar demora por clima<br>
+    DADO que el operario tiene una tarea que no pudo ejecutar<br>
+    Y el motivo fue una lluvia intensa<br>
+    CUANDO selecciona “Demora por clima”<br>
+    ENTONCES el sistema registra la demora<br>
+    Y la clasifica como “Clima”<br><br>
+    Escenario 2: Evitar reporte sin seleccionar causa<br>
+    DADO que el operario intenta registrar una demora<br>
+    CUANDO no selecciona la causa en el formulario<br>
+    ENTONCES el sistema bloquea el envío<br>
+    Y muestra un mensaje indicando que el motivo es obligatorio<br><br>
+    Escenario 3: Registrar fecha y hora exacta del evento<br>
+    DADO que el operario reporta una demora<br>
+    CUANDO ingresa la información<br>
+    ENTONCES el sistema guarda fecha, hora y tipo de evento<br>
+    Y los asocia automáticamente a la tarea<br><br>
+    Escenario 4: Reportar demora por acceso bloqueado<br>
+    DADO que el operario encuentra una protesta que impide el acceso<br>
+    CUANDO selecciona “Acceso bloqueado”<br>
+    ENTONCES el sistema registra el incidente como externo<br>
+    Y genera una alerta al supervisor<br><br>
+    Escenario 5: Ver historial de demoras<br>
+    DADO que el operario accede a su historial<br>
+    CUANDO consulta sus tareas anteriores<br>
+    ENTONCES el sistema muestra las demoras registradas<br>
+    Y permite ver detalles como causa, fecha y hora
+  </td>
+  <td>EP05</td>
+</tr>
+<tr>
+  <td>US10</td>
+  <td>Definir fases del proceso logístico</td>
+  <td>Como supervisor logístico, quiero definir las fases del proceso logístico para estructurar el flujo de trabajo.</td>
+  <td>
+    Escenario 1: Registrar nuevas fases del proceso<br>
+    DADO que el supervisor accede a la configuración del sistema<br>
+    CUANDO agrega fases como “Alistamiento”, “Enviado” y “Entrega”<br>
+    ENTONCES el sistema guarda las fases en el orden definido<br>
+    Y las muestra disponibles para asignación en tareas<br><br>
+    Escenario 2: Evitar creación de fase duplicada<br>
+    DADO que el supervisor intenta registrar una fase existente<br>
+    CUANDO guarda una fase llamada “Entrega” que ya existe<br>
+    ENTONCES el sistema rechaza el registro<br>
+    Y muestra un mensaje de que ya existe<br><br>
+    Escenario 3: Editar nombre de una fase creada<br>
+    DADO que hay una fase mal nombrada como “Entregaa”<br>
+    CUANDO el supervisor la edita y cambia a “Entrega”<br>
+    ENTONCES el sistema actualiza el nombre<br>
+    Y refleja el cambio en todas las tareas asociadas<br><br>
+    Escenario 4: Eliminar fase sin tareas asociadas<br>
+    DADO que hay una fase llamada “Inspección” sin tareas<br>
+    CUANDO el supervisor presiona “Eliminar”<br>
+    ENTONCES el sistema borra la fase<br>
+    Y actualiza la lista de fases activas<br><br>
+    Escenario 5: Impedir eliminación de fase con tareas en curso<br>
+    DADO que una fase “Despacho” tiene tareas asignadas<br>
+    CUANDO el supervisor intenta eliminarla<br>
+    ENTONCES el sistema impide la acción<br>
+    Y muestra un mensaje indicando que hay tareas vinculadas
+  </td>
+  <td>EP05</td>
+</tr>
+
+<tr>
+  <td>US11</td>
+  <td>Agrupar tareas por fase</td>
+  <td>Como supervisor logístico, quiero ver las tareas agrupadas por fase para facilitar la ejecución.</td>
+  <td>
+    Escenario 1: Ver tareas agrupadas por fase en el panel principal<br>
+    DADO que el supervisor accede al panel de tareas<br>
+    Y hay tareas con fases asignadas<br>
+    CUANDO selecciona la opción “Agrupado por fase”<br>
+    ENTONCES el sistema organiza las tareas según su fase<br><br>
+    Escenario 2: Expandir y contraer fases para visualizar tareas<br>
+    DADO que el supervisor está en la vista agrupada por fase<br>
+    CUANDO presiona expandir sobre “Tareas de Entrega”<br>
+    ENTONCES el sistema muestra las tareas de esa fase<br>
+    Y permite contraerlas de nuevo<br><br>
+    Escenario 3: Visualizar tareas sin fase asignada<br>
+    DADO que existen tareas sin fase<br>
+    CUANDO el supervisor usa la vista “Agrupado por fase”<br>
+    ENTONCES el sistema crea un grupo “Sin Fase”<br>
+    Y las ubica ahí hasta que se les asigne una<br><br>
+    Escenario 4: Cambiar la fase de una tarea desde la vista agrupada<br>
+    DADO que el supervisor ve tareas en la fase “Alistamiento”<br>
+    CUANDO arrastra una a la fase “Entrega”<br>
+    ENTONCES el sistema actualiza la fase de la tarea<br>
+    Y la reubica en el nuevo grupo automáticamente
+  </td>
+  <td>EP05</td>
+</tr>
+<tr>
+  <td>US12</td>
+  <td>Alerta por tarea bloqueada</td>
+  <td>Como supervisor logístico, quiero recibir una alerta cuando una tarea se declare como bloqueada por factores externos.</td>
+  <td>
+    Escenario 1: Recibir alerta por bloqueo por clima<br>
+    DADO que el supervisor gestiona tareas del sistema<br>
+    Y un operario marca una tarea como bloqueada por causa climática<br>
+    CUANDO se actualiza el estado<br>
+    ENTONCES el sistema genera una alerta inmediata<br>
+    Y la envía a la bandeja de notificaciones del supervisor<br><br>
+    Escenario 2: No generar alerta si la tarea fue pausada voluntariamente<br>
+    DADO que una tarea fue reprogramada internamente sin riesgo externo<br>
+    CUANDO se cambia su estado<br>
+    ENTONCES el sistema no genera ninguna alerta<br><br>
+    Escenario 3: Recibir la alerta en la app web<br>
+    DADO que el supervisor tiene sesión iniciada en la web<br>
+    CUANDO se bloquea una tarea por causas externas<br>
+    ENTONCES el sistema envía una notificación<br>
+    Y permite acceder al detalle del bloqueo<br><br>
+    Escenario 4: Visualizar historial de alertas por bloqueos<br>
+    DADO que el supervisor accede al historial de alertas<br>
+    CUANDO consulta las notificaciones de tareas bloqueadas<br>
+    ENTONCES el sistema lista todas las alertas generadas<br>
+    Y muestra la causa, fecha, hora y quién la reportó
+  </td>
+  <td>EP06</td>
+</tr>
+
+<tr>
+  <td>US13</td>
+  <td>Notificación de nueva tarea asignada</td>
+  <td>Como operario, quiero recibir notificación inmediata cuando se me asigne una nueva tarea.</td>
+  <td>
+    Escenario 1: Recibir notificación al ser asignado a una tarea<br>
+    DADO que el operario tiene sesión iniciada en el sistema<br>
+    CUANDO un supervisor le asigna una nueva tarea<br>
+    ENTONCES el sistema genera una notificación<br>
+    Y la muestra de forma inmediata<br><br>
+    Escenario 2: Ver notificación con detalle de urgencia y fecha límite<br>
+    DADO que el operario recibe una nueva tarea prioritaria<br>
+    CUANDO se genera la notificación<br>
+    ENTONCES esta incluye la fecha límite y nivel de urgencia
+  </td>
+  <td>EP06</td>
+</tr>
+<tr>
+  <td>US14</td>
+  <td>Validar tareas completadas o suspendidas</td>
+  <td>Como supervisor, quiero validar tareas y registrar si fueron suspendidas por clima o fallas.</td>
+  <td>
+    Escenario 1: Validar una tarea marcada como finalizada<br>
+    DADO que el supervisor observa una tarea con estado “Finalizada”<br>
+    CUANDO ingresa al detalle de la tarea<br>
+    Y revisa que la ejecución fue correcta<br>
+    ENTONCES el sistema permite validarla<br>
+    Y cierra su ciclo en el sistema<br><br>
+    Escenario 2: Validar tarea suspendida por condiciones climáticas<br>
+    DADO que una tarea fue marcada como “Suspendida” por clima<br>
+    CUANDO el supervisor revisa el detalle<br>
+    ENTONCES el sistema permite registrar la validación<br>
+    Y guarda la causa para trazabilidad<br><br>
+    Escenario 3: Impedir validación si falta información<br>
+    DADO que el reporte de suspensión no tiene detalles<br>
+    CUANDO el supervisor intenta validarla<br>
+    ENTONCES el sistema bloquea la validación<br>
+    Y muestra un mensaje solicitando los datos faltantes<br><br>
+    Escenario 4: Visualizar todas las tareas validadas<br>
+    DADO que el supervisor accede al historial de validaciones<br>
+    CUANDO aplica un filtro por “Finalizadas” o “Suspendidas”<br>
+    ENTONCES el sistema agrupa las tareas por tipo de cierre<br>
+    Y permite exportar el listado
+  </td>
+  <td>EP07</td>
+</tr>
+
+<tr>
+  <td>US15</td>
+  <td>Añadir observaciones a una tarea</td>
+  <td>Como operario, quiero dejar comentarios sobre problemas o incidencias al realizar una tarea.</td>
+  <td>
+    Escenario 1: Agregar observación durante la ejecución<br>
+    DADO que el operario está realizando una tarea<br>
+    CUANDO detecta un inconveniente<br>
+    Y accede al campo de observaciones<br>
+    ENTONCES puede redactar y guardar un comentario asociado a la tarea<br><br>
+    Escenario 2: Registrar múltiples observaciones<br>
+    DADO que ya hay una observación previa<br>
+    CUANDO el operario agrega una nueva entrada<br>
+    ENTONCES el sistema guarda ambas en orden cronológico<br><br>
+    Escenario 3: Impedir observación vacía<br>
+    DADO que el operario intenta guardar sin contenido<br>
+    CUANDO presiona “Guardar”<br>
+    ENTONCES el sistema muestra un mensaje de error<br>
+    Y bloquea el guardado hasta que se ingrese texto
+  </td>
+  <td>EP07</td>
+</tr>
+
+<tr>
+  <td>US16</td>
+  <td>Reportar incidencias</td>
+  <td>Como operario, quiero reportar una incidencia durante la ejecución de una tarea para que sea atendida.</td>
+  <td>
+    Escenario 1: Reportar una incidencia con causa y descripción<br>
+    DADO que el operario está ejecutando una tarea y ocurre un inconveniente<br>
+    CUANDO accede a la opción “Reportar incidencia”<br>
+    Y selecciona la causa junto con una descripción<br>
+    ENTONCES el sistema registra la incidencia<br>
+    Y notifica al supervisor correspondiente<br><br>
+    Escenario 2: Evitar envío de incidencia sin causa seleccionada<br>
+    DADO que el operario intenta reportar una incidencia<br>
+    CUANDO no marca la causa<br>
+    ENTONCES el sistema bloquea el envío<br>
+    Y muestra un mensaje indicando que el campo es obligatorio<br><br>
+    Escenario 3: Registrar la hora exacta de la incidencia<br>
+    DADO que el operario confirma el envío del reporte<br>
+    CUANDO se guarda la incidencia<br>
+    ENTONCES el sistema registra la fecha y hora automáticamente<br><br>
+    Escenario 4: Adjuntar evidencia al reporte<br>
+    DADO que el operario adjunta una foto relevante<br>
+    CUANDO la sube desde su dispositivo<br>
+    ENTONCES el sistema guarda la imagen con el reporte<br>
+    Y la hace visible para el supervisor
+  </td>
+  <td>EP08</td>
+</tr>
+
+<tr>
+  <td>US17</td>
+  <td>Asignar responsable de resolver incidencia</td>
+  <td>Como supervisor logístico, quiero asignar un responsable a cada incidencia para su seguimiento.</td>
+  <td>
+    Escenario 1: Asignar responsable desde el panel de incidencias<br>
+    DADO que el supervisor identifica una nueva incidencia<br>
+    CUANDO selecciona un operario desde la lista de usuarios disponibles<br>
+    ENTONCES el sistema asigna al responsable<br>
+    Y registra la hora de asignación<br><br>
+    Escenario 2: Reasignar una incidencia a otro usuario<br>
+    DADO que el responsable inicial no puede atenderla<br>
+    CUANDO el supervisor accede al detalle y selecciona un nuevo responsable<br>
+    ENTONCES el sistema actualiza la asignación<br>
+    Y guarda el historial del cambio<br><br>
+    Escenario 3: Impedir asignación sin responsable<br>
+    DADO que el supervisor intenta asignar una incidencia<br>
+    CUANDO no selecciona a ningún usuario<br>
+    ENTONCES el sistema bloquea el guardado<br>
+    Y muestra un mensaje de advertencia<br><br>
+    Escenario 4: Notificar automáticamente al responsable asignado<br>
+    DADO que el supervisor confirma la asignación<br>
+    CUANDO el sistema la registra<br>
+    ENTONCES el operario recibe una notificación inmediata<br>
+    Y puede ver el detalle de la incidencia en su panel
+  </td>
+  <td>EP08</td>
+</tr>
+<tr>
+  <td>US18</td>
+  <td>Programar entrega con condiciones</td>
+  <td>Como supervisor logístico, quiero registrar si una entrega depende de condiciones externas (clima, acceso).</td>
+  <td>
+    Escenario 1: Programar entrega condicionada por clima<br>
+    DADO que el supervisor está creando una nueva entrega<br>
+    CUANDO selecciona “Condicionada por clima” como restricción externa<br>
+    Y establece la fecha tentativa de entrega<br>
+    ENTONCES el sistema registra la condición meteorológica<br>
+    Y marca la entrega como sujeta a verificación climática<br><br>
+    Escenario 2: Programar entrega con restricción por acceso limitado<br>
+    DADO que la zona de destino tiene ingreso restringido<br>
+    CUANDO se marca “Acceso restringido” y se define la ventana horaria<br>
+    ENTONCES el sistema guarda la configuración<br>
+    Y la muestra como advertencia visible<br><br>
+    Escenario 3: Impedir guardar entrega condicionada sin motivo<br>
+    DADO que el supervisor marca una entrega como condicionada<br>
+    CUANDO no especifica la causa<br>
+    ENTONCES el sistema bloquea el guardado<br>
+    Y muestra un mensaje indicando que debe seleccionarse una causa<br><br>
+    Escenario 4: Editar condiciones externas de entrega ya programada<br>
+    DADO que el supervisor detecta un nuevo factor externo<br>
+    CUANDO actualiza la condición correspondiente<br>
+    ENTONCES el sistema guarda los cambios<br>
+    Y registra el historial de modificaciones<br><br>
+    Escenario 5: Ver condiciones externas desde el panel de seguimiento<br>
+    DADO que la entrega está condicionada<br>
+    CUANDO el supervisor revisa el dashboard<br>
+    ENTONCES el sistema muestra un ícono de advertencia<br>
+    Y permite consultar el detalle de la condición
+  </td>
+  <td>EP05</td>
+</tr>
+
+<tr>
+  <td>US19</td>
+  <td>Marcar entrega como postergada</td>
+  <td>Como operario, quiero indicar que no se pudo realizar una entrega por motivos externos para mantener informados a mis superiores.</td>
+  <td>
+    Escenario 1: Postergar entrega por bloqueo en la vía<br>
+    DADO que el operario está en ruta<br>
+    CUANDO encuentra una protesta que impide el acceso<br>
+    Y selecciona “Bloqueo” como motivo<br>
+    ENTONCES el sistema marca la entrega como postergada<br>
+    Y notifica al supervisor<br><br>
+    Escenario 2: Marcar entrega como postergada por clima<br>
+    DADO que la ruta está intransitable por lluvia intensa<br>
+    CUANDO el operario actualiza el estado a “Postergada”<br>
+    Y selecciona “Clima” como causa<br>
+    ENTONCES el sistema registra la postergación<br>
+    Y mantiene la entrega en estado pendiente<br><br>
+    Escenario 3: Impedir postergar sin motivo definido<br>
+    DADO que el operario quiere cambiar el estado<br>
+    CUANDO no selecciona causa válida<br>
+    ENTONCES el sistema bloquea el cambio<br>
+    Y muestra un mensaje de advertencia<br><br>
+    Escenario 4: Registrar fecha y hora exacta de postergación<br>
+    DADO que la postergación fue confirmada<br>
+    CUANDO se actualiza el estado<br>
+    ENTONCES el sistema guarda automáticamente fecha y hora<br>
+    Y los asocia a la entrega afectada
+  </td>
+  <td>EP05</td>
+</tr>
+<tr>
+  <td>US20</td>
+  <td>Dashboard de estado de tareas</td>
+  <td>Como supervisor logístico, quiero ver cuántas tareas están en pausa por clima, tráfico u otras causas para tomar acciones al respecto.</td>
+  <td>
+    Escenario 1: Ver resumen de tareas en pausa por tipo de causa<br>
+    DADO que el supervisor accede al dashboard de tareas<br>
+    Y desea una visión general del estado operativo<br>
+    CUANDO consulta el resumen de ejecución<br>
+    ENTONCES el sistema muestra la cantidad de tareas en pausa agrupadas por causa<br><br>
+    Escenario 2: Visualizar gráfico de distribución de causas de pausa<br>
+    DADO que hay múltiples tareas en pausa<br>
+    CUANDO el supervisor activa la vista gráfica<br>
+    ENTONCES el sistema muestra un gráfico (de barras o pastel)<br>
+    Y segmenta por categoría con conteo<br><br>
+    Escenario 3: Actualización automática del dashboard en tiempo real<br>
+    DADO que una tarea es pausada<br>
+    CUANDO se actualiza su estado<br>
+    ENTONCES el dashboard refleja el cambio inmediatamente<br>
+    Y actualiza todos los indicadores<br><br>
+    Escenario 4: Filtrar tareas pausadas por sede o zona<br>
+    DADO que se desea analizar retrasos por ubicación<br>
+    CUANDO se usa el filtro de sede o zona<br>
+    ENTONCES el sistema muestra solo las tareas pausadas de esa ubicación<br><br>
+    Escenario 5: Exportar listado de tareas en pausa desde el dashboard<br>
+    DADO que el supervisor quiere documentar las pausas<br>
+    CUANDO presiona el botón de exportación<br>
+    ENTONCES el sistema genera un archivo descargable con el detalle por causa, fecha y responsable
+  </td>
+  <td>EP08</td>
+</tr>
+
+<tr>
+  <td>US21</td>
+  <td>Reporte de incidentes externos</td>
+  <td>Como operario, quiero generar reportes de incidencias externas para futuras mejoras de planificación.</td>
+  <td>
+    Escenario 1: Visualizar reporte de incidencias<br>
+    DADO que el supervisor ha recibido reportes previos<br>
+    CUANDO accede al módulo de historial de incidentes<br>
+    ENTONCES el sistema muestra una lista con fecha, tipo y ubicación<br>
+    Y permite exportar los datos para análisis de planificación
+  </td>
+  <td>EP08</td>
+</tr>
+
+<tr>
+  <td>US22</td>
+  <td>Integrar sistema meteorológico</td>
+  <td>Como supervisor logístico, quiero que el sistema consulte el clima para anticipar retrasos.</td>
+  <td>
+    Escenario 1: Consultar clima antes de iniciar la ruta<br>
+    DADO que el supervisor necesita planificar tareas<br>
+    CUANDO accede al módulo de monitoreo climático integrado<br>
+    ENTONCES el sistema muestra el pronóstico por zona geográfica<br>
+    Y resalta eventos climáticos adversos<br><br>
+    Escenario 2: Recibir alertas de clima severo durante la ruta<br>
+    DADO que el operario ejecuta una tarea en ruta<br>
+    CUANDO el sistema detecta una alerta meteorológica severa<br>
+    ENTONCES envía una notificación automática al operario<br>
+    Y registra el evento para trazabilidad<br><br>
+    Escenario 3: Reprogramar tareas por condiciones climáticas<br>
+    DADO que el supervisor identifica clima adverso<br>
+    CUANDO decide modificar la planificación<br>
+    ENTONCES el sistema permite reprogramar las tareas afectadas<br>
+    Y notifica a los operarios involucrados<br><br>
+    Escenario 4: Visualizar historial de condiciones climáticas<br>
+    DADO que el supervisor desea analizar retrasos<br>
+    CUANDO accede al historial meteorológico<br>
+    ENTONCES el sistema muestra un resumen por fecha y zona<br>
+    Y permite exportar los datos<br><br>
+    Escenario 5: Asociar reporte climático a incidente registrado<br>
+    DADO que el operario reporta un incidente relacionado al clima<br>
+    CUANDO el evento coincide con un registro del sistema meteorológico<br>
+    ENTONCES el sistema asocia el informe climático al incidente<br>
+    Y guarda ambos datos para análisis conjunto
+  </td>
+  <td>EP09</td>
+</tr>
+
+<tr>
+  <td>US23</td>
+  <td>Bloquear tareas automáticamente por eventos naturales sincronizados desde el ERP</td>
+  <td>Como supervisor logístico, quiero que los eventos naturales críticos registrados en el ERP (como deslizamientos o bloqueos de vía) bloqueen automáticamente las tareas vinculadas, para evitar riesgos y reprocesos.</td>
+  <td>
+    Escenario 1: Bloquear tareas por deslizamiento registrado desde el ERP<br>
+    DADO que el supervisor registra un deslizamiento en el ERP<br>
+    CUANDO el sistema sincroniza el evento con la zona logística<br>
+    ENTONCES el sistema bloquea automáticamente las tareas asignadas a esa zona<br>
+    Y marca el motivo como "Evento Natural: Deslizamiento"<br><br>
+    Escenario 2: Suspender tareas por inundación notificada desde el ERP<br>
+    DADO que el supervisor ingresa un reporte de inundación en el ERP<br>
+    CUANDO el sistema integra esa información<br>
+    ENTONCES suspende temporalmente las tareas en rutas afectadas<br>
+    Y notifica a los operarios sobre la interrupción<br><br>
+    Escenario 3: Alerta automática por bloqueo de vía desde el ERP<br>
+    DADO que el supervisor informa un derrumbe en el ERP<br>
+    CUANDO el sistema sincroniza el evento con las rutas asignadas<br>
+    ENTONCES el sistema muestra una alerta a los operarios involucrados<br>
+    Y genera una reprogramación sugerida de tareas para el supervisor
+  </td>
+  <td>EP09</td>
+</tr>
+<tr>
+  <td>US24</td>
+  <td>Solicitar reprogramación de tarea</td>
+  <td>Como operario, quiero solicitar cambiar la fecha/hora de una tarea por mal clima u otros factores para evitar incidentes.</td>
+  <td>
+    Escenario 1: Solicitar reprogramación por lluvia intensa<br>
+    DADO que el operario se encuentra en ruta durante una lluvia intensa<br>
+    CUANDO accede al módulo de tareas activas<br>
+    Y selecciona “Solicitar reprogramación” indicando “Clima adverso”<br>
+    ENTONCES el sistema registra la solicitud<br>
+    Y la notifica al supervisor para evaluación<br><br>
+    Escenario 2: Evitar reprogramación sin justificación válida<br>
+    DADO que el operario desea cambiar la hora de una tarea<br>
+    CUANDO no selecciona una causa válida (clima, accidente, protesta)<br>
+    ENTONCES el sistema impide el envío<br>
+    Y muestra un mensaje indicando que debe especificar el motivo<br><br>
+    Escenario 3: Verificar ubicación al solicitar reprogramación por clima<br>
+    DADO que el operario solicita reprogramar por mal clima<br>
+    CUANDO el sistema tiene GPS activado<br>
+    ENTONCES valida si hay condiciones climáticas adversas en su ubicación<br>
+    Y adjunta esa verificación a la solicitud
+  </td>
+  <td>EP07</td>
+</tr>
+
+<tr>
+  <td>US25</td>
+  <td>Aprobar o rechazar reprogramación</td>
+  <td>Como supervisor logístico, quiero aprobar o denegar solicitudes de reprogramación según prioridades para mantener las entregas a tiempo pero con seguridad.</td>
+  <td>
+    Escenario 1: Aprobar solicitud por clima adverso<br>
+    DADO que el supervisor recibe una solicitud por lluvia intensa<br>
+    CUANDO verifica que las condiciones afectan la seguridad<br>
+    ENTONCES el sistema permite aprobarla<br>
+    Y actualiza la fecha/hora de ejecución<br><br>
+    Escenario 2: Rechazar solicitud sin justificación adecuada<br>
+    DADO que la solicitud no está sustentada<br>
+    CUANDO el supervisor la revisa<br>
+    ENTONCES puede rechazarla<br>
+    Y registrar el motivo del rechazo con un mensaje al operario<br><br>
+    Escenario 3: Notificar decisión al operario<br>
+    DADO que el supervisor aprueba o rechaza una solicitud<br>
+    CUANDO registra su decisión<br>
+    ENTONCES el sistema notifica al operario<br>
+    Y muestra los comentarios del supervisor si los hay<br><br>
+    Escenario 4: Registrar historial de solicitudes evaluadas<br>
+    DADO que el supervisor gestiona múltiples solicitudes<br>
+    CUANDO accede al módulo de historial<br>
+    ENTONCES el sistema muestra todas las solicitudes evaluadas con estado, motivo y fecha<br>
+    Y permite exportar los datos para análisis
+  </td>
+  <td>EP07</td>
+</tr>
+
+<tr>
+  <td>US26</td>
+  <td>Crear nuevos usuarios</td>
+  <td>Como supervisor logístico, quiero registrar nuevos usuarios en el sistema para permitirles acceder y participar en los procesos logísticos.</td>
+  <td>
+    Escenario 1: Registrar un nuevo usuario operativo<br>
+    DADO que el supervisor desea dar acceso a un nuevo operario<br>
+    CUANDO accede al módulo de administración de usuarios<br>
+    Y completa los datos personales, rol y zona asignada<br>
+    ENTONCES el sistema registra al nuevo usuario<br>
+    Y envía sus credenciales de acceso<br><br>
+    Escenario 2: Evitar creación de usuarios con datos incompletos<br>
+    DADO que el supervisor intenta registrar un usuario<br>
+    CUANDO no completa campos como nombre, documento o rol<br>
+    ENTONCES el sistema impide el registro<br>
+    Y muestra un mensaje indicando los campos requeridos<br><br>
+    Escenario 3: Consultar historial de usuarios creados<br>
+    DADO que el supervisor ha registrado múltiples usuarios<br>
+    CUANDO accede al historial de creación<br>
+    ENTONCES el sistema muestra una lista con fecha, nombre, rol y zona<br>
+    Y permite exportar dicha información
+  </td>
+  <td>EP10</td>
+</tr>
+
+<tr>
+  <td>US27</td>
+  <td>Asignar roles y permisos</td>
+  <td>Como supervisor logístico, quiero asignar roles (ej. operario, supervisor, gerente) para definir qué acciones puede realizar cada usuario.</td>
+  <td>
+    Escenario 1: Asignar rol de operario a nuevo usuario<br>
+    DADO que el supervisor registra un nuevo usuario<br>
+    CUANDO selecciona el rol “Operario”<br>
+    ENTONCES el sistema aplica los permisos correspondientes<br>
+    Y limita el acceso solo a funciones operativas<br><br>
+    Escenario 2: Cambiar el rol de un usuario existente<br>
+    DADO que se necesita actualizar el perfil de un usuario<br>
+    CUANDO el supervisor modifica su rol a “Supervisor”<br>
+    ENTONCES el sistema actualiza los permisos en tiempo real<br>
+    Y registra el cambio en el historial<br><br>
+    Escenario 3: Visualizar resumen de roles y permisos<br>
+    DADO que el supervisor accede al módulo de administración de roles<br>
+    CUANDO consulta los perfiles configurados<br>
+    ENTONCES el sistema muestra un resumen de roles<br>
+    Y lista las acciones permitidas para cada uno
+  </td>
+  <td>EP10</td>
+</tr>
+<tr>
+  <td>US28</td>
+  <td>Restringir acceso según el rol</td>
+  <td>Como supervisor logístico, quiero restringir la visualización o edición de información según el rol del usuario para evitar errores o accesos indebidos.</td>
+  <td>
+    Escenario 1: Evitar acceso de operario a datos administrativos<br>
+    DADO que el operario inicia sesión<br>
+    CUANDO intenta acceder a módulos de configuración, usuarios o reportes de alto nivel<br>
+    ENTONCES el sistema bloquea el acceso<br>
+    Y muestra un mensaje indicando que la función no está disponible para su rol<br><br>
+    Escenario 2: Permitir solo visualización a supervisores sin edición<br>
+    DADO que el supervisor tiene permisos de solo lectura<br>
+    CUANDO accede a un módulo<br>
+    ENTONCES puede ver el contenido<br>
+    Pero las opciones de edición están deshabilitadas<br><br>
+    Escenario 3: Revisar historial de accesos restringidos<br>
+    DADO que se desea auditar la seguridad<br>
+    CUANDO el supervisor accede al módulo de control de accesos<br>
+    ENTONCES el sistema muestra un historial de intentos denegados<br>
+    Con información del usuario, módulo, fecha y motivo
+  </td>
+  <td>EP10</td>
+</tr>
+
+<tr>
+  <td>US29</td>
+  <td>Desactivar usuarios inactivos</td>
+  <td>Como supervisor logístico, quiero desactivar cuentas de usuarios que ya no usan el sistema para mantener la seguridad y el orden del acceso.</td>
+  <td>
+    Escenario 1: Desactivar manualmente un usuario inactivo<br>
+    DADO que el supervisor detecta inactividad prolongada<br>
+    CUANDO accede al módulo de administración y selecciona “Desactivar cuenta”<br>
+    ENTONCES el sistema marca la cuenta como inactiva<br>
+    Y registra la fecha y motivo de desactivación<br><br>
+    Escenario 2: Reactivar cuenta de usuario desactivado<br>
+    DADO que un usuario fue desactivado previamente<br>
+    CUANDO el supervisor decide reactivarlo<br>
+    ENTONCES el sistema restablece el acceso<br>
+    Y envía notificación al usuario con condiciones de uso
+  </td>
+  <td>EP10</td>
+</tr>
+<tr>
+  <td>US30</td>
+  <td>Generar plan de actividades</td>
+  <td>Como supervisor logístico, quiero generar un plan de todas las actividades programadas según los recursos y prioridades, para organizar eficientemente las actividades del día.</td>
+  <td>
+    Escenario 1: Generar plan diario según recursos disponibles<br>
+    DADO que el supervisor desea organizar las actividades del día<br>
+    CUANDO accede al módulo de planificación operativa<br>
+    Y selecciona la opción “Generar plan de actividades”<br>
+    ENTONCES el sistema agrupa las tareas por recurso (vehículo, operario, zona)<br>
+    Y genera un listado estructurado con horarios estimados<br><br>
+    Escenario 2: Priorizar actividades críticas<br>
+    DADO que el supervisor ha definido tareas críticas<br>
+    CUANDO genera el plan<br>
+    ENTONCES el sistema posiciona las tareas urgentes al inicio del itinerario<br>
+    Y resalta su nivel de prioridad<br><br>
+    Escenario 3: Exportar plan diario de actividades<br>
+    DADO que el plan ha sido generado<br>
+    CUANDO el supervisor desea compartirlo<br>
+    ENTONCES el sistema permite exportarlo en PDF o Excel<br>
+    Y enviar notificaciones a los operarios con sus asignaciones<br><br>
+    Escenario 4: Visualizar el plan en formato calendario o lista<br>
+    DADO que el plan ya fue generado<br>
+    CUANDO el supervisor accede a la vista<br>
+    ENTONCES el sistema ofrece una vista tipo calendario por hora/zona<br>
+    Y otra vista tipo lista con detalles por recurso asignado
+  </td>
+  <td>EP11</td>
+</tr>
+
+<tr>
+  <td>US31</td>
+  <td>Ver disponibilidad de personal y recursos</td>
+  <td>Como supervisor logístico, quiero ver la disponibilidad de personal, vehículos y espacios, para asignar tareas sin generar conflictos o sobrecargas.</td>
+  <td>
+    Escenario 1: Consultar disponibilidad de operarios por turno<br>
+    DADO que el supervisor va a asignar tareas<br>
+    CUANDO accede al módulo de disponibilidad de personal<br>
+    ENTONCES el sistema muestra operarios por turno, zona y estado<br>
+    Y permite filtrar por habilidades o historial<br><br>
+    Escenario 2: Visualizar disponibilidad de vehículos asignados<br>
+    DADO que se desea planificar una entrega<br>
+    CUANDO el supervisor consulta el módulo de flota<br>
+    ENTONCES el sistema muestra qué vehículos están activos, en mantenimiento o ya asignados<br>
+    Y detalla su capacidad y ubicación actual<br><br>
+    Escenario 3: Consultar disponibilidad de espacios logísticos<br>
+    DADO que se necesita programar una actividad<br>
+    CUANDO el supervisor accede al calendario de espacios<br>
+    ENTONCES el sistema muestra cuáles están reservados o libres<br>
+    Y permite programar nuevas actividades<br><br>
+    Escenario 4: Generar reporte de disponibilidad general<br>
+    DADO que el supervisor necesita planificar con antelación<br>
+    CUANDO selecciona “Ver disponibilidad general”<br>
+    ENTONCES el sistema genera un reporte consolidado con operarios, vehículos y espacios<br>
+    Y permite exportarlo o integrarlo al plan diario
+  </td>
+  <td>EP11</td>
+</tr>
+<tr>
+  <td>US32</td>
+  <td>Selección de plan de empresa según volumen de envíos</td>
+  <td>Como empresa usuaria de la aplicación, quiero poder seleccionar un plan de uso según el número de envíos que realizo, para contar con una solución adecuada a mis necesidades logísticas y presupuestarias.</td>
+  <td>
+    Escenario 1: Visualizar y elegir plan de empresa<br>
+    DADO que la empresa ha creado su cuenta<br>
+    CUANDO accede al módulo de suscripción<br>
+    ENTONCES el sistema muestra los tres planes disponibles<br>
+    Y permite seleccionar el más adecuado según sus necesidades<br><br>
+    Escenario 2: Sugerencia automática de plan según volumen de envíos<br>
+    DADO que la empresa tiene un historial de envíos<br>
+    CUANDO el sistema detecta que el promedio mensual supera el límite de su plan<br>
+    ENTONCES sugiere el cambio al siguiente plan<br>
+    Y muestra beneficios y nuevo costo<br><br>
+    Escenario 3: Restringir envíos si se excede el plan contratado<br>
+    DADO que la empresa tiene contratado el plan Básico<br>
+    CUANDO intenta registrar un envío adicional<br>
+    ENTONCES el sistema impide el registro<br>
+    Y muestra un mensaje indicando que se alcanzó el límite del plan
+  </td>
+  <td>EP10</td>
+</tr>
+
+<tr>
+  <td>US33</td>
+  <td>Acceder a la sección principal del sitio (Hero Section)</td>
+  <td>Como visitante de la landing page, quiero visualizar una sección principal con el nombre de la app y un mensaje claro, para entender rápidamente sobre qué trata la aplicación y cómo me puede ayudar.</td>
+  <td>
+    Escenario 1: Ver contenido introductorio al cargar la landing<br>
+    DADO que el visitante accede a la página<br>
+    CUANDO se carga el contenido inicial<br>
+    ENTONCES se muestra el nombre de la aplicación, un mensaje principal y un botón “Conocer más”<br><br>
+    Escenario 2: Hacer clic en el botón “Conocer más”<br>
+    DADO que el visitante ve el botón<br>
+    CUANDO hace clic en él<br>
+    ENTONCES el sistema realiza scroll hacia la sección de funcionalidades<br><br>
+    Escenario 3: Visualización desde móvil o tablet<br>
+    DADO que el visitante accede desde un dispositivo móvil<br>
+    CUANDO se muestra la sección principal<br>
+    ENTONCES esta se adapta correctamente al tamaño de pantalla sin perder información clave
+  </td>
+  <td>EP02</td>
+</tr>
+<tr>
+  <td>US34</td>
+  <td>Navegar entre secciones fácilmente</td>
+  <td>Como visitante de la landing page, quiero usar un menú superior con enlaces a las distintas secciones del sitio, para moverme cómodamente por la página sin perderme.</td>
+  <td>
+    Escenario 1: Usar el menú para navegar<br>
+    DADO que el visitante ve el encabezado del sitio<br>
+    CUANDO hace clic en un ítem del menú<br>
+    ENTONCES el sistema realiza scroll automático a la sección correspondiente<br><br>
+    Escenario 2: Menú con estado activo<br>
+    DADO que el visitante navega entre secciones<br>
+    CUANDO se encuentra en una sección<br>
+    ENTONCES el ítem del menú correspondiente se resalta para indicar su posición<br><br>
+    Escenario 3: Ver menú en versión móvil<br>
+    DADO que el visitante accede desde un móvil<br>
+    CUANDO visualiza la parte superior del sitio<br>
+    ENTONCES el sistema muestra un ícono de “hamburguesa”<br>
+    Y al hacer clic despliega el menú de secciones<br><br>
+    Escenario 4: Volver al inicio desde el logo<br>
+    DADO que el visitante está en cualquier parte del sitio<br>
+    CUANDO hace clic en el logo de la aplicación<br>
+    ENTONCES el sistema realiza scroll hacia el inicio de la página
+  </td>
+  <td>EP02</td>
+</tr>
+
+<tr>
+  <td>TS01</td>
+  <td>Post Company</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero registrar una nueva empresa mediante una API para visualizar las empresas afiliadas a nuestra aplicación.</td>
+  <td>
+    Escenario 1: Solicitud válida<br>
+    DADO que tengo acceso a la API de registro de empresas<br>
+    CUANDO envío una solicitud con datos válidos<br>
+    ENTONCES la empresa se registra exitosamente en la base de datos<br>
+    Y recibo un mensaje de confirmación<br><br>
+    Escenario 2: Solicitud inválida<br>
+    DADO que tengo acceso a la API de registro de empresas<br>
+    CUANDO envío una solicitud con datos inválidos<br>
+    ENTONCES la solicitud es rechazada<br>
+    Y recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS02</td>
+  <td>Get Company</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de una empresa mediante una API para mostrarla cuando se solicite.</td>
+  <td>
+    Escenario 1: Solicitud válida<br>
+    DADO que tengo acceso a la API de obtención de información de empresas<br>
+    CUANDO solicito la información de una empresa existente<br>
+    ENTONCES recibo la información en el formato esperado<br><br>
+    Escenario 2: Solicitud inválida<br>
+    DADO que tengo acceso a la API de obtención de información de empresas<br>
+    CUANDO solicito la información de una empresa que no existe<br>
+    ENTONCES recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS03</td>
+  <td>Post User</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero registrar un nuevo usuario mediante una API para visualizar los usuarios afiliados a nuestra aplicación.</td>
+  <td>
+    Escenario 1: Solicitud válida<br>
+    DADO que tengo acceso a la API de registro de usuarios<br>
+    CUANDO envío una solicitud con datos válidos<br>
+    ENTONCES el usuario se registra exitosamente en la base de datos<br>
+    Y recibo un mensaje de confirmación<br><br>
+    Escenario 2: Solicitud inválida<br>
+    DADO que tengo acceso a la API de registro de usuarios<br>
+    CUANDO envío una solicitud con datos inválidos<br>
+    ENTONCES la solicitud es rechazada<br>
+    Y recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS04</td>
+  <td>Get User</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de un usuario mediante una API para mostrarla cuando se solicite.</td>
+  <td>
+    Escenario 1: Solicitud válida<br>
+    DADO que tengo acceso a la API de obtención de información de usuarios<br>
+    CUANDO solicito la información de un usuario existente<br>
+    ENTONCES recibo la información del usuario en el formato esperado<br><br>
+    Escenario 2: Solicitud inválida<br>
+    DADO que tengo acceso a la API de obtención de información de usuarios<br>
+    CUANDO solicito la información de un usuario que no existe<br>
+    ENTONCES recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS05</td>
+  <td>Post Task</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero registrar una nueva tarea mediante una API para mantener el registro de las tareas actualizado.</td>
+  <td>
+    Escenario 1: Registro válido<br>
+    DADO que tengo acceso a la API de registro de tareas<br>
+    CUANDO envío una solicitud con datos válidos<br>
+    ENTONCES la tarea se registra exitosamente en la base de datos<br>
+    Y recibo un mensaje de confirmación<br><br>
+    Escenario 2: Registro inválido<br>
+    DADO que tengo acceso a la API de registro de tareas<br>
+    CUANDO envío una solicitud con datos inválidos<br>
+    ENTONCES la solicitud es rechazada<br>
+    Y recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS06</td>
+  <td>Get Task</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de las tareas mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+  <td>
+    Escenario 1: Solicitud válida<br>
+    DADO que tengo acceso a la API de obtención de información de tareas<br>
+    CUANDO solicito la información de una tarea existente<br>
+    ENTONCES recibo la información de la tarea en el formato esperado<br><br>
+    Escenario 2: Solicitud inválida<br>
+    DADO que tengo acceso a la API de obtención de información de tareas<br>
+    CUANDO solicito la información de una tarea que no existe<br>
+    ENTONCES recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS07</td>
+  <td>Post Change Request</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero registrar una nueva solicitud de cambio mediante una API para mantener el registro de las solicitudes actualizado.</td>
+  <td>
+    Escenario 1: Registro válido<br>
+    DADO que tengo acceso a la API de registro de solicitudes<br>
+    CUANDO envío una solicitud con datos válidos de una nueva solicitud de cambio<br>
+    ENTONCES la solicitud se registra exitosamente en la base de datos<br>
+    Y recibo un mensaje de confirmación<br><br>
+    Escenario 2: Registro inválido<br>
+    DADO que tengo acceso a la API de registro de solicitudes<br>
+    CUANDO envío una solicitud con datos inválidos<br>
+    ENTONCES la solicitud es rechazada<br>
+    Y recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS08</td>
+  <td>Get Change Request</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de las solicitudes de cambio mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+  <td>
+    Escenario 1: Solicitud válida<br>
+    DADO que tengo acceso a la API de obtención de solicitudes<br>
+    CUANDO solicito la información de una solicitud de cambio existente<br>
+    ENTONCES recibo la información de la solicitud en el formato esperado<br><br>
+    Escenario 2: Solicitud inválida<br>
+    DADO que tengo acceso a la API de obtención de solicitudes<br>
+    CUANDO solicito la información de una solicitud de cambio que no existe<br>
+    ENTONCES recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS09</td>
+  <td>Post Payment Card</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero registrar la información de pago de las empresas mediante una API para guardar la información para futuros pagos.</td>
+  <td>
+    Escenario 1: Solicitud válida<br>
+    DADO que tengo acceso a la API de registro de tarjetas de pago<br>
+    CUANDO envío una solicitud con datos válidos de una tarjeta de pago<br>
+    ENTONCES la tarjeta se registra exitosamente en la base de datos<br>
+    Y recibo un mensaje de confirmación<br><br>
+    Escenario 2: Solicitud inválida<br>
+    DADO que tengo acceso a la API de registro de tarjetas de pago<br>
+    CUANDO envío una solicitud con datos inválidos<br>
+    ENTONCES la solicitud es rechazada<br>
+    Y recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS10</td>
+  <td>Get Payment Card</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de pago de las empresas mediante una API para recibir los pagos en la aplicación cuando sea necesario.</td>
+  <td>
+    Escenario 1: Solicitud válida<br>
+    DADO que tengo acceso a la API de obtención de tarjetas de pago<br>
+    CUANDO solicito la información de una tarjeta registrada de una empresa<br>
+    ENTONCES recibo la información de la tarjeta en el formato esperado<br><br>
+    Escenario 2: Solicitud inválida<br>
+    DADO que tengo acceso a la API de obtención de tarjetas de pago<br>
+    CUANDO solicito la información de una empresa sin tarjeta registrada<br>
+    ENTONCES recibo un mensaje de error indicando que no existen tarjetas registradas
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS11</td>
+  <td>Post Dashboard</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero registrar un nuevo dashboard mediante una API para mantener el registro de los dashboards.</td>
+  <td>
+    Escenario 1: Registro válido<br>
+    DADO que tengo acceso a la API de registro de dashboards<br>
+    CUANDO envío una solicitud con datos válidos de un nuevo dashboard<br>
+    ENTONCES el dashboard se registra exitosamente en la base de datos<br>
+    Y recibo un mensaje de confirmación<br><br>
+    Escenario 2: Registro inválido<br>
+    DADO que tengo acceso a la API de registro de dashboards<br>
+    CUANDO envío una solicitud con datos inválidos<br>
+    ENTONCES la solicitud es rechazada<br>
+    Y recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS12</td>
+  <td>Get Dashboard</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de los dashboards mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+  <td>
+    Escenario 1: Solicitud válida<br>
+    DADO que tengo acceso a la API de obtención de información de dashboards<br>
+    CUANDO solicito la información de un dashboard existente<br>
+    ENTONCES recibo la información del dashboard en el formato esperado<br><br>
+    Escenario 2: Solicitud inválida<br>
+    DADO que tengo acceso a la API de obtención de información de dashboards<br>
+    CUANDO solicito la información de un dashboard que no existe<br>
+    ENTONCES recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS13</td>
+  <td>Get Workers by Zone and Schedule</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de los operarios según su zona y turno mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+  <td>
+    Escenario 1: Solicitud válida<br>
+    DADO que tengo acceso a la API de obtención de información de operarios<br>
+    CUANDO solicito la información según una zona y un turno existentes<br>
+    ENTONCES recibo la información de los operarios en dicho turno y zona en el formato esperado<br><br>
+    Escenario 2: Solicitud inválida<br>
+    DADO que tengo acceso a la API de obtención de información de operarios<br>
+    CUANDO solicito la información según una zona o turno inexistente<br>
+    ENTONCES recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS14</td>
+  <td>Get Tasks by State</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de las tareas según su estado mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+  <td>
+    Escenario 1: Solicitud válida<br>
+    DADO que tengo acceso a la API de obtención de información de tareas según estado<br>
+    CUANDO solicito la información de tareas con un estado existente<br>
+    ENTONCES recibo la información de las tareas en ese estado en el formato esperado<br><br>
+    Escenario 2: Solicitud inválida<br>
+    DADO que tengo acceso a la API de obtención de información de tareas según estado<br>
+    CUANDO solicito información con un estado inexistente<br>
+    ENTONCES recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS15</td>
+  <td>Get Users per Role</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de los usuarios según su rol mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+  <td>
+    Escenario 1: Solicitud válida<br>
+    DADO que tengo acceso a la API de obtención de información de usuarios según rol<br>
+    CUANDO solicito la información de usuarios según un rol existente<br>
+    ENTONCES recibo la información en el formato esperado<br><br>
+    Escenario 2: Solicitud inválida<br>
+    DADO que tengo acceso a la API de obtención de información de usuarios según rol<br>
+    CUANDO solicito la información con un rol inexistente<br>
+    ENTONCES recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS16</td>
+  <td>Get Workers by Abilities</td>
+  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de los operarios según sus habilidades mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+  <td>
+    Escenario 1: Solicitud válida<br>
+    DADO que tengo acceso a la API de obtención de operarios por habilidades<br>
+    CUANDO solicito la información con habilidades existentes<br>
+    ENTONCES recibo la información de los operarios que las cumplen en el formato esperado<br><br>
+    Escenario 2: Solicitud inválida<br>
+    DADO que tengo acceso a la API de obtención de operarios por habilidades<br>
+    CUANDO solicito información usando una habilidad inexistente<br>
+    ENTONCES recibo un mensaje de error adecuado
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+  </tbody>
+</table>
+
+
+
 ## 3.3 Impact Mapping
 
 ## 3.4 Product Backlog
