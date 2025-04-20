@@ -2709,6 +2709,24 @@ En este sprint se busca completar la landing page de SwiftPort,   incluyendo el 
 
 ### 5.2.1.3. Sprint Backlog 1
 
+El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page funcional para el proyecto SwiftPort. 
+A continuación se muestra una captura de pantalla de las historias de usuario que se buscan trabajar en este sprint, con sus epicas correspondientes y su estado. 
+
+![Sprint Backlog 1 in pivotalTracker](assets/md-images/Sprint%20Backlog%201.jpg)
+
+Link PivotalTracker: [OpenSource SwiftPort - Pivotal Tracker](https://www.pivotaltracker.com/n/projects/2739819)
+
+| Sprint # | User Story ID | User Story Title                                 | Task ID | Task Title                        | Description                                                                 | Estimation (hours) | Assigned To | Status     |
+|----------|----------------|--------------------------------------------------|---------|-----------------------------------|-----------------------------------------------------------------------------|---------------------|--------------|-------------|
+| Sprint 1 | US01           | Contactar al startup                             | T01     | Redactar mensaje de contacto     | Crear texto para sección de contacto incluyendo llamada a la acción y correo del equipo. | 1                   |              | To-do       |
+| Sprint 1 | US01           | Contactar al startup                             | T02     | Diseñar sección de contacto      | Implementar diseño responsive del formulario y estilo general.              | 2                   |              | To-do       |
+| Sprint 1 | US02           | Obtener información sobre el uso de la aplicación| T03     | Escribir contenido informativo   | Redactar beneficios clave y funcionalidades destacadas.                     | 1                   |              | To-do       |
+| Sprint 1 | US02           | Obtener información sobre el uso de la aplicación| T04     | Implementar sección de FAQ       | Diseñar y maquetar una sección expandible con preguntas y respuestas.       | 2                   |              | To-do       |
+| Sprint 1 | US33           | Acceder a la sección principal del sitio (Hero Section) | T05     | Diseñar hero con mensaje y CTA   | Crear el diseño visual de la sección inicial con título, mensaje y botón.   | 1                   |              | To-do       |
+| Sprint 1 | US33           | Acceder a la sección principal del sitio (Hero Section) | T06     | Programar scroll al contenido    | Implementar acción del botón "Conocer más" con scroll suave.               | 1                   |              | To-do       |
+| Sprint 1 | US34           | Navegar entre secciones fácilmente               | T07     | Crear barra de navegación        | Diseñar e implementar el menú superior responsive.                          | 2                   |              | To-do       |
+| Sprint 1 | US34           | Navegar entre secciones fácilmente               | T08     | Configurar navegación por anclas | Asociar cada ítem del menú con su sección correspondiente.                 | 1                   |              | To-do       |
+
 ### 5.2.1.4. Development Evidence for Sprint Review
 
 ### 5.2.1.5. Execution Evidence for Sprint Review
