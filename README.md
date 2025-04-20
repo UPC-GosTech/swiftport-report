@@ -2233,6 +2233,364 @@ Enlace para acceder a [Miro](https://miro.com/welcomeonboard/TUd6RHcrNjBDd0RxSyt
 
 ## 3.4 Product Backlog
 
+A continuacion se muestra el product backlog del proyecto, con el fin de planificar correctamente el desarrollo completo de este. Las historias de usuario se encuentran ordenadas según su importancia para la correcta funcionalidad del usuario. Ademas se tomo en cuenta la historia de usuario US04 Crear una nueva tarea como la historia base.
+
+Enlace para acceder a [PivotalTracker](https://www.pivotaltracker.com/n/projects/2739819)
+
+<table>
+  <thead>
+    <tr>
+      <td># Orden</td>
+      <td>User Story ID</td>
+      <td>Título</td>
+      <td>Descripción</td>
+      <td>Story Points</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>US04</td>
+      <td>Crear una nueva tarea</td>
+      <td>Como supervisor logístico, quiero crear tareas logísticas para planificar los procesos de envío.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>US05</td>
+      <td>Asignar tarea a un responsable</td>
+      <td>Como supervisor logístico, quiero asignar responsables a tareas para distribuir el trabajo adecuadamente.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>US06</td>
+      <td>Establecer prioridad y riesgo externo</td>
+      <td>Como supervisor logístico, quiero registrar si una tarea está sujeta a factores externos para monitorear de cerca.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>US07</td>
+      <td>Cambiar estado de tarea</td>
+      <td>Como operario, quiero actualizar el estado de una tarea para reflejar si está en proceso, finalizada o bloqueada.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>US08</td>
+      <td>Ver tareas asignadas</td>
+      <td>Como operario, quiero ver todas las tareas que tengo pendientes con sus fechas y riesgos para poder gestionarlas adecuadamente.</td>
+      <td>2</td>
+    </tr>
+     <tr>
+      <td>6</td>
+      <td>US09</td>
+      <td>Reportar demora por clima u otros</td>
+      <td>Como operario, quiero indicar que no pude realizar una tarea debido al mal clima o situación externa para mantener la trazabilidad de los retrasos.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>US10</td>
+      <td>Definir fases del proceso logístico</td>
+      <td>Como supervisor logístico, quiero definir las fases del proceso logístico para estructurar el flujo de trabajo.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>US11</td>
+      <td>Agrupar tareas por fase</td>
+      <td>Como supervisor logístico, quiero ver las tareas agrupadas por fase para facilitar la ejecución.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>US12</td>
+      <td>Alerta por tarea bloqueada</td>
+      <td>Como supervisor logístico, quiero recibir una alerta cuando una tarea se declare como bloqueada por factores externos.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>US13</td>
+      <td>Notificación de nueva tarea asignada</td>
+      <td>Como operario, quiero recibir notificación inmediata cuando se me asigne una nueva tarea.</td>
+      <td>2</td>
+    </tr>
+<tr>
+      <td>11</td>
+      <td>US14</td>
+      <td>Validar tareas completadas o suspendidas</td>
+      <td>Como supervisor, quiero validar tareas y registrar si fueron suspendidas por clima o fallas.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>US15</td>
+      <td>Añadir observaciones a una tarea</td>
+      <td>Como operario, quiero dejar comentarios sobre problemas o incidencias al realizar una tarea.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>US16</td>
+      <td>Reportar incidencias</td>
+      <td>Como operario, quiero reportar una incidencia durante la ejecución de una tarea para que sea atendida.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>US17</td>
+      <td>Asignar responsable de resolver incidencia</td>
+      <td>Como supervisor logístico, quiero asignar un responsable a cada incidencia para su seguimiento.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>US18</td>
+      <td>Programar entrega con condiciones</td>
+      <td>Como supervisor logístico, quiero registrar si una entrega depende de condiciones externas (clima, acceso).</td>
+      <td>3</td>
+    </tr>
+       <tr>
+      <td>16</td>
+      <td>US19</td>
+      <td>Marcar entrega como postergada</td>
+      <td>Como operario, quiero indicar que no se pudo realizar una entrega por motivos externos para mantener informados a mis superiores.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>US20</td>
+      <td>Dashboard de estado de tareas</td>
+      <td>Como supervisor logístico, quiero ver cuántas tareas están en pausa por clima, tráfico u otras causas para tomar acciones al respecto.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>US21</td>
+      <td>Reporte de incidentes externos</td>
+      <td>Como operario, quiero generar reportes de incidencias externas para futuras mejoras de planificación.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>US22</td>
+      <td>Integrar sistema meteorológico</td>
+      <td>Como supervisor logístico, quiero que el sistema consulte el clima para anticipar retrasos.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>US23</td>
+      <td>Bloquear tareas automáticamente por eventos naturales desde el ERP</td>
+      <td>Como supervisor logístico, quiero que los eventos naturales críticos registrados en el ERP bloqueen automáticamente las tareas vinculadas.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>US24</td>
+      <td>Solicitar reprogramación de tarea</td>
+      <td>Como operario, quiero solicitar cambiar la fecha/hora de una tarea por mal clima u otros factores para evitar incidentes.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>US25</td>
+      <td>Aprobar o rechazar reprogramación</td>
+      <td>Como supervisor logístico, quiero aprobar o denegar solicitudes de reprogramación según prioridades para mantener las entregas a tiempo pero con seguridad.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>US26</td>
+      <td>Crear nuevos usuarios</td>
+      <td>Como supervisor logístico, quiero registrar nuevos usuarios en el sistema para permitirles acceder y participar en los procesos logísticos.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>US27</td>
+      <td>Asignar roles y permisos</td>
+      <td>Como supervisor logístico, quiero asignar roles (ej. operario, supervisor, gerente) para definir qué acciones puede realizar cada usuario.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>US28</td>
+      <td>Restringir acceso según el rol</td>
+      <td>Como supervisor logístico, quiero restringir la visualización o edición de información según el rol del usuario para evitar errores o accesos indebidos.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>US29</td>
+      <td>Desactivar usuarios inactivos</td>
+      <td>Como supervisor logístico, quiero desactivar cuentas de usuarios que ya no usan el sistema para mantener la seguridad y el orden del acceso.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>US30</td>
+      <td>Generar plan de actividades</td>
+      <td>Como supervisor logístico, quiero generar un plan de todas las actividades programadas según los recursos y prioridades, para organizar eficientemente las actividades.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>US31</td>
+      <td>Ver disponibilidad de personal y recursos</td>
+      <td>Como supervisor logístico, quiero ver la disponibilidad de personal, vehículos y espacios, para asignar tareas sin generar conflictos o sobrecargas.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>US32</td>
+      <td>Selección de plan de empresa según volumen de envíos</td>
+      <td>Como empresa usuaria de la aplicación, quiero poder seleccionar un plan de uso según el número de envíos que realizo.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>US01</td>
+      <td>Contactar al startup</td>
+      <td>Como visitante de la landing page, quiero contar con un medio para escribirle al equipo de desarrolladores.</td>
+      <td>1</td>
+    </tr>
+     <td>31</td>
+      <td>US02</td>
+      <td>Obtener información sobre el uso de la aplicación</td>
+      <td>Como visitante de la landing page, quiero contar con un espacio donde pueda conocer las funcionalidades y beneficios de la aplicación.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>US03</td>
+      <td>Acceder a la aplicación</td>
+      <td>Como visitante de la landing page, quiero tener un botón de ingreso al sistema para los usuarios registrados.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>US33</td>
+      <td>Acceder a la sección principal del sitio (Hero Section)</td>
+      <td>Como visitante de la landing page, quiero visualizar una sección principal con el nombre de la app y un mensaje claro, para entender rápidamente de qué trata la aplicación y cómo me puede ayudar.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>US34</td>
+      <td>Navegar entre secciones fácilmente</td>
+      <td>Como visitante de la landing page, quiero usar un menú superior con enlaces a las distintas secciones del sitio, para moverme cómodamente por la página sin perderme.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>TS01</td>
+      <td>Post Company</td>
+      <td>Como desarrollador, quiero registrar una nueva empresa mediante una API para visualizar las empresas afiliadas a nuestra aplicación.</td>
+      <td>3</td>
+    </tr>
+     <tr>
+      <td>36</td>
+      <td>TS02</td>
+      <td>Get Company</td>
+      <td>Como desarrollador, quiero obtener la información de una empresa mediante una API para mostrarla cuando se solicite.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>TS03</td>
+      <td>Post user</td>
+      <td>Como desarrollador, quiero registrar un nuevo usuario mediante una API para visualizar los usuarios afiliados a nuestra aplicación.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>TS04</td>
+      <td>Get user</td>
+      <td>Como desarrollador, quiero obtener la información de un usuario mediante una API para mostrarla cuando se solicite.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>TS05</td>
+      <td>Post task</td>
+      <td>Como desarrollador, quiero registrar una nueva tarea mediante una API para mantener el registro de las tareas actualizado.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>TS06</td>
+      <td>Get task</td>
+      <td>Como desarrollador, quiero obtener la información de las tareas mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+      <td>2</td>
+    </tr>
+     <tr>
+      <td>41</td>
+      <td>TS07</td>
+      <td>Post change request</td>
+      <td>Como desarrollador, quiero registrar una nueva solicitud de cambio mediante una API para mantener el registro de las solicitudes actualizado.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>TS08</td>
+      <td>Get change request</td>
+      <td>Como desarrollador, quiero obtener la información de las solicitudes de cambio mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>TS09</td>
+      <td>Post payment card</td>
+      <td>Como desarrollador, quiero registrar la información de pago de las empresas mediante una API para guardar la información para futuros pagos.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>TS10</td>
+      <td>Get payment card</td>
+      <td>Como desarrollador, quiero obtener la información de pago de las empresas mediante una API para recibir los pagos en la aplicación cuando sea necesario.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>TS11</td>
+      <td>Post dashboard</td>
+      <td>Como desarrollador, quiero registrar un nuevo dashboard mediante una API para mantener el registro de los dashboards.</td>
+      <td>2</td>
+    </tr>
+        <tr>
+      <td>46</td>
+      <td>TS12</td>
+      <td>Get dashboard</td>
+      <td>Como desarrollador, quiero obtener la información de los dashboards mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>TS13</td>
+      <td>Get workers by zone and schedule</td>
+      <td>Como desarrollador, quiero obtener la información de los operarios según su zona y turno mediante una API para mostrarla cuando se solicite.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>TS14</td>
+      <td>Get tasks by state</td>
+      <td>Como desarrollador, quiero obtener la información de las tareas según su estado mediante una API para mostrarla cuando se solicite.</td>
+      <td>2</td>
+    </tr>
+  
+  </tbody>
+</table>
+
+
+
+  
+
 # 4. Capítulo IV: Product Design  
 
 ## 4.1. Style Guidelines - FALTA TODO 4.1.
