@@ -2645,6 +2645,178 @@ Continuando con nuestra landing page, mostraremos el mockuo que hemos elaborado.
 
 ### 4.4.1. Web Applications Wireframes
 
+#### Web Application Wireframes para desktop
+
+__Iniciar sesión como supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-1.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-2.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-3.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Home para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-4.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Planificación para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-5.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Fases para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-6.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Incidencias para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-7.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-8.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Usuarios para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-9.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Clima para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-10.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-11.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Iniciar sesión como operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-12.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-13.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-14.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Home para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-15.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Actualizar estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-16.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Reprogramación para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-17.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Inicidencias para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-18.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+#### Web Application para Mobile Web Browser
+
+__Iniciar sesión como supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-a.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Home para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-2.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Planificación para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-3.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Fases para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-4.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Incidencias para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-5.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Usuarios para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-6.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Clima para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-7.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Iniciar sesión como operarrio__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-b.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Home para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-9.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Actualizar estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-10.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Reprogramación estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-11.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Inicidencias estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-12.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ### 4.4.3. Web Applications Mock-ups
