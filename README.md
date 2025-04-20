@@ -2225,6 +2225,12 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
 
 ## 3.3 Impact Mapping
 
+<div>
+  <p align="center"><img src="assets/md-images/Impact Mapping.jpg" alt="ImpactMap" width="800px" /></p>
+</div>
+
+Enlace para acceder a [Miro](https://miro.com/welcomeonboard/TUd6RHcrNjBDd0RxSytyckx6bENMOXZ1S3RvaHcxdUhXSkFtZFIvUjZiMGF1RmErb2dMQTg3NmRpS01nU3dTNjVEWU9jalBmUnJWOXhyUytKN0tZZVgzRWNwL01Za1c5R2tVUWJKaitjSVE2RFpTZGFtSm9TOG9hQ0F1alFsOStyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=411693563012)
+
 ## 3.4 Product Backlog
 
 # 4. Capítulo IV: Product Design  
