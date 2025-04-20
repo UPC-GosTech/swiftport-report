@@ -2696,6 +2696,17 @@ Para el nombramiento en general, estamos optando por palabras del uso diario en 
 
 ### 5.2.1.2. Aspect Leaders and Collaborators.
 
+En este sprint se busca completar la landing page de SwiftPort,   incluyendo el diseño y su despliegue. Para lograr una correcta comunicación, se ha creado la matriz de liderazgo y colaboración (LACX), en la cual se define quien lidera y quien colabora en cada aspecto del sprint.
+
+| Team Member                         | GitHub username     | Diseño Landing Page | Despliegue Landing Page |
+|------------------------------------|----------------------|----------------------|--------------------------|
+| Roma Cruz, Natalia Bertha          | natRC2005            | L                    | C                        |
+| Sonano Armas, Angelo Hector        | Angelo5214           | C                    | C                        |
+| Iglesias Perez, Sergio Sebastian   | ghostrider101218     | C                    | L                        |
+| Baldeon Vivar, Santiago Armando    | Santibal11           | C                    | C                        |
+| Adrianzen Flores, Carlos Arturo    | choliwys             | C                    | C                        |
+
+
 ### 5.2.1.3. Sprint Backlog 1
 
 ### 5.2.1.4. Development Evidence for Sprint Review
