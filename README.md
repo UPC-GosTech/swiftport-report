@@ -2895,6 +2895,8 @@ Gracias a estas funcionalidades comunes, los supervisores y técnicos pueden acc
 
 ### 4.2.5. Navigation Systems
 
+En **SwiftPort**, se ha diseñado un sistema de navegación claro y directo para facilitar el acceso a las funcionalidades principales de la plataforma. Desde la página de inicio, los usuarios pueden iniciar sesión en su cuenta personal, siempre que tengan una sesión contratada. Una vez autenticados, ya sea desde un dispositivo móvil o de escritorio, pueden acceder fácilmente a las secciones clave a través de un menú desplegable ubicado en la parte lateral de la interfaz. Este menú incluye opciones como "Inicio", "Tareas", "Fases", "Incidencias" y "Dashboard", permitiendo una navegación fluida y sin complicaciones. Además, se han incorporado botones visibles y accesibles que guían al usuario hacia la información o funcionalidad deseada en pocos pasos, mejorando así la experiencia de uso y eficiencia en la gestión logística.
+
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
