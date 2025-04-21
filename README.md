@@ -2992,6 +2992,26 @@ Link PivotalTracker: [OpenSource SwiftPort - Pivotal Tracker](https://www.pivota
 
 ## 6.1. Conclusiones
 
+__Enfoque centrado en el usuario__
+
+Al haber terminado con la elaboración de esta primera parte del trabajo, podemos concluir que las historias de usuario que elaboramos, al estar correctamente elaboradas y enfocadas en las necesidades y deseos del usuario, nos ayudaron a comprender aquello que más le importaba, logrando una implementación que cumpla con ello. Esto puede apreciarse en la landing page presentada al momento, en dónde se menciona al usuario las funcionalidades que le pueden interesar más de la aplicación.
+
+__Diseño orientado a la experiencia de usuario__
+
+Nuestro landing page y aplicación web han sido diseñadas pensando en que sea fácil para el usuario navegar entre las pantallas. De la misma forma, solo se incluyen las opciones que son relevantes para cada tipo de usuario en la aplicación correspondiente. Esto puede reflejarse, por ejemplo, en la facilidad para reportar incidencias que difiere entre la presentación para operarios y la que es para supervisores. En ambos casos, sin embargo, se considera un diseño amigable e intuitivo, con opciones claras y una estructura que resulte agradable a la vista.
+
+__Impacto estratégico__
+
+Podemos concluir que elaborar un impact map nos ayudó a comprender los objetivos específicos de cada segmento considerado y las funcionalidad que estaban orientada a que el usuario logre estos mismos objetivos. De esta forma, podemos enfocarnos más en estas funciones, logrando una mayor satisfacción del usuario.
+
+__Priorización en el product backlog__
+
+Hemos concluido, y en relación a la conclusión anterior, que realizar una priorización en el product backlog nos ayudó a guiar nuestras metas y a organizarnos mejor como equipo. Esto, dado que podíamos enfocarnos en las tareas que implican menor trabajo pero mayor valor, pasando luego a aquellas que implican más esfuerzo pero que también generan un alto valor para el usuario y dejando al final aquellas que no son tan relevantes para nuestro usuario.
+
+__Diseño visual agradable y organizado__
+
+Al diseñar nuestro wireframes y mockup, pensamos no solo en colocar una estructura funcional, si no también en lograr aquella que sea sencilla de comprender y dinámica en todos sus aspectos de forma que el usuario disfrute al usarla y que este no sufra dificultades. A su vez, escogimos colores llamativos e incluimos un menú que facilita el acceso a las funcionalidades principales.
+
 ## 6.2. Recomendaciones
 
 # 7. Bibliografía 
