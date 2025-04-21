@@ -2823,6 +2823,66 @@ __Sección Inicidencias estado para operario__
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+User goal: Registrarse como nuevo usuario
+
+User persona: Supervisor u operario
+
+Al ingresar a la aplicación, los usuarios podrán ver la opción de ingresar mediante su usuario y contraseña. Si ya tienen un usuario creado, podrán ingresar de esta forma al seleccionar la opción “Login”. De lo contrario, al seleccionar “Register” los usuarios pasarán a la siguiente pantalla, en donde podrán seleccionar su rol dentro de la aplicación y al darle a la opción “Register” de nuevo pasarán a la pantalla de registro final en donde deberán poner su correo electrónico y posteriormente crear una contraseña. De esta manera, llegarán a su pantalla “Home”.
+
+<div>
+  <p align="center"><img src="assets/md-images/user-flow1.png" alt="user-flow1.png" width="700px" /></p>
+</div>
+
+User goal: Visualizar tarea
+
+User persona: Supervisor
+
+Cuando el supervisor ingrese correctamente con su usuario y contraseña, entonces llegará a su pantalla “Home”. Al estar ahí, y siendo nuestra prioridad las tareas a realizar, podrá visualizar una lista de tareas. Al dar click sobre una de estas y a continuación seleccionar la opción “Ver”, entonces el supervisor podrá ingresar a visualizar la información completa ingresada sobre una tarea. Al seleccionar la opción “Volver", este regresará a su pantalla Home.
+
+<div>
+  <p align="center"><img src="assets/md-images/user-flow2.png" alt="user-flow2.png" width="700px" /></p>
+</div>
+
+User goal: Visualizar incidencia
+
+User persona: Supervisor
+
+Cuando el supervisor ingrese correctamente con su usuario y contraseña, entonces llegará a su pantalla “Home”. Al estar allí, podrá ver el menú desplegable lateral. Al seleccionar la opción “Incidencias” dentro de este podrá ingresar a la pantalla de Incidencias. Allí dentro, al seleccionar uno de los elementos en la lista de incidencias y posteriormente dar click sobre la opción “Detalles” podrá ingresar a visualizar los detalles sobre la incidencia reportada.
+
+<div>
+  <p align="center"><img src="assets/md-images/user-flow3.png" alt="user-flow3.png" width="700px" /></p>
+</div>
+
+User goal: Reportar incidencia
+
+User persona: Supervisor u operario
+
+Tanto operarios como supervisores pueden reportar incidencias, por lo que a continuación se mostrarán ambas formas de uso. En el caso de los supervisores, ellos deben ingresar a través de clima, seleccionar “Ver detalles” e ingresar a la pantalla que detalla el estatus del clima. Es aquí en donde tendrán la opción de “Reportar incidente”. Esto se hace dado que ellos, al estar en oficinas, no pueden reportar incidentes de campo. De esta manera, solo podrán reportar incidentes relevantes con respecto al clima, algo que sí pueden revisar. Por el contrario, los operarios poseen la opción “Reportar incidente” en un acceso más corto, puesto que solo necesitan ingresar a su pestaña de incidentes y llenar los datos del mismo. En ambos caso se recibe un mensaje de confirmación de que el incidente fue guardado con éxito en la aplicación web.
+
+<div>
+  <p align="center"><img src="assets/md-images/user-flow4.png" alt="user-flow4.png" width="700px" /></p>
+</div>
+
+User goal: Actualizar estado
+
+User persona: Operario
+
+Cuando el operario ingrese correctamente con su usuario y contraseña, entonces llegará a su pantalla “Home”. Desde allí, podrá seleccionar la opción “Actualizar estado” en su menú desplegable. Al hacer esto, será guiado a la pantalla de actualización de estado y, al seleccionar una tarea, llenar los datos necesarios y presionar la opción “Actualizar” en la sección “Justificación”, el estado de la tarea seleccionada habrá sido actualizado. Se recibirá un mensaje de confirmación de éxito.
+
+<div>
+  <p align="center"><img src="assets/md-images/user-flow5.png" alt="user-flow5.png" width="700px" /></p>
+</div>
+
+User goal: Reprogramar tarea
+
+User persona: Operario
+
+Cuando el operario ingrese correctamente con su usuario y contraseña, entonces llegará a su pantalla “Home”. Desde allí, podrá seleccionar la opción “Reprogramación” en su menú desplegable. Al estar allí, podrá seleccionar una de las tareas y darle a la opción “Reprogramar” dentro de las mismas. De esta manera, una vez llenado el cuestionario de reprogramación, dentro del cual se resalta nueva fecha, y seleccionar la opción “Actualizar”, se guardará la nueva fecha de ejecución de dicha tarea y se recibirá un mensaje de confirmación.
+
+<div>
+  <p align="center"><img src="assets/md-images/user-flow6.png" alt="user-flow6.png" width="700px" /></p>
+</div>
+
 ## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
