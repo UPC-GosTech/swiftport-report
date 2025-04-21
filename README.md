@@ -3014,6 +3014,14 @@ Al diseñar nuestro wireframes y mockup, pensamos no solo en colocar una estruct
 
 ## 6.2. Recomendaciones
 
+Dado que hemos terminado con un avance del presente trabajo, nos gustaría incluir algunas recomendaciones en cuanto a su elaboración e implementación, ya sea punto que no hemos podido tocar dadas ciertas limitaciones o que nos gustaría incluir en el futuro.
+
+En primer lugar, nos gustaría incluir una sección de alertas frente a emergencia que también llegue como notificación al correo u otro canal de mensajería de preferencia de la empresa. Se sabe que, dentro del ámbito en que nos enfocamos, pueden existir urgencias o problemas durante el traslado de un envío. Este tipo de eventos deben ser atendidos con urgencia, por lo que recibir una alerta en el momento sería de alta utilidad tanto para operadores como para supervisores.
+
+En segundo lugar, nos gustaría expandir los usuarios de la aplicación, dando acceso también a la empresa que está contratando los servicios de envíos. Este sería un acceso más limitado, dado que solo podría visualizar ciertas partes de sus envíos para estar al tanto de la situación, mas si se incluye una sección en donde pueda realizar nuevas solicitudes de envíos, esto sería altamente útil para la organización y actividades de ambas empresas.
+
+Por último, nos gustaría, una vez implementado el producto en el mercado, realizar reuniones cortas mensuales con algunos supervisores y operarios de forma que ellos tengan la oportunidad de exponernos en persona aquellas funcionalidad que les han causado problemas, aquellas que más les gustan y aquellas que les gustaría que se implementen en un futuro. Así, recibiríamos feedback constantemente y podríamos mejorar nuestras funciones a favor de los más interesados. Al mismo tiempo, podríamos preguntarles su opinión cuando ya hayamos implementado algo nuevo respecto a lo mencionado.
+
 # 7. Bibliografía 
 
 # 8. Anexos 
