@@ -2845,6 +2845,39 @@ Para el nombramiento en general, estamos optando por palabras del uso diario en 
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+Los Meta Tags o SEO Tags son etiquetas ubicadas en la cabecera del sitio web que brindan información a los navegadores y motores de búsqueda. Aunque no son visibles para el usuario final, cumplen un rol fundamental en el posicionamiento, visibilidad y accesibilidad de la plataforma **SwiftPort**.
+
+A continuación, se describen las principales etiquetas aplicadas:
+
+- **Título (`<title>`)**  
+  `<title>SwiftPort | Plataforma de Trazabilidad Logística</title>`  
+  Establece el nombre visible en la pestaña del navegador y en los resultados de búsqueda.
+
+- **Descripción (`<meta name="description">`)**  
+  `<meta name="description" content="SwiftPort es una plataforma para gestionar y monitorear tareas logísticas en campo en tiempo real.">`  
+  Aparece debajo del título en los resultados de Google, describiendo el propósito del sitio.
+
+- **Codificación (`<meta charset="utf-8">`)**  
+  Garantiza que los caracteres especiales se rendericen correctamente en todos los navegadores.  
+  `<meta charset="utf-8">`
+
+- **Palabras clave (`<meta name="keywords">`)**  
+  `<meta name="keywords" content="SwiftPort, logística, tareas, monitoreo, trazabilidad, campo, IoT">`  
+  Mejora la relación entre los términos buscados y el contenido del sitio.
+
+- **Autor y copyright**  
+  `<meta name="author" content="GosTech - Equipo SwiftPort" />`  
+  `<meta name="copyright" content="Copyright GosTech 2025" />`
+
+- **Robots y Open Graph**  
+  Permiten que el contenido sea indexado por buscadores y compartido correctamente en redes sociales.  
+  `<meta name="robots" content="index, follow">`  
+  `<meta property="og:title" content="SwiftPort - Trazabilidad Logística"/>`  
+  `<meta property="og:description" content="Gestiona operaciones logísticas con visibilidad en tiempo real"/>`  
+  `<meta property="og:image" content="url-del-logo.png"/>`  
+  `<meta property="og:url" content="https://swiftport.com"/>`
+
+
 ### 4.2.4. Searching Systems
 
 ### 4.2.5. Navigation Systems
