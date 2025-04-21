@@ -3024,4 +3024,6 @@ Por último, nos gustaría, una vez implementado el producto en el mercado, real
 
 # 7. Bibliografía 
 
+Pintado Bravo, C., & Salazar Cruzado, L. T. (2022). Los procesos logísticos y su impacto en la gestión de suministros en las empresas de transporte de carga terrestre de la ciudad de Chiclayo, período 2019 [Tesis de licenciatura, Universidad San Martín de Porres]. Repositorio Institucional USMP. https://hdl.handle.net/20.500.12727/9912
+
 # 8. Anexos 
