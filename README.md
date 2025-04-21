@@ -1289,7 +1289,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
     CUANDO ingresa al módulo “Mis Tareas”<br>
     ENTONCES el sistema muestra la lista de tareas asignadas<br>
     Y cada una incluye fecha, estado y nivel de riesgo<br><br>
-    Escenario 2: Filtrar tareas por fecha de vencimiento<br>
     DADO que el operario tiene múltiples tareas asignadas<br>
     CUANDO utiliza el filtro “Fecha de entrega”<br>
     ENTONCES el sistema muestra solo las tareas próximas a vencer<br>
@@ -2879,6 +2878,20 @@ A continuación, se describen las principales etiquetas aplicadas:
 
 
 ### 4.2.4. Searching Systems
+
+El sistema de búsqueda de **SwiftPort** está diseñado para ser práctico y útil en contextos logísticos reales. Su objetivo es permitir a los usuarios encontrar tareas, incidencias o fases específicas sin necesidad de navegar por múltiples pantallas.
+
+Características principales:
+
+- **Barra de búsqueda visible** en vistas clave como "Listado de Tareas" o "Fases por zona".
+- **Búsqueda por palabra clave** que incluye códigos, títulos, zonas o estados.
+- **Coincidencias resaltadas** para facilitar la lectura en tiempo real.
+- **Mensajes de resultado** que indican claramente si no se encontraron coincidencias.
+- **Compatibilidad con dispositivos móviles**, teclados y entrada táctil.
+- **Funcionamiento offline parcial**, permitiendo búsquedas sobre datos almacenados localmente.
+- **Sin complejidad técnica**, pensado para usuarios de nivel básico o intermedio.
+
+Gracias a estas funcionalidades comunes, los supervisores y técnicos pueden acceder rápidamente a la información que necesitan en medio de sus tareas operativas.
 
 ### 4.2.5. Navigation Systems
 
