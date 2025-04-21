@@ -2590,11 +2590,84 @@ Enlace para acceder a [PivotalTracker](https://www.pivotaltracker.com/n/projects
 
 # 4. Capítulo IV: Product Design  
 
-## 4.1. Style Guidelines - FALTA TODO 4.1.
+## 4.1. Style Guidelines 
 
 ### 4.1.1. General Style Guidelines
 
+
+
+
 ### 4.1.2. Web Style Guidelines
+
+#### Enfoque general
+
+El enfoque de **SwiftPort** para la aplicación web se basa en la supervisión operativa, visualización clara y gestión ágil de tareas logísticas en terreno. Las secciones están organizadas para una navegación rápida, segmentación por módulos y acceso intuitivo a funciones clave como planificación, fases, incidencias y clima. El diseño adopta una estética funcional y robusta, con colores intensos, componentes diferenciados y accesos directos visibles desde cualquier pantalla.
+
+#### Tarjetas
+
+Las tarjetas se utilizan para representar tareas, alertas y fases logísticas. Estas se presentan en bloques verticales, diferenciadas por colores de fondo que indican prioridad o estado (rojo para urgente, amarillo para importante, blanco para estándar). Cada tarjeta incluye un título en jerarquía destacada, una breve descripción y botones para realizar acciones operativas como asignar, ver o editar. Son esenciales para las vistas "Home", "Planificación" e "Incidencias".
+
+#### Imágenes
+
+Las imágenes tienen un uso funcional. Por ejemplo, en las incidencias se pueden subir evidencias fotográficas de fallas o condiciones adversas. También se utilizan íconos climáticos, mapas y representaciones visuales de ubicación y avance de tareas. No se emplean imágenes decorativas para evitar distracción y mantener una estética profesional.
+
+#### Botones
+
+Los botones están diseñados con esquinas redondeadas, alto contraste y etiquetas claras. El naranja representa acciones principales como "Guardar" o "Asignar", mientras que el azul oscuro se usa para funciones secundarias como "Volver" o "Editar". Todos los botones tienen tipografía Inter centrada y están ubicados estratégicamente al pie de formularios o tarjetas.
+
+#### Tablas y formularios
+
+El sistema incluye formularios para planificar tareas, asignar zonas, registrar incidencias y modificar fases. Estos formularios están organizados en columnas y campos verticales, con etiquetas visibles y validaciones básicas. Las tablas, cuando se utilizan, muestran información clave como fecha, responsable, ubicación y estado.
+
+#### Pantallas emergentes
+
+Las pantallas emergentes (pop-ups) confirman acciones importantes. Aparecen al centro de la pantalla y oscurecen el fondo para enfocar la atención del usuario. Incluyen texto explicativo, botones diferenciados por color y, ocasionalmente, íconos o advertencias visuales.
+
+#### Dashboard y fases
+
+El dashboard visualiza las tareas asignadas y su progreso. Las fases (Fase 1 a Fase 4) se presentan con etiquetas de colores (gris, amarillo, verde) y se integran mapas en tiempo real con marcadores de posición. Este diseño permite a los supervisores identificar tareas en curso y tomar decisiones rápidas.
+
+#### Estilo general de web 
+
+El estilo de SwiftPort en web prioriza eficiencia, adaptabilidad y control visual. Se utilizan los colores institucionales (naranja, azul oscuro y rojo) para jerarquía visual. La tipografía Inter, los íconos grandes y el diseño modular contribuyen a una interfaz robusta, alineada con la realidad del sector logístico industrial.
+
+### 4.1.3. Mobile Style Guidelines
+
+#### Enfoque general
+
+La versión móvil de **SwiftPort** adapta su interfaz para operarios y supervisores que trabajan desde terreno. La organización vertical, botones grandes y navegación por bloques garantizan una experiencia clara, accesible y rápida desde smartphones o tablets, incluso en entornos con conectividad limitada.
+
+#### Pantalla de inicio
+
+La pantalla de inicio muestra el logotipo de SwiftPort, campos para email y contraseña, y botones de acceso separados para evitar errores táctiles. La interfaz es limpia y directa, proyectando identidad institucional desde el primer momento.
+
+#### Navegación
+
+El menú lateral desplegable contiene accesos a módulos clave: Home, Planificación, Fases, Incidencias, Usuarios y Clima. Este menú se colapsa automáticamente al navegar para maximizar el espacio visible en pantalla.
+
+#### Vista principal (Home)
+
+La vista principal organiza las tarjetas de tareas e incidencias de forma vertical. Cada bloque está codificado por colores según su prioridad, lo que permite identificar rápidamente las actividades más relevantes del día.
+
+#### Planificación
+
+Permite la creación de tareas mediante un formulario paso a paso. Los campos incluyen encargado, recursos, zona de ejecución y fecha límite. Los botones de confirmación están ubicados al final, adaptados al uso con el pulgar.
+
+#### Fases
+
+Cada tarea muestra su avance en una línea vertical de fases con etiquetas de color. Se incluye un botón para registrar actualizaciones o validar cada etapa. También se visualiza un mapa que indica ubicación y progreso.
+
+#### Incidencias
+
+Las incidencias pueden registrarse con foto, descripción y ubicación. Están organizadas por estado (pendiente, en proceso, resuelto) y se asignan responsables desde un formulario simplificado.
+
+#### Clima
+
+El módulo de clima muestra íconos y datos meteorológicos (temperatura, humedad, viento). También permite registrar incidencias asociadas a condiciones meteorológicas adversas.
+
+#### Estilo general  de web movil
+
+El diseño móvil de SwiftPort está optimizado para navegación con el pulgar, uso en exteriores y lectura rápida. Los colores fuertes, íconos claros, tipografía Inter y estructura modular garantizan una experiencia efectiva desde dispositivos móviles, asegurando trazabilidad y toma de decisiones en campo.
 
 
 
