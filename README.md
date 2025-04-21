@@ -164,18 +164,18 @@ __TB1__
    5.2. [Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)  
    &nbsp;&nbsp;&nbsp;&nbsp;5.2.1. [Sprint 1](#521-sprint-1)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.1. [Sprint Planning 1](#5211-sprint-planning-1)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2. [Sprint Backlog 1](#5212-sprint-backlog-1)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.3. [Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.4. [Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.3. [Sprint Backlog 1](#5212-sprint-backlog-1)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.4. [Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.5. [Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.6. [Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.7. [Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.8. [Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)  
-6. __[Conclusiones](#Conclusiones)__  
+7. __[Conclusiones](#Conclusiones)__  
   6.1. [Conclusiones](#61-conclusiones)  
   6.2. [Recomendaciones](#62-recomendaciones)  
-7. __[Bibliografía](#bibliografía)__  
-8. __[Anexos](#anexos)__  
+8. __[Bibliografía](#bibliografía)__  
+9. __[Anexos](#anexos)__  
 
 ---
 # Capítulo I: Introducción  
@@ -2651,17 +2651,86 @@ Enlace para acceder a [PivotalTracker](https://www.pivotaltracker.com/n/projects
   </tbody>
 </table>
 
-
-
-  
-
 # 4. Capítulo IV: Product Design  
 
-## 4.1. Style Guidelines - FALTA TODO 4.1.
+## 4.1. Style Guidelines 
 
 ### 4.1.1. General Style Guidelines
 
+
+
+
 ### 4.1.2. Web Style Guidelines
+
+#### Enfoque general
+
+El enfoque de **SwiftPort** para la aplicación web se basa en la supervisión operativa, visualización clara y gestión ágil de tareas logísticas en terreno. Las secciones están organizadas para una navegación rápida, segmentación por módulos y acceso intuitivo a funciones clave como planificación, fases, incidencias y clima. El diseño adopta una estética funcional y robusta, con colores intensos, componentes diferenciados y accesos directos visibles desde cualquier pantalla.
+
+#### Tarjetas
+
+Las tarjetas se utilizan para representar tareas, alertas y fases logísticas. Estas se presentan en bloques verticales, diferenciadas por colores de fondo que indican prioridad o estado (rojo para urgente, amarillo para importante, blanco para estándar). Cada tarjeta incluye un título en jerarquía destacada, una breve descripción y botones para realizar acciones operativas como asignar, ver o editar. Son esenciales para las vistas "Home", "Planificación" e "Incidencias".
+
+#### Imágenes
+
+Las imágenes tienen un uso funcional. Por ejemplo, en las incidencias se pueden subir evidencias fotográficas de fallas o condiciones adversas. También se utilizan íconos climáticos, mapas y representaciones visuales de ubicación y avance de tareas. No se emplean imágenes decorativas para evitar distracción y mantener una estética profesional.
+
+#### Botones
+
+Los botones están diseñados con esquinas redondeadas, alto contraste y etiquetas claras. El naranja representa acciones principales como "Guardar" o "Asignar", mientras que el azul oscuro se usa para funciones secundarias como "Volver" o "Editar". Todos los botones tienen tipografía Inter centrada y están ubicados estratégicamente al pie de formularios o tarjetas.
+
+#### Tablas y formularios
+
+El sistema incluye formularios para planificar tareas, asignar zonas, registrar incidencias y modificar fases. Estos formularios están organizados en columnas y campos verticales, con etiquetas visibles y validaciones básicas. Las tablas, cuando se utilizan, muestran información clave como fecha, responsable, ubicación y estado.
+
+#### Pantallas emergentes
+
+Las pantallas emergentes (pop-ups) confirman acciones importantes. Aparecen al centro de la pantalla y oscurecen el fondo para enfocar la atención del usuario. Incluyen texto explicativo, botones diferenciados por color y, ocasionalmente, íconos o advertencias visuales.
+
+#### Dashboard y fases
+
+El dashboard visualiza las tareas asignadas y su progreso. Las fases (Fase 1 a Fase 4) se presentan con etiquetas de colores (gris, amarillo, verde) y se integran mapas en tiempo real con marcadores de posición. Este diseño permite a los supervisores identificar tareas en curso y tomar decisiones rápidas.
+
+#### Estilo general de web 
+
+El estilo de SwiftPort en web prioriza eficiencia, adaptabilidad y control visual. Se utilizan los colores institucionales (naranja, azul oscuro y rojo) para jerarquía visual. La tipografía Inter, los íconos grandes y el diseño modular contribuyen a una interfaz robusta, alineada con la realidad del sector logístico industrial.
+
+### 4.1.3. Mobile Style Guidelines
+
+#### Enfoque general
+
+La versión móvil de **SwiftPort** adapta su interfaz para operarios y supervisores que trabajan desde terreno. La organización vertical, botones grandes y navegación por bloques garantizan una experiencia clara, accesible y rápida desde smartphones o tablets, incluso en entornos con conectividad limitada.
+
+#### Pantalla de inicio
+
+La pantalla de inicio muestra el logotipo de SwiftPort, campos para email y contraseña, y botones de acceso separados para evitar errores táctiles. La interfaz es limpia y directa, proyectando identidad institucional desde el primer momento.
+
+#### Navegación
+
+El menú lateral desplegable contiene accesos a módulos clave: Home, Planificación, Fases, Incidencias, Usuarios y Clima. Este menú se colapsa automáticamente al navegar para maximizar el espacio visible en pantalla.
+
+#### Vista principal (Home)
+
+La vista principal organiza las tarjetas de tareas e incidencias de forma vertical. Cada bloque está codificado por colores según su prioridad, lo que permite identificar rápidamente las actividades más relevantes del día.
+
+#### Planificación
+
+Permite la creación de tareas mediante un formulario paso a paso. Los campos incluyen encargado, recursos, zona de ejecución y fecha límite. Los botones de confirmación están ubicados al final, adaptados al uso con el pulgar.
+
+#### Fases
+
+Cada tarea muestra su avance en una línea vertical de fases con etiquetas de color. Se incluye un botón para registrar actualizaciones o validar cada etapa. También se visualiza un mapa que indica ubicación y progreso.
+
+#### Incidencias
+
+Las incidencias pueden registrarse con foto, descripción y ubicación. Están organizadas por estado (pendiente, en proceso, resuelto) y se asignan responsables desde un formulario simplificado.
+
+#### Clima
+
+El módulo de clima muestra íconos y datos meteorológicos (temperatura, humedad, viento). También permite registrar incidencias asociadas a condiciones meteorológicas adversas.
+
+#### Estilo general  de web movil
+
+El diseño móvil de SwiftPort está optimizado para navegación con el pulgar, uso en exteriores y lectura rápida. Los colores fuertes, íconos claros, tipografía Inter y estructura modular garantizan una experiencia efectiva desde dispositivos móviles, asegurando trazabilidad y toma de decisiones en campo.
 
 
 
@@ -2694,17 +2763,465 @@ Para el nombramiento en general, estamos optando por palabras del uso diario en 
 
 ### 4.3.1. Landing Page Wireframe
 
+A continuación, presentaremos nuestro landing page diseñado para presentarse en web browser. Este se encuentra dividido en secciones de forma que sea claro para el usuatio encontrar la información que busca. De la misma forma, se incluye una cabecera que guía a las secciones inferiores dependiendo del aspecto que se desea conocer. En la primera sección, además, se inclya la opción de solicitar un demo y el eslogan de nuestro proyecto. De esta manera, el usuario se sentirá más atraído y motivado a probar nuestro producto. A su vez, el diseño en los wireframes buscamos plantear una estructura orientada a proveer al usuario con la mayor información posible sin sobrecargar las pantallas.
+
+<div>
+  <p align="center"><img src="assets/md-images/open-landing-wireframe.png" alt="open-landing-wireframe.png" width="700px" /></p>
+</div>
+
 ### 4.3.2. Landing Page Mock-up
+
+Continuando con nuestra landing page, mostraremos el mockuo que hemos elaborado. Este ya incluye los colores y textos que mostraremos al usuario. Hemos optado por un color naranja brillantes que llame la atención del usuario. A esto le añadimos un tono blanco de fondo que lo haga resaltar junto con elementos y textos en color negro que sean legibles en contraste con ambos colores. Asimismo, se conserva la estructura ordenada y se respetan los títulos y opciones de navegación anteriormente considerados.
+
+<div>
+  <p align="center"><img src="assets/md-images/open-landing-mockup.png" alt="open-landing-mockup.png" width="700px" /></p>
+</div>
 
 ## 4.4. Web Applications UX/UI Design - FALTA
 
 ### 4.4.1. Web Applications Wireframes
 
+#### Web Application Wireframes para desktop
+
+__Iniciar sesión como supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-1.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-2.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-3.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Home para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-4.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Planificación para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-5.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Fases para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-6.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Incidencias para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-7.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-8.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Usuarios para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-9.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Clima para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-10.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-11.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Iniciar sesión como operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-12.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-13.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-14.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Home para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-15.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Actualizar estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-16.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Reprogramación para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-17.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Inicidencias para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-desktop-18.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+#### Web Application para Mobile Web Browser
+
+__Iniciar sesión como supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-a.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Home para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-2.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Planificación para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-3.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Fases para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-4.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Incidencias para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-5.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Usuarios para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-6.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Clima para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-7.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Iniciar sesión como operarrio__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-b.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Home para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-9.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Actualizar estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-10.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Reprogramación estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-11.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
+__Sección Inicidencias estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/wireframe-mobile-12.png" alt="wireframe-mobile-a.png" width="700px" /></p>
+</div>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ### 4.4.3. Web Applications Mock-ups
 
+Ahora, presentaremos los mockups que hemos elaborado para nuestra aplicación web tanto en presentación desktop como en mobile. Podrá notarse como se respeta la estrutura anteriormente planteada a través de los wireframes. De la misma forma, ahora se incluirán los textos, imágenes y colores que se mostrarán al usuario dependiendo de la sección. Por otro lado, se incluye la barra del menú al estar guardada y al estar desplegada en el modelo mobile.
+
+#### Web Application Wireframes para desktop
+
+__Iniciar sesión como supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-1.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-2.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-3.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Home para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-4.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Tarea para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-5.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Planificación para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-6.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-7.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Fases para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-8.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Incidencias para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-9.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-10.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Usuarios para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-11.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-12.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Clima para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-13.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-14.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Iniciar sesión como operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-15.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-16.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-17.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Home para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-18.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-19.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Actualizar estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-20.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-21.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Reprogramación para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-22.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-23.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Inicidencias para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-24.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-25.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+#### Web Application para Mobile Web Browser
+
+__Iniciar sesión como supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-1.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Home para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-2.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Planificación para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-3.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Fases para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-4.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Incidencias para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-5.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Usuarios para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-6.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Clima para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-7.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Iniciar sesión como operarrio__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-8.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Home para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-9.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Actualizar estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-10.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Reprogramación estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-11.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Inicidencias estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-12.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
 ### 4.4.4. Web Applications User Flow Diagrams
+
+User goal: Registrarse como nuevo usuario
+
+User persona: Supervisor u operario
+
+Al ingresar a la aplicación, los usuarios podrán ver la opción de ingresar mediante su usuario y contraseña. Si ya tienen un usuario creado, podrán ingresar de esta forma al seleccionar la opción “Login”. De lo contrario, al seleccionar “Register” los usuarios pasarán a la siguiente pantalla, en donde podrán seleccionar su rol dentro de la aplicación y al darle a la opción “Register” de nuevo pasarán a la pantalla de registro final en donde deberán poner su correo electrónico y posteriormente crear una contraseña. De esta manera, llegarán a su pantalla “Home”.
+
+<div>
+  <p align="center"><img src="assets/md-images/user-flow1.png" alt="user-flow1.png" width="700px" /></p>
+</div>
+
+User goal: Visualizar tarea
+
+User persona: Supervisor
+
+Cuando el supervisor ingrese correctamente con su usuario y contraseña, entonces llegará a su pantalla “Home”. Al estar ahí, y siendo nuestra prioridad las tareas a realizar, podrá visualizar una lista de tareas. Al dar click sobre una de estas y a continuación seleccionar la opción “Ver”, entonces el supervisor podrá ingresar a visualizar la información completa ingresada sobre una tarea. Al seleccionar la opción “Volver", este regresará a su pantalla Home.
+
+<div>
+  <p align="center"><img src="assets/md-images/user-flow2.png" alt="user-flow2.png" width="700px" /></p>
+</div>
+
+User goal: Visualizar incidencia
+
+User persona: Supervisor
+
+Cuando el supervisor ingrese correctamente con su usuario y contraseña, entonces llegará a su pantalla “Home”. Al estar allí, podrá ver el menú desplegable lateral. Al seleccionar la opción “Incidencias” dentro de este podrá ingresar a la pantalla de Incidencias. Allí dentro, al seleccionar uno de los elementos en la lista de incidencias y posteriormente dar click sobre la opción “Detalles” podrá ingresar a visualizar los detalles sobre la incidencia reportada.
+
+<div>
+  <p align="center"><img src="assets/md-images/user-flow3.png" alt="user-flow3.png" width="700px" /></p>
+</div>
+
+User goal: Reportar incidencia
+
+User persona: Supervisor u operario
+
+Tanto operarios como supervisores pueden reportar incidencias, por lo que a continuación se mostrarán ambas formas de uso. En el caso de los supervisores, ellos deben ingresar a través de clima, seleccionar “Ver detalles” e ingresar a la pantalla que detalla el estatus del clima. Es aquí en donde tendrán la opción de “Reportar incidente”. Esto se hace dado que ellos, al estar en oficinas, no pueden reportar incidentes de campo. De esta manera, solo podrán reportar incidentes relevantes con respecto al clima, algo que sí pueden revisar. Por el contrario, los operarios poseen la opción “Reportar incidente” en un acceso más corto, puesto que solo necesitan ingresar a su pestaña de incidentes y llenar los datos del mismo. En ambos caso se recibe un mensaje de confirmación de que el incidente fue guardado con éxito en la aplicación web.
+
+<div>
+  <p align="center"><img src="assets/md-images/user-flow4.png" alt="user-flow4.png" width="700px" /></p>
+</div>
+
+User goal: Actualizar estado
+
+User persona: Operario
+
+Cuando el operario ingrese correctamente con su usuario y contraseña, entonces llegará a su pantalla “Home”. Desde allí, podrá seleccionar la opción “Actualizar estado” en su menú desplegable. Al hacer esto, será guiado a la pantalla de actualización de estado y, al seleccionar una tarea, llenar los datos necesarios y presionar la opción “Actualizar” en la sección “Justificación”, el estado de la tarea seleccionada habrá sido actualizado. Se recibirá un mensaje de confirmación de éxito.
+
+<div>
+  <p align="center"><img src="assets/md-images/user-flow5.png" alt="user-flow5.png" width="700px" /></p>
+</div>
+
+User goal: Reprogramar tarea
+
+User persona: Operario
+
+Cuando el operario ingrese correctamente con su usuario y contraseña, entonces llegará a su pantalla “Home”. Desde allí, podrá seleccionar la opción “Reprogramación” en su menú desplegable. Al estar allí, podrá seleccionar una de las tareas y darle a la opción “Reprogramar” dentro de las mismas. De esta manera, una vez llenado el cuestionario de reprogramación, dentro del cual se resalta nueva fecha, y seleccionar la opción “Actualizar”, se guardará la nueva fecha de ejecución de dicha tarea y se recibirá un mensaje de confirmación.
+
+<div>
+  <p align="center"><img src="assets/md-images/user-flow6.png" alt="user-flow6.png" width="700px" /></p>
+</div>
 
 ## 4.5. Web Applications Prototyping
 
@@ -2779,17 +3296,16 @@ A continuación se muestra una captura de pantalla de las historias de usuario q
 
 Link PivotalTracker: [OpenSource SwiftPort - Pivotal Tracker](https://www.pivotaltracker.com/n/projects/2739819)
 
-| Sprint # | User Story ID | User Story Title                                 | Task ID | Task Title                        | Description                                                                 | Estimation (hours) | Assigned To                                                                                                                                     | Status |
-|----------|----------------|--------------------------------------------------|---------|-----------------------------------|-----------------------------------------------------------------------------|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| Sprint 1 | US01           | Contactar al startup                             | T01     | Redactar mensaje de contacto     | Crear texto para sección de contacto incluyendo llamada a la acción y correo del equipo. | 1                   | Roma Cruz, Natalia Bertha · Sonano Armas, Angelo Hector · Iglesias Perez, Sergio Sebastian · Baldeon Vivar, Santiago Armando · Adrianzen Flores, Carlos Arturo | To-do  |
-| Sprint 1 | US01           | Contactar al startup                             | T02     | Diseñar sección de contacto      | Implementar diseño responsive del formulario y estilo general.              | 2                   | Roma Cruz, Natalia Bertha · Sonano Armas, Angelo Hector · Iglesias Perez, Sergio Sebastian · Baldeon Vivar, Santiago Armando · Adrianzen Flores, Carlos Arturo | To-do  |
-| Sprint 1 | US02           | Obtener información sobre el uso de la aplicación| T03     | Escribir contenido informativo   | Redactar beneficios clave y funcionalidades destacadas.                     | 1                   | Roma Cruz, Natalia Bertha · Sonano Armas, Angelo Hector · Iglesias Perez, Sergio Sebastian · Baldeon Vivar, Santiago Armando · Adrianzen Flores, Carlos Arturo | To-do  |
-| Sprint 1 | US02           | Obtener información sobre el uso de la aplicación| T04     | Implementar sección de FAQ       | Diseñar y maquetar una sección expandible con preguntas y respuestas.       | 2                   | Roma Cruz, Natalia Bertha · Sonano Armas, Angelo Hector · Iglesias Perez, Sergio Sebastian · Baldeon Vivar, Santiago Armando · Adrianzen Flores, Carlos Arturo | To-do  |
-| Sprint 1 | US33           | Acceder a la sección principal del sitio (Hero Section) | T05     | Diseñar hero con mensaje y CTA   | Crear el diseño visual de la sección inicial con título, mensaje y botón.   | 1                   | Roma Cruz, Natalia Bertha · Sonano Armas, Angelo Hector · Iglesias Perez, Sergio Sebastian · Baldeon Vivar, Santiago Armando · Adrianzen Flores, Carlos Arturo | To-do  |
-| Sprint 1 | US33           | Acceder a la sección principal del sitio (Hero Section) | T06     | Programar scroll al contenido    | Implementar acción del botón "Conocer más" con scroll suave.               | 1                   | Roma Cruz, Natalia Bertha · Sonano Armas, Angelo Hector · Iglesias Perez, Sergio Sebastian · Baldeon Vivar, Santiago Armando · Adrianzen Flores, Carlos Arturo | To-do  |
-| Sprint 1 | US34           | Navegar entre secciones fácilmente               | T07     | Crear barra de navegación        | Diseñar e implementar el menú superior responsive.                          | 2                   | Roma Cruz, Natalia Bertha · Sonano Armas, Angelo Hector · Iglesias Perez, Sergio Sebastian · Baldeon Vivar, Santiago Armando · Adrianzen Flores, Carlos Arturo | To-do  |
-| Sprint 1 | US34           | Navegar entre secciones fácilmente               | T08     | Configurar navegación por anclas | Asociar cada ítem del menú con su sección correspondiente.                 | 1                   | Roma Cruz, Natalia Bertha · Sonano Armas, Angelo Hector · Iglesias Perez, Sergio Sebastian · Baldeon Vivar, Santiago Armando · Adrianzen Flores, Carlos Arturo | To-do  |
-
+| Sprint # | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (hours) | Assigned To | Status | Story Points |
+|----------|----------------|------------------|---------|------------|-------------|---------------------|--------------|--------|--------------|
+| Sprint 1 | US01 | Descripcion del startup | T01 | Redactar descripción | Crear texto para sección de descripción incluyendo nuestra misión | 1 | Sonano Armas, Angelo Hector | Done | 3 |
+| Sprint 1 | US01 | Descripcion del startup | T02 | Diseñar logo u eslogan | Implementar diseño distintivo de nuestro startup y un eslogan característico | 2 | Baldeon Vivar, Santiago Armando | Done | 2 |
+| Sprint 1 | US02 | Obtener información sobre el uso de la aplicación | T03 | Escribir contenido informativo | Redactar beneficios clave y funcionalidades destacadas. | 1 | Roma Cruz, Natalia Bertha | Done | 2 |
+| Sprint 1 | US02 | Obtener información sobre el uso de la aplicación | T04 | Implementar sección de FAQ | Diseñar y maquetar una sección expandible con preguntas y respuestas. | 2 | Iglesias Perez, Sergio Sebastian | Done | 5 |
+| Sprint 1 | US33 | Acceder a la sección principal del sitio (Hero Section) | T05 | Diseñar hero con mensaje y CTA | Crear el diseño visual de la sección inicial con título, mensaje y botón. | 1 | Adrianzen Flores, Carlos Arturo | Done | 2 |
+| Sprint 1 | US33 | Acceder a la sección principal del sitio (Hero Section) | T06 | Programar scroll al contenido | Implementar conexiones entre el header y las secciones de la landing page | 1 | Roma Cruz, Natalia Bertha | Done | 2 |
+| Sprint 1 | US34 | Navegar entre secciones desde cualquier dispositivo | T07 | Implementar diseño responsive | Diseñar e implementar las secciones con un diseño adaptable a dispositivos de cualquier tamaño | 2 | Sonano Armas, Angelo Hector | Done | 2 |
+| Sprint 1 | US34 | Navegar entre secciones fácilmente | T08 | Configurar navegación por anclas | Asociar cada ítem del menú con su sección correspondiente. | 1 | Adrianzen Flores, Carlos Arturo | Done | 2 |
 
 ### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -2815,8 +3331,38 @@ Link PivotalTracker: [OpenSource SwiftPort - Pivotal Tracker](https://www.pivota
 
 ## 6.1. Conclusiones
 
+__Enfoque centrado en el usuario__
+
+Al haber terminado con la elaboración de esta primera parte del trabajo, podemos concluir que las historias de usuario que elaboramos, al estar correctamente elaboradas y enfocadas en las necesidades y deseos del usuario, nos ayudaron a comprender aquello que más le importaba, logrando una implementación que cumpla con ello. Esto puede apreciarse en la landing page presentada al momento, en dónde se menciona al usuario las funcionalidades que le pueden interesar más de la aplicación.
+
+__Diseño orientado a la experiencia de usuario__
+
+Nuestro landing page y aplicación web han sido diseñadas pensando en que sea fácil para el usuario navegar entre las pantallas. De la misma forma, solo se incluyen las opciones que son relevantes para cada tipo de usuario en la aplicación correspondiente. Esto puede reflejarse, por ejemplo, en la facilidad para reportar incidencias que difiere entre la presentación para operarios y la que es para supervisores. En ambos casos, sin embargo, se considera un diseño amigable e intuitivo, con opciones claras y una estructura que resulte agradable a la vista.
+
+__Impacto estratégico__
+
+Podemos concluir que elaborar un impact map nos ayudó a comprender los objetivos específicos de cada segmento considerado y las funcionalidad que estaban orientada a que el usuario logre estos mismos objetivos. De esta forma, podemos enfocarnos más en estas funciones, logrando una mayor satisfacción del usuario.
+
+__Priorización en el product backlog__
+
+Hemos concluido, y en relación a la conclusión anterior, que realizar una priorización en el product backlog nos ayudó a guiar nuestras metas y a organizarnos mejor como equipo. Esto, dado que podíamos enfocarnos en las tareas que implican menor trabajo pero mayor valor, pasando luego a aquellas que implican más esfuerzo pero que también generan un alto valor para el usuario y dejando al final aquellas que no son tan relevantes para nuestro usuario.
+
+__Diseño visual agradable y organizado__
+
+Al diseñar nuestro wireframes y mockup, pensamos no solo en colocar una estructura funcional, si no también en lograr aquella que sea sencilla de comprender y dinámica en todos sus aspectos de forma que el usuario disfrute al usarla y que este no sufra dificultades. A su vez, escogimos colores llamativos e incluimos un menú que facilita el acceso a las funcionalidades principales.
+
 ## 6.2. Recomendaciones
 
+Dado que hemos terminado con un avance del presente trabajo, nos gustaría incluir algunas recomendaciones en cuanto a su elaboración e implementación, ya sea punto que no hemos podido tocar dadas ciertas limitaciones o que nos gustaría incluir en el futuro.
+
+En primer lugar, nos gustaría incluir una sección de alertas frente a emergencia que también llegue como notificación al correo u otro canal de mensajería de preferencia de la empresa. Se sabe que, dentro del ámbito en que nos enfocamos, pueden existir urgencias o problemas durante el traslado de un envío. Este tipo de eventos deben ser atendidos con urgencia, por lo que recibir una alerta en el momento sería de alta utilidad tanto para operadores como para supervisores.
+
+En segundo lugar, nos gustaría expandir los usuarios de la aplicación, dando acceso también a la empresa que está contratando los servicios de envíos. Este sería un acceso más limitado, dado que solo podría visualizar ciertas partes de sus envíos para estar al tanto de la situación, mas si se incluye una sección en donde pueda realizar nuevas solicitudes de envíos, esto sería altamente útil para la organización y actividades de ambas empresas.
+
+Por último, nos gustaría, una vez implementado el producto en el mercado, realizar reuniones cortas mensuales con algunos supervisores y operarios de forma que ellos tengan la oportunidad de exponernos en persona aquellas funcionalidad que les han causado problemas, aquellas que más les gustan y aquellas que les gustaría que se implementen en un futuro. Así, recibiríamos feedback constantemente y podríamos mejorar nuestras funciones a favor de los más interesados. Al mismo tiempo, podríamos preguntarles su opinión cuando ya hayamos implementado algo nuevo respecto a lo mencionado.
+
 # 7. Bibliografía 
+
+Pintado Bravo, C., & Salazar Cruzado, L. T. (2022). Los procesos logísticos y su impacto en la gestión de suministros en las empresas de transporte de carga terrestre de la ciudad de Chiclayo, período 2019 [Tesis de licenciatura, Universidad San Martín de Porres]. Repositorio Institucional USMP. https://hdl.handle.net/20.500.12727/9912
 
 # 8. Anexos 
