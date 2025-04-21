@@ -2821,6 +2821,210 @@ __Sección Inicidencias estado para operario__
 
 ### 4.4.3. Web Applications Mock-ups
 
+Ahora, presentaremos los mockups que hemos elaborado para nuestra aplicación web tanto en presentación desktop como en mobile. Podrá notarse como se respeta la estrutura anteriormente planteada a través de los wireframes. De la misma forma, ahora se incluirán los textos, imágenes y colores que se mostrarán al usuario dependiendo de la sección. Por otro lado, se incluye la barra del menú al estar guardada y al estar desplegada en el modelo mobile.
+
+#### Web Application Wireframes para desktop
+
+__Iniciar sesión como supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-1.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-2.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-3.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Home para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-4.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Tarea para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-5.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Planificación para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-6.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-7.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Fases para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-8.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Incidencias para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-9.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-10.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Usuarios para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-11.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-12.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Clima para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-13.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-14.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Iniciar sesión como operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-15.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-16.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-17.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Home para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-18.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-19.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Actualizar estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-20.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-21.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Reprogramación para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-22.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-23.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Inicidencias para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-24.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-desktop-25.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+#### Web Application para Mobile Web Browser
+
+__Iniciar sesión como supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-1.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Home para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-2.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Planificación para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-3.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Fases para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-4.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Incidencias para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-5.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Usuarios para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-6.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Clima para supervisor__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-7.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Iniciar sesión como operarrio__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-8.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Home para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-9.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Actualizar estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-10.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Reprogramación estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-11.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Sección Inicidencias estado para operario__
+
+<div>
+  <p align="center"><img src="assets/md-images/mockup-mobile-12.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
 ### 4.4.4. Web Applications User Flow Diagrams
 
 User goal: Registrarse como nuevo usuario
