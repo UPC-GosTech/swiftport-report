@@ -2657,6 +2657,96 @@ Enlace para acceder a [PivotalTracker](https://www.pivotaltracker.com/n/projects
 
 ### 4.1.1. General Style Guidelines
 
+Un _"style guideline"_ o guía de estilo es un conjunto de reglas y pautas que establecen la forma en que se deben escribir, diseñar o presentar documentos, contenido web, software, o cualquier otro tipo de trabajo creativo. A continuación, se detallan los parámetros implementados en la estructura visual y conceptual del proyecto **SwiftPort**, parte de la iniciativa tecnológica de **GosTech**.
+
+### **Branding**
+
+#### **Brand Overview**
+
+La startup, presentada con el nombre de **SwiftPort**, forma parte del ecosistema digital de **GosTech**, y se enfoca en optimizar digitalmente la planificación y supervisión de actividades logísticas de campo. Su propósito principal es asistir a empresas logísticas en sectores como el petrolero, minero y energético para organizar de manera eficiente las operaciones sobre el terreno. A través de su plataforma, se gestionan requerimientos de transporte, asignación de recursos y cuadrillas, todo con trazabilidad en tiempo real.
+
+Una de las principales fortalezas de SwiftPort es su capacidad de adaptación al entorno operativo mediante tecnologías simuladas de IoT, alertas contextuales e interfaces móviles para personal en campo. Además, permite la reprogramación dinámica de actividades, el monitoreo del desempeño y el registro posterior de ejecución.
+
+#### **Misión**
+
+Optimizar la documentación, ejecución y trazabilidad logística de campo mediante una plataforma inteligente adaptable a condiciones cambiantes del entorno operativo.
+
+#### **Visión**
+
+Convertirse en la plataforma de referencia para empresas logísticas de alto impacto en Latinoamérica, integrando tecnología intuitiva, trazabilidad eficiente y control visual sobre la ejecución de actividades logísticas complejas.
+
+<p align="center">
+  <img src="assets/md-images/Logo GosTech.png" alt="Logo de GosTech" width="250px" />
+</p>
+
+### **Brand Name**
+
+El nombre **SwiftPort** surge de la combinación de las palabras "Swift" (rápido, ágil) y "Port" (puerto o punto de conexión), representando su esencia como una solución ágil de conexión entre actividades logísticas complejas. Refleja eficiencia, sincronización y control en tiempo real dentro del ámbito operativo. SwiftPort destaca por su enfoque centrado en tareas, alertas y condiciones de campo, permitiendo una gestión precisa desde dispositivos móviles.
+
+<p align="center">
+  <img src="assets/md-images/Logo de SwiftPord.png" alt="Logo de SwiftPort" width="250px" />
+</p>
+
+#### **Colores**
+
+La identidad visual de **SwiftPort** está guiada por una paleta cromática que representa energía, control y adaptabilidad. El color **naranja primario (#E6801A)** es protagonista en botones, íconos de acción y títulos, simbolizando dinamismo y alerta. Le acompañan colores secundarios como el **blanco (#FFFFFF)** para fondos neutros, **gris claro (#D9D9D9)** para formularios y contenedores, y colores de estado como **verde (#66BB6A)**, **amarillo (#FFF176)** y **rojo (#FF7976)** que se utilizan en las alertas operativas.
+
+El contraste visual asegura visibilidad en condiciones de campo, facilita la interpretación de estados y mantiene una jerarquía clara en cada pantalla.
+
+<p align="center">
+  <img src="assets/md-images/Colors.png" alt="Paleta de colores SwiftPort" width="600px" />
+</p>
+
+### **Tipografía**
+
+La tipografía seleccionada para SwiftPort es **Inter**, en sus variantes **Bold**, **Medium** y **Regular**. Esta fuente sans-serif ha sido elegida por su modernidad, buena legibilidad en pantalla y consistencia en entornos móviles. Se aplica de forma jerarquizada en los siguientes niveles:
+
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center;">Nivel</th>
+      <th style="text-align: center;">Uso principal</th>
+      <th style="text-align: center;">Estilo</th>
+      <th style="text-align: center;">Tamaño</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Heading 01</strong></td>
+      <td>Títulos principales, encabezados generales</td>
+      <td>Inter Bold</td>
+      <td>52 px</td>
+    </tr>
+    <tr>
+      <td><strong>Heading 02</strong></td>
+      <td>Secciones destacadas y subtítulos</td>
+      <td>Inter Medium</td>
+      <td>36 px</td>
+    </tr>
+    <tr>
+      <td><strong>Heading 03</strong></td>
+      <td>Bloques de contenido intermedio</td>
+      <td>Inter Medium</td>
+      <td>24 px</td>
+    </tr>
+    <tr>
+      <td><strong>Body Text</strong></td>
+      <td>Descripciones, formularios, etiquetas</td>
+      <td>Inter Regular</td>
+      <td>16 px</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<p align="center">
+  <img src="assets/md-images/TYPOGRAPHY.png" alt="Tipografía SwiftPort" width="600px" />
+</p>
+
+
 
 
 
