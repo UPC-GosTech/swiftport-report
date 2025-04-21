@@ -2956,17 +2956,16 @@ A continuación se muestra una captura de pantalla de las historias de usuario q
 
 Link PivotalTracker: [OpenSource SwiftPort - Pivotal Tracker](https://www.pivotaltracker.com/n/projects/2739819)
 
-| Sprint # | User Story ID | User Story Title                                 | Task ID | Task Title                        | Description                                                                 | Estimation (hours) | Assigned To                                                                                                                                     | Status | Story Points |
-|----------|----------------|--------------------------------------------------|---------|-----------------------------------|-----------------------------------------------------------------------------|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| Sprint 1 | US01           | Descripcion del startup                             | T01     | Redactar descripción     | Crear texto para sección de descripción incluyendo nuestra misión | 1                   | Sonano Armas, Angelo Hector | Done  | 3 |
-| Sprint 1 | US01           | Descripcion del startup                             | T02     | Diseñar logo u eslogan      | Implementar diseño distintivo de nuestro startup y un eslogan característico       | 2                   | Baldeon Vivar, Santiago Armando | Done  | 2 |
-| Sprint 1 | US02           | Obtener información sobre el uso de la aplicación | T03     | Escribir contenido informativo   | Redactar beneficios clave y funcionalidades destacadas.                     | 1                   | Roma Cruz, Natalia Bertha | Done  | 2 |
-| Sprint 1 | US02           | Obtener información sobre el uso de la aplicación | T04     | Implementar sección de FAQ       | Diseñar y maquetar una sección expandible con preguntas y respuestas.       | 2                   | Iglesias Perez, Sergio Sebastian | Done  | 5 |
-| Sprint 1 | US33           | Acceder a la sección principal del sitio (Hero Section) | T05     | Diseñar hero con mensaje y CTA   | Crear el diseño visual de la sección inicial con título, mensaje y botón.   | 1                   | Adrianzen Flores, Carlos Arturo | Done  | 2 |
-| Sprint 1 | US33           | Acceder a la sección principal del sitio (Hero Section) | T06     | Programar scroll al contenido    | Implementar conexiones entre el header y las secciones de la landing page    | 1                   | Roma Cruz, Natalia Bertha | Done | 2 |
-| Sprint 1 | US34           | Navegar entre secciones desde cualquier dispositivo               | T07     | Implementar diseño responsible        | Diseñar e implementar las secciones con un diseño adaptable a dispositivos de cualquier tamaño            | 2                   | Sonano Armas, Angelo Hector | Done  | 2 | 
-| Sprint 1 | US34           | Navegar entre secciones fácilmente               | T08     | Configurar navegación por anclas | Asociar cada ítem del menú con su sección correspondiente.                 | 1                   | Adrianzen Flores, Carlos Arturo | Done | 2 |
-
+| Sprint # | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (hours) | Assigned To | Status | Story Points |
+|----------|----------------|------------------|---------|------------|-------------|---------------------|--------------|--------|--------------|
+| Sprint 1 | US01 | Descripcion del startup | T01 | Redactar descripción | Crear texto para sección de descripción incluyendo nuestra misión | 1 | Sonano Armas, Angelo Hector | Done | 3 |
+| Sprint 1 | US01 | Descripcion del startup | T02 | Diseñar logo u eslogan | Implementar diseño distintivo de nuestro startup y un eslogan característico | 2 | Baldeon Vivar, Santiago Armando | Done | 2 |
+| Sprint 1 | US02 | Obtener información sobre el uso de la aplicación | T03 | Escribir contenido informativo | Redactar beneficios clave y funcionalidades destacadas. | 1 | Roma Cruz, Natalia Bertha | Done | 2 |
+| Sprint 1 | US02 | Obtener información sobre el uso de la aplicación | T04 | Implementar sección de FAQ | Diseñar y maquetar una sección expandible con preguntas y respuestas. | 2 | Iglesias Perez, Sergio Sebastian | Done | 5 |
+| Sprint 1 | US33 | Acceder a la sección principal del sitio (Hero Section) | T05 | Diseñar hero con mensaje y CTA | Crear el diseño visual de la sección inicial con título, mensaje y botón. | 1 | Adrianzen Flores, Carlos Arturo | Done | 2 |
+| Sprint 1 | US33 | Acceder a la sección principal del sitio (Hero Section) | T06 | Programar scroll al contenido | Implementar conexiones entre el header y las secciones de la landing page | 1 | Roma Cruz, Natalia Bertha | Done | 2 |
+| Sprint 1 | US34 | Navegar entre secciones desde cualquier dispositivo | T07 | Implementar diseño responsive | Diseñar e implementar las secciones con un diseño adaptable a dispositivos de cualquier tamaño | 2 | Sonano Armas, Angelo Hector | Done | 2 |
+| Sprint 1 | US34 | Navegar entre secciones fácilmente | T08 | Configurar navegación por anclas | Asociar cada ítem del menú con su sección correspondiente. | 1 | Adrianzen Flores, Carlos Arturo | Done | 2 |
 
 ### 5.2.1.4. Development Evidence for Sprint Review
 
