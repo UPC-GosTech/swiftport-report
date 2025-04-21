@@ -663,7 +663,70 @@ Mejoras posibles
 
 ### 2.2.3. Análisis de entrevistas
 
-# FALTA ANALISIS DE ENTREVISTAS
+**Segmento objetivo #1: Supervisores y Planificadores de Campo (Empresas Logísticas)**
+#### Características Objetivas:
+1. **Herramientas utilizadas**:
+   - Todos los entrevistados mencionaron el uso de **Excel**, **Microsoft Project**, **Rhino**, **AutoCAD** y **Word** para la planificación y ejecución de las actividades (100%).
+   - La herramienta de software principal es **Excel** (utilizado por todos los entrevistados), lo que refleja que la gestión de la planificación y monitoreo de actividades es manual y no digitalizada completamente.
+
+2. **Tiempo dedicado**:
+   - El tiempo dedicado a la planificación semanal es en promedio de **4 horas** (para la primera entrevista), y **1.5 horas diarias**. Este tiempo puede variar dependiendo de los imprevistos y cambios en las actividades (desviaciones de los planes).
+   - Un **30% a 40%** de desviaciones en la planificación semanal es común debido a imprevistos, lo que puede aumentar considerablemente la carga de trabajo. Esto indica que la gestión de imprevistos es un aspecto crítico.
+
+3. **Reportes y métricas**:
+   - Se destacan métricas como **horas operativas de equipos**, **toneladas movidas**, **utilización de equipos**, y **cantidad de actividades canceladas**.
+   - Los entrevistados indicaron que los datos son utilizados para generar reportes sobre la eficiencia de los equipos y cuadrillas, y la comparación entre la planificación y ejecución.
+
+#### Características Subjetivas:
+1. **Desafíos en la planificación**:
+   - Los entrevistados expresaron que las principales complicaciones provienen de los **imprevistos**, especialmente cuando se trata de **desviaciones** en la planificación. La gestión de estos imprevistos puede requerir salidas al campo para revisar las condiciones y asegurarse de que los trabajos se pueden ejecutar según lo esperado.
+   - Se destaca la dificultad de **coordinar con las cuadrillas**, especialmente durante actividades dinámicas donde la comunicación puede verse interrumpida por la carga de trabajo.
+
+2. **Satisfacción con el sistema actual**:
+   - La mayoría de los entrevistados expresaron una **falta de satisfacción** con la manera en que se gestionan las solicitudes adicionales, ya que el proceso involucra un **método manual** (por correo o teléfono) para gestionar solicitudes urgentes y la asignación de tareas.
+   - **Mejoras** como un sistema de software que centralice las solicitudes y las comunicaciones fueron propuestas por todos los entrevistados. La integración directa de las solicitudes en un sistema sería más eficiente y reduciría el tiempo dedicado a la conciliación de información.
+
+3. **Expectativa de tecnologías emergentes**:
+   - Los entrevistados se mostraron receptivos a la implementación de tecnologías como **IoT** (sensores de temperatura, GPS) en el transporte de cargas y materiales. Sin embargo, destacan la importancia de que el software sea **intuitivo** y **fácil de usar** para evitar rechazos por parte de los operadores.
+
+**Segmento objetivo #2: Operarios de Campo / Técnicos Logísticos**
+#### Características Objetivas:
+1. **Herramientas utilizadas**:
+   - Similar al primer sector, el uso de **Excel** y **Microsoft Project** sigue siendo predominante. Sin embargo, también se mencionaron herramientas adicionales como **Bluship** para el registro de datos de las actividades.
+   - Las herramientas están principalmente orientadas a la **gestión de datos y reportes**, pero no integran todas las fases de la planificación, ejecución y monitoreo de las actividades.
+
+2. **Tiempo dedicado**:
+   - El tiempo dedicado a la planificación y monitoreo es similar al segmento anterior: **4 horas semanales** y **1.5 horas diarias**.
+   - Sin embargo, se menciona que el tiempo dedicado puede aumentar significativamente en situaciones de **desviaciones o cambios imprevistos**.
+
+3. **Reportes y métricas**:
+   - Se utilizan reportes de **utilización de equipos**, **toneladas movidas**, y **eficiencia de cuadrillas**, similar al primer segmento, pero con un enfoque adicional en la **seguridad de las maniobras**. La frecuencia de reportes sobre imprevistos y cambios también es alta.
+
+#### Características Subjetivas:
+1. **Desafíos operativos**:
+   - Los entrevistados señalaron que **la coordinación con las cuadrillas** y la **comunicación efectiva** en las operaciones de campo son los principales desafíos. Las actividades son dinámicas y, a menudo, se dificulta obtener respuestas rápidas por parte de los trabajadores en el campo debido a la **carga operativa**.
+   - **Desviaciones** en los planes operativos son frecuentes (aproximadamente un **30% a 40%**), lo que genera incertidumbre y aumenta el tiempo dedicado a **ajustar las operaciones**.
+
+2. **Desviaciones e imprevistos**:
+   - Al igual que en el primer segmento, los **imprevistos** generan complicaciones, especialmente cuando se trata de actividades adicionales urgentes. La incapacidad de planificar estos imprevistos con antelación es un desafío constante para los entrevistados.
+
+3. **Uso de tecnologías**:
+   - Los entrevistados del segundo segmento también fueron receptivos a la idea de integrar tecnologías como **IoT y GPS** en el flujo de trabajo. Destacan que la **transparencia** y el **seguimiento en tiempo real** serían muy beneficiosos para mejorar la eficiencia operativa y la seguridad.
+   - Se mencionó la posibilidad de usar **sensores de temperatura** para monitorizar la carga de materiales sensibles como gases y combustibles.
+
+---
+
+### Conclusión del Análisis
+
+El análisis de las entrevistas revela una serie de características comunes que afectan la planificación, monitoreo y ejecución de las actividades operativas en ambos segmentos. Las principales dificultades incluyen:
+
+1. **La falta de digitalización**: El uso extensivo de herramientas manuales como **Excel** y **Microsoft Project** genera una gran carga operativa, especialmente cuando se gestionan imprevistos.
+2. **Las desviaciones y los imprevistos**: Un porcentaje significativo de actividades, alrededor del **30% a 40%**, se ve afectado por cambios no planificados, lo que aumenta la complejidad de la gestión.
+3. **La comunicación con las cuadrillas**: La falta de comunicación rápida y eficiente con los equipos de trabajo es una barrera crítica, especialmente en operaciones dinámicas y urgentes.
+4. **Receptividad hacia nuevas tecnologías**: Existe una fuerte disposición para adoptar tecnologías emergentes como **IoT**, **GPS** y sistemas de software especializados que puedan mejorar la eficiencia operativa, el seguimiento de actividades y la **seguridad de las cargas**.
+
+El análisis ha sido realizado considerando tanto las **características objetivas** (tiempos, herramientas y métricas) como las **subjetivas** (desafíos, satisfacción y expectativas), proporcionando una base sólida para construir los **arquetipos** de usuario que representen las necesidades de cada segmento.
+
 
 
 ## 2.3. Needfinding
