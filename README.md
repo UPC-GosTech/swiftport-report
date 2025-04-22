@@ -661,14 +661,13 @@ Mejoras posibles
 
 #### Segmento objetivo #1: Supervisores y Planificadores de Campo (Empresas Logísticas)
 
-##### Entrevista 1: Gianmarco Espinel Núñez del Prado
+##### Entrevista 1: Jordan Espinel
 - **Edad:** 35
 - **Distrito:** Lince
-- **Screenshot del video:**  
-- **URL del video en Microsoft Stream:**  
+- **Screenshot del video:**  ![Entrevista 1 captura de pantalla](assets/md-images/Entrevista1_Jordan%20Espinel.png)
 
 ##### Resumen descriptivo de la entrevista:
-Gianmarco se desempeña como líder de cuadrilla o *lotmaster* en un entorno industrial, específicamente en el proyecto Malvinas (GA de Camisea). Su función principal consiste en coordinar maniobras de izaje con equipos de maniobristas, garantizando la correcta ejecución de tareas con seguridad y eficacia. Él guía al operador de grúa mediante señales visuales a lo largo del campo de trabajo.
+Jordan se desempeña como líder de cuadrilla o *lotmaster* en un entorno industrial, específicamente en el proyecto Malvinas (GA de Camisea). Su función principal consiste en coordinar maniobras de izaje con equipos de maniobristas, garantizando la correcta ejecución de tareas con seguridad y eficacia. Él guía al operador de grúa mediante señales visuales a lo largo del campo de trabajo.
 
 Las instrucciones diarias las recibe en reuniones presenciales a las 5 a.m. después del desayuno, en coordinación con el superintendente y el supervisor. No se utilizan sistemas digitales para asignación de tareas; todo se transmite verbalmente y se registra en plantillas físicas.
 
@@ -700,14 +699,13 @@ Respecto a IoT, aunque no está familiarizado con el término, considera útil s
 
 
 
-##### Entrevista 2: George Jr. Colón del Rivet
+##### Entrevista 2: George Coronel Ribbeck
 - **Edad:** 42
 - **Distrito:** Callao 
-- **Screenshot del video:**  
-- **URL del video en Microsoft Stream:** 
+- **Screenshot del video:**  ![Entrevista 2 captura de pantalla](assets/md-images/Entrevista2_George%20Coronel.png)
 
 ##### Resumen descriptivo de la entrevista:
-George Jr. trabaja como **supervisor de almacén** en la empresa **Petrotal**, dedicada a la logística y extracción de petróleo y gas. Se encarga de la **recepción, validación y despacho de materiales**, que van desde artículos de oficina hasta EPP y maquinaria, enviados por vía marítima desde Perú hacia Brasil (Lote 95).
+George Coronel trabaja como **supervisor de almacén** en la empresa **Petrotal**, dedicada a la logística y extracción de petróleo y gas. Se encarga de la **recepción, validación y despacho de materiales**, que van desde artículos de oficina hasta EPP y maquinaria, enviados por vía marítima desde Perú hacia Brasil (Lote 95).
 
 Actualmente, la gestión de órdenes y envíos se realiza con **Excel y radios**, sin un sistema especializado. Esto genera serios problemas como:
 
@@ -743,9 +741,9 @@ Mencionó que ha solicitado una plataforma interna al área de sistemas, pero **
 
 
 ##### Entrevista 3: Fernando Galiz
-- **Edad:** 50 años  
+- **Edad:** 52 años  
 - **Distrito:** Chulica  
-- **Screenshot del video:**  
+- **Screenshot del video:**  ![Entrevista 3 captura de pantalla](assets/md-images/Entrevista3_Fernando%20Isuiza.png)
 - **URL del video en Microsoft Stream:**  
 
 ##### Resumen descriptivo de la entrevista:
@@ -772,10 +770,10 @@ Las principales **dificultades** que enfrentan son la **llegada tardía de mater
 
 #### Segmento objetivo #2: Operarios de Campo / Técnicos Logísticos
 
-##### Entrevista 4: Julio Corova Fernández
+##### Entrevista 4: Julio Cordova Fernández
 - **Edad:** 31
 - **Distrito:** Santiago de Surco 
-- **Screenshot del video:**  
+- **Screenshot del video:**  ![Entrevista 4 captura de pantalla](assets/md-images/Entrevista4_Julio%20Cordova.png)
 - **URL del video en Microsoft Stream:**  
 
 ##### Resumen descriptivo de la entrevista:
@@ -802,7 +800,7 @@ Julio menciona que la empresa utiliza **Bluship** para mantener registros, pero 
 ##### Entrevista 5: Pedro Ramirez
 - **Edad:** 40
 - **Distrito:** Ate  
-- **Screenshot del video:**  
+- **Screenshot del video:**  ![Entrevista 5 captura de pantalla](assets/md-images/Entrevista5_Pedro%20Horna.png)
 - **URL del video en Microsoft Stream:** 
 
 ##### Resumen descriptivo de la entrevista:  
@@ -830,7 +828,7 @@ En cuanto a la **gestión de carga**, Pedro señala que cuando el producto está
 ##### Entrevista 6: Percy Rojas 
 - **Edad:** 44 
 - **Distrito:** Lince
-- **Screenshot del video:**  
+- **Screenshot del video:**  ![Entrevista 6 captura de pantalla](assets/md-images/Entrevista6_Percy%20Rojas.png)
 - **URL del video en Microsoft Stream:**    
 
 ##### Resumen descriptivo de la entrevista:  
