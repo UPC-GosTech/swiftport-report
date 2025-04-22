@@ -659,6 +659,9 @@ Mejoras posibles
 
 ### 2.2.2. Registro de entrevistas
 
+[**URL del video en Microsoft Stream:** ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215705_upc_edu_pe/EdofB-Lkw9xAm5R9rqSvjwkBEdDoYDrSsJH919ObYPsTxA?e=d12awe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
 #### Segmento objetivo #1: Supervisores y Planificadores de Campo (Empresas Logísticas)
 
 ##### Entrevista 1: Jordan Espinel
@@ -778,7 +781,7 @@ Las principales **dificultades** que enfrentan son la **llegada tardía de mater
 - **Distrito:** Santiago de Surco 
 - **Screenshot del video:**  
 ![Entrevista 4 captura de pantalla](assets/md-images/Entrevista4_Julio%20Cordova.png)
-- **URL del video en Microsoft Stream:**  
+ 
 
 ##### Resumen descriptivo de la entrevista:
 Julio se desempeña como **ingeniero industrial** y **planificador y supervisor** de actividades relacionadas con el transporte de equipos y maniobras en la planta de gas Malvinas-Camisera. En cuanto a la **planificación**, se organiza en función de las solicitudes que reciben del cliente, las cuales gestionan utilizando **Excel**, **Project**, **Rhino** o **AutoCAD** para planificar y supervisar los trabajos de isaje o transporte. Para el transporte, utilizan cargadores frontales y montacargas dependiendo del peso de la carga.
