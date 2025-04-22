@@ -698,7 +698,7 @@ Respecto a IoT, aunque no está familiarizado con el término, considera útil s
 - **Necesidades:** Mejora en el flujo de tareas, simulación de izajes, trazabilidad  
 - **Disposición a adoptar tecnología:** Alta, si es útil y visual
 
----
+
 
 ##### Entrevista 2: George Jr. Colón del Rivet
 - **Edad:** 42
@@ -740,7 +740,7 @@ Mencionó que ha solicitado una plataforma interna al área de sistemas, pero **
 - **Necesidades:** Trazabilidad, validación digital, dashboards de tiempo y carga  
 - **Disposición a adoptar tecnología:** Muy alta; propone activamente mejoras  
 
----
+
 
 ##### Entrevista 3: Fernando Galiz
 - **Edad:** 50 años  
@@ -825,6 +825,7 @@ En cuanto a la **gestión de carga**, Pedro señala que cuando el producto está
 - **Influencias:** Problemas operativos por grandes volúmenes de trabajadores y la logística en el transporte marítimo y fluvial  
 - **Necesidades:** Un sistema ágil y más amigable para el registro de entregas, así como mejorar la trazabilidad y eficiencia en el proceso logístico  
 - **Disposición a adoptar tecnología:** Alta, especialmente para soluciones que optimicen el proceso de entrega y control de inventarios
+
 
 ##### Entrevista 6: Percy Rojas 
 - **Edad:** 44 
