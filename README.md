@@ -164,7 +164,7 @@ __TB1__
    5.2. [Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)  
    &nbsp;&nbsp;&nbsp;&nbsp;5.2.1. [Sprint 1](#521-sprint-1)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.1. [Sprint Planning 1](#5211-sprint-planning-1)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2. [Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.3. [Sprint Backlog 1](#5212-sprint-backlog-1)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.4. [Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.5. [Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)  
@@ -659,7 +659,213 @@ Mejoras posibles
 
 ### 2.2.2. Registro de entrevistas
 
-# FALTA REGISTRO DE ENTREVISTAS
+***Segmento objetivo #1: Supervisores y Planificadores de Campo (Empresas Logísticas)***
+**Entrevista 1:**
+**Nombre:** Gianmarco Espinel Núñez del Prado  
+**Edad:** 35
+**Distrito:** Lince 
+**Screenshot del video:**  
+**URL del video en Microsoft Stream:** 
+
+#### Resumen descriptivo de la entrevista:
+
+Gianmarco se desempeña como líder de cuadrilla o *lotmaster* en un entorno industrial, específicamente en el proyecto Malvinas (GA de Camisea). Su función principal consiste en coordinar maniobras de izaje con equipos de maniobristas, garantizando la correcta ejecución de tareas con seguridad y eficacia. Él guía al operador de grúa mediante señales visuales a lo largo del campo de trabajo.
+
+Las instrucciones diarias las recibe en reuniones presenciales a las 5 a.m. después del desayuno, en coordinación con el superintendente y el supervisor. No se utilizan sistemas digitales para asignación de tareas; todo se transmite verbalmente y se registra en plantillas físicas.
+
+La comunicación en campo se realiza por radio y, para registrar la ejecución de tareas, se emplean plantillas físicas. También mencionó el uso de protocolos de emergencia en caso de incidentes y planes de contingencia ante cambios inesperados en el flujo de trabajo.
+
+En cuanto a tecnología, Gianmarco indica que nunca ha usado aplicaciones para gestionar tareas, pero ve con buenos ojos una posible implementación. Destaca que una app útil debería incluir:
+
+- Flujo de actividades bien organizado  
+- Ubicación del personal vía GPS  
+- Simulación gráfica del izaje para evitar errores humanos  
+- Registro fotográfico como evidencia de cumplimiento  
+
+Actualmente se monitorea la ubicación del personal mediante celulares o tablets con GPS. También aprueba la integración de evidencia fotográfica en sistemas digitales como sustento operativo ante posibles reclamos.
+
+Respecto a IoT, aunque no está familiarizado con el término, considera útil su implementación, especialmente sensores que alerten sobre cambios de temperatura en cargas sensibles como combustible, alimentos o explosivos.
+
+---
+
+#### Características objetivas:
+- **Rol:** Líder de cuadrilla / Lotmaster  
+- **Herramientas de trabajo:** Radio, plantillas físicas, GPS en celulares  
+- **Canal de comunicación:** Reuniones presenciales, radio  
+- **Tecnología usada:** No apps; uso de GPS con dispositivos móviles  
+- **Conocimiento de IoT:** No, pero está abierto a aprender
+
+#### Características subjetivas:
+- **Personalidad:** Responsable, consciente de la seguridad, colaborador  
+- **Influencias:** Protocolos de seguridad y experiencia previa  
+- **Necesidades:** Mejora en el flujo de tareas, simulación de izajes, trazabilidad  
+- **Disposición a adoptar tecnología:** Alta, si es útil y visual
+
+
+**Entrevista 2:**
+
+**Nombre:** George Jr. Colón del Rivet  
+**Edad:** [Por especificar]  
+**Distrito:** [Por especificar]  
+**Screenshot del video:** *[Aquí irá la imagen que debes insertar en el informe]*  
+**URL del video en Microsoft Stream:** *[Enlace al video con timestamp de inicio y duración, una vez esté disponible]*
+
+#### Resumen descriptivo de la entrevista:
+
+George Jr. trabaja como **supervisor de almacén** en la empresa **Petrotal**, dedicada a la logística y extracción de petróleo y gas. Se encarga de la **recepción, validación y despacho de materiales**, que van desde artículos de oficina hasta EPP y maquinaria, enviados por vía marítima desde Perú hacia Brasil (Lote 95).
+
+Actualmente, la gestión de órdenes y envíos se realiza con **Excel y radios**, sin un sistema especializado. Esto genera serios problemas como:
+
+- Falta de trazabilidad de productos por envío.
+- Pérdida o sustracción de materiales sin forma de validación.
+- Multas contractuales por entregas incompletas o fuera de plazo.
+- Falta de control en los tiempos de entrega y logística ineficiente.
+
+George considera que un sistema digital podría **mitigar estos problemas significativamente**, y propone una solución con las siguientes características:
+
+- Integración con órdenes de compra.
+- Validación de productos al recibirlos.
+- Identificación por código de barras o QR.
+- Trazabilidad desde origen hasta destino.
+- Seguimiento en tiempo real de los envíos.
+- Reportes de eficiencia, tiempos muertos y cantidad de carga.
+
+Mencionó que ha solicitado una plataforma interna al área de sistemas, pero **no se le ha dado prioridad**, a pesar de que estima que podría reducir los errores logísticos hasta en un **90%** y mejorar la toma de decisiones estratégicas.
+
+#### Características objetivas:
+- **Rol:** Supervisor de almacén  
+- **Herramientas de trabajo:** Excel, radio  
+- **Canal de comunicación:** Escritorio, radio  
+- **Tecnología usada:** Sin sistema especializado; gestiones manuales  
+- **Flujo de trabajo:** Registro manual, validación física de carga  
+
+#### Características subjetivas:
+- **Personalidad:** Proactivo, orientado a eficiencia y trazabilidad  
+- **Influencias:** Exigencias logísticas del sector energético, multas contractuales  
+- **Necesidades:** Trazabilidad, validación digital, dashboards de tiempo y carga  
+- **Disposición a adoptar tecnología:** Muy alta; propone activamente mejoras  
+
+
+**Entrevista 3:**
+
+**Nombre:** Fernando Galiz  
+**Edad:** 50 años  
+**Distrito:** Chulica  
+**Screenshot del video:** 
+**URL del video en Microsoft Stream:** 
+
+#### Resumen descriptivo de la entrevista:
+
+Fernando se desempeña como **líder de cuadrilla** en una empresa logística, supervisando equipos de trabajo en campo. La **planificación se realiza el día anterior** junto a supervisores, definiendo tareas por cuadrilla. Las **principales herramientas de comunicación** son **radio y WhatsApp**, mientras que el celular se usa para recibir correos o instrucciones generales.
+
+Cuando hay **condiciones no seguras o fallas logísticas**, detienen las actividades y notifican a los supervisores. Aunque **no utilizan rastreo GPS**, sí existe una asignación clara de ubicación para cada cuadrilla, y Fernando considera que una solución de seguimiento sería clave para mejorar la eficiencia.
+
+Las principales **dificultades** que enfrentan son la **llegada tardía de materiales o equipos**, lo cual genera retrasos. Los cambios de último minuto se comunican rápidamente entre líderes. Si bien **prefiere los métodos actuales**, está **abierto al uso de aplicaciones**, siempre que cuente con **una capacitación previa**. Considera útil una app que digitalice el control de tareas, reporte evidencias mediante fotos y sustituya el uso de papel en procesos como el ATS.
+
+#### Características objetivas:
+- **Rol:** Líder de cuadrilla  
+- **Herramientas de trabajo:** Radio, celular, WhatsApp  
+- **Canal de comunicación:** Radio y mensajes grupales  
+- **Tecnología usada:** Sin GPS; comunicación digital básica  
+- **Flujo de trabajo:** Planificación diaria anticipada, comunicación directa, asignación por cuadrilla  
+
+#### Características subjetivas:
+- **Personalidad:** Colaborativo, receptivo al cambio, pragmático  
+- **Influencias:** Condiciones del entorno, eficiencia operativa  
+- **Necesidades:** Mejora en la trazabilidad, digitalización de reportes, evidencias en campo  
+- **Disposición a adoptar tecnología:** Alta, si se proporciona capacitación previa
+
+
+
+***Segmento objetivo #2: Operarios de Campo / Técnicos Logísticos***
+
+**Entrevista 4:**  
+
+**Nombre:** Julio Corova Fernández  
+**Edad:** No especificada  
+**Distrito:** No especificado  
+**Screenshot del video:**  
+**URL del video en Microsoft Stream:**  
+
+#### Resumen descriptivo de la entrevista:  
+
+Julio se desempeña como **ingeniero industrial** y **planificador y supervisor** de actividades relacionadas con el transporte de equipos y maniobras en la planta de gas Malvinas-Camisera. En cuanto a la **planificación**, se organiza en función de las solicitudes que reciben del cliente, las cuales gestionan utilizando **Excel**, **Project**, **Rhino** o **AutoCAD** para planificar y supervisar los trabajos de isaje o transporte. Para el transporte, utilizan cargadores frontales y montacargas dependiendo del peso de la carga.
+
+El tiempo que le toma organizar la programación **semanal es de aproximadamente 3-4 horas** y la **diaria de 1.5 horas**. En cuanto al **seguimiento de las actividades**, el trabajo se monitorea a través de **líderes de campo** que comunican el progreso de las actividades. Las principales **dificultades** se encuentran en las **desviaciones del plan** y en la **coordinación con los equipos**, especialmente cuando hay imprevistos, lo que genera **urgencias** y complicaciones logísticas.
+
+Julio menciona que la empresa utiliza **Bluship** para mantener registros, pero la mayor parte de la planificación y monitoreo se realiza mediante Excel. En cuanto a la posibilidad de incorporar **tecnologías IoT** (como GPS o sensores de temperatura), considera que serían útiles para **mejorar la trazabilidad y la eficiencia** en el transporte de cargas, reduciendo la necesidad de intervención manual y mejorando la comunicación entre los equipos.
+
+#### Características objetivas:  
+- **Rol:** Planificador y supervisor de transporte y maniobras  
+- **Herramientas de trabajo:** Excel, Project, Rhino, AutoCAD, Bluship  
+- **Canal de comunicación:** Radio, celular, WhatsApp  
+- **Tecnología usada:** Sin GPS para monitoreo, uso de Excel y software específico para planificación  
+- **Flujo de trabajo:** Planificación semanal y diaria, coordinación con líderes de campo, monitoreo de actividades ejecutadas
+
+#### Características subjetivas:  
+- **Personalidad:** Organizado, pragmático, dispuesto a adaptar nuevas soluciones tecnológicas  
+- **Influencias:** Imprevistos y urgencias, dinámicas operativas  
+- **Necesidades:** Mejora en la trazabilidad de actividades y la eficiencia operativa  
+- **Disposición a adoptar tecnología:** Alta, especialmente en áreas que mejoren la eficiencia y reduzcan la intervención manual
+
+**Entrevista 5:**  
+
+**Nombre:** Pedro 
+**Edad:** No especificada  
+**Distrito:** No especificado  
+**Screenshot del video:**  
+**URL del video en Microsoft Stream:**  
+
+#### Resumen descriptivo de la entrevista:  
+
+Pedro se desempeña como **gerente de proyecto** en **Confederate Cosmos** y tiene **41 años** de experiencia en el sector logístico. La empresa gestiona operaciones logísticas a nivel nacional, moviendo entre **5,000 y 6,000 ítems** mensualmente. Actualmente, utilizan un sistema llamado **Máximo** de IBM para gestionar los almacenes, incluyendo un almacén central, subalmacenes y almacenes en tránsito, necesarios debido al transporte marítimo y fluvial. Los productos se gestionan a través de órdenes de salida debidamente aprobadas y registradas en el sistema.
+
+Pedro comenta que la empresa está en proceso de **actualización tecnológica** y planean implementar un sistema más ágil para gestionar el **registro de entregas de EPPs** (equipos de protección personal), lo cual es un proceso legal y necesario para mantener el control sobre los artículos entregados a los trabajadores. Aunque la empresa está usando un sistema como **Máximo**, todavía se enfrenta a problemas operativos, especialmente en la gestión de salidas de productos debido a la gran cantidad de trabajadores y la dificultad de generar documentos de salida por cada uno. Esto lleva a que se utilicen soluciones manuales para controlar las entregas y que se genere una única salida para grupos de ítems, lo que complica el registro.
+
+En cuanto a la **gestión de carga**, Pedro señala que cuando el producto está en tránsito, es necesario tener un **almacén en tránsito** para poder validar lo recibido en el destino, dado que hay un periodo de **35-45 días** de traslado. En relación con el tema de la **tecnología**, Pedro considera que el uso de **códigos QR o barras** sería una mejora significativa en la gestión de almacenes, ya que permitiría un proceso más dinámico y ágil. También menciona que la implementación de **dashboards interactivos** para el seguimiento de carga y la trazabilidad del proceso sería beneficioso para tomar decisiones informadas, especialmente cuando se trabaja en **operaciones remotas**.
+
+#### Características objetivas:  
+- **Rol:** Gerente de proyecto  
+- **Herramientas de trabajo:** Sistema Máximo (IBM), software para gestión de almacenes  
+- **Canal de comunicación:** No especificado  
+- **Tecnología usada:** Sistema Máximo, procesos manuales para control de salidas  
+- **Flujo de trabajo:** Gestión de almacenes y transportes mediante subalmacenes y almacenes en tránsito, generación de órdenes de salida y validación de entregas
+
+#### Características subjetivas:  
+- **Personalidad:** Experimentado, abierto a la innovación, pragmático  
+- **Influencias:** Problemas operativos por grandes volúmenes de trabajadores y la logística en el transporte marítimo y fluvial  
+- **Necesidades:** Un sistema ágil y más amigable para el registro de entregas, así como mejorar la trazabilidad y eficiencia en el proceso logístico  
+- **Disposición a adoptar tecnología:** Alta, especialmente para soluciones que optimicen el proceso de entrega y control de inventarios
+
+**Entrevista 6:**  
+
+**Nombre:** Percy Rojas 
+**Edad:** No especificada  
+**Distrito:** No especificado  
+**Screenshot del video:**  
+**URL del video en Microsoft Stream:**  
+
+#### Resumen descriptivo de la entrevista:  
+
+Percy Rojas Romero, Supervisor de Planeamiento en el proyecto Gase Camisea, explicó cómo se organiza la planificación y ejecución de actividades en campo. La raíz de la planificación son las solicitudes de los usuarios, que son recibidas por un programador o planificador y, en base a estas, se organiza el personal y los recursos. Las actividades se dividen entre "campamento" y "planta de gas", donde se gestionan permisos y documentación específica debido a la alta seguridad del yacimiento.
+
+Se mencionaron varias etapas de la planificación, como la evaluación de trabajos, la asignación de recursos y la distribución de cuadrías y operadores, priorizando la planta de gas y luego el campamento. Se tiene en cuenta la capacitación y la rotación del personal, así como la compatibilidad de sus habilidades con las tareas asignadas.
+
+El seguimiento de la ejecución se realiza mediante reportes diarios, comunicación por radio y WhatsApp, y supervisión en campo. Los imprevistos, como emergencias, condiciones climatológicas y mantenimiento de equipos, afectan la programación de manera significativa.
+
+#### Características objetivas:  
+- **Rol:** Supervisor de Planeamiento  
+- **Herramientas de trabajo:** Microsoft Excel, Power View  
+- **Canal de comunicación:** Correo electrónico, radio, WhatsApp 
+- **Tecnología usada:** Excel, Power View (para presentaciones), no se implementaron otros sistemas debido a restricciones contractuales 
+- **Flujo de trabajo:** Recepción de solicitudes de usuarios, planificación de actividades, distribución de recursos, supervisión de ejecución, y ajustes de última hora según imprevistos
+
+#### Características subjetivas:  
+- **Personalidad:** Enfocado en la organización y resolución de problemas, prioriza la seguridad y la calidad en la ejecución de actividades  
+- **Influencias:** Los imprevistos de emergencias y condiciones climáticas afectan la programación
+- **Necesidades:** Mejorar la eficiencia de la planificación, especialmente en la recepción de solicitudes y en la gestión de imprevistos
+- **Disposición a adoptar tecnología:** Abierto a la implementación de tecnologías que optimicen los procesos, como componentes IoT para el monitoreo climático
+
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -2745,6 +2951,10 @@ La tipografía seleccionada para SwiftPort es **Inter**, en sus variantes **Bold
   <img src="assets/md-images/TYPOGRAPHY.png" alt="Tipografía SwiftPort" width="600px" />
 </p>
 
+
+
+
+
 ### 4.1.2. Web Style Guidelines
 
 #### Enfoque general
@@ -2911,11 +3121,9 @@ Continuando con nuestra landing page, mostraremos el mockuo que hemos elaborado.
   <p align="center"><img src="assets/md-images/open-landing-mockup.png" alt="open-landing-mockup.png" width="700px" /></p>
 </div>
 
-## 4.4. Web Applications UX/UI Design 
+## 4.4. Web Applications UX/UI Design - FALTA
 
 ### 4.4.1. Web Applications Wireframes
-
-A contianución, presentaremos los wireframes que hemos elaborado para nuestra aplicación tanto en diseño móvil como desktop. En estos, buscamos establecer las ecciones que presentaremos más adelante, así como plantear una estructura ordenada con elementos claros y resaltantes que mantengan un espaciado adecuado.
 
 #### Web Application Wireframes para desktop
 
@@ -3015,7 +3223,7 @@ __Sección Inicidencias para operario__
   <p align="center"><img src="assets/md-images/wireframe-desktop-18.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>
 
-#### Web Application Wireframes para Mobile Web Browser
+#### Web Application para Mobile Web Browser
 
 __Iniciar sesión como supervisor__
 
@@ -3095,7 +3303,7 @@ __Sección Inicidencias estado para operario__
 
 Ahora, presentaremos los mockups que hemos elaborado para nuestra aplicación web tanto en presentación desktop como en mobile. Podrá notarse como se respeta la estrutura anteriormente planteada a través de los wireframes. De la misma forma, ahora se incluirán los textos, imágenes y colores que se mostrarán al usuario dependiendo de la sección. Por otro lado, se incluye la barra del menú al estar guardada y al estar desplegada en el modelo mobile.
 
-#### Web Application Mockups para desktop
+#### Web Application Wireframes para desktop
 
 __Iniciar sesión como supervisor__
 
@@ -3223,7 +3431,7 @@ __Sección Inicidencias para operario__
   <p align="center"><img src="assets/md-images/mockup-desktop-25.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>
 
-#### Web Application Mockups para Mobile Web Browser
+#### Web Application para Mobile Web Browser
 
 __Iniciar sesión como supervisor__
 
@@ -3360,18 +3568,6 @@ Cuando el operario ingrese correctamente con su usuario y contraseña, entonces 
 </div>
 
 ## 4.5. Web Applications Prototyping
-
-A continuación, presentamos el prototipo que hemos elaborado para nuestra aplicación, el cual considera tanto el modelo mobile como el desktop. Para la elaboración del mismo, estamos considerando el modelo de navegación antes propuesto. Este considera el movimiento del usuario a través de las pantallas por medio de los botones, así como por medio del menú desplegable. Los fundamentos que hemos considerando para ello son:
-
-1. __Diseño responsive:__ Tanto nuestra landing page como las secciones presentadas tendrán un diseño responsive que se adaptará al tamaño de la pantalla del usuario sin desorganizar la información considerada, de forma que siga siendo agradable a la vista sin importar el entorno.  
-2. __Facilidad de uso:__ Buscamos que el diseño presentado sea lo más sencillo de usar para el usuario, de forma de que no surgan confusiones mientras se utiliza la aplicación. Así, la adaptación al nuevo sistema será más rápida y autónoma para los empleados de las empresas que nos contraten.
-3. __Estructura de la información:__ La información se presenta utilizando ciertos patrones que resulten agradables hacia el usuario. De la misma forma, se prioriza colocar en las pantallas de acceso más corto la información principal, de forma que el usuario solo ingrese a las pantallas más lejanas si desea imformación puntual. De esta forma, las pantallas se mantienen limpias y la organización clara.
-
-<div>
-  <p align="center"><img src="assets/md-images/prototype-open.png" alt="prototype-open.png" width=700px /></p>
-</div>
-
-Enlace para ingresar al prototype en [Figma](https://www.figma.com/proto/FiXNVmUHGmRFeyI2OiVeeQ/Landing-Page?node-id=0-1&t=i3XTOv13iZQJNuvH-1)
 
 ## 4.6. Domain-Driven Software Architecture
 
