@@ -659,16 +659,15 @@ Mejoras posibles
 
 ### 2.2.2. Registro de entrevistas
 
-***Segmento objetivo #1: Supervisores y Planificadores de Campo (Empresas Logísticas)***
-**Entrevista 1:**
-**Nombre:** Gianmarco Espinel Núñez del Prado  
-**Edad:** 35
-**Distrito:** Lince 
-**Screenshot del video:**  
-**URL del video en Microsoft Stream:** 
+#### Segmento objetivo #1: Supervisores y Planificadores de Campo (Empresas Logísticas)
 
-#### Resumen descriptivo de la entrevista:
+##### Entrevista 1: Gianmarco Espinel Núñez del Prado
+- **Edad:** 35
+- **Distrito:** Lince
+- **Screenshot del video:**  
+- **URL del video en Microsoft Stream:**  
 
+##### Resumen descriptivo de la entrevista:
 Gianmarco se desempeña como líder de cuadrilla o *lotmaster* en un entorno industrial, específicamente en el proyecto Malvinas (GA de Camisea). Su función principal consiste en coordinar maniobras de izaje con equipos de maniobristas, garantizando la correcta ejecución de tareas con seguridad y eficacia. Él guía al operador de grúa mediante señales visuales a lo largo del campo de trabajo.
 
 Las instrucciones diarias las recibe en reuniones presenciales a las 5 a.m. después del desayuno, en coordinación con el superintendente y el supervisor. No se utilizan sistemas digitales para asignación de tareas; todo se transmite verbalmente y se registra en plantillas físicas.
@@ -686,32 +685,28 @@ Actualmente se monitorea la ubicación del personal mediante celulares o tablets
 
 Respecto a IoT, aunque no está familiarizado con el término, considera útil su implementación, especialmente sensores que alerten sobre cambios de temperatura en cargas sensibles como combustible, alimentos o explosivos.
 
----
-
-#### Características objetivas:
+##### Características objetivas:
 - **Rol:** Líder de cuadrilla / Lotmaster  
 - **Herramientas de trabajo:** Radio, plantillas físicas, GPS en celulares  
 - **Canal de comunicación:** Reuniones presenciales, radio  
 - **Tecnología usada:** No apps; uso de GPS con dispositivos móviles  
 - **Conocimiento de IoT:** No, pero está abierto a aprender
 
-#### Características subjetivas:
+##### Características subjetivas:
 - **Personalidad:** Responsable, consciente de la seguridad, colaborador  
 - **Influencias:** Protocolos de seguridad y experiencia previa  
 - **Necesidades:** Mejora en el flujo de tareas, simulación de izajes, trazabilidad  
 - **Disposición a adoptar tecnología:** Alta, si es útil y visual
 
+---
 
-**Entrevista 2:**
+##### Entrevista 2: George Jr. Colón del Rivet
+- **Edad:** 42
+- **Distrito:** Callao 
+- **Screenshot del video:**  
+- **URL del video en Microsoft Stream:** 
 
-**Nombre:** George Jr. Colón del Rivet  
-**Edad:** [Por especificar]  
-**Distrito:** [Por especificar]  
-**Screenshot del video:** *[Aquí irá la imagen que debes insertar en el informe]*  
-**URL del video en Microsoft Stream:** *[Enlace al video con timestamp de inicio y duración, una vez esté disponible]*
-
-#### Resumen descriptivo de la entrevista:
-
+##### Resumen descriptivo de la entrevista:
 George Jr. trabaja como **supervisor de almacén** en la empresa **Petrotal**, dedicada a la logística y extracción de petróleo y gas. Se encarga de la **recepción, validación y despacho de materiales**, que van desde artículos de oficina hasta EPP y maquinaria, enviados por vía marítima desde Perú hacia Brasil (Lote 95).
 
 Actualmente, la gestión de órdenes y envíos se realiza con **Excel y radios**, sin un sistema especializado. Esto genera serios problemas como:
@@ -732,91 +727,85 @@ George considera que un sistema digital podría **mitigar estos problemas signif
 
 Mencionó que ha solicitado una plataforma interna al área de sistemas, pero **no se le ha dado prioridad**, a pesar de que estima que podría reducir los errores logísticos hasta en un **90%** y mejorar la toma de decisiones estratégicas.
 
-#### Características objetivas:
+##### Características objetivas:
 - **Rol:** Supervisor de almacén  
 - **Herramientas de trabajo:** Excel, radio  
 - **Canal de comunicación:** Escritorio, radio  
 - **Tecnología usada:** Sin sistema especializado; gestiones manuales  
 - **Flujo de trabajo:** Registro manual, validación física de carga  
 
-#### Características subjetivas:
+##### Características subjetivas:
 - **Personalidad:** Proactivo, orientado a eficiencia y trazabilidad  
 - **Influencias:** Exigencias logísticas del sector energético, multas contractuales  
 - **Necesidades:** Trazabilidad, validación digital, dashboards de tiempo y carga  
 - **Disposición a adoptar tecnología:** Muy alta; propone activamente mejoras  
 
+---
 
-**Entrevista 3:**
+##### Entrevista 3: Fernando Galiz
+- **Edad:** 50 años  
+- **Distrito:** Chulica  
+- **Screenshot del video:**  
+- **URL del video en Microsoft Stream:**  
 
-**Nombre:** Fernando Galiz  
-**Edad:** 50 años  
-**Distrito:** Chulica  
-**Screenshot del video:** 
-**URL del video en Microsoft Stream:** 
-
-#### Resumen descriptivo de la entrevista:
-
+##### Resumen descriptivo de la entrevista:
 Fernando se desempeña como **líder de cuadrilla** en una empresa logística, supervisando equipos de trabajo en campo. La **planificación se realiza el día anterior** junto a supervisores, definiendo tareas por cuadrilla. Las **principales herramientas de comunicación** son **radio y WhatsApp**, mientras que el celular se usa para recibir correos o instrucciones generales.
 
 Cuando hay **condiciones no seguras o fallas logísticas**, detienen las actividades y notifican a los supervisores. Aunque **no utilizan rastreo GPS**, sí existe una asignación clara de ubicación para cada cuadrilla, y Fernando considera que una solución de seguimiento sería clave para mejorar la eficiencia.
 
 Las principales **dificultades** que enfrentan son la **llegada tardía de materiales o equipos**, lo cual genera retrasos. Los cambios de último minuto se comunican rápidamente entre líderes. Si bien **prefiere los métodos actuales**, está **abierto al uso de aplicaciones**, siempre que cuente con **una capacitación previa**. Considera útil una app que digitalice el control de tareas, reporte evidencias mediante fotos y sustituya el uso de papel en procesos como el ATS.
 
-#### Características objetivas:
+##### Características objetivas:
 - **Rol:** Líder de cuadrilla  
 - **Herramientas de trabajo:** Radio, celular, WhatsApp  
 - **Canal de comunicación:** Radio y mensajes grupales  
 - **Tecnología usada:** Sin GPS; comunicación digital básica  
 - **Flujo de trabajo:** Planificación diaria anticipada, comunicación directa, asignación por cuadrilla  
 
-#### Características subjetivas:
+##### Características subjetivas:
 - **Personalidad:** Colaborativo, receptivo al cambio, pragmático  
 - **Influencias:** Condiciones del entorno, eficiencia operativa  
 - **Necesidades:** Mejora en la trazabilidad, digitalización de reportes, evidencias en campo  
-- **Disposición a adoptar tecnología:** Alta, si se proporciona capacitación previa
+- **Disposición a adoptar tecnología:** Alta, si se proporciona capacitación previa  
 
+---
 
+#### Segmento objetivo #2: Operarios de Campo / Técnicos Logísticos
 
-***Segmento objetivo #2: Operarios de Campo / Técnicos Logísticos***
+##### Entrevista 4: Julio Corova Fernández
+- **Edad:** 31
+- **Distrito:** Santiago de Surco 
+- **Screenshot del video:**  
+- **URL del video en Microsoft Stream:**  
 
-**Entrevista 4:**  
-
-**Nombre:** Julio Corova Fernández  
-**Edad:** No especificada  
-**Distrito:** No especificado  
-**Screenshot del video:**  
-**URL del video en Microsoft Stream:**  
-
-#### Resumen descriptivo de la entrevista:  
-
+##### Resumen descriptivo de la entrevista:
 Julio se desempeña como **ingeniero industrial** y **planificador y supervisor** de actividades relacionadas con el transporte de equipos y maniobras en la planta de gas Malvinas-Camisera. En cuanto a la **planificación**, se organiza en función de las solicitudes que reciben del cliente, las cuales gestionan utilizando **Excel**, **Project**, **Rhino** o **AutoCAD** para planificar y supervisar los trabajos de isaje o transporte. Para el transporte, utilizan cargadores frontales y montacargas dependiendo del peso de la carga.
 
 El tiempo que le toma organizar la programación **semanal es de aproximadamente 3-4 horas** y la **diaria de 1.5 horas**. En cuanto al **seguimiento de las actividades**, el trabajo se monitorea a través de **líderes de campo** que comunican el progreso de las actividades. Las principales **dificultades** se encuentran en las **desviaciones del plan** y en la **coordinación con los equipos**, especialmente cuando hay imprevistos, lo que genera **urgencias** y complicaciones logísticas.
 
 Julio menciona que la empresa utiliza **Bluship** para mantener registros, pero la mayor parte de la planificación y monitoreo se realiza mediante Excel. En cuanto a la posibilidad de incorporar **tecnologías IoT** (como GPS o sensores de temperatura), considera que serían útiles para **mejorar la trazabilidad y la eficiencia** en el transporte de cargas, reduciendo la necesidad de intervención manual y mejorando la comunicación entre los equipos.
 
-#### Características objetivas:  
+##### Características objetivas:
 - **Rol:** Planificador y supervisor de transporte y maniobras  
 - **Herramientas de trabajo:** Excel, Project, Rhino, AutoCAD, Bluship  
 - **Canal de comunicación:** Radio, celular, WhatsApp  
 - **Tecnología usada:** Sin GPS para monitoreo, uso de Excel y software específico para planificación  
 - **Flujo de trabajo:** Planificación semanal y diaria, coordinación con líderes de campo, monitoreo de actividades ejecutadas
 
-#### Características subjetivas:  
+##### Características subjetivas:
 - **Personalidad:** Organizado, pragmático, dispuesto a adaptar nuevas soluciones tecnológicas  
-- **Influencias:** Imprevistos y urgencias, dinámicas operativas  
-- **Necesidades:** Mejora en la trazabilidad de actividades y la eficiencia operativa  
-- **Disposición a adoptar tecnología:** Alta, especialmente en áreas que mejoren la eficiencia y reduzcan la intervención manual
+- **Influencias:** Imprevistos y urgencias, dinámicas de equipo y comunicación  
+- **Necesidades:** Mejora en la trazabilidad, uso de GPS, optimización de tiempos  
+- **Disposición a adoptar tecnología:** Alta, si mejora la trazabilidad y la eficiencia  
 
-**Entrevista 5:**  
 
-**Nombre:** Pedro 
-**Edad:** No especificada  
-**Distrito:** No especificado  
-**Screenshot del video:**  
-**URL del video en Microsoft Stream:**  
+##### Entrevista 5: Pedro Ramirez
+- **Edad:** 40
+- **Distrito:** Ate  
+- **Screenshot del video:**  
+- **URL del video en Microsoft Stream:** 
 
-#### Resumen descriptivo de la entrevista:  
+##### Resumen descriptivo de la entrevista:  
 
 Pedro se desempeña como **gerente de proyecto** en **Confederate Cosmos** y tiene **41 años** de experiencia en el sector logístico. La empresa gestiona operaciones logísticas a nivel nacional, moviendo entre **5,000 y 6,000 ítems** mensualmente. Actualmente, utilizan un sistema llamado **Máximo** de IBM para gestionar los almacenes, incluyendo un almacén central, subalmacenes y almacenes en tránsito, necesarios debido al transporte marítimo y fluvial. Los productos se gestionan a través de órdenes de salida debidamente aprobadas y registradas en el sistema.
 
@@ -824,28 +813,26 @@ Pedro comenta que la empresa está en proceso de **actualización tecnológica**
 
 En cuanto a la **gestión de carga**, Pedro señala que cuando el producto está en tránsito, es necesario tener un **almacén en tránsito** para poder validar lo recibido en el destino, dado que hay un periodo de **35-45 días** de traslado. En relación con el tema de la **tecnología**, Pedro considera que el uso de **códigos QR o barras** sería una mejora significativa en la gestión de almacenes, ya que permitiría un proceso más dinámico y ágil. También menciona que la implementación de **dashboards interactivos** para el seguimiento de carga y la trazabilidad del proceso sería beneficioso para tomar decisiones informadas, especialmente cuando se trabaja en **operaciones remotas**.
 
-#### Características objetivas:  
+##### Características objetivas:  
 - **Rol:** Gerente de proyecto  
 - **Herramientas de trabajo:** Sistema Máximo (IBM), software para gestión de almacenes  
 - **Canal de comunicación:** No especificado  
 - **Tecnología usada:** Sistema Máximo, procesos manuales para control de salidas  
 - **Flujo de trabajo:** Gestión de almacenes y transportes mediante subalmacenes y almacenes en tránsito, generación de órdenes de salida y validación de entregas
 
-#### Características subjetivas:  
+##### Características subjetivas:  
 - **Personalidad:** Experimentado, abierto a la innovación, pragmático  
 - **Influencias:** Problemas operativos por grandes volúmenes de trabajadores y la logística en el transporte marítimo y fluvial  
 - **Necesidades:** Un sistema ágil y más amigable para el registro de entregas, así como mejorar la trazabilidad y eficiencia en el proceso logístico  
 - **Disposición a adoptar tecnología:** Alta, especialmente para soluciones que optimicen el proceso de entrega y control de inventarios
 
-**Entrevista 6:**  
+##### Entrevista 6: Percy Rojas 
+- **Edad:** 44 
+- **Distrito:** Lince
+- **Screenshot del video:**  
+- **URL del video en Microsoft Stream:**    
 
-**Nombre:** Percy Rojas 
-**Edad:** No especificada  
-**Distrito:** No especificado  
-**Screenshot del video:**  
-**URL del video en Microsoft Stream:**  
-
-#### Resumen descriptivo de la entrevista:  
+##### Resumen descriptivo de la entrevista:  
 
 Percy Rojas Romero, Supervisor de Planeamiento en el proyecto Gase Camisea, explicó cómo se organiza la planificación y ejecución de actividades en campo. La raíz de la planificación son las solicitudes de los usuarios, que son recibidas por un programador o planificador y, en base a estas, se organiza el personal y los recursos. Las actividades se dividen entre "campamento" y "planta de gas", donde se gestionan permisos y documentación específica debido a la alta seguridad del yacimiento.
 
@@ -853,14 +840,14 @@ Se mencionaron varias etapas de la planificación, como la evaluación de trabaj
 
 El seguimiento de la ejecución se realiza mediante reportes diarios, comunicación por radio y WhatsApp, y supervisión en campo. Los imprevistos, como emergencias, condiciones climatológicas y mantenimiento de equipos, afectan la programación de manera significativa.
 
-#### Características objetivas:  
+##### Características objetivas:  
 - **Rol:** Supervisor de Planeamiento  
 - **Herramientas de trabajo:** Microsoft Excel, Power View  
 - **Canal de comunicación:** Correo electrónico, radio, WhatsApp 
 - **Tecnología usada:** Excel, Power View (para presentaciones), no se implementaron otros sistemas debido a restricciones contractuales 
 - **Flujo de trabajo:** Recepción de solicitudes de usuarios, planificación de actividades, distribución de recursos, supervisión de ejecución, y ajustes de última hora según imprevistos
 
-#### Características subjetivas:  
+##### Características subjetivas:  
 - **Personalidad:** Enfocado en la organización y resolución de problemas, prioriza la seguridad y la calidad en la ejecución de actividades  
 - **Influencias:** Los imprevistos de emergencias y condiciones climáticas afectan la programación
 - **Necesidades:** Mejorar la eficiencia de la planificación, especialmente en la recepción de solicitudes y en la gestión de imprevistos
