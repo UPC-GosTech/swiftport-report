@@ -664,7 +664,8 @@ Mejoras posibles
 ##### Entrevista 1: Jordan Espinel
 - **Edad:** 35
 - **Distrito:** Lince
-- **Screenshot del video:**  ![Entrevista 1 captura de pantalla](assets/md-images/Entrevista1_Jordan%20Espinel.png)
+- **Screenshot del video:**  
+![Entrevista 1 captura de pantalla](assets/md-images/Entrevista1_Jordan%20Espinel.png)
 
 ##### Resumen descriptivo de la entrevista:
 Jordan se desempeña como líder de cuadrilla o *lotmaster* en un entorno industrial, específicamente en el proyecto Malvinas (GA de Camisea). Su función principal consiste en coordinar maniobras de izaje con equipos de maniobristas, garantizando la correcta ejecución de tareas con seguridad y eficacia. Él guía al operador de grúa mediante señales visuales a lo largo del campo de trabajo.
@@ -702,7 +703,8 @@ Respecto a IoT, aunque no está familiarizado con el término, considera útil s
 ##### Entrevista 2: George Coronel Ribbeck
 - **Edad:** 42
 - **Distrito:** Callao 
-- **Screenshot del video:**  ![Entrevista 2 captura de pantalla](assets/md-images/Entrevista2_George%20Coronel.png)
+- **Screenshot del video:**  
+![Entrevista 2 captura de pantalla](assets/md-images/Entrevista2_George%20Coronel.png)
 
 ##### Resumen descriptivo de la entrevista:
 George Coronel trabaja como **supervisor de almacén** en la empresa **Petrotal**, dedicada a la logística y extracción de petróleo y gas. Se encarga de la **recepción, validación y despacho de materiales**, que van desde artículos de oficina hasta EPP y maquinaria, enviados por vía marítima desde Perú hacia Brasil (Lote 95).
@@ -743,7 +745,8 @@ Mencionó que ha solicitado una plataforma interna al área de sistemas, pero **
 ##### Entrevista 3: Fernando Galiz
 - **Edad:** 52 años  
 - **Distrito:** Chulica  
-- **Screenshot del video:**  ![Entrevista 3 captura de pantalla](assets/md-images/Entrevista3_Fernando%20Isuiza.png)
+- **Screenshot del video:**  
+![Entrevista 3 captura de pantalla](assets/md-images/Entrevista3_Fernando%20Isuiza.png)
 - **URL del video en Microsoft Stream:**  
 
 ##### Resumen descriptivo de la entrevista:
@@ -773,7 +776,8 @@ Las principales **dificultades** que enfrentan son la **llegada tardía de mater
 ##### Entrevista 4: Julio Cordova Fernández
 - **Edad:** 31
 - **Distrito:** Santiago de Surco 
-- **Screenshot del video:**  ![Entrevista 4 captura de pantalla](assets/md-images/Entrevista4_Julio%20Cordova.png)
+- **Screenshot del video:**  
+![Entrevista 4 captura de pantalla](assets/md-images/Entrevista4_Julio%20Cordova.png)
 - **URL del video en Microsoft Stream:**  
 
 ##### Resumen descriptivo de la entrevista:
@@ -800,7 +804,8 @@ Julio menciona que la empresa utiliza **Bluship** para mantener registros, pero 
 ##### Entrevista 5: Pedro Ramirez
 - **Edad:** 40
 - **Distrito:** Ate  
-- **Screenshot del video:**  ![Entrevista 5 captura de pantalla](assets/md-images/Entrevista5_Pedro%20Horna.png)
+- **Screenshot del video:**  
+![Entrevista 5 captura de pantalla](assets/md-images/Entrevista5_Pedro%20Horna.png)
 - **URL del video en Microsoft Stream:** 
 
 ##### Resumen descriptivo de la entrevista:  
@@ -828,7 +833,8 @@ En cuanto a la **gestión de carga**, Pedro señala que cuando el producto está
 ##### Entrevista 6: Percy Rojas 
 - **Edad:** 44 
 - **Distrito:** Lince
-- **Screenshot del video:**  ![Entrevista 6 captura de pantalla](assets/md-images/Entrevista6_Percy%20Rojas.png)
+- **Screenshot del video:**  
+![Entrevista 6 captura de pantalla](assets/md-images/Entrevista6_Percy%20Rojas.png)
 - **URL del video en Microsoft Stream:**    
 
 ##### Resumen descriptivo de la entrevista:  
