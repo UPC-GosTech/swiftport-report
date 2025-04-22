@@ -667,6 +667,8 @@ Mejoras posibles
 ##### Entrevista 1: Jordan Espinel
 - **Edad:** 35
 - **Distrito:** Lince
+- **Marcas de tiempo de entrevista:** 00:00 - 11:32
+- **Duracion:** 11:32
 - **Screenshot del video:**  
 ![Entrevista 1 captura de pantalla](assets/md-images/Entrevista1_Jordan%20Espinel.png)
 
@@ -706,6 +708,8 @@ Respecto a IoT, aunque no está familiarizado con el término, considera útil s
 ##### Entrevista 2: George Coronel Ribbeck
 - **Edad:** 42
 - **Distrito:** Callao 
+- **Marcas de tiempo de entrevista:** 11:33 - 24:56
+- **Duracion:** 13:23
 - **Screenshot del video:**  
 ![Entrevista 2 captura de pantalla](assets/md-images/Entrevista2_George%20Coronel.png)
 
@@ -745,12 +749,13 @@ Mencionó que ha solicitado una plataforma interna al área de sistemas, pero **
 
 
 
-##### Entrevista 3: Fernando Galiz
+##### Entrevista 3: Fernando Isuiza
 - **Edad:** 52 años  
 - **Distrito:** Chulica  
+- **Marcas de tiempo de entrevista:** 24:57 - 37:06
+- **Duracion:** 12:09
 - **Screenshot del video:**  
 ![Entrevista 3 captura de pantalla](assets/md-images/Entrevista3_Fernando%20Isuiza.png)
-- **URL del video en Microsoft Stream:**  
 
 ##### Resumen descriptivo de la entrevista:
 Fernando se desempeña como **líder de cuadrilla** en una empresa logística, supervisando equipos de trabajo en campo. La **planificación se realiza el día anterior** junto a supervisores, definiendo tareas por cuadrilla. Las **principales herramientas de comunicación** son **radio y WhatsApp**, mientras que el celular se usa para recibir correos o instrucciones generales.
@@ -779,6 +784,8 @@ Las principales **dificultades** que enfrentan son la **llegada tardía de mater
 ##### Entrevista 4: Julio Cordova Fernández
 - **Edad:** 31
 - **Distrito:** Santiago de Surco 
+- **Marcas de tiempo de entrevista:** 37:07 - 51:33
+- **Duracion:** 13:26
 - **Screenshot del video:**  
 ![Entrevista 4 captura de pantalla](assets/md-images/Entrevista4_Julio%20Cordova.png)
  
@@ -807,9 +814,10 @@ Julio menciona que la empresa utiliza **Bluship** para mantener registros, pero 
 ##### Entrevista 5: Pedro Ramirez
 - **Edad:** 40
 - **Distrito:** Ate  
+- **Marcas de tiempo de entrevista:** 51:34 - 1:03:31
+- **Duracion:** 11:57
 - **Screenshot del video:**  
 ![Entrevista 5 captura de pantalla](assets/md-images/Entrevista5_Pedro%20Horna.png)
-- **URL del video en Microsoft Stream:** 
 
 ##### Resumen descriptivo de la entrevista:  
 
@@ -836,9 +844,10 @@ En cuanto a la **gestión de carga**, Pedro señala que cuando el producto está
 ##### Entrevista 6: Percy Rojas 
 - **Edad:** 44 
 - **Distrito:** Lince
+- **Marcas de tiempo de entrevista:** 1:03:32 - 1:32:54
+- **Duracion:** 29:22
 - **Screenshot del video:**  
 ![Entrevista 6 captura de pantalla](assets/md-images/Entrevista6_Percy%20Rojas.png)
-- **URL del video en Microsoft Stream:**    
 
 ##### Resumen descriptivo de la entrevista:  
 
@@ -927,7 +936,6 @@ El análisis de las entrevistas revela una serie de características comunes que
 4. **Receptividad hacia nuevas tecnologías**: Existe una fuerte disposición para adoptar tecnologías emergentes como **IoT**, **GPS** y sistemas de software especializados que puedan mejorar la eficiencia operativa, el seguimiento de actividades y la **seguridad de las cargas**.
 
 El análisis ha sido realizado considerando tanto las **características objetivas** (tiempos, herramientas y métricas) como las **subjetivas** (desafíos, satisfacción y expectativas), proporcionando una base sólida para construir los **arquetipos** de usuario que representen las necesidades de cada segmento.
-
 
 
 ## 2.3. Needfinding
