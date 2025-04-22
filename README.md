@@ -2911,9 +2911,11 @@ Continuando con nuestra landing page, mostraremos el mockuo que hemos elaborado.
   <p align="center"><img src="assets/md-images/open-landing-mockup.png" alt="open-landing-mockup.png" width="700px" /></p>
 </div>
 
-## 4.4. Web Applications UX/UI Design - FALTA
+## 4.4. Web Applications UX/UI Design 
 
 ### 4.4.1. Web Applications Wireframes
+
+A contianución, presentaremos los wireframes que hemos elaborado para nuestra aplicación tanto en diseño móvil como desktop. En estos, buscamos establecer las ecciones que presentaremos más adelante, así como plantear una estructura ordenada con elementos claros y resaltantes que mantengan un espaciado adecuado.
 
 #### Web Application Wireframes para desktop
 
@@ -3013,7 +3015,7 @@ __Sección Inicidencias para operario__
   <p align="center"><img src="assets/md-images/wireframe-desktop-18.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>
 
-#### Web Application para Mobile Web Browser
+#### Web Application Wireframes para Mobile Web Browser
 
 __Iniciar sesión como supervisor__
 
@@ -3093,7 +3095,7 @@ __Sección Inicidencias estado para operario__
 
 Ahora, presentaremos los mockups que hemos elaborado para nuestra aplicación web tanto en presentación desktop como en mobile. Podrá notarse como se respeta la estrutura anteriormente planteada a través de los wireframes. De la misma forma, ahora se incluirán los textos, imágenes y colores que se mostrarán al usuario dependiendo de la sección. Por otro lado, se incluye la barra del menú al estar guardada y al estar desplegada en el modelo mobile.
 
-#### Web Application Wireframes para desktop
+#### Web Application Mockups para desktop
 
 __Iniciar sesión como supervisor__
 
@@ -3221,7 +3223,7 @@ __Sección Inicidencias para operario__
   <p align="center"><img src="assets/md-images/mockup-desktop-25.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>
 
-#### Web Application para Mobile Web Browser
+#### Web Application Mockups para Mobile Web Browser
 
 __Iniciar sesión como supervisor__
 
@@ -3362,7 +3364,7 @@ Cuando el operario ingrese correctamente con su usuario y contraseña, entonces 
 A continuación, presentamos el prototipo que hemos elaborado para nuestra aplicación, el cual considera tanto el modelo mobile como el desktop. Para la elaboración del mismo, estamos considerando el modelo de navegación antes propuesto. Este considera el movimiento del usuario a través de las pantallas por medio de los botones, así como por medio del menú desplegable. Los fundamentos que hemos considerando para ello son:
 
 1. __Diseño responsive:__ Tanto nuestra landing page como las secciones presentadas tendrán un diseño responsive que se adaptará al tamaño de la pantalla del usuario sin desorganizar la información considerada, de forma que siga siendo agradable a la vista sin importar el entorno.  
-2. __Facilidad de uso:__ Buscamos que el diseño presentado sea lo más sencillo de usar para el usuario, de forma de que no surgan confusoiones mientras se utiliza la aplicación. Así, la adaptación al nuevo sistema será más rápida y autónoma para los empleados de las empresas que nos contraten.
+2. __Facilidad de uso:__ Buscamos que el diseño presentado sea lo más sencillo de usar para el usuario, de forma de que no surgan confusiones mientras se utiliza la aplicación. Así, la adaptación al nuevo sistema será más rápida y autónoma para los empleados de las empresas que nos contraten.
 3. __Estructura de la información:__ La información se presenta utilizando ciertos patrones que resulten agradables hacia el usuario. De la misma forma, se prioriza colocar en las pantallas de acceso más corto la información principal, de forma que el usuario solo ingrese a las pantallas más lejanas si desea imformación puntual. De esta forma, las pantallas se mantienen limpias y la organización clara.
 
 <div>
