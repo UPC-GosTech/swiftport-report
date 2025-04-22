@@ -3285,6 +3285,170 @@ __Sección Inicidencias estado para operario__
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+####  User Goal: Registrar cuenta en SwiftPort  
+#####  User Persona: Supervisor logístico de una empresa operativa
+##### Explicación del flujo: 
+En primer lugar, el supervisor debe ingresar a la plataforma SwiftPort desde la **landing page**, donde se le presentan las opciones de iniciar sesión o registrarse. Al seleccionar la opción **"Register"**, el usuario accede a la ventana donde podrá elegir su **rol** entre "Supervisor" u "Operario". 
+
+Después de seleccionar su rol, se le guiará a una pantalla donde deberá completar los campos de **correo electrónico, contraseña y confirmación de contraseña**. Al presionar nuevamente el botón **"Register"**, el sistema validará la información ingresada.
+
+Tras el registro exitoso, el usuario será redirigido automáticamente a la **pantalla principal**, donde podrá acceder a módulos como **"Planificación"**, **"Fases"**, **"Incidencias"**, **"Usuarios"** y **"Clima"**. Desde esta vista, tendrá acceso a tareas pendientes, alertas operativas y navegación lateral para gestionar las funciones asignadas a su rol.
+
+<p align="center">
+  <img src="assets/md-images/Flujo 1.png" alt="Wireflow Registro Supervisor" width="720px" />
+</p>
+
+####  User Goal: Crear una nueva tarea logística  
+#####  User Persona: Supervisor logístico en campo
+
+##### Explicación del flujo: 
+En primer lugar, el supervisor logístico accede a la plataforma **SwiftPort** mediante la página de inicio de sesión, donde deberá ingresar su correo corporativo y contraseña. Una vez autenticado correctamente, el sistema lo redirige a la pantalla principal, en la que se presenta un menú lateral con acceso a las funcionalidades clave del sistema.
+
+Desde este menú, el supervisor selecciona la opción **"Planificación"**, lo que lo lleva a una nueva vista. Esta vista está dividida en dos bloques principales:
+
+- En el bloque izquierdo, se encuentra el formulario **"Nueva Tarea"**, donde deberá completar campos como:
+  - Descripción de la tarea
+  - Zona o ubicación asignada
+  - Fecha estimada de ejecución
+
+- En el bloque derecho, encontrará la sección **"Asignar responsable"**, en la cual debe:
+  - Seleccionar al responsable de la ejecución
+  - Determinar los recursos necesarios (vehículos, equipos)
+  - Validar la disponibilidad del personal
+
+Después de llenar los campos requeridos en ambos bloques, el supervisor debe presionar el botón **"Crear"**, con lo cual el sistema registra la nueva tarea. Acto seguido, se muestra un mensaje de confirmación y la tarea pasa a formar parte del módulo de control de actividades operativas, accesible desde el dashboard principal.
+
+<p align="center">
+  <img src="assets/md-images/Flujo 2.png" alt="Wireflow Crear Tarea" width="720px" />
+</p>
+
+####  User Goal: Visualizar y gestionar fases operativas  
+#####  User Persona: Supervisor logístico de campo
+
+##### Explicación del flujo:  
+
+En primer lugar, el supervisor inicia sesión desde la landing page de **SwiftPort**, accediendo con su email corporativo y contraseña. Una vez dentro del sistema, se presenta el panel principal que incluye accesos rápidos a secciones clave mediante una barra lateral.
+
+El usuario selecciona la opción **“Fases”** en el menú lateral izquierdo. Al hacerlo, accede a una vista central donde se muestran las fases definidas para una operación logística determinada. Estas fases están representadas de forma secuencial en una línea de tiempo vertical o diagrama de pasos, cada una con una descripción, fecha y mapa de geolocalización asociado.
+
+Dentro de esta pantalla, el supervisor puede:
+
+- Visualizar el estado actual de cada fase (activa, pendiente, completada).
+- Consultar tareas relacionadas a cada fase.
+- Acceder al mapa asociado para verificar la zona operativa asignada.
+- Validar o actualizar el estado de las fases, según la información recibida desde campo.
+
+<p align="center">
+  <img src="assets/md-images/Flujo 3.png" alt="Wireflow Fases" width="720px" />
+</p>
+
+####  User Goal: Reportar y gestionar una incidencia  
+#####  User Persona: Supervisor logístico
+
+##### Explicación del flujo:  
+El supervisor logístico inicia sesión en la plataforma **SwiftPort** desde la landing page. Luego de acceder, selecciona el rol "Supervisor" y entra al sistema. Desde la pantalla principal, accede al módulo de "Incidencias" mediante el menú lateral izquierdo.
+
+Una vez dentro, se muestra una lista de incidencias recientes con opción a asignar responsable. Cada tarjeta contiene información clave como el estado, la zona y la descripción básica. Si necesita más detalles, puede presionar el botón "Detalles", el cual redirige a una nueva pantalla donde se presenta una ficha completa de la incidencia: descripción extensa, recursos involucrados, condiciones del entorno, e imágenes referenciales.
+
+En esta pantalla también puede editar la información si la incidencia fue resuelta o necesita actualizarse. Finalmente, vuelve al panel principal con las incidencias actualizadas y visibles para todos los roles relacionados.
+
+<p align="center">
+  <img src="assets/md-images/flujo 4.png" alt="Wireflow Incidencias Supervisor" width="720px" />
+</p>
+
+####  User Goal: Gestión de usuarios en SwiftPort  
+#####  User Persona: Supervisor logístico
+
+##### Explicación del flujo:
+
+El supervisor logístico accede al sistema desde la pantalla principal ingresando su email y contraseña. Una vez autenticado, llega al panel de control donde podrá navegar al módulo de “Usuarios” mediante la barra lateral izquierda.
+
+Al ingresar al módulo de **Usuarios**, se le presentan dos secciones principales:
+
+- **Registrar nuevo usuario**: en esta sección puede crear cuentas para nuevos integrantes del equipo, ya sea personal operativo o de supervisión. Se requiere ingresar datos como nombre, correo electrónico, rol y estado. Al completar los campos y presionar “Crear”, el nuevo usuario será registrado en el sistema.
+
+- **Lista de usuarios**: muestra todos los usuarios registrados, junto con su estado actual y un botón para editar su información. Esta lista permite mantener actualizados los datos y realizar cambios como desactivar cuentas o reasignar roles según necesidades del equipo.
+
+Este flujo garantiza que el supervisor mantenga el control sobre los accesos al sistema, asegurando una gestión segura y organizada del personal logístico dentro de la plataforma.
+
+<p align="center">
+  <img src="assets/md-images/flujo 5.png" alt="Wireflow Usuarios" width="720px" />
+</p>
+
+####  User Goal: Consultar el clima y sus incidencias relacionadas  
+#####  User Persona: Supervisor logístico de campo
+
+##### Explicación del flujo:  
+
+En primer lugar, el supervisor inicia sesión en la aplicación SwiftPort desde la pantalla principal. Tras validar sus credenciales, accede a la pantalla de inicio. Desde allí, puede ingresar al módulo **Clima** haciendo clic en la opción correspondiente del menú lateral.
+
+En el módulo de clima, el supervisor visualiza la información meteorológica actual, incluyendo temperatura, humedad, condiciones del cielo y otras variables relevantes. Esta información se muestra acompañada por una sección de **incidencias relacionadas al clima**, como alertas por lluvias intensas, vientos fuertes o condiciones que afectan la operación en campo.
+
+Cada incidencia climática registrada está acompañada de un botón **“Detalles”** que permite al usuario conocer más información sobre la afectación, ubicación y recomendaciones de acción. Si lo considera necesario, el supervisor puede reportar nuevas incidencias relacionadas al clima presionando el botón **“Reportar incidencia”**.
+
+El flujo concluye cuando el usuario ha revisado las condiciones meteorológicas, consultado las incidencias vigentes y ha tomado decisiones operativas en función del estado del clima.
+
+<p align="center">
+  <img src="assets/md-images/flujo 6.png" alt="Wireflow Clima e Incidencias" width="720px" />
+</p>
+
+####  User Goal: Registrar cuenta como operario para acceder a la plataforma SwiftPort  
+#####  User Persona: Operario logístico de una empresa usuaria
+
+##### Explicación del flujo: 
+
+El proceso de registro del operario en **SwiftPort** comienza cuando este accede a la *landing page* de la aplicación y selecciona la opción **“Registrarse”** ubicada en la esquina superior derecha. A continuación, se le solicita elegir su rol dentro del sistema, donde deberá marcar la opción **“Operario”** y hacer clic en **“Register”**.  
+Luego, es redirigido a una pantalla en la que debe completar un formulario con su **correo corporativo**, una **contraseña** y la **confirmación de la misma**. Tras ingresar correctamente los datos y presionar el botón de registro, su cuenta es creada exitosamente y el sistema lo lleva directamente al **panel principal** de la plataforma, donde podrá visualizar tanto sus **tareas asignadas** como las **próximas a ejecutar**, facilitando así su planificación diaria dentro del entorno logístico.
+
+<p align="center">
+  <img src="assets/md-images/Flujo 7.png" alt="Wireflow Registro Operario" width="720px" />
+</p>
+
+####  User Goal: Actualizar el estado de una tarea asignada  
+#####  User Persona: Operario logístico
+
+##### Explicación del flujo:
+
+El flujo comienza cuando el operario inicia sesión en la aplicación **SwiftPort** desde la pantalla principal. Una vez autenticado, accede al panel de inicio, donde visualiza sus **tareas actuales y próximas**. Desde el menú lateral, selecciona **“Actualizar estado”** para acceder a una vista específica con la lista de tareas pendientes.  
+
+Cada tarea incluye un botón **“Actualizar”**, que al hacer clic, despliega un **formulario de justificación**. Allí el operario puede indicar el **nuevo estado** (en proceso, finalizada, bloqueada, etc.), **seleccionar una causa** y agregar **comentarios adicionales** si corresponde. Esto es clave en situaciones externas como condiciones climáticas o falta de recursos.
+
+Tras completar el formulario y presionar **“Actualizar”**, el nuevo estado se guarda y queda visible en tiempo real para el supervisor, quien podrá monitorear avances y tomar decisiones. El flujo finaliza cuando la actualización ha sido registrada correctamente, contribuyendo a una gestión más eficiente y transparente.
+
+<p align="center">
+  <img src="assets/md-images/flujo 8.png" alt="Wireflow Actualizar Estado" width="720px" />
+</p>
+
+####  User Goal: Reprogramar una tarea asignada que no puede ser realizada en el tiempo previsto  
+#####  User Persona: Operario logístico
+
+##### Explicación del flujo:  
+
+El flujo comienza cuando el operario inicia sesión en **SwiftPort** desde la pantalla principal. Una vez dentro, accede a la **pantalla de inicio**, donde se muestran todas sus tareas asignadas. Desde el **menú lateral**, selecciona la opción **“Reprogramación”**, lo que lo lleva a una vista con la lista de tareas pendientes, cada una acompañada por el botón **“Reprogramar”**.
+
+Al hacer clic en dicho botón, se despliega un **formulario** que permite justificar la necesidad de reprogramación, seleccionar una **nueva fecha de ejecución** y describir el **motivo del cambio**. Tras completar los campos, el operario presiona **“Actualizar”**, registrando así la modificación.
+
+La solicitud queda almacenada en el sistema y es visible para el supervisor, quien podrá **validar el cambio o tomar acciones** adicionales si es necesario. El flujo concluye cuando la tarea ha sido reprogramada correctamente, asegurando trazabilidad en la planificación operativa.
+
+<p align="center">
+  <img src="assets/md-images/Flujo 9.png" alt="Wireflow Reprogramación" width="720px" />
+</p>
+
+
+####  User Goal: Reportar y visualizar incidencias logísticas en campo  
+#####  User Persona: Operario logístico
+
+##### Explicación del flujo: 
+
+El operario inicia sesión en la plataforma **SwiftPort** y accede al módulo **“Incidencias”** desde el menú lateral. Allí puede visualizar una lista de incidencias registradas, revisar detalles o registrar una nueva.
+
+Para reportar una incidencia, selecciona **“Reportar”** y completa un formulario con el tipo, ubicación, descripción y nivel de criticidad. Al enviar el formulario, la incidencia queda registrada en el sistema y disponible para supervisores, facilitando el monitoreo y la respuesta operativa.
+
+<p align="center">
+  <img src="assets/md-images/Flujo 10.png" alt="Wireflow Incidencias Operario" width="720px" />
+</p>
+
+
 ### 4.4.3. Web Applications Mock-ups
 
 Ahora, presentaremos los mockups que hemos elaborado para nuestra aplicación web tanto en presentación desktop como en mobile. Podrá notarse como se respeta la estrutura anteriormente planteada a través de los wireframes. De la misma forma, ahora se incluirán los textos, imágenes y colores que se mostrarán al usuario dependiendo de la sección. Por otro lado, se incluye la barra del menú al estar guardada y al estar desplegada en el modelo mobile.
