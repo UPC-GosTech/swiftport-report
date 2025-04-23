@@ -3752,9 +3752,9 @@ Enlace para ingresar al prototype en [Figma](https://www.figma.com/proto/FiXNVmU
 
 ### 4.6.1. Software Architecture Context Diagram
 
-### 4.6.2. Software Architecture Container Diagram
+### 4.6.2. Software Architecture Container Diagrams
 
-### 4.6.3. Software Architecture Components Diagram
+### 4.6.3. Software Architecture Components Diagrams
 
 ## 4.7. Software Object-Oriented Design
 
