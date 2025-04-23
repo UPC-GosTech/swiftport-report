@@ -4153,6 +4153,9 @@ Se presentan a continuación capturas del proceso de configuración, integració
 
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la **Landing Page**, dividiéndose por secciones según el diseño y el contenido definido previamente.
+
+A continuación, se detalla la participación específica de cada integrante del equipo:
 
 | **Nombre**                       | **Actividad** |
 | ---------------------------------|------------|
@@ -4162,7 +4165,19 @@ Se presentan a continuación capturas del proceso de configuración, integració
 | Baldeón Vivar, Santiago Armando  | Implementación de la sección "Contacto" y footer |
 | Adrianzén Flores, Carlos Arturo  | Implementación de la sección "Contacto" y footer |
 
-# FALTA PEGAR ANALISIS DE GITHUB
+> **Nota:** Algunos integrantes colaboraron en secciones compartidas para asegurar consistencia en diseño y funcionalidad.
+
+##### Evidencia de colaboración en GitHub
+
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+![Colaboración GitHub - Landing Page](assets/md-images/collab-1.png)  
+
+##### Repositorio de trabajo:
+
+- [Repositorio de la Landing Page en GitHub](https://github.com/UPC-GosTech/swiftport-landing-page)
+
+Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
 
 # 6. Conclusiones
 
