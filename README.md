@@ -4081,8 +4081,76 @@ Video de Demostración e Implementación:
 
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review
+Durante este Sprint no se desarrollaron ni documentaron Web Services, dado que el enfoque principal estuvo en la implementación de la Landing Page como primer entregable del sistema. Por lo tanto, no se cuenta con endpoints disponibles ni documentación generada en OpenAPI en esta etapa del proyecto.
+
+La documentación de servicios será considerada en los siguientes Sprints, una vez que se inicie el desarrollo del backend y se establezca la estructura básica de la API que permitirá la integración con las vistas web implementadas.
 
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Durante este Sprint se logró con éxito el despliegue de la Landing Page de la solución SwiftPort utilizando el servicio Azure Static Web Apps, como parte del enfoque incremental en la entrega del producto.
+
+**Actividades realizadas:**
+- Se creó una cuenta en Azure y se configuró un grupo de recursos compartido para facilitar la gestión.
+
+- Se desplegó la Landing Page desde su repositorio en GitHub utilizando Azure Static Web Apps, lo cual permitió implementar un flujo automatizado de publicación mediante GitHub Actions.
+
+- Se configuró correctamente el flujo CI/CD (Integración y Entrega continua), permitiendo que cualquier commit a la rama main del repositorio actualice automáticamente la aplicación desplegada.
+
+- Se accedió al dominio proporcionado por Azure para validar la disponibilidad y funcionamiento del producto.
+
+**Evidencias del proceso de despliegue:**
+Se presentan a continuación capturas del proceso de configuración, integración con GitHub y publicación exitosa:
+
+1. Creación del grupo de recursos:
+<div>
+  <p align="center"><img src="assets/md-images/deployment-1.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+2. Configuración de recurso Static Web App:
+<div>
+  <p align="center"><img src="assets/md-images/deployment-2.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-3.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+3. Vinculación con GitHub y configuración del flujo CI/CD:
+<div>
+  <p align="center"><img src="assets/md-images/deployment-4.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-5.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-6.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+4. Despliegue exitoso con confirmación del dominio generado por Azure:
+<div>
+  <p align="center"><img src="assets/md-images/deployment-7.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-8.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-9.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-10.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+> **Nota:** Las imágenes han sido previamente descritas en la sección 5.1.4 y se referencian aquí para validar los avances de despliegue logrados en este Sprint.
+
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint
 
