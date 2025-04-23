@@ -4049,6 +4049,36 @@ En esta sección se presentan los avances en la implementación de la solución,
 
 
 ### 5.2.1.5. Execution Evidence for Sprint Review
+Durante este Sprint se logró implementar de forma completa la Landing Page del proyecto SwiftPort. Esta vista inicial permite a los usuarios conocer las funcionalidades clave del sistema, resolver dudas frecuentes y visualizar la propuesta de valor. Se trabajó en secciones como el header, sección de funcionalidades, sección de preguntas frecuentes (FAQ) y el footer, garantizando una navegación fluida y una presentación clara de los objetivos del producto.
+
+A continuación, se presentan capturas de pantalla de las vistas desarrolladas:
+
+Header:
+![Captura de pantalla del header de la landing page](assets/md-images/landing-page-screenshots/1Header.png)
+
+Why:
+![Captura de pantalla del why de la landing page](assets/md-images/landing-page-screenshots/2Why.png)
+
+Funcionalidades:
+![Captura de pantalla de las funcionalidades de la landing page](assets/md-images/landing-page-screenshots/3Funcionalidades.png)
+
+Beneficios:
+![Captura de pantalla de los beneficios de la landing page](assets/md-images/landing-page-screenshots/4Beneficios.png)
+
+How:
+![Captura de pantalla del how de la landing page](assets/md-images/landing-page-screenshots/5How.png)
+
+Faq:
+![Captura de pantalla del faq de la landing page](assets/md-images/landing-page-screenshots/6Faq.png)
+
+Footer:
+![Captura de pantalla del footer de la landing page](assets/md-images/landing-page-screenshots/7Footer.png)
+
+
+Video de Demostración e Implementación:
+[Ver video de Demostración e Implementación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215705_upc_edu_pe/ETKQXMwQBR1Lp9U2n0Ba_TwBYQ6RDcwwY6Bjp-MNA15COg?e=qGeKhL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3DD) 
+
+
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
