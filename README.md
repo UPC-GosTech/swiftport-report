@@ -3124,7 +3124,7 @@ Continuando con nuestra landing page, mostraremos el mockuo que hemos elaborado.
   <p align="center"><img src="assets/md-images/open-landing-mockup.png" alt="open-landing-mockup.png" width="700px" /></p>
 </div>
 
-## 4.4. Web Applications UX/UI Design - FALTA
+## 4.4. Web Applications UX/UI Design 
 
 ### 4.4.1. Web Applications Wireframes
 
@@ -3775,11 +3775,214 @@ Enlace para ingresar al prototype en [Figma](https://www.figma.com/proto/FiXNVmU
 
 ### 5.1.1. Software Development Environment Configuration
 
-### 5.1.2. Source Code Management
+1. **Project Management**
+
+- **Trello**: Gestión de tableros Kanban para organizar tareas y sprints. https://trello.com/es
+
+2. **Requirements Management**
+
+- **Pivotal Tracker**: Registro y priorización de historias de usuario. https://www.pivotaltracker.com/  
+- **Miro**: Diagramas colaborativos (mapas de empatía, user‑flows). https://miro.com/signup
+
+3. **Product UX/UI Design**
+
+- **Figma**: Prototipado de alta fidelidad y mock‑ups responsivos. https://www.figma.com/login
+
+4. **Software Development**
+
+- **WebStorm**: IDE para Vue.js (JS, CSS, HTML). https://www.jetbrains.com/webstorm/download/  
+- **IntelliJ IDEA Community / Ultimate**: IDE completo para Java y Spring Boot, con soporte de Spring Tooling. https://www.jetbrains.com/idea/download/
+&nbsp;&nbsp;&nbsp;&nbsp; - **Maven / Gradle**:  Herramientas de build y gestión de dependencias para el backend en Spring Boot.  
+&nbsp;&nbsp;&nbsp;&nbsp; - **Java Development Kit (JDK 11+)**: Requisito para compilar y ejecutar aplicaciones Spring Boot.  
+- **Node.js & npm**: Entorno y gestor de paquetes para la SPA en Vue.js. https://nodejs.org/  
+- **Angular CLI**: Herramienta de scaffolding y comandos de desarrollo (ng new, ng serve, ng build). Instalación: npm install -g @angular/cli https://angular.io/cli  
+- **Angular**: Framework para construir SPAs con componentes, routing y data‑binding. https://angular.io/  
+- **JavaScript, CSS y HTML**: Lenguajes base de la interfaz cliente.  
+&nbsp;&nbsp;&nbsp;&nbsp; - **JS**: https://developer.mozilla.org/es/docs/Web/JavaScript  
+&nbsp;&nbsp;&nbsp;&nbsp; - **CSS**: https://developer.mozilla.org/es/docs/Web/CSS  
+&nbsp;&nbsp;&nbsp;&nbsp; - **HTML**: https://developer.mozilla.org/es/docs/Web/HTML  
+- **Postman**: Pruebas manuales de endpoints REST y validación Swagger. https://www.postman.com/downloads  
+
+5. **Software Deployment**
+
+- **Azure CLI**: Automatización de despliegues y gestión de recursos. https://docs.microsoft.com/cli/azure/install-azure-cli  
+- **Azure Resources**: https://portal.azure.com/  
+&nbsp;&nbsp;&nbsp;&nbsp; - **Azure App Service (Web Service)**: Hosting de la API ASP .NET Core.  
+&nbsp;&nbsp;&nbsp;&nbsp; - **Azure Static Web Apps**: Publicación de la Landing y SPA bundles.  
+&nbsp;&nbsp;&nbsp;&nbsp; - **Azure SQL Database**: Base de datos relacional en la nube.  
+
+6. **Software Documentation**
+
+- **Git**: Control de versiones y gestión de ramas (GitFlow). https://git-scm.com/  
+- **GitHub**: Plataforma SaaS para repositorios Git y CI/CD con Actions. https://github.com/  
+- **LucidChart**: Plataforma SaaS de diagramación que permite crear de forma colaborativa diagramas. Se elaboró el diagrama de base de datos. https://lucidchart.com/  
+- **VisualParadigm**: Versión en la nube de la suite Visual Paradigm, enfocada en diseño de software y modelado de procesos. Se utilizó para el modelo C4. https://online.visual-paradigm.com/  
+
+### 5.1.2. Source Code Management  
+
+Nuestro proyecto se mantendrá en línea con las convenciones de flujo de trabajo definidas por el modelo GitFlow para el control de versiones de desarrollo. Teniendo a GitHub como plataforma y sistema de control de versiones.
+
+A continuación, detallaremos la implementación del modelo GitFlow y se proporcionará los URL de los repositorios de GitHub de cada producto del trabajo.
+
+Repositorios de GitHub:
+
+- Organización en GitHub: https://github.com/UPC-GosTech  
+- Informe: https://github.com/UPC-GosTech/swiftport-report  
+- Landing Page:   https://github.com/UPC-GosTech/swiftport-landing-page  
+- SPA: https://github.com/UPC-GosTech/swiftport-frontend  
+- Backend: https://github.com/UPC-GosTech/swiftport-backend  
+
+__Flujo de Trabajo GitFlow:__ GitFlow es un modelo de flujo de trabajo para administrar y gestionar branches en un proyecto Git, propuesto por Vincent Driessen, diseñado para facilitar el desarrollo colaborativo.
+
+__Estructuras de branches:__
+
+- __Master branch:__ Es la rama principal de la aplicación, contiene las versiones estables y sin errores listas para ser lanzadas públicamente.  
+- __Develop branch:__ Es la rama base para el desarrollo activo, aquí se integran todas las funcionalidades nuevas antes de que se considere un lanzamiento.  
+- __Feature branch:__ Es la rama que se usa para desarrollar nuevas funcionalidades o mejoras específicas del proyecto.  
+- __Release branch:__ Es la rama que se utiliza para preparar una versión estable del proyecto donde se corrigen bug menores, se actualizan versiones y se ajustan las configuraciones necesarias.  
+- __Hotfix branch:__ Es la rama donde se resuelven errores críticos encontrados en la aplicación lanzada. Esta rama se crea directamente del main, ya que necesitan una solución urgente sin pasar por el ciclo completo de desarrollo.  
+
+__Versionamiento Semántico:__ Aplicaremos el sistema de versionamiento semántico (Semantic Versioning) para dar nombre a los releases de nuestra aplicación.
+
+__Convenciones de Commits:__ Para hacer commits claros y estructurados en nuestro proyecto, utilizaremos la especificación Conventional Commits, inspirada en las Angular Commit Guidelines.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+Todos los identificadores (archivos, clases, métodos, variables, etc.) deben estar en inglés.
+
+1. HMTL
+
+- Etiquetas y atributos en minúsculas  
+ <section id="task-list"></section>  
+
+- Cerrar siempre los elementos  
+ <img src="photo.jpg" alt="field operation" />
+
+- Comillas dobles para valores de atributos
+ <button type="button" class="btn-primary"></button>
+
+- Incluir siempre alt (y width/height si es posible) en imágenes
+ <img src="truck.png" alt="logistics-truck" width="64" height="64" />
+
+- Sangría de 2 espacios
+
+2. CSS
+
+- kebab‑case para nombres de clases e IDs  
+ .task-item { … }  
+ #map-container { … }  
+
+- BEM opcional en componentes complejos  
+ .card__header--highlight { … }  
+
+- Agrupar o alfabetizar propiedades  
+
+- Omitir unidades en valores cero  
+ margin: 0;  
+
+- Separar bloques con una línea en blanco  
+
+3. TypeScript (Angular)
+
+- Seguir la Angular Style Guide (https://angular.io/guide/styleguide)  
+- Convenciones de nombres:  
+ • Clases/Componentes/Servicios: PascalCase, p. ej. UserService  
+ • Interfaces/Tipos: PascalCase, p. ej. IUser  
+ • Variables/Métodos/Propiedades: camelCase, p. ej. getUserData()  
+ • Constantes: UPPER_SNAKE_CASE, p. ej. MAX_RETRIES  
+- Archivos en kebab‑case, p. ej. user-profile.component.ts  
+- Siempre usar punto y coma al final de cada línea  
+- Orden de imports: externos → absolutos del proyecto → relativo  
+- Evitar any; preferir tipado estrict  
+- Lint y formateo automáticos con ESLint (@angular-eslint) y Prettier  
+
+4. Java (Spring Boot)
+
+- Seguir Google Java Style Guide (https://google.github.io/styleguide/javaguide.html)  
+- Convenciones de nombres:  
+ • Clases/Enums: PascalCase, p. ej. ShipmentOrder  
+ • Métodos/Variables: camelCase, p. ej. calculateETA()  
+ • Constantes: UPPER_SNAKE_CASE, p. ej. DEFAULT_TIMEOUT
+- Sangría de 4 espacios (sin tabs)  
+- Llaves en la misma línea, p. ej.  
+ public class VehicleLoader {  
+ public void load() {  
+ // …  
+ }  
+ }  
+- Una instrucción por línea  
+
 ### 5.1.4. Software Deployment Configuration
+
+__Prerrequisitos comunes:__
+
+- Tener una suscripción activa de Azure y permisos para crear recursos.  
+- Disponer de los tres repositorios separados (landing‑page, frontend, backend) con sus ramas principales definidas.  
+- Contar con Azure CLI (o acceso al Portal) configurado con tu cuenta.  
+
+__Creación del grupo de recursos:__ Es preferible que nuestros recursos compartan un único grupo para facilitar el proceso de CORS.  
+
+En el portal de Azure, ingresamos a la sección  de grupo de recursos y creamos uno:
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-1.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+Aquí es dónde crearemos cada uno de los recursos necesarios.
+
+__Landing Page Deployment__
+
+__Paso 1:__ En el Portal de Azure, vamos a crear un recurso y buscamos la opción Static Web Application:
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-2.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+__Paso 2:__ Seleccionamos Crear y asignamos la suscripción y el grupo de recursos creado previamente. Además, asignamos el nombre del recurso.
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-3.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+Seleccionamos el plan gratuito por fines académicos y en Detalles de implementación elegimos GitHub.
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-4.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+Iniciamos sesión en nuestra cuenta de GitHub y damos acceso a la organización:
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-5.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+Seleccionamos el repositorio para la landing page y configuramos la ubicación de salida de la siguiente manera, respetando gitFlow: 
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-6.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+__Paso 3:__ Al seleccionar la opción Revisar y crear, se hará un commit sobre la rama main añadiendo el archivo .yml para la publicación automática (on-push)
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-7.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-8.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+__Paso 4:__ Una vez completada la acción, tras un par de minutos se habrá cargado nuestro código en el recurso. Podemos acceder a él yendo al recurso.
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-9.png" alt="deployment-1.png" width="700px" /></p>
+</div>
+
+Actualmente el dominio es uno asignado automáticamente por Azure, el cual posteriormente personalizaremos. Al seguir la dirección URL observaremos nuestra aplicación según el último estado del main:
+
+<div>
+  <p align="center"><img src="assets/md-images/deployment-10.png" alt="deployment-1.png" width="700px" /></p>
+</div>
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
