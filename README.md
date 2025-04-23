@@ -3819,6 +3819,17 @@ Link PivotalTracker: [OpenSource SwiftPort - Pivotal Tracker](https://www.pivota
 | Sprint 1 | US34 | Navegar entre secciones fácilmente | T08 | Configurar navegación por anclas | Asociar cada ítem del menú con su sección correspondiente. | 1 | Adrianzen Flores, Carlos Arturo | Done | 2 |
 
 ### 5.2.1.4. Development Evidence for Sprint Review
+En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la Landing Page correspondiente al alcance del Sprint actual. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en la interfaz de usuario. A continuación, se muestra una tabla que resume los commits relevantes asociados a este componente.
+
+| Repository                               | Branch                  | Commit Id | Commit Message                        | Commit Message Body                                         | Committed on (Date) |
+|------------------------------------------|--------------------------|-----------|----------------------------------------|-------------------------------------------------------------|---------------------|
+| UPC-GosTech/swiftport-landing-page       | feature/faq-section      | 5000433   | feat: Add why component                | Se agregó el componente que explica por qué usar Swiftport. | 2025-04-19          |
+| UPC-GosTech/swiftport-landing-page       | feature/faq-section      | 662ed41   | feat: Add funcionalidades-swiftport component | Se implementó la sección de funcionalidades destacadas.     | 2025-04-19          |
+| UPC-GosTech/swiftport-landing-page       | feature/header-section   | 4af107d   | feat: faq section implemented          | Se integró la sección de preguntas frecuentes.              | 2025-04-20          |
+| UPC-GosTech/swiftport-landing-page       | feature/header-section   | d3f9c9d   | feat: header section implemented       | Se desarrolló la sección de encabezado principal.           | 2025-04-20          |
+| UPC-GosTech/swiftport-landing-page       | feature/footer-section   | d097865   | feat: Create footer component          | Se creó el componente de pie de página.                     | 2025-04-21          |
+| UPC-GosTech/swiftport-landing-page       | feature/footer-section   | 84af3ed   | style: apply main desktop styles for footer component | Se aplicaron estilos principales para escritorio al footer. | 2025-04-21          |
+
 
 ### 5.2.1.5. Execution Evidence for Sprint Review
 
