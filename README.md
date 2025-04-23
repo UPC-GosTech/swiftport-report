@@ -3989,6 +3989,7 @@ Actualmente el dominio es uno asignado automáticamente por Azure, el cual poste
 ### 5.2.1. Sprint 1
 
 ### 5.2.1.1. Sprint Planning 1
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting correspondiente al Sprint 1 del proyecto. Se incluye información como la fecha y hora de la reunión, los participantes, el objetivo del Sprint, la estimación de la velocidad del equipo y el total de puntos de historia comprometidos para este ciclo de trabajo. A continuación, se presenta el resumen del Sprint Planning Meeting:
 
 | Sprint # | Sprint 1 |
 |----------|---------|
