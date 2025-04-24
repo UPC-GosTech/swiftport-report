@@ -1182,12 +1182,39 @@ Conociendo todos los datos mostrados anteriormente, realizamos un As-Is Scenario
   <p align="center"><img src="assets/md-images/AS IS Supervisor logístico.jpg" alt="Canvas" width="700px" /></p>
 </div>
 
-## 2.4. Ubiquitous Language - FALTA
+## 2.4. Ubiquitous Language 
 
+### Glosario de Términos del Dominio
 
+- **Vehicle (Vehículo):** Unidad de transporte registrada por la empresa logística (p. ej. camión, cargador frontal) que moviliza las cargas entre locaciones.
 
+- **Employee (Empleado):** Persona que forma parte del personal de campo y ejecuta las actividades asignadas.
 
+- **Crew (Cuadrilla):** Conjunto de empleados agrupados para realizar una misma actividad, con un líder que coordina al equipo.
 
+- **Activity (Actividad):** Requerimiento genérico de transporte o trabajo en campo definido por la empresa logística, con origen, destino y detalles de carga.
+
+- **Schedule (Programación):** Registro de la planificación de una actividad, que incluye fechas y horas de inicio y fin, los vehículos y la cuadrilla asignada, así como el historial de reprogramaciones.
+
+- **Load (Carga):** Detalle de los materiales o bienes a transportar en el contexto de una actividad, con peso y descripción.
+
+- **Zone (Zona):** Área geográfica lógica que agrupa varias locaciones para facilitar el reporte y la planificación.
+
+- **Location (Locación):** Punto geográfico con coordenadas fijas dentro de una zona, que indica origen o destino de una actividad.
+
+- **Execution Record (Registro de Ejecución):** Documento que recoge la ejecución real de una actividad, incluyendo hora real de inicio y fin, observaciones y URLs de evidencia fotográfica.
+
+- **Incident Report (Reporte de Incidente):** Aviso formal de un suceso inesperado durante la ejecución de una actividad (p. ej. falla mecánica, cambio climático) que afecta su desarrollo.
+
+- **Notification (Notificación):** Mensaje enviado a un usuario (planificador u operario) para informar eventos relevantes del flujo: asignación, reprogramación, incidente o finalización.
+
+- **NotificationChannel (Canal de Notificación):** Medio a través del cual se envía una notificación (por ejemplo, EMAIL, SMS, PUSH).
+
+- **Plan (Plan):** Nivel de servicio contratado por la empresa logística (Free, Starter, Pro, Enterprise), que define características, límites y precio mensual.
+
+- **Subscription (Suscripción):** Contrato activo de acceso al sistema bajo un Plan determinado, con fecha de inicio y de próxima renovación.
+
+- **Payment (Pago):** Registro de transacción económica asociado a una Suscripción, que indica monto, fecha de pago y estado (SUCCEEDED, FAILED).
 
 # 3. Capítulo III: Requirements Specification
 
