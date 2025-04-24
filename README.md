@@ -4067,8 +4067,14 @@ Beneficios:
 How:
 ![Captura de pantalla del how de la landing page](assets/md-images/landing-page-screenshots/5How.png)
 
+Plans:
+![Captura de pantalla del plans de la landing page](assets/md-images/Captura%20de%20pantalla%20de%20plans%20del%20landing%20page.png)
+
 Faq:
 ![Captura de pantalla del faq de la landing page](assets/md-images/landing-page-screenshots/6Faq.png)
+
+Contact:
+![Captura de pantalla del contact de la landing page](assets/md-images/Captura%20de%20pantalla%20de%20contact%20del%20landing%20page.png)
 
 Footer:
 ![Captura de pantalla del footer de la landing page](assets/md-images/landing-page-screenshots/7Footer.png)
