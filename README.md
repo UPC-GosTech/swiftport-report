@@ -4176,7 +4176,7 @@ A continuación, se detalla la participación específica de cada integrante del
 
 A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
 
-![Colaboración GitHub - Landing Page](assets/md-images/collab-1.png)  
+![Gráfico de contribuciones](assets/md-images/contributions.png)
 
 ##### Repositorio de trabajo:
 
