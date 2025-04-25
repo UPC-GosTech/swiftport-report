@@ -144,7 +144,19 @@ __TB1__
           <li>Class Dictionary</li>
           <li>Database Diagram</li>
         </ul>
-      <strong>Baldeón Vivar, Santiago Armando</strong> <br>TB1<br><br>
+      <strong>Baldeón Vivar, Santiago Armando</strong> 
+      <br>TB1
+      <ul>
+          <li>Canvas</li>
+          <li>Diseño de entrevistas</li>
+          <li>Style Guidelines</li>
+          <li>Wireframes</li>
+          <li>Mockup</li>
+          <li>Class Dictionary</li>
+          <li>Source Code Style Guide & Conventions</li>
+          <li>Sprint Backlog 1</li>
+          <li>Edición del video</li>
+        </ul>
       <strong>Adrianzén Flores, Carlos Arturo</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Analisis de competidores</li>
@@ -216,7 +228,19 @@ __TB1__
           <li>Source Code Style Guide & Conventions</li>
           <li>Software Deployment Configuration</li>
         </ul>
-      <strong>Baldeón Vivar, Santiago Armando</strong> <br>TB1<br><br>
+      <strong>Baldeón Vivar, Santiago Armando</strong> <br>TB1
+            <br>TB1
+        <ul>
+          <li>Canvas</li>
+          <li>Diseño de entrevistas</li>
+          <li>Style Guidelines</li>
+          <li>Wireframes</li>
+          <li>Mockup</li>
+          <li>Class Dictionary</li>
+          <li>Source Code Style Guide & Conventions</li>
+          <li>Sprint Backlog 1</li>
+          <li>Edición del video</li>
+        </ul>
       <strong>Adrianzén Flores, Carlos Arturo</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Analisis de competidores</li>
