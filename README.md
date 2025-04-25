@@ -3803,6 +3803,40 @@ En el C2, se hace "zoom" dentro de el sistema, y se identifican los contenedores
 
 ### 4.6.3. Software Architecture Components Diagrams
 
+En el C3, exploramos más a detalle cada uno de los contenedores que hemos identificado. En este caso, realizamos el C3 para los contenedores lógicos (bounded context)
+
+* Security Context: 
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/c3-security-context.png" alt="c3: System Context Components.png" width="700px" /></p>
+</div>
+
+* Billing Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/c3-billing-context.png" alt="c3: Billing Context Components.png" width="700px" /></p>
+</div>
+
+* Notifications Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/c3-notifications-context.png" alt="c3: Notifications Context Components.png" width="700px" /></p>
+</div>
+
+* Resources Context: 
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/c3-resources-context.png" alt="c3: Resources Context Components.png" width="700px" /></p>
+</div>
+
+* Planning Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/c3-planning-context.png" alt="c3: Planning Context Components.png" width="700px" /></p>
+</div>
+
+* Execution Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/c3-execution-context.png" alt="c3: Execution Context Components.png" width="700px" /></p>
+</div>
+
+#### System Context 
+
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
