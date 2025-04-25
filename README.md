@@ -87,10 +87,118 @@ __TB1__
 
 ## Students Outcomes
 
-| _Criterios específicos_ | _Acciones realizadas_ | _Conclusiones_ |
-| ----------------------- | ------------------------------------------------------------ | -------------- |
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Roman Cruz, Natalia Bertha <br>TB1<br>- Antecedentes y problemática <br>- Lean UX Problem Statements <br>- Análisis de entrevistas <br>- Needfinding <br>- Requirements Specification <br>- Organization Systems <br>- Labeling Systems <br>- Web Applications Wireflow Diagrams <br>- Domain-Driven Software Architecture <br>- Software Object-Oriented Design <br>- Database Design <br>- Team Collaboration Insights during Sprint <br>- Landing page <br>- Conclusiones <br>- Recomendaciones <br> <br>Solano Armas, Angelo Hector <br>TB1<br> <br>Iglesias Pérez, Sergio Sebastián <br>TB1<br> <br>Baldeón Vivar, Santiago Armando <br>TB1<br> <br>Adrianzén Flores, Carlos Arturo <br>TB1<br>- Analisis de competidores <br>- Analisis de entrevistas<br>- Aspect Leaders and collaborators<br>- Sprint Backlog 1<br>- Development Evidence for Sprint Review<br>- Execution Evidence for Sprint Review<br>- Team collaboration insigths | Al haber concluido con la primera entrega, hemos llegado a la conclusión de que logramos comunicarnos no solamente a través de las grabaciones incluídas, las cuales son las entrevistas y video de exposición, sino también antes los maestros que consultamos para la realización del trabajo y entre nosotros mismos como grupo y nuestros demás compañeros. Al comunicarnos, logramos expresar nuestras ideas de forma clara, comprensible, respetuosa y con un lenguaje adecuado acorde con el contexto. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Roman Cruz, Natalia Bertha <br>TB1<br>- Antecedentes y problemática <br>- Lean UX Problem Statements <br>- Análisis de entrevistas <br>- Needfinding <br>- Requirements Specification <br>- Organization Systems <br>- Labeling Systems <br>- Web Applications Wireflow Diagrams <br>- Domain-Driven Software Architecture <br>- Software Object-Oriented Design <br>- Database Design <br>- Team Collaboration Insights during Sprint <br>- Landing page <br>- Conclusiones <br>- Recomendaciones <br> <br>Solano Armas, Angelo Hector <br>TB1<br> <br>Iglesias Pérez, Sergio Sebastián <br>TB1<br> <br>Baldeón Vivar, Santiago Armando <br>TB1<br> <br>Adrianzén Flores, Carlos Arturo <br>TB1<br>- Analisis de competidores <br>- Analisis de entrevistas<br>- Aspect Leaders and collaborators<br>- Sprint Backlog 1<br>- Development Evidence for Sprint Review<br>- Execution Evidence for Sprint Review<br>- Team collaboration insigths | Al termino de la TB1, podemos concluir que logramos expresar nuestras ideas y le mnesjae central de nuestro trabajo de forma escrita. Esto, dado que redactamos todo el análisis que realizamos para comenzar a implementar nuestro trabajo. Esto es apreciable al revisar las historias de usuario, análisis Lean UX y descripción de demás elementos incluídos. Asimismo, logramos identificar el lengujae correcto a utilizar al diseñar nuestro landing page de forma que los usuarios puedan comprenderlo sin problema.|
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th style="border: 1px solid white; padding: 8px;">Criterios específicos</th>
+    <th style="border: 1px solid white; padding: 8px;">Acciones realizadas</th>
+    <th style="border: 1px solid white; padding: 8px;">Conclusiones</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid white; padding: 8px;">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
+    <td style="border: 1px solid white; padding: 8px;">
+      <strong>Roman Cruz, Natalia Bertha</strong> <br>TB1
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Antecedentes y problemática</li>
+        <li>Lean UX Problem Statements</li>
+        <li>Análisis de entrevistas</li>
+        <li>Needfinding</li>
+        <li>Requirements Specification</li>
+        <li>Organization Systems</li>
+        <li>Labeling Systems</li>
+        <li>Web Applications Wireflow Diagrams</li>
+        <li>Domain-Driven Software Architecture</li>
+        <li>Software Object-Oriented Design</li>
+        <li>Database Design</li>
+        <li>Team Collaboration Insights during Sprint</li>
+        <li>Landing page</li>
+        <li>Conclusiones</li>
+        <li>Recomendaciones</li>
+      </ul>
+      <strong>Solano Armas, Angelo Hector</strong> <br>TB1<br><br
+      <strong>Iglesias Pérez, Sergio Sebastián</strong> 
+      <br>TB1
+        <ul>
+          <li>Segmentos Objetivos</li>
+          <li>Diseño de entrevistas</li>
+          <li>Ubiquitous Language</li>
+          <li>Software Architecture Context Diagram</li>
+          <li>Software Architecture Container Diagram</li>
+          <li>Software Architecture Components Diagram</li>
+          <li>Class Diagrams</li>
+          <li>Class Dictionary</li>
+          <li>Database Diagram</li>
+        </ul>
+      <strong>Baldeón Vivar, Santiago Armando</strong> <br>TB1<br><br>
+      <strong>Adrianzén Flores, Carlos Arturo</strong> <br>TB1
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Analisis de competidores</li>
+        <li>Analisis de entrevistas</li>
+        <li>Aspect Leaders and collaborators</li>
+        <li>Sprint Backlog 1</li>
+        <li>Development Evidence for Sprint Review</li>
+        <li>Execution Evidence for Sprint Review</li>
+        <li>Team collaboration insigths</li>
+      </ul>
+    </td>
+    <td style="border: 1px solid white; padding: 8px;">Al haber concluido con la primera entrega, hemos llegado a la conclusión de que logramos comunicarnos no solamente a través de las grabaciones incluídas, las cuales son las entrevistas y video de exposición, sino también antes los maestros que consultamos para la realización del trabajo y entre nosotros mismos como grupo y nuestros demás compañeros. Al comunicarnos, logramos expresar nuestras ideas de forma clara, comprensible, respetuosa y con un lenguaje adecuado acorde con el contexto.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid white; padding: 8px;">Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
+    <td style="border: 1px solid white; padding: 8px;">
+      <strong>Roman Cruz, Natalia Bertha</strong> 
+      <br>TB1
+        <ul style="margin-top: 5px; padding-left: 20px;">
+          <li>Antecedentes y problemática</li>
+          <li>Lean UX Problem Statements</li>
+          <li>Análisis de entrevistas</li>
+          <li>Needfinding</li>
+          <li>Requirements Specification</li>
+          <li>Organization Systems</li>
+          <li>Labeling Systems</li>
+          <li>Web Applications Wireflow Diagrams</li>
+          <li>Domain-Driven Software Architecture</li>
+          <li>Software Object-Oriented Design</li>
+          <li>Database Design</li>
+          <li>Team Collaboration Insights during Sprint</li>
+          <li>Landing page</li>
+          <li>Conclusiones</li>
+          <li>Recomendaciones</li>
+        </ul>
+      <strong>Solano Armas, Angelo Hector</strong> 
+      <br>TB1<br><br>
+      <strong>Iglesias Pérez, Sergio Sebastián</strong>
+      <br>TB1
+        <ul>
+          <li>Descripción del startup</li>
+          <li>Segmentos Objetivos</li>
+          <li>Diseño de entrevistas</li>
+          <li>Ubiquitous Language</li>
+          <li>Software Architecture Context Diagram</li>
+          <li>Software Architecture Container Diagram</li>
+          <li>Software Architecture Components Diagram</li>
+          <li>Class Diagrams</li>
+          <li>Class Dictionary</li>
+          <li>Database Diagram</li>
+          <li>Software Development Enviroment Configuration</li>
+          <li>Source Code Management</li>
+          <li>Source Code Style Guide & Conventions</li>
+          <li>Software Deployment Configuration</li>
+        </ul>
+      <strong>Baldeón Vivar, Santiago Armando</strong> <br>TB1<br><br>
+      <strong>Adrianzén Flores, Carlos Arturo</strong> <br>TB1
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Analisis de competidores</li>
+        <li>Analisis de entrevistas</li>
+        <li>Aspect Leaders and collaborators</li>
+        <li>Sprint Backlog 1</li>
+        <li>Development Evidence for Sprint Review</li>
+        <li>Execution Evidence for Sprint Review</li>
+        <li>Team collaboration insigths</li>
+      </ul>
+    </td>
+    <td style="border: 1px solid white; padding: 8px;">Al termino de la TB1, podemos concluir que logramos expresar nuestras ideas y le mnesjae central de nuestro trabajo de forma escrita. Esto, dado que redactamos todo el análisis que realizamos para comenzar a implementar nuestro trabajo. Esto es apreciable al revisar las historias de usuario, análisis Lean UX y descripción de demás elementos incluídos. Asimismo, logramos identificar el lengujae correcto a utilizar al diseñar nuestro landing page de forma que los usuarios puedan comprenderlo sin problema.</td>
+  </tr>
+</table>
 
 ---
 
@@ -121,8 +229,9 @@ __TB1__
    &nbsp;&nbsp;&nbsp;&nbsp;2.3.2. [User Task Matrix](#232-user-task-matrix)  
    &nbsp;&nbsp;&nbsp;&nbsp;2.3.3. [User Journey Mapping](#233-user-journey-mapping)  
    &nbsp;&nbsp;&nbsp;&nbsp;2.3.4. [Empathy Mapping](#234-empathy-mapping)  
-   &nbsp;&nbsp;&nbsp;&nbsp;2.3.5. [As-is Scenario Mapping](#235-as-is-scenario-mapping)  
-3. __[Capítulo III: Requirements Specification](#3-Capítulo-iii-requirements-specification)__  
+   &nbsp;&nbsp;&nbsp;&nbsp;2.3.5. [As-is Scenario Mapping](#235-as-is-scenario-mapping) 
+   2.4. [Ubiquitous Language](#24-ubiquitous-language)   
+3. __[Capítulo III: Requirements Specification](#3-Capítulo-iii-requirements-specification)__ 
    3.1. [To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
    3.2. [User Stories](#32-user-stories)  
    3.3. [Impact Mapping](#33-impact-mapping)  
