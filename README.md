@@ -3795,8 +3795,11 @@ Este diagrama muestra en una única vista al sistema SwiftPort, sus actores prin
 
 ### 4.6.2. Software Architecture Container Diagrams
 
+En el C2, se hace "zoom" dentro de el sistema, y se identifican los contenedores. En este caso, con fines de mostrar la aplicación de Domain Driven Design, se añadieron 6 contenedores lógicos representados por hexágonos, los bounded context, pues el API Application es un monolito.
 
-
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/c2-containers-diagram.png" alt="c2: Containers Diagram.png" width="700px" /></p>
+</div>
 
 ### 4.6.3. Software Architecture Components Diagrams
 
