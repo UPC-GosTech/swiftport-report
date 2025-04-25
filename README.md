@@ -36,13 +36,14 @@
 | _Versión_ | _Fecha_    | _Autor_ | _Descripción de modificación_ |
 | --------- | ---------- | ------- | ----------------------------- |
 | 1.0       | 06/04/2025 | Iglesias Pérez, Sergio Sebastián | Creación del repositorio |
-| 1.1       | 13/04/2025 | Roman Cruz, Natalia Bertha       | Capítulos I (sin entrevistas), Capítulo II (ubiquitous language) y Capítulo 3 (hasta 3.2) |
+| 1.1       | 13/04/2025 | Roman Cruz, Natalia Bertha       | Capítulos I (sin entrevistas), Capítulo II (ubiquitous language) y Capítulo III (hasta 3.2) |
+| 1.2       | 25/04/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano| Implementación de los capítulos IV y V - Entrevistas, Ubiquitous anguage y Capítulo III completados|
 
 ---
 
 ## Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto: FALTA LANDING PAGE
+URL del repositorio para el reporte del proyecto: https://github.com/UPC-GosTech/swiftport-report
 
 **TB1**
 
@@ -71,17 +72,25 @@ Se puede identificar a los integrantes como:
 - Baldeón Vivar, Santiago Armando: Santibal11
 - Adrianzén Flores, Carlos Arturo: Choliwys
 
-Asimismo, se explican las ramas que tenemos hasta el momento: FALTA COMPLETAR E IMAGEN
-- main:
-- readme-updates:
+Asimismo, se explican las ramas que tenemos hasta el momento: 
+- main: Aún no se encuentra representada, pues se hace un merge en cada entrega al ser la rama principal del proyecto.
+- develop: Representada por la rama blanca. Se trata de la rama principal para el proceso del desarrollo del proyecto.
+- feature/x: Representada por las ramas inferiores a develop (azul y verde). Se utilizan para el desarrollo de cada uno de los contribuyentes
 
-**ESPACIO PARA LA IMAGEN**
+<div>
+  <p><img src="assets/md-images/github-insights/github-insights-TB1-A.jpg" alt="Network Graph TB1" width="700px" /></p>
+</div>
 
 Los siguientes gráficos muestran analíticos en cuanto a los commits que cada integrante del grupo ha estado realizando en el repositorio.
 
 __TB1__
 
-**ESPACIO PARA LA IMAGEN**
+<div>
+  <p><img src="assets/md-images/github-insights/github-insights-TB1-B.jpg" alt="Contributors" width="700px" /></p>
+</div>
+<div>
+  <p><img src="assets/md-images/github-insights/github-insights-TB1-C.jpg" alt="Overview" width="700px" /></p>
+</div>
 
 ---
 
@@ -4852,3 +4861,12 @@ Conventional Commits. (2021). Conventional commits 1.0.0. [https://www.conventio
 Microsoft. (n.d.). Azure Static Web Apps documentation. Microsoft Learn. [https://learn.microsoft.com/en-us/azure/static-web-apps/](https://learn.microsoft.com/en-us/azure/static-web-apps/)
 
 # 8. Anexos 
+
+Para acceder a los diferentes recursos del proyecto, puedes visitar los siguientes enlaces:
+
+- Video exposición TB1: [https://youtu.be/BFcNvl_Vn40](https://youtu.be/BFcNvl_Vn40)
+- Landing Page desplegado del proyecto: [https://black-desert-0b23d3a0f.6.azurestaticapps.net](https://black-desert-0b23d3a0f.6.azurestaticapps.net)
+- Repositorio de la Landing Page: [https://github.com/UPC-GosTech/swiftport-landing-page](https://github.com/UPC-GosTech/swiftport-landing-page)
+- Documentación del Proyecto: [https://github.com/UPC-GosTech/swiftport-docs](https://github.com/UPC-GosTech/swiftport-report)
+
+
