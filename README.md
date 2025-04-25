@@ -1304,7 +1304,7 @@ Conociendo todos los datos mostrados anteriormente, realizamos un As-Is Scenario
 #### 2.3.5.2. Operador Logístico
 
 <div>
-  <p align="center"><img src="assets/md-images/AS IS Supervisor logístico.jpg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/AS IS Operario Logistico .jpg" alt="Canvas" width="700px" /></p>
 </div>
 
 ## 2.4. Ubiquitous Language 
