@@ -3777,9 +3777,26 @@ Enlace para ingresar al prototype en [Figma](https://www.figma.com/proto/FiXNVmU
 
 ## 4.6. Domain-Driven Software Architecture
 
+El enfoque **Domain-Driven Design** (DDD) persigue que el software refleje fielmente el dominio de negocio, facilitando la colaboración entre desarrolladores y expertos en la materia. Para ello, DDD propone:
+
+- **Lenguaje ubicuo**: un vocabulario compartido en código y comunicación que evite ambigüedades.  
+- **Bounded Contexts**: particionar el dominio en áreas autónomas, con sus propios modelos y límites bien definidos.  
+- **Patrones estratégicos** (Context Map, Anticorruption Layer) y **tácticos** (Entidades, Value Objects, Repositorios, Servicios de Dominio) que guían tanto la estructura del código como el diseño arquitectónico.
+
+En SwiftPort, aplicar DDD nos permite aislar responsabilidades (autenticación, facturación, recursos, planificación, ejecución y notificaciones) y evolucionar cada parte de forma independiente sin perder la coherencia global.
+
 ### 4.6.1. Software Architecture Context Diagram
 
+Este diagrama muestra en una única vista al sistema SwiftPort, sus actores principales y los sistemas externos con los que interactúa:
+
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/c1-system-context.png" alt="c1: System Context.png" width="700px" /></p>
+</div>
+
 ### 4.6.2. Software Architecture Container Diagrams
+
+
+
 
 ### 4.6.3. Software Architecture Components Diagrams
 
