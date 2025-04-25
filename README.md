@@ -3849,6 +3849,416 @@ Diagrama de clases basado en bounded contexts
 
 ### 4.7.2. Class Dictionary
 
+# Diccionario de Clases
+
+A continuación se documentan todas las clases, interfaces y enums del diagrama de clases de **SwiftPort**, agrupadas por _Bounded Context_.
+
+---
+
+## Security Context
+
+### Account  
+**Descripción**: Representa a la empresa o cliente suscrito, con límites según su plan.  
+**Atributos**:  
+| Nombre        | Tipo               | Visibilidad | Descripción                                             |
+|---------------|--------------------|-------------|---------------------------------------------------------|
+| id            | `Long`             | private     | Identificador único de la cuenta                        |
+| name          | `String`           | private     | Nombre de la empresa                                    |
+| plan          | `SubscriptionPlan` | private     | Plan de suscripción asociado                            |
+| maxUsers      | `int`              | private     | Límite de usuarios permitidos                           |
+| maxVehicles   | `int`              | private     | Límite de vehículos permitidos                          |
+
+**Métodos**:  
+| Firma                             | Visibilidad | Descripción                                                       |
+|-----------------------------------|-------------|-------------------------------------------------------------------|
+| `canAddUser(): boolean`           | public      | Devuelve `true` si `maxUsers` no está alcanzado                  |
+| `canAddVehicle(): boolean`        | public      | Devuelve `true` si `maxVehicles` no está alcanzado               |
+
+---
+
+### User  
+**Descripción**: Usuario de la aplicación, asociado a una cuenta y con roles/permiso.  
+**Atributos**:  
+| Nombre        | Tipo     | Visibilidad | Descripción                       |
+|---------------|----------|-------------|-----------------------------------|
+| id            | `Long`   | private     | Identificador único               |
+| username      | `String` | private     | Nombre de usuario (login)         |
+| email         | `String` | private     | Correo electrónico del usuario    |
+| passwordHash  | `String` | private     | Contraseña hasheada               |
+
+**Métodos**:  
+| Firma                                       | Visibilidad | Descripción                                           |
+|---------------------------------------------|-------------|-------------------------------------------------------|
+| `checkPassword(raw: String): boolean`       | public      | Verifica si `raw` concuerda con `passwordHash`       |
+
+---
+
+### Role  
+**Descripción**: Rol de seguridad asignable a usuarios.  
+**Atributos**:  
+| Nombre | Tipo     | Visibilidad | Descripción                       |
+|--------|----------|-------------|-----------------------------------|
+| id     | `Long`   | private     | Identificador único               |
+| name   | `String` | private     | Nombre del rol (p.ej. ADMIN)      |
+
+**Métodos**:  
+| Firma                               | Visibilidad | Descripción                                           |
+|-------------------------------------|-------------|-------------------------------------------------------|
+| `assignTo(user: User): void`        | public      | Asigna este rol al usuario indicado                   |
+
+---
+
+### Permission  
+**Descripción**: Permiso atómico para controlar acceso.  
+**Atributos**:  
+| Nombre | Tipo     | Visibilidad | Descripción                   |
+|--------|----------|-------------|-------------------------------|
+| id     | `Long`   | private     | Identificador único           |
+| name   | `String` | private     | Nombre del permiso (p.ej. READ_TASK) |
+
+---
+
+### MenuItem  
+**Descripción**: Ítem de menú condicionado a permisos.  
+**Atributos**:  
+| Nombre | Tipo                | Visibilidad | Descripción                                 |
+|--------|---------------------|-------------|---------------------------------------------|
+| id     | `Long`              | private     | Identificador único                         |
+| label  | `String`            | private     | Texto a mostrar                             |
+| route  | `String`            | private     | Ruta o URL asociada                         |
+
+**Métodos**:  
+| Firma                                                          | Visibilidad | Descripción                                               |
+|----------------------------------------------------------------|-------------|-----------------------------------------------------------|
+| `isAccessibleBy(perms: List<Permission>): boolean`             | public      | Devuelve `true` si el usuario posee los permisos necesarios |
+
+---
+
+### Interfaces de repositorio y proveedor de JWT
+
+| Nombre                    | Métodos clave                                                                    |
+|---------------------------|----------------------------------------------------------------------------------|
+| `IUserRepository`         | `findByUsername(username: String): Optional<User>`<br>`save(user: User): User`    |
+| `IRoleRepository`         | `findByName(name: String): Optional<Role>`<br>`save(role: Role): Role`            |
+| `IJwtTokenProvider`       | `generateToken(user: User): String`<br>`validateToken(token: String): boolean`<br>`getUserFromToken(token: String): User` |
+| `IPasswordEncoder`        | `encode(raw: String): String`<br>`matches(raw: String, encoded: String): boolean` |
+
+---
+
+## Billing Context
+
+### SubscriptionPlan  
+**Descripción**: Plan de suscripción con precio y periodo.  
+**Atributos**:  
+| Nombre       | Tipo            | Visibilidad | Descripción                                   |
+|--------------|-----------------|-------------|-----------------------------------------------|
+| id           | `Long`          | private     | Identificador único                           |
+| name         | `String`        | private     | Nombre del plan                               |
+| price        | `BigDecimal`    | private     | Precio                                       |
+| period       | `Duration`      | private     | Duración del periodo (mensual, anual…)       |
+
+**Métodos**:  
+| Firma                                                                                  | Visibilidad | Descripción                                                            |
+|----------------------------------------------------------------------------------------|-------------|------------------------------------------------------------------------|
+| `calculateProratedAmount(changeDate: LocalDate): BigDecimal`                           | public      | Calcula importe prorrateado al cambiar de plan en una fecha intermedia |
+
+---
+
+### Invoice  
+**Descripción**: Factura generada para una cuenta.  
+**Atributos**:  
+| Nombre      | Tipo         | Visibilidad | Descripción                           |
+|-------------|--------------|-------------|---------------------------------------|
+| id          | `Long`       | private     | Identificador único                   |
+| accountId   | `Long`       | private     | ID de la cuenta a la que pertenece    |
+| date        | `LocalDate`  | private     | Fecha de emisión                      |
+| amount      | `BigDecimal` | private     | Importe de la factura                 |
+| status      | `String`     | private     | Estado (ISSUED, PAID, OVERDUE)        |
+
+**Métodos**:  
+| Firma                         | Visibilidad | Descripción                       |
+|-------------------------------|-------------|-----------------------------------|
+| `generatePdf(): byte[]`       | public      | Devuelve el PDF de la factura     |
+
+---
+
+### Payment  
+**Descripción**: Registro de un cobro o reembolso.  
+**Atributos**:  
+| Nombre      | Tipo         | Visibilidad | Descripción                         |
+|-------------|--------------|-------------|-------------------------------------|
+| id          | `Long`       | private     | Identificador único                 |
+| invoiceId   | `Long`       | private     | ID de la factura asociada           |
+| amount      | `BigDecimal` | private     | Monto cobrado o reembolsado         |
+| date        | `LocalDate`  | private     | Fecha de la transacción             |
+| status      | `String`     | private     | Estado (SUCCESS, FAILED, REFUNDED)  |
+
+**Métodos**:  
+| Firma             | Visibilidad | Descripción                       |
+|-------------------|-------------|-----------------------------------|
+| `process(): void` | public      | Ejecuta el cobro o el reembolso   |
+
+---
+
+## Resource Management Context
+
+### Vehicle  
+**Descripción**: Máquinaria o vehículo utilizable en tareas de campo.  
+**Atributos**:  
+| Nombre               | Tipo      | Visibilidad | Descripción                                   |
+|----------------------|-----------|-------------|-----------------------------------------------|
+| id                   | `Long`    | private     | Identificador único                           |
+| plateNumber          | `String`  | private     | Matrícula o código identificador              |
+| type                 | `String`  | private     | Tipo de vehículo (camión, excavadora…)        |
+| status               | `VehicleStatus` | private | Estado en tiempo real (AVAILABLE, MAINTENANCE, ASSIGNED) |
+| capacityLoadTons     | `Decimal` | private     | Capacidad de carga en toneladas               |
+| capacityPassengers   | `int`     | private     | Capacidad de pasajeros                       |
+
+**Métodos**:  
+| Firma                       | Visibilidad | Descripción                                          |
+|-----------------------------|-------------|------------------------------------------------------|
+| `setStatus(status: VehicleStatus): void` | public      | Actualiza el estado en tiempo real del vehículo  |
+
+---
+
+### Employee  
+**Descripción**: Persona que puede formar parte de equipos de trabajo.  
+**Atributos**:  
+| Nombre       | Tipo     | Visibilidad | Descripción                    |
+|--------------|----------|-------------|--------------------------------|
+| id           | `Long`   | private     | Identificador único            |
+| name         | `String` | private     | Nombre completo                |
+| status       | `String` | private     | Estado (ACTIVE, SUSPENDED)     |
+
+---
+
+### Position  
+**Descripción**: Cargo o puesto dentro de una cuenta.  
+**Atributos**:  
+| Nombre       | Tipo     | Visibilidad | Descripción                             |
+|--------------|----------|-------------|-----------------------------------------|
+| id           | `Long`   | private     | Identificador único                     |
+| name         | `String` | private     | Nombre del cargo                        |
+| description  | `String` | private     | Descripción breve del rol               |
+
+---
+
+### Team  
+**Descripción**: Conjunto de empleados que trabajan juntos.  
+**Atributos**:  
+| Nombre | Tipo     | Visibilidad | Descripción                   |
+|--------|----------|-------------|-------------------------------|
+| id     | `Long`   | private     | Identificador único           |
+| name   | `String` | private     | Nombre del equipo             |
+
+---
+
+#### Interfaces de repositorio  
+| Nombre                 | Métodos clave                                                      |
+|------------------------|--------------------------------------------------------------------|
+| `IVehicleRepository`   | `findAvailable(start: LocalDateTime, end: LocalDateTime): List<Vehicle>`<br>`save(v: Vehicle): Vehicle` |
+| `IEmployeeRepository`  | `findById(id: Long): Optional<Employee>`<br>`save(e: Employee): Employee`    |
+| `ITeamRepository`      | `findById(id: Long): Optional<Team>`<br>`save(t: Team): Team`                |
+
+---
+
+## Planning Context
+
+### Requirement  
+**Descripción**: Solicitud original de transporte con origen, destino y fuente.  
+**Atributos**:  
+| Nombre                 | Tipo       | Visibilidad | Descripción                                          |
+|------------------------|------------|-------------|------------------------------------------------------|
+| id                     | `Long`     | private     | Identificador único                                  |
+| originLocationId       | `Long`     | private     | FK → ubicación de origen                             |
+| destinationLocationId  | `Long`     | private     | FK → ubicación de destino                            |
+| source                 | `String`   | private     | Origen de la carga (UI, EXCEL)                       |
+| status                 | `String`   | private     | Estado de la solicitud (NEW, APPROVED, REJECTED)     |
+
+---
+
+### Cargo  
+**Descripción**: Detalle de cada carga asociada a un Requirement.  
+**Atributos**:  
+| Nombre         | Tipo       | Visibilidad | Descripción              |
+|----------------|------------|-------------|--------------------------|
+| id             | `Long`     | private     | Identificador único      |
+| description    | `String`   | private     | Descripción de la carga  |
+| weightTons     | `Decimal`  | private     | Peso en toneladas        |
+| quantity       | `int`      | private     | Cantidad de ítems        |
+
+---
+
+### Task  
+**Descripción**: Trabajo programado que satisface uno o varios cargos.  
+**Atributos**:  
+| Nombre    | Tipo     | Visibilidad | Descripción                              |
+|-----------|----------|-------------|------------------------------------------|
+| id        | `Long`   | private     | Identificador único                      |
+| description | `String` | private   | Descripción breve de la tarea            |
+| status    | `TaskStatus` | private | Estado de la tarea (NEW, PLANNED, EXECUTED, CANCELLED) |
+
+**Métodos**:  
+| Firma                                                                    | Visibilidad | Descripción                          |
+|--------------------------------------------------------------------------|-------------|--------------------------------------|
+| `assignTo(slot: ScheduleSlot, vehicle: Vehicle, team: Team): void`       | public      | Asigna la tarea a un slot y recursos |
+| `moveTo(slot: ScheduleSlot): void`                                       | public      | Reubica la tarea en otro slot        |
+
+---
+
+### ScheduleSlot  
+**Descripción**: Ranura de calendario donde se ubica una tarea.  
+**Atributos**:  
+| Nombre     | Tipo          | Visibilidad | Descripción                  |
+|------------|---------------|-------------|------------------------------|
+| id         | `Long`        | private     | Identificador único          |
+| date       | `LocalDate`   | private     | Fecha de programación        |
+| startTime  | `LocalTime`   | private     | Hora de inicio               |
+| endTime    | `LocalTime`   | private     | Hora de fin                  |
+
+**Métodos**:  
+| Firma                                            | Visibilidad | Descripción                                  |
+|--------------------------------------------------|-------------|----------------------------------------------|
+| `conflictsWith(other: ScheduleSlot): boolean`    | public      | Comprueba solapamiento con otra ranura       |
+
+---
+
+### PriorityRule  
+**Descripción**: Regla utilizada para ordenar tareas por prioridad.  
+**Atributos**:  
+| Nombre   | Tipo      | Visibilidad | Descripción                    |
+|----------|-----------|-------------|--------------------------------|
+| criteria | `String`  | private     | Criterio de clasificación      |
+| weight   | `int`     | private     | Peso relativo de la regla      |
+
+**Métodos**:  
+| Firma                                          | Visibilidad | Descripción                       |
+|------------------------------------------------|-------------|-----------------------------------|
+| `appliesTo(task: Task): boolean`               | public      | Determina si la regla aplica a la tarea |
+
+---
+
+## Execution Context
+
+### ExecutionRecord  
+**Descripción**: Registro de ejecución de una tarea en campo.  
+**Atributos**:  
+| Nombre     | Tipo             | Visibilidad | Descripción                             |
+|------------|------------------|-------------|-----------------------------------------|
+| id         | `Long`           | private     | Identificador único                     |
+| taskId     | `Long`           | private     | FK → tarea ejecutada                    |
+| startTime  | `LocalDateTime`  | private     | Marca de inicio                         |
+| endTime    | `LocalDateTime`  | private     | Marca de fin                            |
+| status     | `ExecutionStatus`| private     | Estado (IN_PROGRESS, COMPLETED, FAILED) |
+
+**Métodos**:  
+| Firma       | Visibilidad | Descripción                        |
+|-------------|-------------|------------------------------------|
+| `start(): void`   | public      | Inicia la ejecución                |
+| `complete(): void`| public      | Finaliza la ejecución              |
+
+---
+
+### ExecutionEmployee  
+**Descripción**: Vincula empleados a una ejecución y marca reemplazos.  
+**Atributos**:  
+| Nombre          | Tipo     | Visibilidad | Descripción                                 |
+|-----------------|----------|-------------|---------------------------------------------|
+| executionId     | `Long`   | private     | FK → ExecutionRecord                        |
+| employeeId      | `Long`   | private     | FK → Employee                               |
+| isReplacement   | `boolean`| private     | `true` si el empleado fue un reemplazo      |
+
+---
+
+### PhotoEvidence  
+**Descripción**: Evidencia fotográfica de una ejecución.  
+**Atributos**:  
+| Nombre          | Tipo            | Visibilidad | Descripción                             |
+|-----------------|-----------------|-------------|-----------------------------------------|
+| id              | `Long`          | private     | Identificador único                     |
+| executionRecordId | `Long`        | private     | FK → ExecutionRecord                    |
+| uploadedByUserId| `Long`          | private     | FK → User que subió la foto             |
+| url             | `String`        | private     | Ubicación de la imagen                  |
+| timestamp       | `LocalDateTime` | private     | Marca temporal de la captura            |
+
+---
+
+### Incident  
+**Descripción**: Evento no deseado reportado en el campo.  
+**Atributos**:  
+| Nombre          | Tipo             | Visibilidad | Descripción                             |
+|-----------------|------------------|-------------|-----------------------------------------|
+| id              | `Long`           | private     | Identificador único                     |
+| executionRecordId | `Long`         | private     | FK → ExecutionRecord                    |
+| type            | `IncidentType`   | private     | Tipo (FAILURE, DELAY, WEATHER)          |
+| description     | `String`         | private     | Descripción del incidente               |
+| timestamp       | `LocalDateTime`  | private     | Marca temporal del reporte              |
+
+---
+
+### Device & TelemetryReading  
+**Device**  
+| Atributo     | Tipo       | Descripción                               |
+|--------------|------------|-------------------------------------------|
+| id           | `Long`     | Identificador único                       |
+| resourceId   | `Long`     | FK → Vehicle o Team                       |
+| type         | `DeviceType` | Tipo de dispositivo (GPS, SENSOR)       |
+| status       | `String`   | Estado (ACTIVE, INACTIVE)                 |
+
+**TelemetryReading**  
+| Atributo     | Tipo           | Descripción                             |
+|--------------|----------------|-----------------------------------------|
+| id           | `Long`         | Identificador único                     |
+| deviceId     | `Long`         | FK → Device                             |
+| timestamp    | `LocalDateTime`| Marca temporal de la lectura            |
+| latitude     | `double`       | Latitud                                |
+| longitude    | `double`       | Longitud                               |
+| sensorType   | `String`       | Tipo de sensor                         |
+| value        | `String`       | Valor medido                           |
+
+---
+
+## Notification Context
+
+### NotificationTemplate  
+**Descripción**: Plantilla para los mensajes de alerta.  
+**Atributos**:  
+| Nombre   | Tipo     | Visibilidad | Descripción                         |
+|----------|----------|-------------|-------------------------------------|
+| id       | `Long`   | private     | Identificador único                 |
+| channel  | `String` | private     | Canal (EMAIL, SMS)                  |
+| subject  | `String` | private     | Asunto del mensaje                  |
+| body     | `String` | private     | Cuerpo con placeholders             |
+
+---
+
+### Notification  
+**Descripción**: Notificación encolada y su estado.  
+**Atributos**:  
+| Nombre      | Tipo     | Visibilidad | Descripción                             |
+|-------------|----------|-------------|-----------------------------------------|
+| id          | `Long`   | private     | Identificador único                     |
+| templateId  | `Long`   | private     | FK → NotificationTemplate               |
+| payload     | `Map<String,String>` | private | Datos para sustituir en la plantilla |
+| status      | `String` | private     | Estado (PENDING, SENT, FAILED)          |
+| timestamp   | `LocalDateTime` | private | Marca temporal de creación             |
+| attempts    | `int`    | private     | Número de reintentos realizados         |
+
+---
+
+### NotificationLog  
+**Descripción**: Historial de envíos de cada notificación.  
+**Atributos**:  
+| Nombre         | Tipo             | Visibilidad | Descripción                             |
+|----------------|------------------|-------------|-----------------------------------------|
+| id             | `Long`           | private     | Identificador único                     |
+| notificationId | `Long`           | private     | FK → Notification                       |
+| timestamp      | `LocalDateTime`  | private     | Marca temporal del envío                |
+| result         | `String`         | private     | Resultado recibido (OK, error…)         |
+
+---
+
+
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagram
