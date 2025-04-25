@@ -181,7 +181,23 @@ __TB1__
           <li>Recomendaciones</li>
         </ul>
       <strong>Solano Armas, Angelo Hector</strong> 
-      <br>TB1<br><br>
+      <br>TB1
+        <ul style="margin-top: 5px; padding-left: 20px;">
+          <li>Assumptions</li>
+          <li>Hypothesis Statements</li>
+          <li>Análisis de Entrevistas</li>
+          <li>Needfinding</li>
+          <li>Requirements Specification</li>
+          <li>Searching Systems</li>
+          <li>Navigation Systems</li>
+          <li>Wireframes</li>
+          <li>Domain-Driven Software Architecture</li>
+          <li>Database Diagram</li>
+          <li>Class Diagram</li>
+          <li>Aspect Leaders and Collaborators</li>
+          <li>Development Evidence for Sprint</li>
+          <li>Landing Page</li>
+        </ul>
       <strong>Iglesias Pérez, Sergio Sebastián</strong>
       <br>TB1
         <ul>
