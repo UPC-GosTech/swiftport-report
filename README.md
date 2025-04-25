@@ -4397,7 +4397,7 @@ A continuación se documentan todas las clases, interfaces y enums del diagrama 
 
 4. **Software Development**
 
-- **WebStorm**: IDE para Vue.js (JS, CSS, HTML). https://www.jetbrains.com/webstorm/download/  
+- **WebStorm**: IDE para Angular (TS, CSS, HTML). https://www.jetbrains.com/webstorm/download/  
 - **IntelliJ IDEA Community / Ultimate**: IDE completo para Java y Spring Boot, con soporte de Spring Tooling. https://www.jetbrains.com/idea/download/
 &nbsp;&nbsp;&nbsp;&nbsp; - **Maven / Gradle**:  Herramientas de build y gestión de dependencias para el backend en Spring Boot.  
 &nbsp;&nbsp;&nbsp;&nbsp; - **Java Development Kit (JDK 11+)**: Requisito para compilar y ejecutar aplicaciones Spring Boot.  
