@@ -3841,6 +3841,12 @@ En el C3, exploramos más a detalle cada uno de los contenedores que hemos ident
 
 ### 4.7.1. Class Diagrams
 
+Diagrama de clases basado en bounded contexts
+
+<div>
+  <p align="center"><img src="assets/md-images/class-diagram/swiftport-class-diagram.png" alt="Class Diagram" width="700px" /></p>
+</div>
+
 ### 4.7.2. Class Dictionary
 
 ## 4.8. Database Design
