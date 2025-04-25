@@ -229,7 +229,6 @@ __TB1__
           <li>Software Deployment Configuration</li>
         </ul>
       <strong>Baldeón Vivar, Santiago Armando</strong> <br>TB1
-            <br>TB1
         <ul>
           <li>Canvas</li>
           <li>Diseño de entrevistas</li>
