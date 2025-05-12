@@ -4190,6 +4190,87 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
 
+### 5.2.2.1. Sprint Planning 2
+
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting correspondiente al Sprint 2 del proyecto. Se incluye información como la fecha y hora de la reunión, los participantes, el objetivo del Sprint, la estimación de la velocidad del equipo y el total de puntos de historia comprometidos para este ciclo de trabajo. A continuación, se presenta el resumen del Sprint Planning Meeting:
+
+| Sprint # | Sprint 2 |
+|----------|----------|
+| Date | 2025 - 05 - 03 |
+| Time | 5:00 PM |
+| Location | Reunión virtual a través de Discord |
+| Prepared by | Sergio Sebastián Iglesias Pérez, Natalia Bertha Roman Cruz |
+| Attendees (to planning meeting) | Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando; Adrianzén Flores, Carlos Arturo |
+| Sprint 1 Review Summary | El Sprint 1 permitió desplegar la landing page base del proyecto, obteniendo retroalimentación inicial y generando un entorno estable para el avance del desarrollo. |
+| Sprint 2 Goal | Our focus is to develop the core screens of the web application using Angular. We believe this delivers visibility and coherence to our product experience. This will be confirmed when all team members can navigate the application through its initial flows and views. |
+| Sprint 2 Velocity | 60 story points |
+| Sum of story points | 60 story points |
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+En este sprint se busca desarrollar la aplicación web principal de SwiftPort utilizando Angular, además de realizar pequeños ajustes a la landing page ya desplegada. Para lograr una correcta comunicación y división de responsabilidades, se ha creado la matriz de liderazgo y colaboración (LACX), en la cual se define quién lidera y quién colabora en cada aspecto del sprint.
+
+| Team Member                         | GitHub username     | Desarrollo FrontEnd AppWeb | Corrección Landing Page |
+|------------------------------------|----------------------|-------------------------------|--------------------------|
+| Roman Cruz, Natalia Bertha         | natRC2005            | L                             | L                        |
+| Solano Armas, Angelo Hector        | Angelo5214           | C                             | C                        |
+| Iglesias Pérez, Sergio Sebastián   | ghostrider101218     | L                             | L                        |
+| Baldeón Vivar, Santiago Armando    | Santibal11           | C                             | C                        |
+| Adrianzén Flores, Carlos Arturo    | choliwys             | C                             | C                        |
+
+### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 es desarrollar la aplicación web en Angular y ajustar pequeños detalles de la landing page de SwiftPort. A continuación se muestra el backlog con las tareas planificadas en este sprint:
+
+| Sprint #  | Task ID | Task Title                                      | Assigned To                                   | Status |
+|-----------|---------|-------------------------------------------------|-----------------------------------------------|--------|
+| Sprint 2  | T01     | Implementar i18n en la landing page             | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T02     | Crear vista de Login                             | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T03     | Definir entidad Vehicle                          | Santiago Armando Baldeón Vivar                | Done   |
+| Sprint 2  | T04     | Definir entidad Task                             | Santiago Armando Baldeón Vivar                | Done   |
+| Sprint 2  | T05     | Configuración global de estilos                  | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T06     | Definir entidad Incident                          | Santiago Armando Baldeón Vivar                | Done   |
+| Sprint 2  | T07     | Definir entidad Planification                     | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T08     | Crear componente Table                            | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T09     | Crear componente Sidebar/Menu                     | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T10     | Crear vista de Register                           | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T11     | Crear vista de Subscription Plan                  | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T12     | Crear vista de Home                                | Santiago Armando Baldeón Vivar                | Done   |
+| Sprint 2  | T13     | Crear componente Selector                          | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T14     | Crear componente Payment Card                      | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T15     | Crear componente Input                             | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T16     | Crear componente Button                            | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T17     | Definir entidad Employee                           | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T18     | Definir entidad Activity                           | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T19     | Conectar vistas a Fake API                         | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T20     | Definir entidad ExecutionReport                    | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T21     | Definir entidad Squad                              | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T22     | Definir entidad User                               | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T23     | Crear componente SearchBar                         | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T24     | Crear componente Snackbar                          | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T25     | Crear componente Payment Information                | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T26     | Crear vista CompanySettings                         | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T27     | Crear vista PasswordRecovery                        | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T28     | Crear vista UserManagement                          | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T29     | Crear vista LoginView                               | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T30     | Crear vista EquipmentManagement                     | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T31     | Crear vista EmployeeManagement                      | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T32     | Crear vista ZoneManagement                          | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T33     | Crear vista TeamManagement                          | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T34     | Crear vista TaskSegmentation                         | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T35     | Crear vista TaskExecution                            | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T36     | Crear componente TaskSchedulingDialog                | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T37     | Crear vista ActivityDetail                           | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T38     | Crear vista IncidentReport                           | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T39     | Crear vista ProfileView                              | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T40     | Crear vista ReportsView                              | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T41     | Crear vista ExecutionHistory                         | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T42     | Crear vista TaskListOperario                         | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T43     | Crear vista DashboardView                            | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T44     | Crear vista PlanningView                             | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T45     | Crear vista SchedulingCalendarView                   | Sergio Sebastián Iglesias Pérez               | Done   |
+
+
 # 6. Conclusiones
 
 ## 6.1. Conclusiones
