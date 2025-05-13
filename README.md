@@ -4857,6 +4857,245 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
 
+### 5.2.2.1. Sprint Planning 2
+
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting correspondiente al Sprint 2 del proyecto. Se incluye información como la fecha y hora de la reunión, los participantes, el objetivo del Sprint, la estimación de la velocidad del equipo y el total de puntos de historia comprometidos para este ciclo de trabajo. A continuación, se presenta el resumen del Sprint Planning Meeting:
+
+| Sprint # | Sprint 2 |
+|----------|----------|
+| Date | 2025 - 05 - 03 |
+| Time | 5:00 PM |
+| Location | Reunión virtual a través de Discord |
+| Prepared by | Sergio Sebastián Iglesias Pérez, Natalia Bertha Roman Cruz |
+| Attendees (to planning meeting) | Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando; Adrianzén Flores, Carlos Arturo |
+| Sprint 1 Review Summary | El Sprint 1 permitió desplegar la landing page base del proyecto, obteniendo retroalimentación inicial y generando un entorno estable para el avance del desarrollo. |
+| Sprint 2 Goal | Our focus is to develop the core screens of the web application using Angular. We believe this delivers visibility and coherence to our product experience. This will be confirmed when all team members can navigate the application through its initial flows and views. |
+| Sprint 2 Velocity | 60 story points |
+| Sum of story points | 60 story points |
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+En este sprint se busca desarrollar la aplicación web principal de SwiftPort utilizando Angular, además de realizar pequeños ajustes a la landing page ya desplegada. Para lograr una correcta comunicación y división de responsabilidades, se ha creado la matriz de liderazgo y colaboración (LACX), en la cual se define quién lidera y quién colabora en cada aspecto del sprint.
+
+| Team Member                         | GitHub username     | Desarrollo FrontEnd AppWeb | Corrección Landing Page |
+|------------------------------------|----------------------|-------------------------------|--------------------------|
+| Roman Cruz, Natalia Bertha         | natRC2005            | L                             | L                        |
+| Solano Armas, Angelo Hector        | Angelo5214           | C                             | C                        |
+| Iglesias Pérez, Sergio Sebastián   | ghostrider101218     | L                             | L                        |
+| Baldeón Vivar, Santiago Armando    | Santibal11           | C                             | C                        |
+| Adrianzén Flores, Carlos Arturo    | choliwys             | C                             | C                        |
+
+### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 es desarrollar la aplicación web en Angular y ajustar pequeños detalles de la landing page de SwiftPort. A continuación se muestra el backlog con las tareas planificadas en este sprint:
+
+![Sprint Backlog 2 in Jira](assets/md-images/)
+
+Link Jira: [OpenSource SwiftPort - Jira](https://www.pivotaltracker.com/n/projects/2739819)
+
+| Sprint #  | Task ID | Task Title                                      | Assigned To                                   | Status |
+|-----------|---------|-------------------------------------------------|-----------------------------------------------|--------|
+| Sprint 2  | T01     | Implementar i18n en la landing page             | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T02     | Crear vista de Login                             | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T03     | Definir entidad Vehicle                          | Santiago Armando Baldeón Vivar                | Done   |
+| Sprint 2  | T04     | Definir entidad Task                             | Santiago Armando Baldeón Vivar                | Done   |
+| Sprint 2  | T05     | Configuración global de estilos                  | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T06     | Definir entidad Incident                          | Santiago Armando Baldeón Vivar                | Done   |
+| Sprint 2  | T07     | Definir entidad Planification                     | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T08     | Crear componente Table                            | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T09     | Crear componente Sidebar/Menu                     | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T10     | Crear vista de Register                           | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T11     | Crear vista de Subscription Plan                  | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T12     | Crear vista de Home                                | Santiago Armando Baldeón Vivar                | Done   |
+| Sprint 2  | T13     | Crear componente Selector                          | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T14     | Crear componente Payment Card                      | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T15     | Crear componente Input                             | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T16     | Crear componente Button                            | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T17     | Definir entidad Employee                           | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T18     | Definir entidad Activity                           | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T19     | Conectar vistas a Fake API                         | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T20     | Definir entidad ExecutionReport                    | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T21     | Definir entidad Squad                              | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T22     | Definir entidad User                               | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T23     | Crear componente SearchBar                         | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T24     | Crear componente Snackbar                          | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T25     | Crear componente Payment Information                | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T26     | Crear vista CompanySettings                         | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T27     | Crear vista PasswordRecovery                        | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T28     | Crear vista UserManagement                          | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T29     | Crear vista LoginView                               | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T30     | Crear vista EquipmentManagement                     | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T31     | Crear vista EmployeeManagement                      | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T32     | Crear vista ZoneManagement                          | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T33     | Crear vista TeamManagement                          | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T34     | Crear vista TaskSegmentation                         | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T35     | Crear vista TaskExecution                            | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T36     | Crear componente TaskSchedulingDialog                | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T37     | Crear vista ActivityDetail                           | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T38     | Crear vista IncidentReport                           | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T39     | Crear vista ProfileView                              | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T40     | Crear vista ReportsView                              | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T41     | Crear vista ExecutionHistory                         | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T42     | Crear vista TaskListOperario                         | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T43     | Crear vista DashboardView                            | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T44     | Crear vista PlanningView                             | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T45     | Crear vista SchedulingCalendarView                   | Sergio Sebastián Iglesias Pérez               | Done   |
+
+### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la aplicación web de SwiftPort. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en las vistas. A continuación, se muestra la tabla que resume los commits relevantes asociados a este sprint:
+
+| Repository                                  | Branch                                     | Commit Id                               | Commit Message                                                      | Commit Message Body                                                      | Description                                                      | Committed on (Date) |
+|---------------------------------------------|--------------------------------------------|-----------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|------------------------------------------------------------------|---------------------|
+| UPC-GosTech/swiftport-frontend              | SCRUM-12-creacion-del-componente-searchbar | 5cac0 | feat: Add search-bar styles                                           | Se añadieron estilos base para el componente de barra de búsqueda.         | Se implementó el estilo principal de la SearchBar.               | 2025-05-05          |
+| UPC-GosTech/swiftport-frontend              | SCRUM-51-task-scheduling-dialog            | 9b1f2 | feat: Add task-scheduling-dialog component                            | Se creó el diálogo para asignar fecha/hora y recursos a tareas.           | Componente de calendario de tareas agregado.                     | 2025-05-06          |
+| UPC-GosTech/swiftport-frontend              | SCRUM-53-task-execution-view               | f0633 | feat: Complete html and ts from task-execution-view component         | Se completaron las plantillas y la lógica de la vista de ejecución de tareas. | Vista de ejecución en campo funcional.                           | 2025-05-06          |
+| UPC-GosTech/swiftport-frontend              | SCRUM-57-profile-view                      | 842c2 | feat: Add input for profile-view components                           | Se añadieron campos editables para nombre y correo en la vista de perfil. | Formulario de perfil con bindings reactivos.                     | 2025-05-10          |
+| UPC-GosTech/swiftport-frontend              | SCRUM-41-user-management-view              | aabda | feat: crear vista Company Settings con estructura base y estilos      | Se montó la plantilla y estilos iniciales para la configuración de empresa. | Vista de configuración de suscripción lista para datos reales.    | 2025-05-10          |
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante este Sprint se avanzó en la implementación de las vistas principales de la aplicación web de SwiftPort. A continuación se presentan capturas de pantalla de cada vista desarrollada:
+
+#### Login View  
+![Login View](assets/md-images/sprint2/login-view.png)
+
+#### Register View  
+![Register View](assets/md-images/sprint2/register-view.png)
+
+#### Subscription Plan View  
+![Subscription Plan View](assets/md-images/sprint2/subscription-plan-view.png)
+
+#### Home View  
+![Home View](assets/md-images/sprint2/home-view.png)
+
+#### Company Settings View  
+![Company Settings View](assets/md-images/sprint2/company-settings-view.png)
+
+#### Password Recovery View  
+![Password Recovery View](assets/md-images/sprint2/password-recovery-view.png)
+
+#### User Management View  
+![User Management View](assets/md-images/sprint2/user-management-view.png)
+
+#### Equipment Management View  
+![Equipment Management View](assets/md-images/sprint2/equipment-management-view.png)
+
+#### Employee Management View  
+![Employee Management View](assets/md-images/sprint2/employee-management-view.png)
+
+#### Zone Management View  
+![Zone Management View](assets/md-images/sprint2/zone-management-view.png)
+
+#### Team Management View  
+![Team Management View](assets/md-images/sprint2/team-management-view.png)
+
+#### Task Segmentation View  
+![Task Segmentation View](assets/md-images/sprint2/task-segmentation-view.png)
+
+#### Task Execution View  
+![Task Execution View](assets/md-images/sprint2/task-execution-view.png)
+
+#### Task Scheduling Dialog  
+![Task Scheduling Dialog](assets/md-images/sprint2/task-scheduling-dialog.png)
+
+#### Activity Detail View  
+![Activity Detail View](assets/md-images/sprint2/activity-detail-view.png)
+
+#### Incident Report View  
+![Incident Report View](assets/md-images/sprint2/incident-report-view.png)
+
+#### Profile View  
+![Profile View](assets/md-images/sprint2/profile-view.png)
+
+#### Reports View  
+![Reports View](assets/md-images/sprint2/reports-view.png)
+
+#### Execution History View  
+![Execution History View](assets/md-images/sprint2/execution-history-view.png)
+
+#### Task List Operario View  
+![Task List Operario View](assets/md-images/sprint2/task-list-operario-view.png)
+
+#### Dashboard View  
+![Dashboard View](assets/md-images/sprint2/dashboard-view.png)
+
+#### Planning View  
+![Planning View](assets/md-images/sprint2/planning-view.png)
+
+#### Scheduling Calendar View  
+![Scheduling Calendar View](assets/md-images/sprint2/scheduling-calendar-view.png)
+
+---
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+Durante este Sprint no se desarrollaron ni documentaron Web Services, dado que el enfoque principal estuvo en la implementación del FrontEnd de la Aplicación Web, con todas sus vistas. Por lo tanto, no se cuenta con endpoints disponibles ni documentación generada en OpenAPI en esta etapa del proyecto.
+
+La documentación de servicios será considerada en los siguientes Sprints, una vez que se inicie el desarrollo del backend y se establezca la estructura básica de la API que permitirá la integración con las vistas web implementadas.
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint se logró desplegar con éxito la aplicación web de SwiftPort en Azure Static Web Apps, siguiendo un enfoque incremental que permite entregar nuevas funcionalidades de forma continua.
+
+**Actividades realizadas:**
+- Se utilizó la misma cuenta de Azure y el grupo de recursos ya existente para centralizar la gestión de todos los despliegues del proyecto.
+- Se configuró un nuevo Static Web App apuntando al repositorio `UPC-GosTech/swiftport-frontend` en GitHub, seleccionando la rama `main` como fuente de producción.
+- Se definió y validó el workflow de GitHub Actions provisto por Azure Static Web Apps para CI/CD, de manera que todo commit o merge a `main` desencadene una compilación y despliegue automáticos.
+- Se probó el acceso a la URL generada por Azure  para comprobar que la aplicación cargaba correctamente y que las rutas y componentes funcionaban según lo esperado.
+
+**Evidencias del proceso de despliegue:**
+
+1. **Revisión del grupo de recursos en Azure Portal**  
+   <div>
+     <p align="center"><img src="assets/md-images/swiftport-web/deployment-1-resource-group.png" alt="Azure Resource Group" width="700px" /></p>
+   </div>
+
+2. **Configuración de la Static Web App**  
+   <div>
+     <p align="center"><img src="assets/md-images/swiftport-web/deployment-2-static-app-config.png" alt="Static Web App Configuration" width="700px" /></p>
+   </div>
+
+3. **Enlace con GitHub y flujo CI/CD**  
+   <div>
+     <p align="center"><img src="assets/md-images/swiftport-web/deployment-3-github-link.png" alt="GitHub Actions Setup" width="700px" /></p>
+   </div>
+   <div>
+     <p align="center"><img src="assets/md-images/swiftport-web/deployment-4-github-actions-log.png" alt="GitHub Actions Log" width="700px" /></p>
+   </div>
+
+4. **Confirmación de despliegue y acceso al dominio**  
+   <div>
+     <p align="center"><img src="assets/md-images/swiftport-web/deployment-5-app-live.png" alt="Web App Live URL" width="700px" /></p>
+   </div>
+   <div>
+     <p align="center"><img src="assets/md-images/swiftport-web/deployment-6-app-screenshot.png" alt="Web App Screenshot" width="700px" /></p>
+   </div>
+
+### 5.2.2.8. Team Collaboration Insights during Sprint 2
+
+Durante el Sprint 2, el equipo colaboró de forma coordinada para avanzar en el desarrollo de la aplicación web en Angular y en ajustes de la landing page. A continuación se muestra la participación de cada integrante, agrupada por áreas de responsabilidad principal:
+
+| **Nombre**                             | **Actividad**                                                                                                                                                                                                                 |
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Roman Cruz, Natalia Bertha             | Internacionalización (i18n) de la landing page, creación de las vistas Register y Subscription Plan, desarrollo del componente Payment Information, ajustes de estilos globales y conexión de vistas a la API simulada.        |
+| Angelo Hector Solano Armas             | Implementación de la vista Login, definición de la entidad Planification, creación del componente Button, y desarrollo de las vistas Company Settings, Password Recovery, User Management y LoginView.                          |
+| Santiago Armando Baldeón Vivar         | Definición de las entidades Vehicle, Task e Incident, implementación de la vista Home, y soporte en enrutamiento y navegación del frontend.                                                                                   |
+| Sergio Sebastián Iglesias Pérez        | Configuración global de estilos SCSS, creación de los componentes Table y Sidebar/Menu, y desarrollo de las vistas Equipment Management, Employee Management, Zone Management, Team Management, Task Segmentation, Dashboard, Planning y Scheduling Calendar. |
+| Carlos Arturo Adrianzén Flores         | Definición de las entidades ExecutionReport, Squad y User, y creación de los componentes SearchBar y Snackbar para mejorar la experiencia de usuario.                                                                          |
+
+##### Evidencia de colaboración en GitHub
+
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+![Colaboración GitHub - FrontEnd](assets/md-images/collab-2.png)  
+
+##### Repositorio de trabajo:
+
+- [Repositorio de la Aplicación Web en GitHub](https://github.com/UPC-GosTech/swiftport-frontend)
+
+Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
+
+
 # 6. Conclusiones
 
 ## 6.1. Conclusiones
@@ -4898,6 +5137,9 @@ Pintado Bravo, C., & Salazar Cruzado, L. T. (2022). Los procesos logísticos y s
 Conventional Commits. (2021). Conventional commits 1.0.0. [https://www.conventionalcommits.org/en/v1.0.0/](https://www.conventionalcommits.org/en/v1.0.0/)
 
 Microsoft. (n.d.). Azure Static Web Apps documentation. Microsoft Learn. [https://learn.microsoft.com/en-us/azure/static-web-apps/](https://learn.microsoft.com/en-us/azure/static-web-apps/)
+
+npm: json-server. (n.d.). Npm. [https://www.npmjs.com/package/json-server](https://www.npmjs.com/package/json-server)
+
 
 # 8. Anexos 
 
