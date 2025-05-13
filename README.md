@@ -4471,4 +4471,7 @@ Conventional Commits. (2021). Conventional commits 1.0.0. [https://www.conventio
 
 Microsoft. (n.d.). Azure Static Web Apps documentation. Microsoft Learn. [https://learn.microsoft.com/en-us/azure/static-web-apps/](https://learn.microsoft.com/en-us/azure/static-web-apps/)
 
+npm: json-server. (n.d.). Npm. [https://www.npmjs.com/package/json-server](https://www.npmjs.com/package/json-server)
+
+
 # 8. Anexos 
