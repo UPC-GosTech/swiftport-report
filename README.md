@@ -175,7 +175,7 @@ __TP__
         <li>Vistas de la aplicación web</li>
         <li>Sprint Backlog 2</li>
         <li>Development Evidence for Sprint Review</li>
-      <ul/>
+      </ul>
       <strong>Iglesias Pérez, Sergio Sebastián</strong> 
       <br>TB1
         <ul>
@@ -194,7 +194,7 @@ __TP__
         <li>Vistas de la aplicación web</li>
         <li>Execution Evidence for Sprint Review</li>
         <li>Services Documentation Evidence for Sprint Review</li>
-      <ul/>
+      </ul>
       <strong>Baldeón Vivar, Santiago Armando</strong> 
       <br>TB1
       <ul>
@@ -212,7 +212,7 @@ __TP__
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Vistas de la aplicación web</li>
         <li>Software Deployment Evidence for Sprint Review</li>
-      <ul/>
+      </ul>
       <strong>Adrianzén Flores, Carlos Arturo</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Analisis de competidores</li>
@@ -227,7 +227,7 @@ __TP__
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Vistas de la aplicación web</li>
         <li>Team Collaboration Insights during Sprint 2</li>
-      <ul/>
+      </ul>
     </td>
     <td style="border: 1px solid white; padding: 8px;">TB1: Al haber concluido con la primera entrega, hemos llegado a la conclusión de que logramos comunicarnos no solamente a través de las grabaciones incluídas, las cuales son las entrevistas y video de exposición, sino también antes los maestros que consultamos para la realización del trabajo y entre nosotros mismos como grupo y nuestros demás compañeros. Al comunicarnos, logramos expresar nuestras ideas de forma clara, comprensible, respetuosa y con un lenguaje adecuado acorde con el contexto.<br>TP: Al haber concluido la segunda entrega (entrega parcial), hemos llegado a la conclusión de que la comunicación es fundamental para el buen desarrollo de un trabajo grupal. Este tipo de comunicación también se refleja en los repositorios trabajados para los distintos artefcatos del trabajo grupal.</td>
   </tr>
@@ -282,7 +282,7 @@ __TP__
         <li>Vistas de la aplicación web</li>
         <li>Sprint Backlog 2</li>
         <li>Development Evidence for Sprint Review</li>
-      <ul/>
+      </ul>
       <strong>Iglesias Pérez, Sergio Sebastián</strong>
       <br>TB1
         <ul>
@@ -306,7 +306,7 @@ __TP__
         <li>Vistas de la aplicación web</li>
         <li>Execution Evidence for Sprint Review</li>
         <li>Services Documentation Evidence for Sprint Review</li>
-      <ul/>
+      </ul>
       <strong>Baldeón Vivar, Santiago Armando</strong> <br>TB1
         <ul>
           <li>Canvas</li>
@@ -323,7 +323,7 @@ __TP__
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Vistas de la aplicación web</li>
         <li>Software Deployment Evidence for Sprint Review</li>
-      <ul/>
+      </ul>
       <strong>Adrianzén Flores, Carlos Arturo</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Analisis de competidores</li>
@@ -338,7 +338,7 @@ __TP__
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Vistas de la aplicación web</li>
         <li>Team Collaboration Insights during Sprint 2</li>
-      <ul/>
+      </ul>
     </td>
     <td style="border: 1px solid white; padding: 8px;">TB1: Al termino de la TB1, podemos concluir que logramos expresar nuestras ideas y el mensaje central de nuestro trabajo de forma escrita. Esto, dado que redactamos todo el análisis que realizamos para comenzar a implementar nuestro trabajo. Esto es apreciable al revisar las historias de usuario, análisis Lean UX y descripción de demás elementos incluídos. Asimismo, logramos identificar el lengujae correcto a utilizar al diseñar nuestro landing page de forma que los usuarios puedan comprenderlo sin problema.<br>TP: Al concluir la segunda entrega (parcial), concluimos que la comunicación escrita es fundamental para el desarrollo del trabajo, ya que esta ayuda a definir los requerimientos correctos, lo que permite que el desarrllo siga un único rumbo. También se ve esta comunicación escrita al momento de programar, al ser claros y ordenados con lo que codificamos.</td>
   </tr>
