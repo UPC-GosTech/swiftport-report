@@ -4280,11 +4280,11 @@ En esta sección se presentan los avances en la implementación de la solución,
 
 | Repository                                  | Branch                                     | Commit Id                               | Commit Message                                                      | Commit Message Body                                                      | Description                                                      | Committed on (Date) |
 |---------------------------------------------|--------------------------------------------|-----------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|------------------------------------------------------------------|---------------------|
-| UPC-GosTech/swiftport-frontend              | SCRUM-12-creacion-del-componente-searchbar | 5cac03d166dd04e000d7811d135a74d2f3083f75 | feat: Add search-bar styles                                           | Se añadieron estilos base para el componente de barra de búsqueda.         | Se implementó el estilo principal de la SearchBar.               | 2025-05-05          |
-| UPC-GosTech/swiftport-frontend              | SCRUM-51-task-scheduling-dialog            | 9b1f2c3d4e5a6b7c8d9e0f1a2b3c4d5e6f7g8h9i | feat: Add task-scheduling-dialog component                            | Se creó el diálogo para asignar fecha/hora y recursos a tareas.           | Componente de calendario de tareas agregado.                     | 2025-05-06          |
-| UPC-GosTech/swiftport-frontend              | SCRUM-53-task-execution-view               | f0633eaf29b4653ea05171d49a4139548429eedb | feat: Complete html and ts from task-execution-view component         | Se completaron las plantillas y la lógica de la vista de ejecución de tareas. | Vista de ejecución en campo funcional.                           | 2025-05-06          |
-| UPC-GosTech/swiftport-frontend              | SCRUM-57-profile-view                      | 842c25d25984f392b7959c2abd774b02a58174b2 | feat: Add input for profile-view components                           | Se añadieron campos editables para nombre y correo en la vista de perfil. | Formulario de perfil con bindings reactivos.                     | 2025-05-10          |
-| UPC-GosTech/swiftport-frontend              | SCRUM-41-user-management-view              | aabdaad4c7d2f55e41fcc0eba7edb47e194c9c2d | feat: crear vista Company Settings con estructura base y estilos      | Se montó la plantilla y estilos iniciales para la configuración de empresa. | Vista de configuración de suscripción lista para datos reales.    | 2025-05-10          |
+| UPC-GosTech/swiftport-frontend              | SCRUM-12-creacion-del-componente-searchbar | 5cac0 | feat: Add search-bar styles                                           | Se añadieron estilos base para el componente de barra de búsqueda.         | Se implementó el estilo principal de la SearchBar.               | 2025-05-05          |
+| UPC-GosTech/swiftport-frontend              | SCRUM-51-task-scheduling-dialog            | 9b1f2 | feat: Add task-scheduling-dialog component                            | Se creó el diálogo para asignar fecha/hora y recursos a tareas.           | Componente de calendario de tareas agregado.                     | 2025-05-06          |
+| UPC-GosTech/swiftport-frontend              | SCRUM-53-task-execution-view               | f0633 | feat: Complete html and ts from task-execution-view component         | Se completaron las plantillas y la lógica de la vista de ejecución de tareas. | Vista de ejecución en campo funcional.                           | 2025-05-06          |
+| UPC-GosTech/swiftport-frontend              | SCRUM-57-profile-view                      | 842c2 | feat: Add input for profile-view components                           | Se añadieron campos editables para nombre y correo en la vista de perfil. | Formulario de perfil con bindings reactivos.                     | 2025-05-10          |
+| UPC-GosTech/swiftport-frontend              | SCRUM-41-user-management-view              | aabda | feat: crear vista Company Settings con estructura base y estilos      | Se montó la plantilla y estilos iniciales para la configuración de empresa. | Vista de configuración de suscripción lista para datos reales.    | 2025-05-10          |
 
 ### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -4368,12 +4368,12 @@ La documentación de servicios será considerada en los siguientes Sprints, una 
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Durante este Sprint se logró desplegar con éxito la **aplicación web** de SwiftPort en Azure Static Web Apps, siguiendo un enfoque incremental que permite entregar nuevas funcionalidades de forma continua.
+Durante este Sprint se logró desplegar con éxito la aplicación web de SwiftPort en Azure Static Web Apps, siguiendo un enfoque incremental que permite entregar nuevas funcionalidades de forma continua.
 
 **Actividades realizadas:**
 - Se utilizó la misma cuenta de Azure y el grupo de recursos ya existente para centralizar la gestión de todos los despliegues del proyecto.
 - Se configuró un nuevo Static Web App apuntando al repositorio `UPC-GosTech/swiftport-frontend` en GitHub, seleccionando la rama `main` como fuente de producción.
-- Se definió y validó el **workflow de GitHub Actions** provisto por Azure Static Web Apps para CI/CD, de manera que todo commit o merge a `main` desencadene una compilación y despliegue automáticos.
+- Se definió y validó el workflow de GitHub Actions provisto por Azure Static Web Apps para CI/CD, de manera que todo commit o merge a `main` desencadene una compilación y despliegue automáticos.
 - Se probó el acceso a la URL generada por Azure  para comprobar que la aplicación cargaba correctamente y que las rutas y componentes funcionaban según lo esperado.
 
 **Evidencias del proceso de despliegue:**
