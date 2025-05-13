@@ -48,7 +48,7 @@ URL del repositorio para el reporte del proyecto: https://github.com/UPC-GosTech
 
 **TB1**
 
-Para el desarrollo del informe pertinente a la TB1, se dividió la implementación de sencciones de la siguiente forma entre los integrantes del grupo:
+Para el desarrollo de la parte del informe correspondiente a la TB1, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
 
 | **Integrantes**                  | **Tareas asignadas** |
 | ---------------------------------|----------------------|
@@ -57,6 +57,19 @@ Para el desarrollo del informe pertinente a la TB1, se dividió la implementaci�
 | Iglesias Pérez, Sergio Sebastián | Descripción del Startup, segmentos objetivos, registro de entrevistas, style guidelines, wireframes, mockup, prototype, context diagram, Software Development Environment Configuration, landing page |
 | Baldeón Vivar, Santiago Armando  | Canvas, Diseño de entrevistas, style guidelines, wireframes, mockup, class dictionary, Source Code Style Guide & Conventions, Sprint Backlog 1, edición del video |
 |  Adrianzén Flores, Carlos Arturo | Competidores, SEO Tags and Meta Tags, User Flow Diagrams, Software Configuration Management, Services Documentation Evidence for Sprint Review |
+
+**TP**
+
+Para el desarrollo de la parte del informe correspondiente al TP, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
+
+| **Integrantes**                  | **Tareas asignadas** |
+| ---------------------------------|----------------------|
+| Roman Cruz, Natalia Bertha       | Sprint Planning 2, Aspect Leaders and Collaborators |
+| Solano Armas, Angelo Hector      | Sprint Backlog 2, Development Evidence for Sprint Review |
+| Iglesias Pérez, Sergio Sebastián | Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review |
+| Baldeón Vivar, Santiago Armando  | Software Deployment Evidence for Sprint Review |
+|  Adrianzén Flores, Carlos Arturo | Team Collaboration Insights during Sprint 2 |
+
 
 El proceso de colaboración durante el informe se realizó tanto con commits como compartiendo avances a través de documentos de google. 
 
@@ -79,7 +92,7 @@ Asimismo, se explican las ramas que tenemos hasta el momento:
 - feature/x: Representada por las ramas inferiores a develop (azul y verde). Se utilizan para el desarrollo de cada uno de los contribuyentes
 
 <div>
-  <p><img src="assets/md-images/github-insights/github-insights-TB1-A.jpg" alt="Network Graph TB1" width="700px" /></p>
+  <p><img src="assets/md-images/github-insights/github-insights-TP-A.jpg" alt="Network Graph TB1" width="700px" /></p>
 </div>
 
 Los siguientes gráficos muestran analíticos en cuanto a los commits que cada integrante del grupo ha estado realizando en el repositorio.
@@ -91,6 +104,15 @@ __TB1__
 </div>
 <div>
   <p><img src="assets/md-images/github-insights/github-insights-TB1-C.jpg" alt="Overview" width="700px" /></p>
+</div>
+
+__TP__
+
+<div>
+  <p><img src="assets/md-images/github-insights/github-insights-TP-B.jpg" alt="Contributors" width="700px" /></p>
+</div>
+<div>
+  <p><img src="assets/md-images/github-insights/github-insights-TP-C.jpg" alt="Overview" width="700px" /></p>
 </div>
 
 ---
