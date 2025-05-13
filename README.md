@@ -37,7 +37,8 @@
 | --------- | ---------- | ------- | ----------------------------- |
 | 1.0       | 06/04/2025 | Iglesias Pérez, Sergio Sebastián | Creación del repositorio |
 | 1.1       | 13/04/2025 | Roman Cruz, Natalia Bertha       | Capítulos I (sin entrevistas), Capítulo II (ubiquitous language) y Capítulo III (hasta 3.2) |
-| 1.2       | 25/04/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano| Implementación de los capítulos IV y V - Entrevistas, Ubiquitous anguage y Capítulo III completados|
+| 1.2       | 25/04/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Implementación de los Capítulos IV y V - Entrevistas, Ubiquitous language y Capítulo III completados|
+|1.3        | 13/05/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Continuación del Capítulo V - Implementación de los artefactos correspondientes al segundo sprint
 
 ---
 
