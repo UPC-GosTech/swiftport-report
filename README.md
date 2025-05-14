@@ -4985,9 +4985,12 @@ En este sprint se busca desarrollar la aplicación web principal de SwiftPort ut
 
 El objetivo principal del Sprint 2 es desarrollar la aplicación web en Angular y ajustar pequeños detalles de la landing page de SwiftPort. A continuación se muestra el backlog con las tareas planificadas en este sprint:
 
-![Sprint Backlog 2 in Jira](assets/md-images/)
+![Sprint Backlog 2 in Jira](assets/md-images/Jira_backlog.jpg)
 
-Link Jira: [OpenSource SwiftPort - Jira](https://www.pivotaltracker.com/n/projects/2739819)
+Link Jira: [OpenSource SwiftPort - Jira](https://upc-team-sovpqsl5.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiOTUyNzk4YWU1NmJjNGNmY2FhMjgxMTc5Y2Q3ODVkZTgiLCJwIjoiaiJ9)
+
+[!NOTE]
+El enlace para ingresar al jira es privado, ya que requiere acceso mediante email, de todos modos se puede observar el tablero en la imagen
 
 | Sprint #  | Task ID | Task Title                                      | Assigned To                                   | Status |
 |-----------|---------|-------------------------------------------------|-----------------------------------------------|--------|
