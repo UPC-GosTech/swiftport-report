@@ -5186,7 +5186,7 @@ Durante el Sprint 2, el equipo colaboró de forma coordinada para avanzar en el 
 
 A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
 
-![Colaboración GitHub - FrontEnd](assets/md-images/collab-2.png)  
+![Colaboración GitHub - FrontEnd](assets/md-images/collab-2.jpg)  
 
 ##### Repositorio de trabajo:
 
