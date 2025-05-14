@@ -37,7 +37,8 @@
 | --------- | ---------- | ------- | ----------------------------- |
 | 1.0       | 06/04/2025 | Iglesias Pérez, Sergio Sebastián | Creación del repositorio |
 | 1.1       | 13/04/2025 | Roman Cruz, Natalia Bertha       | Capítulos I (sin entrevistas), Capítulo II (ubiquitous language) y Capítulo III (hasta 3.2) |
-| 1.2       | 25/04/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano| Implementación de los capítulos IV y V - Entrevistas, Ubiquitous anguage y Capítulo III completados|
+| 1.2       | 25/04/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Implementación de los Capítulos IV y V - Entrevistas, Ubiquitous language y Capítulo III completados|
+|2.0        | 13/05/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Continuación del Capítulo V - Implementación de los artefactos correspondientes al segundo sprint. Se añadió i18n a la landing page, se corrigieron los diagramas c4 y el diagrama de base de datos. Primer avance del Front End de la aplicación web.
 
 ---
 
@@ -47,7 +48,7 @@ URL del repositorio para el reporte del proyecto: https://github.com/UPC-GosTech
 
 **TB1**
 
-Para el desarrollo del informe pertinente a la TB1, se dividió la implementación de sencciones de la siguiente forma entre los integrantes del grupo:
+Para el desarrollo de la parte del informe correspondiente a la TB1, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
 
 | **Integrantes**                  | **Tareas asignadas** |
 | ---------------------------------|----------------------|
@@ -56,6 +57,19 @@ Para el desarrollo del informe pertinente a la TB1, se dividió la implementaci�
 | Iglesias Pérez, Sergio Sebastián | Descripción del Startup, segmentos objetivos, registro de entrevistas, style guidelines, wireframes, mockup, prototype, context diagram, Software Development Environment Configuration, landing page |
 | Baldeón Vivar, Santiago Armando  | Canvas, Diseño de entrevistas, style guidelines, wireframes, mockup, class dictionary, Source Code Style Guide & Conventions, Sprint Backlog 1, edición del video |
 |  Adrianzén Flores, Carlos Arturo | Competidores, SEO Tags and Meta Tags, User Flow Diagrams, Software Configuration Management, Services Documentation Evidence for Sprint Review |
+
+**TP**
+
+Para el desarrollo de la parte del informe correspondiente al TP, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
+
+| **Integrantes**                  | **Tareas asignadas** |
+| ---------------------------------|----------------------|
+| Roman Cruz, Natalia Bertha       | Sprint Planning 2, Aspect Leaders and Collaborators |
+| Solano Armas, Angelo Hector      | Sprint Backlog 2, Development Evidence for Sprint Review |
+| Iglesias Pérez, Sergio Sebastián | Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review |
+| Baldeón Vivar, Santiago Armando  | Software Deployment Evidence for Sprint Review |
+|  Adrianzén Flores, Carlos Arturo | Team Collaboration Insights during Sprint 2 |
+
 
 El proceso de colaboración durante el informe se realizó tanto con commits como compartiendo avances a través de documentos de google. 
 
@@ -78,7 +92,7 @@ Asimismo, se explican las ramas que tenemos hasta el momento:
 - feature/x: Representada por las ramas inferiores a develop (azul y verde). Se utilizan para el desarrollo de cada uno de los contribuyentes
 
 <div>
-  <p><img src="assets/md-images/github-insights/github-insights-TB1-A.jpg" alt="Network Graph TB1" width="700px" /></p>
+  <p><img src="assets/md-images/github-insights/github-insights-TP-A.jpg" alt="Network Graph TB1" width="700px" /></p>
 </div>
 
 Los siguientes gráficos muestran analíticos en cuanto a los commits que cada integrante del grupo ha estado realizando en el repositorio.
@@ -90,6 +104,15 @@ __TB1__
 </div>
 <div>
   <p><img src="assets/md-images/github-insights/github-insights-TB1-C.jpg" alt="Overview" width="700px" /></p>
+</div>
+
+__TP__
+
+<div>
+  <p><img src="assets/md-images/github-insights/github-insights-TP-B.jpg" alt="Contributors" width="700px" /></p>
+</div>
+<div>
+  <p><img src="assets/md-images/github-insights/github-insights-TP-C.jpg" alt="Overview" width="700px" /></p>
 </div>
 
 ---
@@ -105,7 +128,8 @@ __TB1__
   <tr>
     <td style="border: 1px solid white; padding: 8px;">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
     <td style="border: 1px solid white; padding: 8px;">
-      <strong>Roman Cruz, Natalia Bertha</strong> <br>TB1
+      <strong>Roman Cruz, Natalia Bertha</strong> 
+      <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Antecedentes y problemática</li>
         <li>Lean UX Problem Statements</li>
@@ -122,6 +146,12 @@ __TB1__
         <li>Landing page</li>
         <li>Conclusiones</li>
         <li>Recomendaciones</li>
+      </ul>
+      TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Vistas de la aplicación web</li>
+        <li>Sprint Planning 2</li>
+        <li>Aspect Leaders and Collaborators</li>
       </ul>
       <strong>Solano Armas, Angelo Hector</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
@@ -140,6 +170,12 @@ __TB1__
         <li>Development Evidence for Sprint</li>
         <li>Landing Page</li>
       </ul>
+      TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Vistas de la aplicación web</li>
+        <li>Sprint Backlog 2</li>
+        <li>Development Evidence for Sprint Review</li>
+      </ul>
       <strong>Iglesias Pérez, Sergio Sebastián</strong> 
       <br>TB1
         <ul>
@@ -153,6 +189,12 @@ __TB1__
           <li>Class Dictionary</li>
           <li>Database Diagram</li>
         </ul>
+      TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Vistas de la aplicación web</li>
+        <li>Execution Evidence for Sprint Review</li>
+        <li>Services Documentation Evidence for Sprint Review</li>
+      </ul>
       <strong>Baldeón Vivar, Santiago Armando</strong> 
       <br>TB1
       <ul>
@@ -166,6 +208,11 @@ __TB1__
           <li>Sprint Backlog 1</li>
           <li>Edición del video</li>
         </ul>
+         TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Vistas de la aplicación web</li>
+        <li>Software Deployment Evidence for Sprint Review</li>
+      </ul>
       <strong>Adrianzén Flores, Carlos Arturo</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Analisis de competidores</li>
@@ -176,8 +223,13 @@ __TB1__
         <li>Execution Evidence for Sprint Review</li>
         <li>Team collaboration insigths</li>
       </ul>
+      TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Vistas de la aplicación web</li>
+        <li>Team Collaboration Insights during Sprint 2</li>
+      </ul>
     </td>
-    <td style="border: 1px solid white; padding: 8px;">Al haber concluido con la primera entrega, hemos llegado a la conclusión de que logramos comunicarnos no solamente a través de las grabaciones incluídas, las cuales son las entrevistas y video de exposición, sino también antes los maestros que consultamos para la realización del trabajo y entre nosotros mismos como grupo y nuestros demás compañeros. Al comunicarnos, logramos expresar nuestras ideas de forma clara, comprensible, respetuosa y con un lenguaje adecuado acorde con el contexto.</td>
+    <td style="border: 1px solid white; padding: 8px;">TB1: Al haber concluido con la primera entrega, hemos llegado a la conclusión de que logramos comunicarnos no solamente a través de las grabaciones incluídas, las cuales son las entrevistas y video de exposición, sino también antes los maestros que consultamos para la realización del trabajo y entre nosotros mismos como grupo y nuestros demás compañeros. Al comunicarnos, logramos expresar nuestras ideas de forma clara, comprensible, respetuosa y con un lenguaje adecuado acorde con el contexto.<br><br>TP: Al haber concluido la segunda entrega (entrega parcial), hemos llegado a la conclusión de que la comunicación oral es fundamental para el desarrollo de cualquier trabajo en equipo, esta permite seguir repartiendo las partes de buena forma. Además la comunicación permite ir dando retroalimentaciones positivas sobre lo que se va haciendo en el trabajo.</td>
   </tr>
   <tr>
     <td style="border: 1px solid white; padding: 8px;">Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
@@ -201,6 +253,12 @@ __TB1__
           <li>Conclusiones</li>
           <li>Recomendaciones</li>
         </ul>
+        TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Vistas de la aplicación web</li>
+        <li>Sprint Planning 2</li>
+        <li>Aspect Leaders and Collaborators</li>
+      </ul>
       <strong>Solano Armas, Angelo Hector</strong> 
       <br>TB1
         <ul style="margin-top: 5px; padding-left: 20px;">
@@ -219,6 +277,12 @@ __TB1__
           <li>Development Evidence for Sprint</li>
           <li>Landing Page</li>
         </ul>
+        TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Vistas de la aplicación web</li>
+        <li>Sprint Backlog 2</li>
+        <li>Development Evidence for Sprint Review</li>
+      </ul>
       <strong>Iglesias Pérez, Sergio Sebastián</strong>
       <br>TB1
         <ul>
@@ -237,6 +301,12 @@ __TB1__
           <li>Source Code Style Guide & Conventions</li>
           <li>Software Deployment Configuration</li>
         </ul>
+         TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Vistas de la aplicación web</li>
+        <li>Execution Evidence for Sprint Review</li>
+        <li>Services Documentation Evidence for Sprint Review</li>
+      </ul>
       <strong>Baldeón Vivar, Santiago Armando</strong> <br>TB1
         <ul>
           <li>Canvas</li>
@@ -249,6 +319,11 @@ __TB1__
           <li>Sprint Backlog 1</li>
           <li>Edición del video</li>
         </ul>
+         TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Vistas de la aplicación web</li>
+        <li>Software Deployment Evidence for Sprint Review</li>
+      </ul>
       <strong>Adrianzén Flores, Carlos Arturo</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Analisis de competidores</li>
@@ -259,8 +334,13 @@ __TB1__
         <li>Execution Evidence for Sprint Review</li>
         <li>Team collaboration insigths</li>
       </ul>
+       TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Vistas de la aplicación web</li>
+        <li>Team Collaboration Insights during Sprint 2</li>
+      </ul>
     </td>
-    <td style="border: 1px solid white; padding: 8px;">Al termino de la TB1, podemos concluir que logramos expresar nuestras ideas y le mnesjae central de nuestro trabajo de forma escrita. Esto, dado que redactamos todo el análisis que realizamos para comenzar a implementar nuestro trabajo. Esto es apreciable al revisar las historias de usuario, análisis Lean UX y descripción de demás elementos incluídos. Asimismo, logramos identificar el lengujae correcto a utilizar al diseñar nuestro landing page de forma que los usuarios puedan comprenderlo sin problema.</td>
+    <td style="border: 1px solid white; padding: 8px;">TB1: Al termino de la TB1, podemos concluir que logramos expresar nuestras ideas y el mensaje central de nuestro trabajo de forma escrita. Esto, dado que redactamos todo el análisis que realizamos para comenzar a implementar nuestro trabajo. Esto es apreciable al revisar las historias de usuario, análisis Lean UX y descripción de demás elementos incluídos. Asimismo, logramos identificar el lengujae correcto a utilizar al diseñar nuestro landing page de forma que los usuarios puedan comprenderlo sin problema.<br><br>TP: Al concluir la segunda entrega (parcial), concluimos que la comunicación escrita es fundamental para el desarrollo del trabajo, ya que esta ayuda a definir los requerimientos correctos, lo que permite que el desarrllo siga un único rumbo. También se ve esta comunicación escrita al momento de programar, al ser claros y ordenados con lo que codificamos.</td>
   </tr>
 </table>
 
@@ -268,87 +348,103 @@ __TB1__
 
 # Contenido
 
-1. __[Capítulo I: Introducción](#1-Capítulo-i-introducción)__  
-   1.1. [Startup Profile](#11-startup-profile)  
-   &nbsp;&nbsp;&nbsp;&nbsp;1.1.1. [Descripción del startup](#111-descripción-de-la-startup)  
-   &nbsp;&nbsp;&nbsp;&nbsp;1.1.2. [Perfiles de los integrantes del equipo](#112-perfiles-de-los-integrantes-del-equipo)  
-   1.2. [Solution Profile](#12-solution-profile)  
-   &nbsp;&nbsp;&nbsp;&nbsp;1.2.1. [Antecedentes y Problemática](#121-antecedentes-y-problemática)  
-   &nbsp;&nbsp;&nbsp;&nbsp;1.2.2. [Lean UX Process](#122-lean-ux-process)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.1. [Lean UX Problem Statement](#1221-lean-ux-problem-statement)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.2. [Lean UX Assumptions](#1222-lean-ux-assumptions)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.3. [Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.4. [Lean UX Canvas](#1224-lean-ux-canvas)  
-   1.3. [Segmentos objetivos](#13-segmentos-objetivos)  
-2. __[Capítulo II: Requirements Elicitation & Analysis](#2-Capítulo-ii-requirements-elicitation--analysis)__  
-   2.1. [Competidores](#21-competidores)  
-   &nbsp;&nbsp;&nbsp;&nbsp;2.1.1. [Análisis competitivo](#211-análisis-competitivo)  
-   &nbsp;&nbsp;&nbsp;&nbsp;2.1.2. [Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
-   2.2. [Entrevistas](#22-entrevistas)  
-   &nbsp;&nbsp;&nbsp;&nbsp;2.2.1. [Diseño de entrevistas](#221-diseño-de-entrevistas)  
-   &nbsp;&nbsp;&nbsp;&nbsp;2.2.2. [Registro de entrevistas](#222-registro-de-entrevistas)  
-   &nbsp;&nbsp;&nbsp;&nbsp;2.2.3. [Análisis de entrevistas](#223-análisis-de-entrevistas)  
-   2.3. [Needfinding](#23-needfinding)  
-   &nbsp;&nbsp;&nbsp;&nbsp;2.3.1. [User Personas](#231-user-personas)  
-   &nbsp;&nbsp;&nbsp;&nbsp;2.3.2. [User Task Matrix](#232-user-task-matrix)  
-   &nbsp;&nbsp;&nbsp;&nbsp;2.3.3. [User Journey Mapping](#233-user-journey-mapping)  
-   &nbsp;&nbsp;&nbsp;&nbsp;2.3.4. [Empathy Mapping](#234-empathy-mapping)  
-   &nbsp;&nbsp;&nbsp;&nbsp;2.3.5. [As-is Scenario Mapping](#235-as-is-scenario-mapping) 
-   2.4. [Ubiquitous Language](#24-ubiquitous-language)   
-3. __[Capítulo III: Requirements Specification](#3-Capítulo-iii-requirements-specification)__ 
-   3.1. [To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
-   3.2. [User Stories](#32-user-stories)  
-   3.3. [Impact Mapping](#33-impact-mapping)  
-   3.4. [Product Backlog](#34-product-backlog)
-4. __[Capítulo IV: Product Design](#4-Capítulo-iv-product-design)__  
-   4.1. [Style Guidelines](#41-style-guidelines)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.1.1. [General Style Guidelines](#411-general-style-guidelines)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.1.2. [Web Style Guidelines](#412-web-style-guidelines)  
-   4.2. [Information Architecture](#42-information-architecture)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.2.1. [Organization Systems](#421-organization-systems)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.2.2. [Labeling Systems](#422-labeling-systems)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.2.3. [SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.2.4. [Searching Systems](#424-searching-systems)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.2.5. [Navigation Systems](#425-navigation-systems)  
-   4.3. [Landing Page UI Design](#43-landing-page-ui-design)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.3.1. [Landing Page Wireframe](#431-landing-page-wireframe)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.3.2. [Landing Page Mock-up](#432-landing-page-mock-up)  
-   4.4. [Web Applications UX/UI Design](#44-web-applications-uxui-design)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.4.1. [Web Applications Wireframes](#441-web-applications-wireframes)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.4.2. [Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.4.3. [Web Applications Mock-ups](#443-web-applications-mock-ups)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.4.4. [Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)  
-   4.5. [Web Applications Prototyping](#45-web-applications-prototyping)  
-   4.6. [Domain-Driven Software Architecture](#46-domain-driven-software-architecture)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.6.1. [Software Architecture Context Diagram](#461-software-architecture-context-diagram)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.6.2. [Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.6.3. [Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)  
-   4.7. [Software Object-Oriented Design](#47-software-object-oriented-design)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.7.1. [Class Diagrams](#471-class-diagrams)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.7.2. [Class Dictionary](#472-class-dictionary)  
-   4.8. [Database Design](#48-database-design)  
-   &nbsp;&nbsp;&nbsp;&nbsp;4.8.1. [Database Diagram](#481-database-diagram)  
+1. __[Capítulo I: Introducción](#1-capítulo-i-introducción)__  
+&nbsp;&nbsp;&nbsp;&nbsp;1.1. [Startup Profile](#11-startup-profile)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1. [Descripción del startup](#111-descripción-del-startup)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.2. [Perfiles de los integrantes del equipo](#112-perfiles-de-los-integrantes-del-equipo)  
+&nbsp;&nbsp;&nbsp;&nbsp;1.2. [Solution Profile](#12-solution-profile)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.1. [Antecedentes y Problemática](#121-antecedentes-y-problemática)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2. [Lean UX Process](#122-lean-ux-process)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.1. [Lean UX Problem Statement](#1221-lean-ux-problem-statement)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.2. [Lean UX Assumptions](#1222-lean-ux-assumptions)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.3. [Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2.2.4. [Lean UX Canvas](#1224-lean-ux-canvas)  
+&nbsp;&nbsp;&nbsp;&nbsp;1.3. [Segmentos objetivos](#13-segmentos-objetivos)  
+
+2. __[Capítulo II: Requirements Elicitation & Analysis](#2-capítulo-ii-requirements-elicitation--analysis)__  
+&nbsp;&nbsp;&nbsp;&nbsp;2.1. [Competidores](#21-competidores)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.1. [Análisis competitivo](#211-análisis-competitivo)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.2. [Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.2. [Entrevistas](#22-entrevistas)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1. [Diseño de entrevistas](#221-diseño-de-entrevistas)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2. [Registro de entrevistas](#222-registro-de-entrevistas)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.3. [Análisis de entrevistas](#223-análisis-de-entrevistas)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.3. [Needfinding](#23-needfinding)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.1. [User Personas](#231-user-personas)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.2. [User Task Matrix](#232-user-task-matrix)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.3. [User Journey Mapping](#233-user-journey-mapping)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.4. [Empathy Mapping](#234-empathy-mapping)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.5. [As-is Scenario Mapping](#235-as-is-scenario-mapping)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.4. [Ubiquitous Language](#24-ubiquitous-language)  
+
+3. __[Capítulo III: Requirements Specification](#3-capítulo-iii-requirements-specification)__  
+&nbsp;&nbsp;&nbsp;&nbsp;3.1. [To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
+&nbsp;&nbsp;&nbsp;&nbsp;3.2. [User Stories](#32-user-stories)  
+&nbsp;&nbsp;&nbsp;&nbsp;3.3. [Impact Mapping](#33-impact-mapping)  
+&nbsp;&nbsp;&nbsp;&nbsp;3.4. [Product Backlog](#34-product-backlog)  
+
+4. __[Capítulo IV: Product Design](#4-capítulo-iv-product-design)__  
+&nbsp;&nbsp;&nbsp;&nbsp;4.1. [Style Guidelines](#41-style-guidelines)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.1. [General Style Guidelines](#411-general-style-guidelines)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1.2. [Web Style Guidelines](#412-web-style-guidelines)  
+&nbsp;&nbsp;&nbsp;&nbsp;4.2. [Information Architecture](#42-information-architecture)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.1. [Organization Systems](#421-organization-systems)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.2. [Labeling Systems](#422-labeling-systems)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.3. [SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.4. [Searching Systems](#424-searching-systems)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2.5. [Navigation Systems](#425-navigation-systems)  
+&nbsp;&nbsp;&nbsp;&nbsp;4.3. [Landing Page UI Design](#43-landing-page-ui-design)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.1. [Landing Page Wireframe](#431-landing-page-wireframe)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3.2. [Landing Page Mock-up](#432-landing-page-mock-up)  
+&nbsp;&nbsp;&nbsp;&nbsp;4.4. [Web Applications UX/UI Design](#44-web-applications-uxui-design)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.1. [Web Applications Wireframes](#441-web-applications-wireframes)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.2. [Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.3. [Web Applications Mock-ups](#443-web-applications-mock-ups)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4.4. [Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)  
+&nbsp;&nbsp;&nbsp;&nbsp;4.5. [Web Applications Prototyping](#45-web-applications-prototyping)  
+&nbsp;&nbsp;&nbsp;&nbsp;4.6. [Domain-Driven Software Architecture](#46-domain-driven-software-architecture)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.1. [Software Architecture Context Diagram](#461-software-architecture-context-diagram)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.2. [Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6.3. [Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)  
+&nbsp;&nbsp;&nbsp;&nbsp;4.7. [Software Object-Oriented Design](#47-software-object-oriented-design)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7.1. [Class Diagrams](#471-class-diagrams)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7.2. [Class Dictionary](#472-class-dictionary)  
+&nbsp;&nbsp;&nbsp;&nbsp;4.8. [Database Design](#48-database-design)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.8.1. [Database Diagram](#481-database-diagram)  
+
 5. __[Capítulo V: Product Implementation, Validation & Deployment](#5-capítulo-v-product-implementation-validation--deployment)__  
-5.1. [Software Configuration Management](#51-software-configuration-management)  
-   &nbsp;&nbsp;&nbsp;&nbsp;5.1.1. [Software Development Environment Configuration](#511-software-development-environment-configuration)  
-   &nbsp;&nbsp;&nbsp;&nbsp;5.1.2. [Source Code Management](#512-source-code-management)  
-   &nbsp;&nbsp;&nbsp;&nbsp;5.1.3. [Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)  
-   &nbsp;&nbsp;&nbsp;&nbsp;5.1.4. [Software Deployment Configuration](#514-software-deployment-configuration)  
-   5.2. [Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)  
-   &nbsp;&nbsp;&nbsp;&nbsp;5.2.1. [Sprint 1](#521-sprint-1)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.1. [Sprint Planning 1](#5211-sprint-planning-1)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2. [Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.3. [Sprint Backlog 1](#5213-sprint-backlog-1)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.4. [Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.5. [Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.6. [Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.7. [Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.8. [Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)  
-7. __[Conclusiones](#6-Conclusiones)__  
-  6.1. [Conclusiones](#61-conclusiones)  
-  6.2. [Recomendaciones](#62-recomendaciones)  
-8. __[Bibliografía](#7-bibliografía)__  
-9. __[Anexos](#8-anexos)__  
+&nbsp;&nbsp;&nbsp;&nbsp;5.1. [Software Configuration Management](#51-software-configuration-management)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.1. [Software Development Environment Configuration](#511-software-development-environment-configuration)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.2. [Source Code Management](#512-source-code-management)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.3. [Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1.4. [Software Deployment Configuration](#514-software-deployment-configuration)  
+&nbsp;&nbsp;&nbsp;&nbsp;5.2. [Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1. [Sprint 1](#521-sprint-1)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.1. [Sprint Planning 1](#5211-sprint-planning-1)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2. [Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.3. [Sprint Backlog 1](#5213-sprint-backlog-1)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.4. [Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.5. [Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.6. [Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.7. [Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.8. [Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2. [Sprint 2](#522-sprint-2)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.1. [Sprint Planning 2](#5221-sprint-planning-2)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.2. [Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.3. [Sprint Backlog 2](#5223-sprint-backlog-2)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.4. [Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.5. [Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.6. [Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.7. [Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.2.8. [Team Collaboration Insights during Sprint 2](#5228-team-collaboration-insights-during-sprint-2)     
+
+6. __[Conclusiones](#6-conclusiones)__  
+&nbsp;&nbsp;&nbsp;&nbsp;6.1. [Conclusiones](#61-conclusiones)  
+&nbsp;&nbsp;&nbsp;&nbsp;6.2. [Recomendaciones](#62-recomendaciones)  
+
+7. __[Bibliografía](#7-bibliografía)__  
+
+8. __[Anexos](#8-anexos)__  
 
 ---
 # 1. Capítulo I: Introducción  
@@ -574,7 +670,7 @@ Hypothesis Statement 09
 Lean UX Canvas es una de las herramientas que hemos utilizado para conmprender a nuestros posibles usuarios y sus necesidades. Esta es usada en el campo del diseño centrado en el usuario y la metodología Lean con la intención de desarrollar productos de forma eficientes y práctica para los usuarios. A su vez, esta puede ser utilizada por equipos multidisciplinarios para que colaboración de forma ordenada dentro un marco estructurado.
 
 <div>
-  <p align="center"><img src="assets/md-images/canvas-open.png" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/canvas-open-new.png" alt="Canvas" width="700px" /></p>
 </div>
 
 Enlace para acceder al [Canvas](https://www.canva.com/design/DAGjpb8uvJA/kFkhcvG5a6BCtdU2xvq5gw/edit?utm_content=DAGjpb8uvJA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
@@ -4826,6 +4922,221 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
 
+### 5.2.2.1. Sprint Planning 2
+
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting correspondiente al Sprint 2 del proyecto. Se incluye información como la fecha y hora de la reunión, los participantes, el objetivo del Sprint, la estimación de la velocidad del equipo y el total de puntos de historia comprometidos para este ciclo de trabajo. A continuación, se presenta el resumen del Sprint Planning Meeting:
+
+| Sprint # | Sprint 2 |
+|----------|----------|
+| Date | 2025 - 05 - 03 |
+| Time | 5:00 PM |
+| Location | Reunión virtual a través de Discord |
+| Prepared by | Sergio Sebastián Iglesias Pérez, Natalia Bertha Roman Cruz |
+| Attendees (to planning meeting) | Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando; Adrianzén Flores, Carlos Arturo |
+| Sprint 1 Review Summary | El Sprint 1 permitió desplegar la landing page base del proyecto, obteniendo retroalimentación inicial y generando un entorno estable para el avance del desarrollo. |
+| Sprint 2 Goal | Our focus is to develop the core screens of the web application using Angular. We believe this delivers visibility and coherence to our product experience. This will be confirmed when all team members can navigate the application through its initial flows and views. |
+| Sprint 2 Velocity | 60 story points |
+| Sum of story points | 60 story points |
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+En este sprint se busca desarrollar la aplicación web principal de SwiftPort utilizando Angular, además de realizar pequeños ajustes a la landing page ya desplegada. Para lograr una correcta comunicación y división de responsabilidades, se ha creado la matriz de liderazgo y colaboración (LACX), en la cual se define quién lidera y quién colabora en cada aspecto del sprint.
+
+| Team Member                         | GitHub username     | Desarrollo FrontEnd AppWeb | Corrección Landing Page |
+|------------------------------------|----------------------|-------------------------------|--------------------------|
+| Roman Cruz, Natalia Bertha         | natRC2005            | L                             | L                        |
+| Solano Armas, Angelo Hector        | Angelo5214           | C                             | C                        |
+| Iglesias Pérez, Sergio Sebastián   | ghostrider101218     | L                             | L                        |
+| Baldeón Vivar, Santiago Armando    | Santibal11           | C                             | C                        |
+| Adrianzén Flores, Carlos Arturo    | choliwys             | C                             | C                        |
+
+### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 es desarrollar la aplicación web en Angular y ajustar pequeños detalles de la landing page de SwiftPort. A continuación se muestra el backlog con las tareas planificadas en este sprint:
+
+![Sprint Backlog 2 in Jira](assets/md-images/Jira_backlog.jpg)
+
+Link Jira: [OpenSource SwiftPort - Jira](https://upc-team-sovpqsl5.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiOTUyNzk4YWU1NmJjNGNmY2FhMjgxMTc5Y2Q3ODVkZTgiLCJwIjoiaiJ9)
+
+
+> **Nota:** El enlace para ingresar al tablero de Jira es privado, ya que requiere acceso mediante email, de todos modos se puede observar el tablero en la imagen de arriba.
+
+| Sprint #  | Task ID | Task Title                                      | Assigned To                                   | Status |
+|-----------|---------|-------------------------------------------------|-----------------------------------------------|--------|
+| Sprint 2  | T01     | Implementar i18n en la landing page             | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T02     | Crear vista de Login                             | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T03     | Definir entidad Vehicle                          | Santiago Armando Baldeón Vivar                | Done   |
+| Sprint 2  | T04     | Definir entidad Task                             | Santiago Armando Baldeón Vivar                | Done   |
+| Sprint 2  | T05     | Configuración global de estilos                  | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T06     | Definir entidad Incident                          | Santiago Armando Baldeón Vivar                | Done   |
+| Sprint 2  | T07     | Definir entidad Planification                     | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T08     | Crear componente Table                            | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T09     | Crear componente Sidebar/Menu                     | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T10     | Crear vista de Register                           | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T11     | Crear vista de Subscription Plan                  | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T12     | Crear vista de Home                                | Santiago Armando Baldeón Vivar                | Done   |
+| Sprint 2  | T13     | Crear componente Selector                          | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T14     | Crear componente Payment Card                      | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T15     | Crear componente Input                             | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T16     | Crear componente Button                            | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T17     | Definir entidad Employee                           | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T18     | Definir entidad Activity                           | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T19     | Conectar vistas a Fake API                         | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T20     | Definir entidad ExecutionReport                    | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T21     | Definir entidad Squad                              | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T22     | Definir entidad User                               | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T23     | Crear componente SearchBar                         | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T24     | Crear componente Snackbar                          | Carlos Arturo Adrianzén Flores                | Done   |
+| Sprint 2  | T25     | Crear componente Payment Information                | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T26     | Crear vista CompanySettings                         | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T27     | Crear vista PasswordRecovery                        | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T28     | Crear vista UserManagement                          | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T29     | Crear vista LoginView                               | Angelo Hector Solano Armas                    | Done   |
+| Sprint 2  | T30     | Crear vista EquipmentManagement                     | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T31     | Crear vista EmployeeManagement                      | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T32     | Crear vista ZoneManagement                          | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T33     | Crear vista TeamManagement                          | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T34     | Crear vista TaskSegmentation                         | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T35     | Crear vista TaskExecution                            | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T36     | Crear componente TaskSchedulingDialog                | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T37     | Crear vista ActivityDetail                           | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T38     | Crear vista IncidentReport                           | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T39     | Crear vista ProfileView                              | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T40     | Crear vista ReportsView                              | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T41     | Crear vista ExecutionHistory                         | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T42     | Crear vista TaskListOperario                         | Natalia Bertha Roman Cruz                     | Done   |
+| Sprint 2  | T43     | Crear vista DashboardView                            | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T44     | Crear vista PlanningView                             | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint 2  | T45     | Crear vista SchedulingCalendarView                   | Sergio Sebastián Iglesias Pérez               | Done   |
+
+### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances en la implementación de la solución, específicamente en el desarrollo de la aplicación web de SwiftPort. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas, los ajustes de estilo y las mejoras en las vistas. A continuación, se muestra la tabla que resume los commits relevantes asociados a este sprint:
+
+| Repository                                  | Branch                                     | Commit Id                               | Commit Message                                                      | Commit Message Body                                                      | Description                                                      | Committed on (Date) |
+|---------------------------------------------|--------------------------------------------|-----------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|------------------------------------------------------------------|---------------------|
+| UPC-GosTech/swiftport-frontend              | SCRUM-12-creacion-del-componente-searchbar | 5cac0 | feat: Add search-bar styles                                           | Se añadieron estilos base para el componente de barra de búsqueda.         | Se implementó el estilo principal de la SearchBar.               | 2025-05-05          |
+| UPC-GosTech/swiftport-frontend              | SCRUM-51-task-scheduling-dialog            | 9b1f2 | feat: Add task-scheduling-dialog component                            | Se creó el diálogo para asignar fecha/hora y recursos a tareas.           | Componente de calendario de tareas agregado.                     | 2025-05-06          |
+| UPC-GosTech/swiftport-frontend              | SCRUM-53-task-execution-view               | f0633 | feat: Complete html and ts from task-execution-view component         | Se completaron las plantillas y la lógica de la vista de ejecución de tareas. | Vista de ejecución en campo funcional.                           | 2025-05-06          |
+| UPC-GosTech/swiftport-frontend              | SCRUM-57-profile-view                      | 842c2 | feat: Add input for profile-view components                           | Se añadieron campos editables para nombre y correo en la vista de perfil. | Formulario de perfil con bindings reactivos.                     | 2025-05-10          |
+| UPC-GosTech/swiftport-frontend              | SCRUM-41-user-management-view              | aabda | feat: crear vista Company Settings con estructura base y estilos      | Se montó la plantilla y estilos iniciales para la configuración de empresa. | Vista de configuración de suscripción lista para datos reales.    | 2025-05-10          |
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante este Sprint se avanzó en la implementación de las vistas principales de la aplicación web de SwiftPort. A continuación se presentan capturas de pantalla de cada vista desarrollada:
+
+#### Login View  
+![Login View](assets/md-images/sprint2/login-view.png)
+
+#### Register View  
+![Register View](assets/md-images/sprint2/register-view.png)
+
+#### Subscription Plan View  
+![Subscription Plan View](assets/md-images/sprint2/subscription-plan-view.png)
+
+#### Home View  
+![Home View](assets/md-images/sprint2/home-view.png)
+
+#### Dashboard View
+![Dashboard View](assets/md-images/sprint2/dashboard-view.png)
+
+#### Users View
+![Users View](assets/md-images/sprint2/users-view.png)
+
+#### Equipment Management View
+![Equipment Management View](assets/md-images/sprint2/equipment-management-view.png)
+
+#### Employee Management View  
+![Employee Management View](assets/md-images/sprint2/employee-management-view.png)
+
+#### Location Management View  
+![Location Management View](assets/md-images/sprint2/location-management-view.png)
+
+#### Teams Management View  
+![Teams Management View](assets/md-images/sprint2/team-management-view.png)
+
+#### Activities Management View  
+![Activities Management View](assets/md-images/sprint2/activities-management-view.png)
+
+#### Task Planning View  
+![Task Planning View](assets/md-images/sprint2/task-planning-view.png)
+
+#### Execution History View 
+![Execution History Dialog](assets/md-images/sprint2/execution-history-view.png)
+
+#### Profile View  
+![Profile View](assets/md-images/sprint2/profile-view.png)
+
+#### Password Recovery View  
+![Password Recovery View](assets/md-images/sprint2/password-recovery-view.png)
+
+---
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+Durante este Sprint no se desarrollaron ni documentaron Web Services, dado que el enfoque principal estuvo en la implementación del FrontEnd de la Aplicación Web, con todas sus vistas. Por lo tanto, no se cuenta con endpoints disponibles ni documentación generada en OpenAPI en esta etapa del proyecto.
+
+La documentación de servicios será considerada en los siguientes Sprints, una vez que se inicie el desarrollo del backend y se establezca la estructura básica de la API que permitirá la integración con las vistas web implementadas.
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint se logró desplegar con éxito la aplicación web de SwiftPort en Azure Static Web Apps, siguiendo un enfoque incremental que permite entregar nuevas funcionalidades de forma continua.
+
+**Actividades realizadas:**
+- Se utilizó la misma cuenta de Azure y el grupo de recursos ya existente para centralizar la gestión de todos los despliegues del proyecto.
+- Se configuró un nuevo Static Web App apuntando al repositorio `UPC-GosTech/swiftport-frontend` en GitHub, seleccionando la rama `main` como fuente de producción.
+- Se definió y validó el workflow de GitHub Actions provisto por Azure Static Web Apps para CI/CD, de manera que todo commit o merge a `main` desencadene una compilación y despliegue automáticos.
+- Se probó el acceso a la URL generada por Azure  para comprobar que la aplicación cargaba correctamente y que las rutas y componentes funcionaban según lo esperado.
+
+**Evidencias del proceso de despliegue:**
+
+1. **Crear nuevo recurso SPA dentro de mismo grupo de recursos**  
+   <div>
+     <p align="center"><img src="assets/md-images/swiftport-web/deployment-1-resource-group.png" alt="Azure Resource Group" width="700px" /></p>
+   </div>
+
+2. **Selección de plan gratuito y configuraciones**  
+   <div>
+     <p align="center"><img src="assets/md-images/swiftport-web/deployment-2-static-app-config.png" alt="Static Web App Configuration" width="700px" /></p>
+   </div>
+
+3. **Enlace con GitHub y flujo CI/CD**  
+   <div>
+     <p align="center"><img src="assets/md-images/swiftport-web/deployment-3-github-link.png" alt="GitHub Actions Setup" width="700px" /></p>
+   </div>
+   <div>
+     <p align="center"><img src="assets/md-images/swiftport-web/deployment-4-github-actions-log.png" alt="GitHub Actions Log" width="700px" /></p>
+   </div>
+
+4. **Confirmación de despliegue y acceso al dominio**  
+   <div>
+     <p align="center"><img src="assets/md-images/swiftport-web/deployment-5-app-live.png" alt="Web App Live URL" width="700px" /></p>
+   </div>
+
+### 5.2.2.8. Team Collaboration Insights during Sprint 2
+
+Durante el Sprint 2, el equipo colaboró de forma coordinada para avanzar en el desarrollo de la aplicación web en Angular y en ajustes de la landing page. A continuación se muestra la participación de cada integrante, agrupada por áreas de responsabilidad principal:
+
+| **Nombre**                             | **Actividad**                                                                                                                                                                                                                 |
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Roman Cruz, Natalia Bertha             | Internacionalización (i18n) de la landing page, creación de las vistas Register y Subscription Plan, desarrollo del componente Payment Information, ajustes de estilos globales y conexión de vistas a la API simulada.        |
+| Angelo Hector Solano Armas             | Implementación de la vista Login, definición de la entidad Planification, creación del componente Button, y desarrollo de las vistas Company Settings, Password Recovery, User Management y LoginView.                          |
+| Santiago Armando Baldeón Vivar         | Definición de las entidades Vehicle, Task e Incident, implementación de la vista Home, y soporte en enrutamiento y navegación del frontend.                                                                                   |
+| Sergio Sebastián Iglesias Pérez        | Configuración global de estilos SCSS, creación de los componentes Table y Sidebar/Menu, y desarrollo de las vistas Equipment Management, Employee Management, Zone Management, Team Management, Task Segmentation, Dashboard, Planning y Scheduling Calendar. |
+| Carlos Arturo Adrianzén Flores         | Definición de las entidades ExecutionReport, Squad y User, y creación de los componentes SearchBar y Snackbar para mejorar la experiencia de usuario.                                                                          |
+
+##### Evidencia de colaboración en GitHub
+
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+![Colaboración GitHub - FrontEnd](assets/md-images/collab-2.jpg)  
+
+##### Repositorio de trabajo:
+
+- [Repositorio de la Aplicación Web en GitHub](https://github.com/UPC-GosTech/swiftport-frontend)
+
+Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
+
+
 # 6. Conclusiones
 
 ## 6.1. Conclusiones
@@ -4850,6 +5161,14 @@ __Diseño visual agradable y organizado__
 
 Al diseñar nuestro wireframes y mockup, pensamos no solo en colocar una estructura funcional, si no también en lograr aquella que sea sencilla de comprender y dinámica en todos sus aspectos de forma que el usuario disfrute al usarla y que este no sufra dificultades. A su vez, escogimos colores llamativos e incluimos un menú que facilita el acceso a las funcionalidades principales.
 
+__Implementación progresiva del Front-End__
+
+Durante este entregable, uno de los avances más significativos ha sido el desarrollo del front-end de las funcionalidades principales del sistema. Este desarrollo nos permitió visualizar con mayor claridad el flujo real de la aplicación, identificar mejoras en la experiencia de usuario y validar la coherencia entre las vistas propuestas y las historias de usuario previamente elaboradas. Además, el enfoque modular y escalable de la implementación facilitará futuras integraciones con lógica de backend y servicios externos.
+
+__Mejoras en la internacionalización (i18n)__
+
+La corrección del sistema de internacionalización de la landing page representa un avance importante en la accesibilidad y adaptabilidad de la aplicación. A través de esta mejora, aseguramos que los textos sean fácilmente traducibles, adaptables a distintos contextos culturales y reutilizables a lo largo del sistema. Esto demuestra un compromiso con la inclusión y prepara a la aplicación para escalar a nuevos mercados sin necesidad de rediseños importantes.
+
 ## 6.2. Recomendaciones
 
 Dado que hemos terminado con un avance del presente trabajo, nos gustaría incluir algunas recomendaciones en cuanto a su elaboración e implementación, ya sea punto que no hemos podido tocar dadas ciertas limitaciones o que nos gustaría incluir en el futuro.
@@ -4868,13 +5187,18 @@ Conventional Commits. (2021). Conventional commits 1.0.0. [https://www.conventio
 
 Microsoft. (n.d.). Azure Static Web Apps documentation. Microsoft Learn. [https://learn.microsoft.com/en-us/azure/static-web-apps/](https://learn.microsoft.com/en-us/azure/static-web-apps/)
 
+npm: json-server. (n.d.). Npm. [https://www.npmjs.com/package/json-server](https://www.npmjs.com/package/json-server)
+
+
 # 8. Anexos 
 
 Para acceder a los diferentes recursos del proyecto, puedes visitar los siguientes enlaces:
 
 - Video exposición TB1: [https://youtu.be/BFcNvl_Vn40](https://youtu.be/BFcNvl_Vn40)
+- Video exposición TP1 : [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215705_upc_edu_pe/EXQFdS5PbwRFgN0f2Xpt6KIB-W6afw9Q_1Uk9mtvM41nNw?e=bMwBdc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215705_upc_edu_pe/EXQFdS5PbwRFgN0f2Xpt6KIB-W6afw9Q_1Uk9mtvM41nNw?e=bMwBdc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - Landing Page desplegado del proyecto: [https://black-desert-0b23d3a0f.6.azurestaticapps.net](https://black-desert-0b23d3a0f.6.azurestaticapps.net)
 - Repositorio de la Landing Page: [https://github.com/UPC-GosTech/swiftport-landing-page](https://github.com/UPC-GosTech/swiftport-landing-page)
 - Documentación del Proyecto: [https://github.com/UPC-GosTech/swiftport-docs](https://github.com/UPC-GosTech/swiftport-report)
+- Aplicación Web desplegada del proyecto: [https://yellow-flower-081ba590f.6.azurestaticapps.net/](https://yellow-flower-081ba590f.6.azurestaticapps.net/)
 
 
