@@ -5245,6 +5245,7 @@ npm: json-server. (n.d.). Npm. [https://www.npmjs.com/package/json-server](https
 Para acceder a los diferentes recursos del proyecto, puedes visitar los siguientes enlaces:
 
 - Video exposición TB1: [https://youtu.be/BFcNvl_Vn40](https://youtu.be/BFcNvl_Vn40)
+- Video exposición TP1 : [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215705_upc_edu_pe/EXQFdS5PbwRFgN0f2Xpt6KIB-W6afw9Q_1Uk9mtvM41nNw?e=bMwBdc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215705_upc_edu_pe/EXQFdS5PbwRFgN0f2Xpt6KIB-W6afw9Q_1Uk9mtvM41nNw?e=bMwBdc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - Landing Page desplegado del proyecto: [https://black-desert-0b23d3a0f.6.azurestaticapps.net](https://black-desert-0b23d3a0f.6.azurestaticapps.net)
 - Repositorio de la Landing Page: [https://github.com/UPC-GosTech/swiftport-landing-page](https://github.com/UPC-GosTech/swiftport-landing-page)
 - Documentación del Proyecto: [https://github.com/UPC-GosTech/swiftport-docs](https://github.com/UPC-GosTech/swiftport-report)
