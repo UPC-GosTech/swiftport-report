@@ -5144,12 +5144,12 @@ Durante este Sprint se logró desplegar con éxito la aplicación web de SwiftPo
 
 **Evidencias del proceso de despliegue:**
 
-1. **Revisión del grupo de recursos en Azure Portal**  
+1. **Crear nuevo recurso SPA dentro de mismo grupo de recursos**  
    <div>
      <p align="center"><img src="assets/md-images/swiftport-web/deployment-1-resource-group.png" alt="Azure Resource Group" width="700px" /></p>
    </div>
 
-2. **Configuración de la Static Web App**  
+2. **Selección de plan gratuito y configuraciones**  
    <div>
      <p align="center"><img src="assets/md-images/swiftport-web/deployment-2-static-app-config.png" alt="Static Web App Configuration" width="700px" /></p>
    </div>
@@ -5165,9 +5165,6 @@ Durante este Sprint se logró desplegar con éxito la aplicación web de SwiftPo
 4. **Confirmación de despliegue y acceso al dominio**  
    <div>
      <p align="center"><img src="assets/md-images/swiftport-web/deployment-5-app-live.png" alt="Web App Live URL" width="700px" /></p>
-   </div>
-   <div>
-     <p align="center"><img src="assets/md-images/swiftport-web/deployment-6-app-screenshot.png" alt="Web App Screenshot" width="700px" /></p>
    </div>
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint 2
