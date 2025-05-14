@@ -38,7 +38,7 @@
 | 1.0       | 06/04/2025 | Iglesias Pérez, Sergio Sebastián | Creación del repositorio |
 | 1.1       | 13/04/2025 | Roman Cruz, Natalia Bertha       | Capítulos I (sin entrevistas), Capítulo II (ubiquitous language) y Capítulo III (hasta 3.2) |
 | 1.2       | 25/04/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Implementación de los Capítulos IV y V - Entrevistas, Ubiquitous language y Capítulo III completados|
-|1.3        | 13/05/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Continuación del Capítulo V - Implementación de los artefactos correspondientes al segundo sprint. Se añadió i18n a la landing page, se corrigieron los diagramas c4 y el diagrama de base de datos.
+|2.0        | 13/05/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Continuación del Capítulo V - Implementación de los artefactos correspondientes al segundo sprint. Se añadió i18n a la landing page, se corrigieron los diagramas c4 y el diagrama de base de datos. Primer avance del Front End de la aplicación web.
 
 ---
 
@@ -4989,8 +4989,8 @@ El objetivo principal del Sprint 2 es desarrollar la aplicación web en Angular 
 
 Link Jira: [OpenSource SwiftPort - Jira](https://upc-team-sovpqsl5.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiOTUyNzk4YWU1NmJjNGNmY2FhMjgxMTc5Y2Q3ODVkZTgiLCJwIjoiaiJ9)
 
-> [!NOTE]
-> El enlace para ingresar al jira es privado, ya que requiere acceso mediante email, de todos modos se puede observar el tablero en la imagen
+
+> **Nota:** El enlace para ingresar al tablero de Jira es privado, ya que requiere acceso mediante email, de todos modos se puede observar el tablero en la imagen de arriba.
 
 | Sprint #  | Task ID | Task Title                                      | Assigned To                                   | Status |
 |-----------|---------|-------------------------------------------------|-----------------------------------------------|--------|
