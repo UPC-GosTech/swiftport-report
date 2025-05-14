@@ -5068,62 +5068,38 @@ Durante este Sprint se avanzó en la implementación de las vistas principales d
 #### Home View  
 ![Home View](assets/md-images/sprint2/home-view.png)
 
-#### Company Settings View  
-![Company Settings View](assets/md-images/sprint2/company-settings-view.png)
+#### Dashboard View
+![Dashboard View](assets/md-images/sprint2/dashboard-view.png)
 
-#### Password Recovery View  
-![Password Recovery View](assets/md-images/sprint2/password-recovery-view.png)
+#### Users View
+![Users View](assets/md-images/sprint2/users-view.png)
 
-#### User Management View  
-![User Management View](assets/md-images/sprint2/user-management-view.png)
-
-#### Equipment Management View  
+#### Equipment Management View
 ![Equipment Management View](assets/md-images/sprint2/equipment-management-view.png)
 
 #### Employee Management View  
 ![Employee Management View](assets/md-images/sprint2/employee-management-view.png)
 
-#### Zone Management View  
-![Zone Management View](assets/md-images/sprint2/zone-management-view.png)
+#### Location Management View  
+![Location Management View](assets/md-images/sprint2/location-management-view.png)
 
-#### Team Management View  
-![Team Management View](assets/md-images/sprint2/team-management-view.png)
+#### Teams Management View  
+![Teams Management View](assets/md-images/sprint2/teams-management-view.png)
 
-#### Task Segmentation View  
-![Task Segmentation View](assets/md-images/sprint2/task-segmentation-view.png)
+#### Activities Management View  
+![Activities Management View](assets/md-images/sprint2/activities-management-view.png)
 
-#### Task Execution View  
-![Task Execution View](assets/md-images/sprint2/task-execution-view.png)
+#### Task Planning View  
+![Task Planning View](assets/md-images/sprint2/task-planning-view.png)
 
-#### Task Scheduling Dialog  
-![Task Scheduling Dialog](assets/md-images/sprint2/task-scheduling-dialog.png)
-
-#### Activity Detail View  
-![Activity Detail View](assets/md-images/sprint2/activity-detail-view.png)
-
-#### Incident Report View  
-![Incident Report View](assets/md-images/sprint2/incident-report-view.png)
+#### Execution History View 
+![Execution History Dialog](assets/md-images/sprint2/execution-history-dialog.png)
 
 #### Profile View  
 ![Profile View](assets/md-images/sprint2/profile-view.png)
 
-#### Reports View  
-![Reports View](assets/md-images/sprint2/reports-view.png)
-
-#### Execution History View  
-![Execution History View](assets/md-images/sprint2/execution-history-view.png)
-
-#### Task List Operario View  
-![Task List Operario View](assets/md-images/sprint2/task-list-operario-view.png)
-
-#### Dashboard View  
-![Dashboard View](assets/md-images/sprint2/dashboard-view.png)
-
-#### Planning View  
-![Planning View](assets/md-images/sprint2/planning-view.png)
-
-#### Scheduling Calendar View  
-![Scheduling Calendar View](assets/md-images/sprint2/scheduling-calendar-view.png)
+#### Password Recovery View  
+![Password Recovery View](assets/md-images/sprint2/password-recovery-view.png)
 
 ---
 
