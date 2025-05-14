@@ -5084,7 +5084,7 @@ Durante este Sprint se avanzó en la implementación de las vistas principales d
 ![Location Management View](assets/md-images/sprint2/location-management-view.png)
 
 #### Teams Management View  
-![Teams Management View](assets/md-images/sprint2/teams-management-view.png)
+![Teams Management View](assets/md-images/sprint2/team-management-view.png)
 
 #### Activities Management View  
 ![Activities Management View](assets/md-images/sprint2/activities-management-view.png)
@@ -5093,7 +5093,7 @@ Durante este Sprint se avanzó en la implementación de las vistas principales d
 ![Task Planning View](assets/md-images/sprint2/task-planning-view.png)
 
 #### Execution History View 
-![Execution History Dialog](assets/md-images/sprint2/execution-history-dialog.png)
+![Execution History Dialog](assets/md-images/sprint2/execution-history-view.png)
 
 #### Profile View  
 ![Profile View](assets/md-images/sprint2/profile-view.png)
