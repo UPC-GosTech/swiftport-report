@@ -5192,6 +5192,14 @@ __Diseño visual agradable y organizado__
 
 Al diseñar nuestro wireframes y mockup, pensamos no solo en colocar una estructura funcional, si no también en lograr aquella que sea sencilla de comprender y dinámica en todos sus aspectos de forma que el usuario disfrute al usarla y que este no sufra dificultades. A su vez, escogimos colores llamativos e incluimos un menú que facilita el acceso a las funcionalidades principales.
 
+__Implementación progresiva del Front-End__
+
+Durante este entregable, uno de los avances más significativos ha sido el desarrollo del front-end de las funcionalidades principales del sistema. Este desarrollo nos permitió visualizar con mayor claridad el flujo real de la aplicación, identificar mejoras en la experiencia de usuario y validar la coherencia entre las vistas propuestas y las historias de usuario previamente elaboradas. Además, el enfoque modular y escalable de la implementación facilitará futuras integraciones con lógica de backend y servicios externos.
+
+__Mejoras en la internacionalización (i18n)__
+
+La corrección del sistema de internacionalización de la landing page representa un avance importante en la accesibilidad y adaptabilidad de la aplicación. A través de esta mejora, aseguramos que los textos sean fácilmente traducibles, adaptables a distintos contextos culturales y reutilizables a lo largo del sistema. Esto demuestra un compromiso con la inclusión y prepara a la aplicación para escalar a nuevos mercados sin necesidad de rediseños importantes.
+
 ## 6.2. Recomendaciones
 
 Dado que hemos terminado con un avance del presente trabajo, nos gustaría incluir algunas recomendaciones en cuanto a su elaboración e implementación, ya sea punto que no hemos podido tocar dadas ciertas limitaciones o que nos gustaría incluir en el futuro.
