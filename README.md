@@ -4989,8 +4989,8 @@ El objetivo principal del Sprint 2 es desarrollar la aplicación web en Angular 
 
 Link Jira: [OpenSource SwiftPort - Jira](https://upc-team-sovpqsl5.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiOTUyNzk4YWU1NmJjNGNmY2FhMjgxMTc5Y2Q3ODVkZTgiLCJwIjoiaiJ9)
 
-[!NOTE]
-El enlace para ingresar al jira es privado, ya que requiere acceso mediante email, de todos modos se puede observar el tablero en la imagen
+> [!NOTE]
+> El enlace para ingresar al jira es privado, ya que requiere acceso mediante email, de todos modos se puede observar el tablero en la imagen
 
 | Sprint #  | Task ID | Task Title                                      | Assigned To                                   | Status |
 |-----------|---------|-------------------------------------------------|-----------------------------------------------|--------|
