@@ -1119,7 +1119,7 @@ El análisis ha sido realizado considerando tanto las **características objetiv
 
 <div>
   <p align="center">
-    <img src="assets/md-images/User%20Person%20Roberto%20Condor%20Chavez.png" alt="User Persona Roberto Condor Chavez" width="700px" style="transform: rotate(90deg);" />
+    <img src="assets/md-images/User%20Person%20Roberto%20Condor%20Chavez.png" alt="User Persona Roberto Condor Chavez" width="700px" />
   </p>
 </div>
 
@@ -1584,11 +1584,9 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
     CUANDO presiona el botón “Cancelar”<br>
     ENTONCES el sistema debe descartar los datos ingresados<br>
     Y regresar a la lista principal sin guardar información
-    
   </td>
   <td>EP04</td>
 </tr>
-
 <tr>
   <td>US05</td>
   <td>Asignar tarea a un responsable</td>
@@ -1654,7 +1652,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP04</td>
 </tr>
-
 <tr>
   <td>US07</td>
   <td>Cambiar estado de tarea</td>
@@ -1720,7 +1717,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP05</td>
 </tr>
-
 <tr>
   <td>US09</td>
   <td>Reportar demora por clima u otros</td>
@@ -1788,7 +1784,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP05</td>
 </tr>
-
 <tr>
   <td>US11</td>
   <td>Agrupar tareas por fase</td>
@@ -1845,7 +1840,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP06</td>
 </tr>
-
 <tr>
   <td>US13</td>
   <td>Notificación de nueva tarea asignada</td>
@@ -1892,7 +1886,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP07</td>
 </tr>
-
 <tr>
   <td>US15</td>
   <td>Añadir observaciones a una tarea</td>
@@ -1915,7 +1908,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP07</td>
 </tr>
-
 <tr>
   <td>US16</td>
   <td>Reportar incidencias</td>
@@ -1944,7 +1936,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP08</td>
 </tr>
-
 <tr>
   <td>US17</td>
   <td>Asignar responsable de resolver incidencia</td>
@@ -2007,7 +1998,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP05</td>
 </tr>
-
 <tr>
   <td>US19</td>
   <td>Marcar entrega como postergada</td>
@@ -2069,7 +2059,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP08</td>
 </tr>
-
 <tr>
   <td>US21</td>
   <td>Reporte de incidentes externos</td>
@@ -2083,7 +2072,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP08</td>
 </tr>
-
 <tr>
   <td>US22</td>
   <td>Integrar sistema meteorológico</td>
@@ -2117,7 +2105,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP09</td>
 </tr>
-
 <tr>
   <td>US23</td>
   <td>Bloquear tareas automáticamente por eventos naturales sincronizados desde el ERP</td>
@@ -2165,7 +2152,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP07</td>
 </tr>
-
 <tr>
   <td>US25</td>
   <td>Aprobar o rechazar reprogramación</td>
@@ -2194,7 +2180,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP07</td>
 </tr>
-
 <tr>
   <td>US26</td>
   <td>Crear nuevos usuarios</td>
@@ -2219,7 +2204,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP10</td>
 </tr>
-
 <tr>
   <td>US27</td>
   <td>Asignar roles y permisos</td>
@@ -2266,7 +2250,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP10</td>
 </tr>
-
 <tr>
   <td>US29</td>
   <td>Desactivar usuarios inactivos</td>
@@ -2314,7 +2297,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP11</td>
 </tr>
-
 <tr>
   <td>US31</td>
   <td>Ver disponibilidad de personal y recursos</td>
@@ -2366,7 +2348,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP10</td>
 </tr>
-
 <tr>
   <td>US33</td>
   <td>Acceder a la sección principal del sitio (Hero Section)</td>
@@ -2412,7 +2393,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP02</td>
 </tr>
-
 <tr>
   <td>TS01</td>
   <td>Post Company</td>
@@ -2431,7 +2411,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>No corresponde</td>
 </tr>
-
 <tr>
   <td>TS02</td>
   <td>Get Company</td>
@@ -2448,7 +2427,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>No corresponde</td>
 </tr>
-
 <tr>
   <td>TS03</td>
   <td>Post User</td>
@@ -2483,7 +2461,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>No corresponde</td>
 </tr>
-
 <tr>
   <td>TS05</td>
   <td>Post Task</td>
@@ -2518,7 +2495,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>No corresponde</td>
 </tr>
-
 <tr>
   <td>TS07</td>
   <td>Post Change Request</td>
@@ -2553,7 +2529,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>No corresponde</td>
 </tr>
-
 <tr>
   <td>TS09</td>
   <td>Post Payment Card</td>
@@ -2572,7 +2547,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>No corresponde</td>
 </tr>
-
 <tr>
   <td>TS10</td>
   <td>Get Payment Card</td>
@@ -2589,7 +2563,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>No corresponde</td>
 </tr>
-
 <tr>
   <td>TS11</td>
   <td>Post Dashboard</td>
@@ -2624,7 +2597,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>No corresponde</td>
 </tr>
-
 <tr>
   <td>TS13</td>
   <td>Get Workers by Zone and Schedule</td>
@@ -2641,7 +2613,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>No corresponde</td>
 </tr>
-
 <tr>
   <td>TS14</td>
   <td>Get Tasks by State</td>
@@ -2658,7 +2629,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>No corresponde</td>
 </tr>
-
 <tr>
   <td>TS15</td>
   <td>Get Users per Role</td>
@@ -2691,7 +2661,6 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>No corresponde</td>
 </tr>
-
   </tbody>
 </table>
 

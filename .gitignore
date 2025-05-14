@@ -1,0 +1,51 @@
+# Swift build artifacts
+.build/
+.swiftpm/
+
+# Xcode
+DerivedData/
+*.xcworkspace
+*.xcodeproj
+*.xcuserstate
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+
+# Generated files
+*.generated.swift
+
+# Environment files
+.env
+.env.*
+
+# Other
+.idea/
+.vscode/
+*.iml
+*.class
+*.pyc
+*.pyo
+*.out
+*.bak
+*.old
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+
+/.vscode/
+/markdown.css 
+/README.pdf
