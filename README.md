@@ -5248,5 +5248,6 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - Landing Page desplegado del proyecto: [https://black-desert-0b23d3a0f.6.azurestaticapps.net](https://black-desert-0b23d3a0f.6.azurestaticapps.net)
 - Repositorio de la Landing Page: [https://github.com/UPC-GosTech/swiftport-landing-page](https://github.com/UPC-GosTech/swiftport-landing-page)
 - Documentación del Proyecto: [https://github.com/UPC-GosTech/swiftport-docs](https://github.com/UPC-GosTech/swiftport-report)
+- Aplicación Web desplegada del proyecto: [https://yellow-flower-081ba590f.6.azurestaticapps.net/](https://yellow-flower-081ba590f.6.azurestaticapps.net/)
 
 
