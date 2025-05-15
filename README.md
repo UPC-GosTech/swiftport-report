@@ -26,7 +26,7 @@
 | Adrianzén Flores, Carlos Arturo  | U202215705 |
 
 <div>
-  <p align="center"><b>Ciclo 2025 - 01</b></p>
+  <p align="center"><b>Ciclo 2025 - 10</b></p>
 </div>
 
 ---
