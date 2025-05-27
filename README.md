@@ -1405,7 +1405,7 @@ En la siguiente sección, se mostrarán los end-to-end journey maps para ilustra
 
 <div>
   <p align="center">
-    <img src="https://github.com/UPC-GosTech/swiftport-report/blob/f416f76c83cdae9296f0f82cc531b189384bde5c/assets/md-images/Customer%20journey%20de%20Roberto%20Condor%20Chavezr%20(1).png" alt="Customer Journey Roberto" width="700px" />
+    <img src="assets/md-images/customer_journey_roberto.png"alt="Customer Journey Roberto" width="700px" />
   </p>
 </div>
 
@@ -4589,16 +4589,16 @@ Todos los identificadores (archivos, clases, métodos, variables, etc.) deben es
 1. HMTL
 
 - Etiquetas y atributos en minúsculas  
- <section id="task-list"></section>  
+`<section id="task-list"></section>`  
 
 - Cerrar siempre los elementos  
- <img src="photo.jpg" alt="field operation" />
+`<img src="photo.jpg" alt="field operation" />`
 
 - Comillas dobles para valores de atributos
- <button type="button" class="btn-primary"></button>
+`<button type="button" class="btn-primary"></button>`
 
 - Incluir siempre alt (y width/height si es posible) en imágenes
- <img src="truck.png" alt="logistics-truck" width="64" height="64" />
+`<img src="truck.png" alt="logistics-truck" width="64" height="64" />`
 
 - Sangría de 2 espacios
 
