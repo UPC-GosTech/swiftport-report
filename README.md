@@ -4933,7 +4933,7 @@ En esta sección se detallan los aspectos clave del Sprint Planning Meeting corr
 | Location | Reunión virtual a través de Discord |
 | Prepared by | Sergio Sebastián Iglesias Pérez, Natalia Bertha Roman Cruz |
 | Attendees (to planning meeting) | Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando; Adrianzén Flores, Carlos Arturo |
-| Sprint 1 Review Summary | El Sprint 1 permitió desplegar la landing page base del proyecto, obteniendo retroalimentación inicial y generando un entorno estable para el avance del desarrollo. |
+| Sprint 1 Review Summary |Sprint 1 allowed the deployment of the project's basic landing page, obtaining initial feedback and creating a stable environment for the development progress. |
 | Sprint 2 Goal | Our focus is to develop the core screens of the web application using Angular. We believe this delivers visibility and coherence to our product experience. This will be confirmed when all team members can navigate the application through its initial flows and views. |
 | Sprint 2 Velocity | 60 story points |
 | Sum of story points | 60 story points |
@@ -4961,53 +4961,54 @@ Link Jira: [OpenSource SwiftPort - Jira](https://upc-team-sovpqsl5.atlassian.net
 
 > **Nota:** El enlace para ingresar al tablero de Jira es privado, ya que requiere acceso mediante email, de todos modos se puede observar el tablero en la imagen de arriba.
 
-| Sprint #  | Task ID | Task Title                                      | Assigned To                                   | Status |
-|-----------|---------|-------------------------------------------------|-----------------------------------------------|--------|
-| Sprint 2  | T01     | Implementar i18n en la landing page             | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T02     | Crear vista de Login                             | Angelo Hector Solano Armas                    | Done   |
-| Sprint 2  | T03     | Definir entidad Vehicle                          | Santiago Armando Baldeón Vivar                | Done   |
-| Sprint 2  | T04     | Definir entidad Task                             | Santiago Armando Baldeón Vivar                | Done   |
-| Sprint 2  | T05     | Configuración global de estilos                  | Sergio Sebastián Iglesias Pérez               | Done   |
-| Sprint 2  | T06     | Definir entidad Incident                          | Santiago Armando Baldeón Vivar                | Done   |
-| Sprint 2  | T07     | Definir entidad Planification                     | Angelo Hector Solano Armas                    | Done   |
-| Sprint 2  | T08     | Crear componente Table                            | Sergio Sebastián Iglesias Pérez               | Done   |
-| Sprint 2  | T09     | Crear componente Sidebar/Menu                     | Sergio Sebastián Iglesias Pérez               | Done   |
-| Sprint 2  | T10     | Crear vista de Register                           | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T11     | Crear vista de Subscription Plan                  | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T12     | Crear vista de Home                                | Santiago Armando Baldeón Vivar                | Done   |
-| Sprint 2  | T13     | Crear componente Selector                          | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T14     | Crear componente Payment Card                      | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T15     | Crear componente Input                             | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T16     | Crear componente Button                            | Angelo Hector Solano Armas                    | Done   |
-| Sprint 2  | T17     | Definir entidad Employee                           | Angelo Hector Solano Armas                    | Done   |
-| Sprint 2  | T18     | Definir entidad Activity                           | Angelo Hector Solano Armas                    | Done   |
-| Sprint 2  | T19     | Conectar vistas a Fake API                         | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T20     | Definir entidad ExecutionReport                    | Carlos Arturo Adrianzén Flores                | Done   |
-| Sprint 2  | T21     | Definir entidad Squad                              | Carlos Arturo Adrianzén Flores                | Done   |
-| Sprint 2  | T22     | Definir entidad User                               | Carlos Arturo Adrianzén Flores                | Done   |
-| Sprint 2  | T23     | Crear componente SearchBar                         | Carlos Arturo Adrianzén Flores                | Done   |
-| Sprint 2  | T24     | Crear componente Snackbar                          | Carlos Arturo Adrianzén Flores                | Done   |
-| Sprint 2  | T25     | Crear componente Payment Information                | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T26     | Crear vista CompanySettings                         | Angelo Hector Solano Armas                    | Done   |
-| Sprint 2  | T27     | Crear vista PasswordRecovery                        | Angelo Hector Solano Armas                    | Done   |
-| Sprint 2  | T28     | Crear vista UserManagement                          | Angelo Hector Solano Armas                    | Done   |
-| Sprint 2  | T29     | Crear vista LoginView                               | Angelo Hector Solano Armas                    | Done   |
-| Sprint 2  | T30     | Crear vista EquipmentManagement                     | Sergio Sebastián Iglesias Pérez               | Done   |
-| Sprint 2  | T31     | Crear vista EmployeeManagement                      | Sergio Sebastián Iglesias Pérez               | Done   |
-| Sprint 2  | T32     | Crear vista ZoneManagement                          | Sergio Sebastián Iglesias Pérez               | Done   |
-| Sprint 2  | T33     | Crear vista TeamManagement                          | Sergio Sebastián Iglesias Pérez               | Done   |
-| Sprint 2  | T34     | Crear vista TaskSegmentation                         | Sergio Sebastián Iglesias Pérez               | Done   |
-| Sprint 2  | T35     | Crear vista TaskExecution                            | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T36     | Crear componente TaskSchedulingDialog                | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T37     | Crear vista ActivityDetail                           | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T38     | Crear vista IncidentReport                           | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T39     | Crear vista ProfileView                              | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T40     | Crear vista ReportsView                              | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T41     | Crear vista ExecutionHistory                         | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T42     | Crear vista TaskListOperario                         | Natalia Bertha Roman Cruz                     | Done   |
-| Sprint 2  | T43     | Crear vista DashboardView                            | Sergio Sebastián Iglesias Pérez               | Done   |
-| Sprint 2  | T44     | Crear vista PlanningView                             | Sergio Sebastián Iglesias Pérez               | Done   |
-| Sprint 2  | T45     | Crear vista SchedulingCalendarView                   | Sergio Sebastián Iglesias Pérez               | Done   |
+| Sprint # | User Story ID | User Story title                  | Task ID | Task Title                    | Descripción tarea                                    | Estimated (hours) | Assigned To                    | Status | Story Points |
+|----------|---------------|---------------------------------|---------|-------------------------------|----------------------------------------------------|-------------------|------------------------------|--------|--------------|
+| Sprint 2 | US01          | Contactar al startup             | T01     | Implementar i18n en la landing page | Implementar soporte multilenguaje en landing page  | 3                 | Natalia Bertha Roman Cruz     | Done   | 2            |
+| Sprint 2 | US03          | Acceder a la aplicación          | T02     | Crear vista de Login            | Crear vista para que usuarios puedan iniciar sesión | 3                 | Angelo Hector Solano Armas    | Done   | 2            |
+| Sprint 2 | US10          | Definir fases del proceso logístico | T03     | Definir entidad Vehicle         | Definir la entidad Vehículo para la aplicación     | 4                 | Santiago Armando Baldeón Vivar | Done   | 3            |
+| Sprint 2 | US10          | Definir fases del proceso logístico | T04     | Definir entidad Task            | Definir la entidad Tarea para la aplicación         | 4                 | Santiago Armando Baldeón Vivar | Done   | 3            |
+| Sprint 2 | US05          | Asignar tarea a un responsable   | T05     | Configuración global de estilos | Configurar estilos globales del proyecto            | 3                 | Sergio Sebastián Iglesias Pérez | Done   | 2            |
+| Sprint 2 | US06          | Establecer prioridad y riesgo externo | T06     | Definir entidad Incident        | Definir la entidad Incidente para registro de eventos | 4                | Santiago Armando Baldeón Vivar | Done   | 3            |
+| Sprint 2 | US11          | Agrupar tareas por fase          | T07     | Definir entidad Planification   | Definir entidad Planificación para organizar tareas  | 3                 | Angelo Hector Solano Armas    | Done   | 2            |
+| Sprint 2 | US08          | Ver tareas asignadas             | T08     | Crear componente Table          | Crear componente tabla para mostrar datos           | 3                 | Sergio Sebastián Iglesias Pérez | Done   | 2            |
+| Sprint 2 | US09          | Reportar demora por clima u otros | T09     | Crear componente Sidebar/Menu    | Crear menú lateral para navegación                        | 3                 | Sergio Sebastián Iglesias Pérez | Done   | 2            |
+| Sprint 2 | US01          | Contactar al startup              | T10     | Crear vista de Register          | Crear vista para registro de usuarios                     | 3                 | Natalia Bertha Roman Cruz     | Done   | 2            |
+| Sprint 2 | US02          | Obtener información sobre el uso  | T11     | Crear vista de Subscription Plan | Crear vista para planes de suscripción                    | 3                 | Natalia Bertha Roman Cruz     | Done   | 2            |
+| Sprint 2 | US03          | Acceder a la aplicación           | T12     | Crear vista de Home              | Crear vista principal o inicio de la aplicación           | 3                 | Santiago Armando Baldeón Vivar | Done   | 2            |
+| Sprint 2 | US13          | Notificación de nueva tarea asignada | T13     | Crear componente Selector        | Crear componente selector para filtros o selección       | 3                 | Natalia Bertha Roman Cruz     | Done   | 2            |
+| Sprint 2 | US09          | Reportar demora por clima u otros | T14     | Crear componente Payment Card    | Crear componente para mostrar tarjetas de pago           | 3                 | Natalia Bertha Roman Cruz     | Done   | 2            |
+| Sprint 2 | US15          | Añadir observaciones a una tarea   | T15     | Crear componente Input           | Crear componentes input para formularios                  | 3                 | Natalia Bertha Roman Cruz     | Done   | 2            |
+| Sprint 2 | US16          | Reportar incidencias               | T16     | Crear componente Button          | Crear botón para acciones                                  | 3                 | Angelo Hector Solano Armas    | Done   | 2            |
+| Sprint 2 | US17          | Asignar responsable de resolver incidencia | T17     | Definir entidad Employee         | Definir entidad Empleado                                  | 3                 | Angelo Hector Solano Armas    | Done   | 2            |
+| Sprint 2 | US18          | Programar entrega con condiciones  | T18     | Definir entidad Activity         | Definir entidad Actividad                                 | 3                 | Angelo Hector Solano Armas    | Done   | 2            |
+| Sprint 2 | US03          | Acceder a la aplicación           | T19     | Conectar vistas a Fake API       | Conectar vistas con API simulada                          | 3                 | Natalia Bertha Roman Cruz     | Done   | 2            |
+| Sprint 2 | US20          | Dashboard de estado de tareas      | T20     | Definir entidad ExecutionReport  | Definir entidad Reporte de Ejecución                      | 3                 | Carlos Arturo Adrianzén Flores | Done   | 2            |
+| Sprint 2 | US21          | Reporte de incidentes externos     | T21     | Definir entidad Squad            | Definir entidad Equipo                                   | 3                 | Carlos Arturo Adrianzén Flores | Done   | 2            |
+| Sprint 2 | US10          | Definir fases del proceso logístico | T22     | Definir entidad User             | Definir entidad Usuario                                  | 3                 | Carlos Arturo Adrianzén Flores | Done   | 2            |
+| Sprint 2 | US13          | Notificación de nueva tarea asignada | T23     | Crear componente SearchBar       | Crear barra de búsqueda                                  | 3                 | Carlos Arturo Adrianzén Flores | Done   | 2            |
+| Sprint 2 | US12          | Alerta por tarea bloqueada        | T24     | Crear componente Snackbar        | Crear notificaciones tipo snackbar                       | 3                 | Carlos Arturo Adrianzén Flores | Done   | 2            |
+| Sprint 2 | US14          | Validar tareas completadas o suspendidas | T25     | Crear componente Payment Information | Crear componentes para información de pago               | 3                 | Natalia Bertha Roman Cruz     | Done   | 2            |
+| Sprint 2 | US10          | Definir fases del proceso logístico | T26     | Crear vista CompanySettings      | Crear vista para configuración de la compañía            | 3                 | Angelo Hector Solano Armas    | Done   | 2            |
+| Sprint 2 | US10          | Definir fases del proceso logístico | T27     | Crear vista PasswordRecovery     | Crear vista para recuperación de contraseña              | 3                 | Angelo Hector Solano Armas    | Done   | 2            |
+| Sprint 2 | US10          | Definir fases del proceso logístico | T28     | Crear vista UserManagement       | Crear vista para gestión de usuarios                      | 3                 | Angelo Hector Solano Armas    | Done   | 2            |
+| Sprint 2 | US03          | Acceder a la aplicación           | T29     | Crear vista LoginView            | Crear vista login principal                              | 3                 | Angelo Hector Solano Armas    | Done   | 2            |
+| Sprint 2 | US30          | Generar plan de actividades       | T30     | Crear vista EquipmentManagement  | Crear vista para gestión de equipos                       | 3                 | Sergio Sebastián Iglesias Pérez | Done   | 2            |
+| Sprint 2 | US31          | Ver disponibilidad de personal y recursos | T31     | Crear vista EmployeeManagement   | Crear vista para gestión de empleados                     | 3                 | Sergio Sebastián Iglesias Pérez | Done   | 2            |
+| Sprint 2 | US11          | Agrupar tareas por fase            | T32     | Crear vista ZoneManagement       | Crear vista para gestión de zonas                         | 3                 | Sergio Sebastián Iglesias Pérez | Done   | 2            |
+| Sprint 2 | US11          | Agrupar tareas por fase            | T33     | Crear vista TeamManagement       | Crear vista para gestión de equipos                       | 3                 | Sergio Sebastián Iglesias Pérez | Done   | 2            |
+| Sprint 2 | US11          | Agrupar tareas por fase            | T34     | Crear vista TaskSegmentation     | Crear vista para segmentación de tareas                   | 3                 | Sergio Sebastián Iglesias Pérez | Done   | 2            |
+| Sprint 2 | US04          | Crear una nueva tarea              | T35     | Crear vista TaskExecution        | Crear vista para ejecución de tareas                      | 3                 | Natalia Bertha Roman Cruz     | Done   | 3            |
+| Sprint 2 | US04          | Crear una nueva tarea              | T36     | Crear componente TaskSchedulingDialog | Crear diálogo para programación de tareas                 | 3                 | Natalia Bertha Roman Cruz     | Done   | 3            |
+| Sprint 2 | US05          | Asignar tarea a un responsable    | T37     | Crear vista ActivityDetail       | Crear vista para detalle de actividad                     | 3                 | Natalia Bertha Roman Cruz     | Done   | 3            |
+| Sprint 2 | US05          | Asignar tarea a un responsable    | T38     | Crear vista IncidentReport       | Crear vista para reporte de incidentes                    | 3                 | Natalia Bertha Roman Cruz     | Done   | 3            |
+| Sprint 2 | US07          | Cambiar estado de tarea            | T39     | Crear vista ProfileView          | Crear vista de perfil                                     | 3                 | Natalia Bertha Roman Cruz     | Done   | 2            |
+| Sprint 2 | US08          | Ver tareas asignadas              | T40     | Crear vista ReportsView          | Crear vista para reportes                                 | 3                 | Natalia Bertha Roman Cruz     | Done   | 2            |
+| Sprint 2 | US10          | Definir fases del proceso logístico | T41     | Crear vista ExecutionHistory     | Crear vista para historial de ejecuciones                | 3                 | Natalia Bertha Roman Cruz     | Done   | 3            |
+| Sprint 2 | US11          | Agrupar tareas por fase            | T42     | Crear vista TaskListOperario     | Crear vista de lista de tareas para operarios            | 3                 | Natalia Bertha Roman Cruz     | Done   | 2            |
+| Sprint 2 | US08          | Ver tareas asignadas              | T43     | Crear vista DashboardView        | Crear vista principal tipo dashboard                      | 3                 | Sergio Sebastián Iglesias Pérez | Done   | 2            |
+| Sprint 2 | US11          | Agrupar tareas por fase            | T44     | Crear vista PlanningView         | Crear vista para planificación                            | 3                 | Sergio Sebastián Iglesias Pérez | Done   | 2            |
+| Sprint 2 | US12          | Alerta por tarea bloqueada        | T45     | Crear vista SchedulingCalendarView | Crear vista calendario de programación                    | 3                 | Sergio Sebastián Iglesias Pérez | Done   | 2            |
+
 
 ### 5.2.2.4. Development Evidence for Sprint Review
 
