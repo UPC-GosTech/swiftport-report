@@ -5214,7 +5214,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 5. Ejecución y cierre de tareas por parte del operario  
 6. Registro y visualización de incidentes  
 7. Visualización de métricas y generación de reportes  
-8. Edición de configuración de zonas, subzonas y equipos de trabajo
+8. Edición de configuración de zonas y equipos de trabajo
 
 ---
 
@@ -5243,9 +5243,9 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 |--|----------|-----------|-------------------------------|
 | 1 | No hay feedback al cambiar el estado de un recurso o usuario (ej. de mantenimiento a disponible) | 2 | Usability: Visibility of system status |
 | 2 | El formulario de creación de usuario no permite ver la contraseña escrita | 2 | Inclusive Design: Accessibility & Feedback |
-| 3 | No se puede eliminar una tarea luego de programarla desde el calendario | 3 | Usability: User control and freedom |
+| 3 | No se puede eliminar una tarea luego de programarla desde el calendario | 2 | Usability: User control and freedom |
 | 4 | En cards de ejecución no se distingue fácilmente qué campos son editables | 1 | Information Architecture: Clarity of interaction |
-| 5 | Al desactivar un usuario, solo cambia el color del ícono sin mensaje explicativo | 2 | Usability: Visibility of system status |
+| 5 | Al desactivar un usuario, solo cambia el color del ícono sin mensaje explicativo | 1 | Usability: Visibility of system status |
 | 6 | ExecutionHistoryView no tiene leyenda para interpretar gráficos comparativos | 1 | Information Architecture: Learnability |
 | 7 | Feedback no siempre se muestra en el mismo lugar | 1 | Usability: Consistency and standards |
 
@@ -5276,7 +5276,7 @@ Agregar un ícono de tipo "mostrar contraseña" para facilitar la verificación 
 ---
 
 ### PROBLEMA #3  
-**Severidad:** 3  
+**Severidad:** 2 
 **Heurística violada:** Usability - User control and freedom  
 **Problema:**  
 Una vez que se programa una tarea en el calendario, no se puede eliminar directamente desde la misma interfaz. Esto limita el control del usuario y puede generar desorden en la planificación.  
@@ -5296,7 +5296,7 @@ Usar íconos, bordes o color de fondo para diferenciar campos activos o editable
 ---
 
 ### PROBLEMA #5  
-**Severidad:** 2  
+**Severidad:** 1
 **Heurística violada:** Usability - Visibility of system status  
 **Problema:**  
 Al cambiar el estado de un usuario desde la vista de gestión (bloqueo/desbloqueo), solo cambia el color del ícono sin mostrar confirmación o leyenda textual.  
