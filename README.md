@@ -5161,18 +5161,25 @@ Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo 
 
 ### 5.2.3.2. Sprint Planning 3
 
-### 5.2.3.2. Sprint Planning 3
+### 5.2.3.3. Sprint Planning 3
 
-### 5.2.3.2. Sprint Planning 3
+### 5.2.3.4. Sprint Planning 3
 
-### 5.2.3.2. Sprint Planning 3
+### 5.2.3.5. Sprint Planning 3
 
-### 5.2.3.2. Sprint Planning 3
+### 5.2.3.6. Sprint Planning 3
 
-### 5.2.3.2. Sprint Planning 3
+### 5.2.3.7. Sprint Planning 3
 
-### 5.2.3.2. Sprint Planning 3
+### 5.2.3.8. Sprint Planning 3
 
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de Entrevistas
+
+### 5.3.2. Registro de Entrevistas
+
+### 5.3.3. Evaluaciones según heurísticas
 
 # 6. Conclusiones
 
