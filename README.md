@@ -5181,6 +5181,144 @@ Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo 
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+# UX Heuristics & Principles Evaluation  
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Desarrollo de Aplicaciones Open Source  
+**SECCIÓN:** 4304 
+**PROFESORES:** Efraín Ricardo Bautista Ubillús  
+**AUDITOR:** GosTech 
+**CLIENTE(S):** Equipo interno de validación de GosTech
+
+---
+
+## SITE o APP A EVALUAR:
+**SwiftPort – Aplicación Web de Gestión Operativa Logística**
+
+---
+
+## TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro y gestión de usuarios (Admin, Supervisor, Operario)  
+2. Alta y edición de vehículos y maquinaria  
+3. Creación de actividades y segmentación en tareas  
+4. Programación de tareas en calendario  
+5. Ejecución y cierre de tareas por parte del operario  
+6. Registro y visualización de incidentes  
+7. Visualización de métricas y generación de reportes  
+8. Edición de configuración de zonas, subzonas y equipos de trabajo
+
+---
+
+## No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Cambios administrativos de suscripción  
+2. Modificación de planes de facturación  
+3. Integración con sistemas externos de ERP o GPS
+
+---
+
+## ESCALA DE SEVERIDAD:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial. Fácilmente superado por el usuario. No requiere acción inmediata. |
+| 2 | Problema menor. Requiere prioridad baja en futuros despliegues. |
+| 3 | Problema mayor. Puede afectar la experiencia del usuario. Requiere corrección con prioridad alta. |
+| 4 | Problema muy grave. Impide continuar con el uso del sistema. Debe corregirse antes del lanzamiento. |
+
+---
+
+## TABLA RESUMEN:
+
+| # | Problema | Severidad | Heurística/Principio violado |
+|--|----------|-----------|-------------------------------|
+| 1 | No hay feedback al cambiar el estado de un recurso o usuario (ej. de mantenimiento a disponible) | 2 | Usability: Visibility of system status |
+| 2 | El formulario de creación de usuario no permite ver la contraseña escrita | 2 | Inclusive Design: Accessibility & Feedback |
+| 3 | No se puede eliminar una tarea luego de programarla desde el calendario | 3 | Usability: User control and freedom |
+| 4 | En cards de ejecución no se distingue fácilmente qué campos son editables | 1 | Information Architecture: Clarity of interaction |
+| 5 | Al desactivar un usuario, solo cambia el color del ícono sin mensaje explicativo | 2 | Usability: Visibility of system status |
+| 6 | ExecutionHistoryView no tiene leyenda para interpretar gráficos comparativos | 1 | Information Architecture: Learnability |
+| 7 | Feedback no siempre se muestra en el mismo lugar | 1 | Usability: Consistency and standards |
+
+---
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+---
+
+### PROBLEMA #1  
+**Severidad:** 2  
+**Heurística violada:** Usability - Visibility of system status  
+**Problema:**  
+Al cambiar el estado de un recurso (de "Mantenimiento" a "Disponible") o al activar/desactivar un usuario, el sistema no muestra ninguna notificación o mensaje que confirme la acción. Esto genera duda en el usuario sobre si el cambio fue exitoso.  
+**Recomendación:**  
+Incluir un mensaje tipo *toast* o *snackbar* que confirme los cambios, como “Usuario actualizado con éxito”.
+
+---
+
+### PROBLEMA #2  
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design - Accessibility & Feedback  
+**Problema:**  
+En el formulario de creación de usuario, el campo de contraseña siempre aparece oculto y no ofrece la opción de visualizar lo digitado. Esto puede dificultar el ingreso correcto de contraseñas complejas.  
+**Recomendación:**  
+Agregar un ícono de tipo "mostrar contraseña" para facilitar la verificación del texto ingresado.
+
+---
+
+### PROBLEMA #3  
+**Severidad:** 3  
+**Heurística violada:** Usability - User control and freedom  
+**Problema:**  
+Una vez que se programa una tarea en el calendario, no se puede eliminar directamente desde la misma interfaz. Esto limita el control del usuario y puede generar desorden en la planificación.  
+**Recomendación:**  
+Agregar funcionalidad para eliminar tareas desde el calendario o el modal de programación.
+
+---
+
+### PROBLEMA #4  
+**Severidad:** 1  
+**Heurística violada:** Information Architecture - Clarity of interaction  
+**Problema:**  
+En algunas cards de ejecución o formularios, no queda claro visualmente qué campos son editables hasta hacer clic sobre ellos.  
+**Recomendación:**  
+Usar íconos, bordes o color de fondo para diferenciar campos activos o editables.
+
+---
+
+### PROBLEMA #5  
+**Severidad:** 2  
+**Heurística violada:** Usability - Visibility of system status  
+**Problema:**  
+Al cambiar el estado de un usuario desde la vista de gestión (bloqueo/desbloqueo), solo cambia el color del ícono sin mostrar confirmación o leyenda textual.  
+**Recomendación:**  
+Agregar mensajes de feedback o tooltips actualizados para mostrar claramente el nuevo estado.
+
+---
+
+### PROBLEMA #6  
+**Severidad:** 1  
+**Heurística violada:** Information Architecture - Learnability  
+**Problema:**  
+La vista ExecutionHistoryView muestra gráficos comparativos de programación vs ejecución, pero no cuenta con una leyenda o ayuda contextual que explique los elementos visuales.  
+**Recomendación:**  
+Incluir leyenda o ayuda emergente que oriente al usuario en la interpretación de los gráficos.
+
+---
+
+### PROBLEMA #7  
+**Severidad:** 1  
+**Heurística violada:** Usability - Consistency and standards  
+**Problema:**  
+Aunque los botones están bien ubicados y son consistentes, el feedback de las acciones (mensajes de éxito o error) no siempre aparece en el mismo lugar.  
+**Recomendación:**  
+Unificar el patrón de ubicación de feedbacks para facilitar la lectura rápida del usuario.
+
+
 # 6. Conclusiones
 
 ## 6.1. Conclusiones
