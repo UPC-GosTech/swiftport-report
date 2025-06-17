@@ -5185,10 +5185,15 @@ Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo 
 **Usability – Inclusive Design – Information Architecture**
 
 **CARRERA:** Ingeniería de Software  
+
 **CURSO:** Desarrollo de Aplicaciones Open Source  
+
 **SECCIÓN:** 4304 
+
 **PROFESORES:** Efraín Ricardo Bautista Ubillús  
+
 **AUDITOR:** GosTech 
+
 **CLIENTE(S):** Equipo interno de validación de GosTech
 
 ---
