@@ -72,6 +72,18 @@ Para el desarrollo de la parte del informe correspondiente al TP, se dividió la
 |  Adrianzén Flores, Carlos Arturo | Team Collaboration Insights during Sprint 2 |
 
 
+**TB2**
+
+Para el desarrollo de la parte del informe correspondiente al TB2, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
+
+| **Integrantes**                  | **Tareas asignadas** |
+| ---------------------------------|----------------------|
+| Roman Cruz, Natalia Bertha       | Sprint Planning 3, Aspect Leaders and Collaborators, Registro de Entrevistas, Evaluaciones según heurísticas |
+| Solano Armas, Angelo Hector      | Sprint Backlog 3, Development Evidence for Sprint Review |
+| Iglesias Pérez, Sergio Sebastián | Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Diseño de Entrevistas |
+| Baldeón Vivar, Santiago Armando  | Software Deployment Evidence for Sprint Review |
+|  Adrianzén Flores, Carlos Arturo | Team Collaboration Insights during Sprint 3 |
+
 El proceso de colaboración durante el informe se realizó tanto con commits como compartiendo avances a través de documentos de google. 
 
 ---
