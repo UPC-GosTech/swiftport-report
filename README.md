@@ -5406,7 +5406,7 @@ Microsoft. (n.d.). Azure Static Web Apps documentation. Microsoft Learn. [https:
 
 npm: json-server. (n.d.). Npm. [https://www.npmjs.com/package/json-server](https://www.npmjs.com/package/json-server)
 
-Spring. (n.d.). Spring Boot documentation. [https://docs.spring.io/spring-boot/index.html] (https://docs.spring.io/spring-boot/index.html)
+Spring. (n.d.). Spring Boot documentation. [https://docs.spring.io/spring-boot/index.html](https://docs.spring.io/spring-boot/index.html)
 
 
 # 8. Anexos 
