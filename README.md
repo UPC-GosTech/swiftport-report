@@ -5203,7 +5203,7 @@ Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo 
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-# UX Heuristics & Principles Evaluation  
+### UX Heuristics & Principles Evaluation  
 **Usability – Inclusive Design – Information Architecture**
 
 **CARRERA:** Ingeniería de Software  
@@ -5220,12 +5220,12 @@ Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo 
 
 ---
 
-## SITE o APP A EVALUAR:
+#### SITE o APP A EVALUAR:
 **SwiftPort – Aplicación Web de Gestión Operativa Logística**
 
 ---
 
-## TAREAS A EVALUAR:
+#### TAREAS A EVALUAR:
 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
@@ -5240,7 +5240,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 ---
 
-## No están incluidas en esta versión de la evaluación las siguientes tareas:
+#### No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 1. Cambios administrativos de suscripción  
 2. Modificación de planes de facturación  
@@ -5248,7 +5248,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 ---
 
-## ESCALA DE SEVERIDAD:
+#### ESCALA DE SEVERIDAD:
 
 | Nivel | Descripción |
 |-------|-------------|
@@ -5259,7 +5259,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 ---
 
-## TABLA RESUMEN:
+#### TABLA RESUMEN:
 
 | # | Problema | Severidad | Heurística/Principio violado |
 |--|----------|-----------|-------------------------------|
@@ -5273,11 +5273,11 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 ---
 
-## DESCRIPCIÓN DE PROBLEMAS
+#### DESCRIPCIÓN DE PROBLEMAS
 
 ---
 
-### PROBLEMA #1  
+##### PROBLEMA #1  
 **Severidad:** 2  
 **Heurística violada:** Usability - Visibility of system status  
 **Problema:**  
@@ -5287,7 +5287,7 @@ Incluir un mensaje tipo *toast* o *snackbar* que confirme los cambios, como “U
 
 ---
 
-### PROBLEMA #2  
+##### PROBLEMA #2  
 **Severidad:** 2  
 **Heurística violada:** Inclusive Design - Accessibility & Feedback  
 **Problema:**  
@@ -5297,7 +5297,7 @@ Agregar un ícono de tipo "mostrar contraseña" para facilitar la verificación 
 
 ---
 
-### PROBLEMA #3  
+##### PROBLEMA #3  
 **Severidad:** 2 
 **Heurística violada:** Usability - User control and freedom  
 **Problema:**  
@@ -5307,7 +5307,7 @@ Agregar funcionalidad para eliminar tareas desde el calendario o el modal de pro
 
 ---
 
-### PROBLEMA #4  
+##### PROBLEMA #4  
 **Severidad:** 1  
 **Heurística violada:** Information Architecture - Clarity of interaction  
 **Problema:**  
@@ -5317,7 +5317,7 @@ Usar íconos, bordes o color de fondo para diferenciar campos activos o editable
 
 ---
 
-### PROBLEMA #5  
+##### PROBLEMA #5  
 **Severidad:** 1
 **Heurística violada:** Usability - Visibility of system status  
 **Problema:**  
@@ -5327,7 +5327,7 @@ Agregar mensajes de feedback o tooltips actualizados para mostrar claramente el 
 
 ---
 
-### PROBLEMA #6  
+##### PROBLEMA #6  
 **Severidad:** 1  
 **Heurística violada:** Information Architecture - Learnability  
 **Problema:**  
@@ -5337,7 +5337,7 @@ Incluir leyenda o ayuda emergente que oriente al usuario en la interpretación d
 
 ---
 
-### PROBLEMA #7  
+##### PROBLEMA #7  
 **Severidad:** 1  
 **Heurística violada:** Usability - Consistency and standards  
 **Problema:**  
