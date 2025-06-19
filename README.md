@@ -5352,7 +5352,7 @@ Unificar el patrón de ubicación de feedbacks para facilitar la lectura rápida
 
 __Enfoque centrado en el usuario__
 
-Al haber terminado con la elaboración de esta primera parte del trabajo, podemos concluir que las historias de usuario que elaboramos, al estar correctamente elaboradas y enfocadas en las necesidades y deseos del usuario, nos ayudaron a comprender aquello que más le importaba, logrando una implementación que cumpla con ello. Esto puede apreciarse en la landing page presentada al momento, en dónde se menciona al usuario las funcionalidades que le pueden interesar más de la aplicación.
+Al haber terminado con la elaboración de la primera parte del trabajo, podemos concluir que las historias de usuario que elaboramos, al estar correctamente elaboradas y enfocadas en las necesidades y deseos del usuario, nos ayudaron a comprender aquello que más le importaba, logrando una implementación que cumpla con ello. Esto puede apreciarse en la landing page presentada al momento, en dónde se menciona al usuario las funcionalidades que le pueden interesar más de la aplicación.
 
 __Diseño orientado a la experiencia de usuario__
 
@@ -5377,6 +5377,14 @@ Durante este entregable, uno de los avances más significativos ha sido el desar
 __Mejoras en la internacionalización (i18n)__
 
 La corrección del sistema de internacionalización de la landing page representa un avance importante en la accesibilidad y adaptabilidad de la aplicación. A través de esta mejora, aseguramos que los textos sean fácilmente traducibles, adaptables a distintos contextos culturales y reutilizables a lo largo del sistema. Esto demuestra un compromiso con la inclusión y prepara a la aplicación para escalar a nuevos mercados sin necesidad de rediseños importantes.
+
+__Primera versión funcional del backend__
+
+La implementación inicial del backend marca un hito técnico relevante dentro del proyecto, ya que permitió establecer una base funcional para la integración con el front-end y la futura conexión con servicios externos. Esta versión incluye endpoints básicos y servicios iniciales que serán ampliados y optimizados en los siguientes ciclos de desarrollo.
+
+__Validación con usuarios reales__
+
+Durante el tercer sprint también se diseñaron y ejecutaron entrevistas de validación con usuarios, cuyo feedback fue clave para ajustar aspectos del diseño y funcionalidad del sistema. A través de la aplicación de heurísticas de usabilidad y la recopilación de observaciones cualitativas, se identificaron oportunidades de mejora que ya comenzaron a ser incorporadas en esta entrega.
 
 ## 6.2. Recomendaciones
 
