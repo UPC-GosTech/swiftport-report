@@ -39,6 +39,7 @@
 | 1.1       | 13/04/2025 | Roman Cruz, Natalia Bertha       | Capítulos I (sin entrevistas), Capítulo II (ubiquitous language) y Capítulo III (hasta 3.2) |
 | 1.2       | 25/04/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Implementación de los Capítulos IV y V - Entrevistas, Ubiquitous language y Capítulo III completados|
 |2.0        | 13/05/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Continuación del Capítulo V - Implementación de los artefactos correspondientes al segundo sprint. Se añadió i18n a la landing page, se corrigieron los diagramas c4 y el diagrama de base de datos. Primer avance del Front End de la aplicación web.
+|3.0        | 18/06/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Continuación del Capítulo V - Desarrollo de artefactos correspondientes al tercer sprint. Se realizaron correciones en el documento y en el Front End. Se desarrolló una primera versión del backend.
 
 ---
 
