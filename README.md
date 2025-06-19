@@ -113,19 +113,28 @@ Los siguientes gráficos muestran analíticos en cuanto a los commits que cada i
 __TB1__
 
 <div>
-  <p><img src="assets/md-images/github-insights/github-insights-TB1-B.jpg" alt="Contributors" width="700px" /></p>
+  <p><img src="assets/md-images/github-insights/github-insights-TB1-B.jpg" alt="Contributors TB1" width="700px" /></p>
 </div>
 <div>
-  <p><img src="assets/md-images/github-insights/github-insights-TB1-C.jpg" alt="Overview" width="700px" /></p>
+  <p><img src="assets/md-images/github-insights/github-insights-TB1-C.jpg" alt="Overview TB1" width="700px" /></p>
 </div>
 
 __TP__
 
 <div>
-  <p><img src="assets/md-images/github-insights/github-insights-TP-B.jpg" alt="Contributors" width="700px" /></p>
+  <p><img src="assets/md-images/github-insights/github-insights-TP-B.jpg" alt="Contributors TP" width="700px" /></p>
 </div>
 <div>
-  <p><img src="assets/md-images/github-insights/github-insights-TP-C.jpg" alt="Overview" width="700px" /></p>
+  <p><img src="assets/md-images/github-insights/github-insights-TP-C.jpg" alt="Overview TP" width="700px" /></p>
+</div>
+
+__TB2__
+
+<div>
+  <p><img src="assets/md-images/github-insights/github-insights-TB2-B.jpg" alt="Contributors TB2" width="700px" /></p>
+</div>
+<div>
+  <p><img src="assets/md-images/github-insights/github-insights-TB2-C.jpg" alt="Overview TB2" width="700px" /></p>
 </div>
 
 ---
