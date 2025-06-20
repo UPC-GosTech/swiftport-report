@@ -4185,6 +4185,12 @@ En el C3, exploramos más a detalle cada uno de los contenedores que hemos ident
 
 Diagrama de clases basado en bounded contexts:
 
+* Frontend Class Diagram:
+
+<div>
+  <p align="center"><img src="assets/md-images/class-diagram/front-class-diagram.png" alt="Frontend Class Diagram" width="700px" /></p>
+</div>
+
 * Resource Context
 
 <div>
