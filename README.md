@@ -5414,8 +5414,8 @@ Durante el Sprint, se implementaron y documentaron correctamente los servicios R
   Obtiene una actividad por su ID.  
   - **Respuesta esperada:** `200 OK` o `404 Not Found`
 
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20011.jpg)
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20022.jpg)
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/d66419587cc434a2701c4a6334cc08166c7ff57a/assets/md-images/imagen%20011.jpg)
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/d66419587cc434a2701c4a6334cc08166c7ff57a/assets/md-images/imagen%20022.jpg)
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
