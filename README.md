@@ -131,10 +131,10 @@ __TP__
 __TB2__
 
 <div>
-  <p><img src="https://github.com/UPC-GosTech/swiftport-report/blob/16cde05a3ea40593fd394db9b09bb9404ac6faba/assets/md-images/github-insights/github-insights-TB2-A.jpg.png" alt="Contributors TB2" width="700px" /></p>
+  <p><img src="assets/md-images/github-insights/github-insights-TB2-A.jpg.png" alt="Contributors TB2" width="700px" /></p>
 </div>
 <div>
-  <p><img src="https://github.com/UPC-GosTech/swiftport-report/blob/16cde05a3ea40593fd394db9b09bb9404ac6faba/assets/md-images/github-insights/github-insights-TB2-B.jpg.png" alt="Overview TB2" width="700px" /></p>
+  <p><img src="assets/md-images/github-insights/github-insights-TB2-B.jpg.png" alt="Overview TB2" width="700px" /></p>
 </div>
 
 ---
@@ -5375,31 +5375,31 @@ En esta sección se presentan los avances en la implementación de la solución,
 Durante el Sprint 3 se avanzó significativamente en la implementación del backend de SwiftPort, desarrollando los principales servicios, entidades y controladores que darán soporte a las funcionalidades del sistema
 
 #### Vista general del Swagger UI - Endpoints disponibles
-![Vista general del Swagger UI - Endpoints disponibles](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20009.jpg)
+![Vista general del Swagger UI - Endpoints disponibles](assets/md-images/Imagen%20009.jpg)
 
 #### Ventana emergente de autorización
-![Ventana emergente de autorización](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20002.jpg)
+![Ventana emergente de autorización](assets/md-images/Imagen%20002.jpg)
 
 #### Definición de recursos - Parte 1 
-![Definición de recursos](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20003.jpg)
+![Definición de recursos](assets/md-images/Imagen%20003.jpg)
 
 #### Definición de recursos - Parte 2 
-![Definición de recursos](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20004.jpg)
+![Definición de recursos](assets/md-images/Imagen%20004.jpg)
 
 #### Endpoints del módulo Usuarios, Cargos y Equipos
-![Endpoints del módulo Usuarios, Cargos y Equipos](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20005.jpg)
+![Endpoints del módulo Usuarios, Cargos y Equipos](assets/md-images/Imagen%20005.jpg)
 
 #### Endpoints del módulo Zonas y Reservas
-![Endpoints del módulo Zonas y Reservas](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20006.jpg)
+![Endpoints del módulo Zonas y Reservas](assets/md-images/Imagen%20006.jpg)
 
 #### Endpoints del módulo Empleados, Roles y Actividades
-![Endpoints del módulo Empleados, Roles y Actividades](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20007.jpg)
+![Endpoints del módulo Empleados, Roles y Actividades](assets/md-images/Imagen%20007.jpg)
 
 #### Endpoints del módulo Ejecuciones 
-![Endpoints del módulo Ejecuciones](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20008.jpg)
+![Endpoints del módulo Ejecuciones](assets/md-images/Imagen%20008.jpg)
 
 #### Endpoints del módulo Reporte de Incidentes  
-![Endpoints del módulo Reporte de Incidentes](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20001.jpg)
+![Endpoints del módulo Reporte de Incidentes](assets/md-images/Imagen%20001.jpg)
 
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -5462,9 +5462,8 @@ Durante el Sprint, se implementaron y documentaron correctamente los servicios R
 - **GET `/api/v1/activity/{activityId}`**  
   Obtiene una actividad por su ID.  
   - **Respuesta esperada:** `200 OK` o `404 Not Found`
-
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/d66419587cc434a2701c4a6334cc08166c7ff57a/assets/md-images/imagen%20011.jpg)
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/d66419587cc434a2701c4a6334cc08166c7ff57a/assets/md-images/imagen%20022.jpg)
+![Evidencias](assets/md-images/imagen%20011.jpg)
+![Evidencias](assets/md-images/imagen%20022.jpg)
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -5475,30 +5474,30 @@ La documentación técnica de los endpoints se encuentra expuesta mediante **Swa
 A continuación, se detallan los servicios implementados para los contextos **Equipment** y **Activity**, incluyendo sus rutas, métodos, estructuras de entrada y códigos de respuesta esperados.
 
 1) Creamos un servidor de base de datos para MySQL.
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%201.png)
+![Evidencias](assets/md-images/Azure%201.png)
 
 2) Una vez se creó nuestro servidor, creamos el schema que utilizaremos con nuestro backend.
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%202.png)
+![Evidencias](assets/md-images/Azure%202.png)
 3) En la pestaña conexión podemos encontrar la información necesaria para poder conectar nuestra aplicación backend o nuestro administrador de base de datos.
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%203.png)  
+![Evidencias](assets/md-images/Azure%203.png)  
 ***CREDENCIALES: 
 ****User: ghostrider
 ****Password: admin-123
 4)	Tras haber configurado Spring Profiles para development y production, realizamos la creación de nuestros archivos Dockerfile y docker-compose, como se muestra a continuación: 
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%204.png)
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%205.png)
+![Evidencias](assets/md-images/Azure%204.png)
+![Evidencias](assets/md-images/Azure%205.png)
 5)	Creamos la imagen de nuestra aplicación y la registramos en Azure:
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%206.png)
+![Evidencias](assets/md-images/Azure%206.png)
 7)	Para alojar nuestra aplicación backend, creamos un app service en Azure, seleccionando la opción de Publicar Contenedor:
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%207.png)
-8)	En la configuración del contenedor, seleccionamos nuestra imagen de docker y nos aseguramos de habilitar el puerto 8080. Posteriormente desactivamos la opción “Compatibilidad con Sidecar”.
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%208.png)
+![Evidencias](assets/md-images/Azure%207.png)
+8)	En la configuración del contenedor, seleccionamos nuestra imagen de docker y nos aseguramos de habilitar el puerto 8080. Posteriormente desactivamos la opción "Compatibilidad con Sidecar".
+![Evidencias](assets/md-images/Azure%208.png)
 9)	En el centro de implementación de nuestro App Service podemos actualizar la imagen de docker conforme publiquemos nuevos avances.
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%209.png)
+![Evidencias](assets/md-images/Azure%209.png)
 10)	A continuación se muestra el acceso al API application desplegado, la ruta por defecto está restringida:
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%2010.png)
-11)	Por fines académicos, si añadimos a la ruta “swagger-ui/index.html” podremos acceder a la documentación.
-![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%2011.png)
+![Evidencias](assets/md-images/Azure%2010.png)
+11)	Por fines académicos, si añadimos a la ruta "swagger-ui/index.html" podremos acceder a la documentación.
+![Evidencias](assets/md-images/Azure%2011.png)
 
 
 
@@ -5517,8 +5516,12 @@ Durante el Sprint 3, el equipo colaboró de forma coordinada para avanzar en la 
 
 A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
 
-![Colaboración GitHub - FrontEnd](https://github.com/UPC-GosTech/swiftport-report/blob/6cb63257fc2590365fbecd1c88d4418436c17116/assets/md-images/sprint%203%20github.png) 
-![Colaboración GitHub - FrontEnd](https://github.com/UPC-GosTech/swiftport-report/blob/6cb63257fc2590365fbecd1c88d4418436c17116/assets/md-images/sprint%203%20github%202.png) 
+<div>
+  <p align="center"><img src="assets/md-images/sprint 3 github.png" alt="Colaboración GitHub - Sprint 3" width="700px" /></p>
+</div>
+<div>
+  <p align="center"><img src="assets/md-images/sprint 3 github 2.png" alt="Colaboración GitHub - Sprint 3" width="700px" /></p>
+</div>
 
 ##### Repositorio de trabajo:
 
@@ -5907,9 +5910,14 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 
 - [Video exposición TB1](https://youtu.be/BFcNvl_Vn40)
 - [Video exposición TP1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215705_upc_edu_pe/EXQFdS5PbwRFgN0f2Xpt6KIB-W6afw9Q_1Uk9mtvM41nNw?e=bMwBdc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- [Video exposición TB2](https://youtu.be/2Wihmg0JOv0)
+- [About the product](https://youtu.be/0kiDjPnpHq0)
+- [About the team](https://youtu.be/tQraiV9aHSU)
 - [Landing Page desplegado del proyecto](https://black-desert-0b23d3a0f.6.azurestaticapps.net)
 - [Repositorio de la Landing Page](https://github.com/UPC-GosTech/swiftport-landing-page)
 - [Documentación del Proyecto](https://github.com/UPC-GosTech/swiftport-report)
+- [Diagramas del Proyecto](https://github.com/UPC-GosTech/swiftport-docs)
 - [Aplicación Web desplegada del proyecto](https://yellow-flower-081ba590f.6.azurestaticapps.net/)
+- [Repositorio de la aplicación backend](http://swiftport-api.azurewebsites.net)
 
 
