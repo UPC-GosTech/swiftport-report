@@ -131,10 +131,10 @@ __TP__
 __TB2__
 
 <div>
-  <p><img src="assets/md-images/github-insights/github-insights-TB2-B.jpg" alt="Contributors TB2" width="700px" /></p>
+  <p><img src="https://github.com/UPC-GosTech/swiftport-report/blob/16cde05a3ea40593fd394db9b09bb9404ac6faba/assets/md-images/github-insights/github-insights-TB2-A.jpg.png" alt="Contributors TB2" width="700px" /></p>
 </div>
 <div>
-  <p><img src="assets/md-images/github-insights/github-insights-TB2-C.jpg" alt="Overview TB2" width="700px" /></p>
+  <p><img src="https://github.com/UPC-GosTech/swiftport-report/blob/16cde05a3ea40593fd394db9b09bb9404ac6faba/assets/md-images/github-insights/github-insights-TB2-B.jpg.png" alt="Overview TB2" width="700px" /></p>
 </div>
 
 ---
