@@ -4126,7 +4126,7 @@ Este diagrama muestra en una única vista al sistema SwiftPort, sus actores prin
 
 ### 4.6.2. Software Architecture Container Diagrams
 
-En el C2, se hace "zoom" dentro de el sistema, y se identifican los contenedores. En este caso, con fines de mostrar la aplicación de Domain Driven Design, se añadieron 6 contenedores lógicos representados por hexágonos, los bounded context, pues el API Application es un monolito.
+En el C2, se hace "zoom" dentro de el sistema, y se identifican los contenedores. Resaltamos que el API Application es un monolito.
 
 <div>
   <p align="center"><img src="assets/md-images/c4-model/c2-containers-diagram.png" alt="c2: Containers Diagram.png" width="700px" /></p>
@@ -4134,26 +4134,22 @@ En el C2, se hace "zoom" dentro de el sistema, y se identifican los contenedores
 
 ### 4.6.3. Software Architecture Components Diagrams
 
-En el C3, exploramos más a detalle cada uno de los contenedores que hemos identificado. En este caso, realizamos el C3 para los contenedores lógicos (bounded context)
+En el C3, exploramos más a detalle cada uno de los contenedores que hemos identificado. En este caso, adicionalmente realizamos el C3 para  para los bounded context, con el propósito de mostrar la arquitectura.
 
-* Security Context: 
+* Frontend: 
 <div>
-  <p align="center"><img src="assets/md-images/c4-model/c3-security-context.png" alt="c3: System Context Components.png" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/c4-model/c3-spa.png" alt="c3: Resources Context Components.png" width="700px" /></p>
 </div>
 
-* Billing Context:
-<div>
-  <p align="center"><img src="assets/md-images/c4-model/c3-billing-context.png" alt="c3: Billing Context Components.png" width="700px" /></p>
-</div>
+* API Application: 
 
-* Notifications Context:
 <div>
-  <p align="center"><img src="assets/md-images/c4-model/c3-notifications-context.png" alt="c3: Notifications Context Components.png" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/c4-model/c3-api-app.png" alt="c3: Resources Context Components.png" width="700px" /></p>
 </div>
 
 * Resources Context: 
 <div>
-  <p align="center"><img src="assets/md-images/c4-model/c3-resources-context.png" alt="c3: Resources Context Components.png" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/c4-model/c3-resource-context.png" alt="c3: Resources Context Components.png" width="700px" /></p>
 </div>
 
 * Planning Context:
@@ -4166,16 +4162,63 @@ En el C3, exploramos más a detalle cada uno de los contenedores que hemos ident
   <p align="center"><img src="assets/md-images/c4-model/c3-execution-context.png" alt="c3: Execution Context Components.png" width="700px" /></p>
 </div>
 
+* Security Context: 
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/c3-iam-context.png" alt="c3: System Context Components.png" width="700px" /></p>
+</div>
+
+* Billing Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/c3-billing-context.png" alt="c3: Billing Context Components.png" width="700px" /></p>
+</div>
+
+* Notifications Context:
+<div>
+  <p align="center"><img src="assets/md-images/c4-model/c3-notifications-context.png" alt="c3: Notifications Context Components.png" width="700px" /></p>
+</div>
+
 #### System Context 
 
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
 
-Diagrama de clases basado en bounded contexts
+Diagrama de clases basado en bounded contexts:
+
+* Resource Context
 
 <div>
-  <p align="center"><img src="assets/md-images/class-diagram/swiftport-class-diagram.png" alt="Class Diagram" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/class-diagram/resource-class-diagram.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
+* Plannification Context
+
+<div>
+  <p align="center"><img src="assets/md-images/class-diagram/plannification-class-diagram.png" alt="Plannification Class Diagram" width="700px" /></p>
+</div>
+
+* Execution Context
+
+<div>
+  <p align="center"><img src="assets/md-images/class-diagram/execution-class-diagram.png" alt="Execution Class Diagram" width="700px" /></p>
+</div>
+
+* IAM Context
+
+<div>
+  <p align="center"><img src="assets/md-images/class-diagram/iam-class-diagram.png" alt="IAM  Class Diagram" width="700px" /></p>
+</div>
+
+* Notifications Context
+
+<div>
+  <p align="center"><img src="assets/md-images/class-diagram/notifications-class-diagram.png" alt="Notifications Class Diagram" width="700px" /></p>
+</div>
+
+* Billing Context
+
+<div>
+  <p align="center"><img src="assets/md-images/class-diagram/billing-class-diagram.png" alt="Billing  Class Diagram" width="700px" /></p>
 </div>
 
 ### 4.7.2. Class Dictionary
@@ -4186,7 +4229,7 @@ A continuación se documentan todas las clases, interfaces y enums del diagrama 
 
 ---
 
-## Security Context
+## IAM Context
 
 ### Account  
 **Descripción**: Representa a la empresa o cliente suscrito, con límites según su plan.  
@@ -4595,7 +4638,7 @@ A continuación se documentan todas las clases, interfaces y enums del diagrama 
 ### 4.8.1. Database Diagram
 
 <div>
-  <p align="center"><img src="assets/md-images/database-diagram/swiftport-database-diagram.png" alt="c3: Execution Context Components.png" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/database-diagram/swiftport-database-diagram.png" alt="Database Diagram" width="700px" /></p>
 </div>
 
 # 5. Capítulo V: Product Implementation, Validation & Deployment
