@@ -5608,6 +5608,85 @@ Validar la usabilidad, claridad y efectividad de la aplicación SwiftPort desde 
 
 ### 5.3.2. Registro de Entrevistas
 
+### Entrevista 1:  
+**Operarios**
+
+| **Nombre Entrevistado**       | Jairo Benavente                   |
+|------------------------------|------------------------------------|
+| **Edad**                     | 25 Años                            |
+| **Profesión**                | Operario                           |
+| **Departamento**             | Lima, Perú                         |
+| **Duración de la Entrevista**| 05:33 min                          |
+
+### Análisis de la Entrevista
+
+| **Sección**                               | **Observación** |
+|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Inicio de sesión**             | No hubo problemas para ingresar al sistema. El mensaje de error fue adecuado, pero podría ser más claro al indicar qué campo específico tiene el error. |
+| **Actualización de Tareas**                | Fue sencillo cambiar el estado de las tareas. El sistema confirmó que los cambios se guardaron correctamente. |
+| **Reprogramación de Tareas** | La reprogramación fue fácil mediante el calendario, pero no hubo notificación emergente después de realizar el cambio, aunque apareció un mensaje en la parte inferior. |
+| **Consulta de Incidencias**           | Las incidencias registradas fueron fáciles de encontrar. La sección podría mejorar visualmente y con filtros adicionales para facilitar la búsqueda. |
+
+### Entrevista 2:  
+**Operarios**
+
+| **Nombre Entrevistado**       | Anedyib Pérez                     |
+|------------------------------|------------------------------------|
+| **Edad**                     | 25 Años                            |
+| **Profesión**                | Operaria                           |
+| **Departamento**             | Lima, Perú                         |
+| **Duración de la Entrevista**| 02:37 min                          |
+
+### Análisis de la Entrevista
+
+| **Sección**                               | **Observación** |
+|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Inicio de sesión**             | El inicio de sesión fue rápido y sencillo. El mensaje de error fue claro, explicando el problema y permitiendo corregirlo sin complicaciones. |
+| **Actualización de Tareas**                | Cambiar el estado de las tareas fue fácil y el sistema confirmó que los cambios se guardaron correctamente con un mensaje emergente. |
+| **Reprogramación de Tareas** | Reprogramar tareas fue fácil al arrastrarlas en el calendario, y el sistema actualizó el horario sin problemas. También se recibió una notificación confirmando la actualización. |
+| **Consulta de Incidencias**           | Las incidencias fueron fáciles de encontrar. Se sugirió agregar la opción de añadir comentarios a las incidencias y recibir notificaciones automáticas cuando se resuelvan. |
+
+
+### Entrevista 3:  
+**Supervisores**
+
+| **Nombre Entrevistado**       | Matias Salcedo                   |
+|------------------------------|------------------------------------|
+| **Edad**                     | 25 Años                            |
+| **Profesión**                | Supervisor                         |
+| **Departamento**             | Lima, Perú                         |
+| **Duración de la Entrevista**| 04:31 min                          |
+
+### Análisis de la Entrevista
+
+| **Sección**                               | **Observación** |
+|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Inicio de sesión**             | El formulario de inicio de sesión fue claro y directo. Cuando cometió errores al ingresar las credenciales o placas de vehículos, el sistema mostró mensajes de error claros, permitiendo corregir rápidamente los errores. |
+| **Navegación entre Módulos**                | La navegación entre módulos fue intuitiva y bien organizada. No tuvo dificultades para encontrar las secciones "Tareas", "Fases" e "Incidencias", y siempre estuvo claro en qué sección estaba. |
+| **Visualización del Dashboard** | El Dashboard estaba bien distribuido y los datos relacionados con envíos, entregas y recursos eran claros. La información era fácil de interpretar, facilitando la toma de decisiones en tiempo real. |
+| **Gestión de Usuarios**           | La edición y bloqueo de usuarios fue fácil. El sistema tiene una interfaz intuitiva, y los iconos de acción eran claros, sin necesidad de texto o ayuda adicional. |
+| **Historial de Ejecución**                    | Buscar tareas ejecutadas fue sencillo. Aunque no probó la función de exportación, sugirió que sería útil poder exportar los datos a formatos como Excel para análisis detallados y generación de reportes. |
+
+### Entrevista 4:  
+**Supervisores**
+
+| **Nombre Entrevistado**       | Taira Millones                    |
+|------------------------------|------------------------------------|
+| **Edad**                     | 24 Años                            |
+| **Profesión**                | Supervisor                         |
+| **Departamento**             | Lima, Perú                         |
+| **Duración de la Entrevista**| 04:52 min                          |
+
+### Análisis de la Entrevista
+
+| **Sección**                               | **Observación** |
+|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Inicio de sesión**             | El proceso de inicio de sesión fue claro y fácil de entender. Cuando se cometió un error al ingresar las credenciales o placas de vehículos, el sistema mostró un mensaje de error que facilitó la corrección de manera rápida. |
+| **Navegación entre Módulos**                | Navegar entre los diferentes módulos fue sencillo. El menú estaba bien organizado, y el sistema proporcionó indicaciones visuales claras para que siempre fuera fácil saber en qué sección se encontraba. |
+| **Visualización del Dashboard** | La información en el Dashboard estaba bien estructurada, lo que permitió entender rápidamente los datos relacionados con los envíos, entregas y recursos. El diseño era limpio y ayudaba a tomar decisiones de forma ágil. |
+| **Gestión de Usuarios**           | Modificar o bloquear usuarios fue un proceso simple y directo. La interfaz intuitiva hizo que estas acciones se realizaran de manera rápida, y los iconos eran fáciles de comprender sin necesidad de ayuda adicional. |
+| **Historial de Ejecución**                    | La búsqueda de tareas pasadas fue rápida y sencilla. Aunque no utilizó la función de exportación, sugirió que sería útil contar con la opción de exportar los datos a formatos como Excel para un análisis más detallado o para generar reportes. |
+
 ### 5.3.3. Evaluaciones según heurísticas
 
 ### UX Heuristics & Principles Evaluation  
