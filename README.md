@@ -5181,7 +5181,32 @@ Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo 
 
 ### 5.2.3.1. Sprint Planning 3
 
+En este sprint, nuestro objetivo principal es implementar la primera versión del backend de la aplicación. Con esta versión, buscamos habilitar las funcionalidades clave del sistema, proporcionando la base necesaria para su operatividad. Este avance se validará una vez que las funcionalidades sean implementadas correctamente y superen las pruebas correspondientes. A continuación, se presenta el resumen del Sprint Planning Meeting:
+
+| Sprint # | Sprint 3 |
+|----------|----------|
+| Date | 2025 - 05 - 31 |
+| Time | 6:00 PM |
+| Location | Reunión virtual a través de Discord |
+| Prepared by | Sergio Sebastián Iglesias Pérez, Natalia Bertha Roman Cruz |
+| Attendees (to planning meeting) | Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando; Adrianzén Flores, Carlos Arturo |
+| Sprint 2 Review Summary |Sprint 2 focused on developing the core screens of the SwiftPort web application using Angular, making significant progress in the front-end implementation. We successfully deployed the updated landing page and integrated multiple features. |
+| Sprint 3 Goal | Our focus is to implement the first version of the backend. This will enable the core functionalities of the application to work and provide a solid foundation for further development. |
+| Sprint 3 Velocity |  story points |
+| Sum of story points |  story points |
+
+
 ### 5.2.3.2. Aspect Leaders and Collaborators
+
+En este sprint, nos enfocaremos en el despliegue y programación de varias funcionalidades clave del proyecto. Se programará el backend para integrar los Web Services y se realizará la implementación de las últimas funcionalidades de las Web Applications.
+
+| Team Member                         | GitHub username     | Desarrollo BackEnd AppWeb | Corrección FrontEnd AppWeb |
+|------------------------------------|----------------------|-------------------------------|--------------------------|
+| Roman Cruz, Natalia Bertha         | natRC2005            | L                             | L                        |
+| Solano Armas, Angelo Hector        | Angelo5214           | C                             | C                        |
+| Iglesias Pérez, Sergio Sebastián   | ghostrider101218     | L                             | L                        |
+| Baldeón Vivar, Santiago Armando    | Santibal11           | C                             | C                        |
+| Adrianzén Flores, Carlos Arturo    | choliwys             | C                             | C                        |
 
 ### 5.2.3.3. Sprint Backlog 3
 
@@ -5198,6 +5223,88 @@ Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo 
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
+
+#### Objetivo de la Entrevista
+Validar la usabilidad, claridad y efectividad de la aplicación SwiftPort desde la perspectiva de sus usuarios principales (supervisores y operarios), evaluando la comprensión de los flujos clave del sistema, la facilidad para ejecutar tareas logísticas y la interacción general con la interfaz.
+
+#### Elementos de Validación
+- **Landing Page**:  
+  Se evaluará si el mensaje principal es claro, si las llamadas a la acción (CTA) motivan al usuario a registrarse y si el diseño general es visualmente atractivo y funcional desde distintos dispositivos.
+- **Aplicación Web**:  
+  Se observará la interacción de los usuarios en tareas críticas como el acceso a módulos de trabajo, visualización de actividades, reprogramación de tareas, consulta de incidencias, y gestión de usuarios o recursos. Se medirá la comprensión del sistema, los posibles puntos de fricción y el grado de retroalimentación brindado por la interfaz.
+
+#### User Flows a Validar
+##### Para el Segmento Supervisor:
+1. **Inicio de sesión**:
+   - Evaluación de la claridad del formulario, validación de errores y respuesta del sistema.
+2. **Navegación general**:
+   - Evaluación de la facilidad para ubicarse en el menú lateral y cambiar entre las secciones de Tareas, Fases e Incidencias.
+3. **Visualización del Dashboard (“Clima” y métricas)**:
+   - Evaluación de la utilidad y comprensión de los indicadores principales presentados.
+4. **Consulta y edición de usuarios**:
+   - Evaluación del acceso a la gestión de usuarios, claridad de acciones (editar/bloquear), y consistencia visual.
+5. **Historial de Ejecución**:
+   - Evaluación de la utilidad de los filtros, búsqueda y exportación de tareas ejecutadas.
+
+##### Para el Segmento Operario:
+1. **Inicio de sesión**:
+   - Evaluación de la facilidad para acceder al sistema y entender los mensajes de error.
+2. **Actualización de estado de tareas**:
+   - Evaluación de la claridad para marcar tareas como completadas o bloqueadas.
+3. **Reprogramación de tareas**:
+   - Evaluación del uso del calendario y del mecanismo de drag-and-drop.
+4. **Consulta de incidencias**:
+   - Evaluación de la disponibilidad y organización de las incidencias por fecha o prioridad.
+
+#### Formato de Registro de la Entrevista
+1. **Datos del Entrevistado**:
+   - Nombre y apellidos
+   - Edad
+   - Ciudad de residencia
+   - Cargo (Supervisor u Operario)
+   - Dispositivo utilizado (smartphone, tablet, laptop)
+
+#### Preguntas para el Segmento Supervisor
+
+- **Inicio de Sesión**:
+   - ¿Fue claro el formulario de inicio de sesión?
+   - ¿Qué ocurrió cuando ingresaste mal tus credenciales?
+   - ¿El sistema te brindó alguna indicación de carga o error?
+
+- **Navegación entre Módulos**:
+   - ¿Pudiste identificar fácilmente cómo llegar a “Tareas”, “Fases” e “Incidencias”?
+   - ¿Te pareció claro en qué sección estabas ubicado en cada momento?
+   - ¿Cambiarías algo del menú lateral?
+
+- **Visualización del Dashboard**:
+   - ¿Entendiste los datos de clima logístico (envíos, entregas, recursos)?
+   - ¿Sentiste que el diseño del Dashboard era útil y comprensible?
+
+- **Gestión de Usuarios**:
+   - ¿Fue fácil editar o bloquear un usuario?
+   - ¿Comprendiste los iconos de acción? ¿Agregarías algún texto o ayuda?
+
+- **Historial de Ejecución**:
+   - ¿Cómo fue tu experiencia al buscar tareas ejecutadas?
+   - ¿Probaste exportar? ¿Qué mejorarías en esa función?
+
+#### Preguntas para el Segmento Operario
+
+- **Inicio de Sesión**:
+   - ¿Tuviste problemas para ingresar al sistema?
+   - ¿Qué te pareció el mensaje de error en caso de datos inválidos?
+
+- **Actualización de Tareas**:
+   - ¿Fue sencillo cambiar el estado de una tarea?
+   - ¿El sistema confirmó que se guardaron los cambios?
+
+- **Reprogramación de Tareas**:
+   - ¿Pudiste reprogramar tareas fácilmente arrastrándolas en el calendario?
+   - ¿Recibiste alguna notificación después de hacerlo?
+
+- **Consulta de Incidencias**:
+   - ¿Encontraste con facilidad las incidencias registradas?
+   - ¿Qué funcionalidades te gustaría que tenga esa sección?
 
 ### 5.3.2. Registro de Entrevistas
 
