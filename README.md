@@ -5354,6 +5354,68 @@ Durante el Sprint 3 se avanzó significativamente en la implementación del back
 
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
+Durante el Sprint, se implementaron y documentaron correctamente los servicios RESTful correspondientes a los contextos de **Equipment** y **Activity**. A continuación, se detallan las principales evidencias:
+
+---
+
+####  Equipment Endpoints
+
+- **GET `/api/v1/equipment`**  
+  Obtiene el listado completo de equipos registrados.  
+  - **Respuesta esperada:** `200 OK`
+
+- **POST `/api/v1/equipment`**  
+  Crea un nuevo equipo en el sistema.  
+  - **Request body (JSON):**
+    ```json
+    {
+      "name": "string",
+      "batch": "string",
+      "code": "string",
+      "status": "AVAILABLE",
+      "capacityStandard": 0,
+      "capacityYear": 0
+    }
+    ```
+  - **Respuesta exitosa:** `201 Created`
+  - **Errores controlados:**
+    - `400 Bad Request` (input inválido)
+    - `404 Not Found` (referencia no válida)
+
+- **GET `/api/v1/equipment/{equipmentId}`**  
+  Recupera un equipo por su identificador único.  
+  - **Respuesta esperada:** `200 OK` o `404 Not Found`
+
+---
+
+#### Activity Endpoints
+
+- **GET `/api/v1/activity`**  
+  Lista todas las actividades registradas.  
+  - **Respuesta esperada:** `200 OK`
+
+- **POST `/api/v1/activity`**  
+  Crea una nueva actividad logística.  
+  - **Request body (JSON):**
+    ```json
+    {
+      "activityCode": "string",
+      "description": "string",
+      "executionStart": "2025-06-20T05:14:55.799Z",
+      "executionStatus": "PLANNED",
+      "locationOrigin": 0,
+      "locationDestination": 0,
+      "tenantId": 0
+    }
+    ```
+  - **Respuesta exitosa:** `201 Created`
+
+- **GET `/api/v1/activity/{activityId}`**  
+  Obtiene una actividad por su ID.  
+  - **Respuesta esperada:** `200 OK` o `404 Not Found`
+
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20011.jpg)
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20022.jpg)
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
