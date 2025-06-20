@@ -5419,6 +5419,39 @@ Durante el Sprint, se implementaron y documentaron correctamente los servicios R
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Como parte del proceso de revisión del Sprint, se presenta la evidencia documental de los servicios REST implementados en el backend del sistema. Estos servicios han sido desarrollados utilizando **Spring Boot** y desplegados en la nube mediante un **App Service en Azure**, con imágenes Docker personalizadas.
+
+La documentación técnica de los endpoints se encuentra expuesta mediante **Swagger UI**, accesible a través del path `/swagger-ui/index.html`. Este recurso permite verificar de forma práctica la funcionalidad de los endpoints desarrollados, los formatos de entrada esperados, y las respuestas que entrega la API.
+
+A continuación, se detallan los servicios implementados para los contextos **Equipment** y **Activity**, incluyendo sus rutas, métodos, estructuras de entrada y códigos de respuesta esperados.
+
+1) Creamos un servidor de base de datos para MySQL.
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%201.png)
+
+2) Una vez se creó nuestro servidor, creamos el schema que utilizaremos con nuestro backend.
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%202.png)
+3) En la pestaña conexión podemos encontrar la información necesaria para poder conectar nuestra aplicación backend o nuestro administrador de base de datos.
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%203.png)  
+***CREDENCIALES: 
+****User: ghostrider
+****Password: admin-123
+4)	Tras haber configurado Spring Profiles para development y production, realizamos la creación de nuestros archivos Dockerfile y docker-compose, como se muestra a continuación: 
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%204.png)
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%205.png)
+5)	Creamos la imagen de nuestra aplicación y la registramos en Azure:
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%206.png)
+7)	Para alojar nuestra aplicación backend, creamos un app service en Azure, seleccionando la opción de Publicar Contenedor:
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%207.png)
+8)	En la configuración del contenedor, seleccionamos nuestra imagen de docker y nos aseguramos de habilitar el puerto 8080. Posteriormente desactivamos la opción “Compatibilidad con Sidecar”.
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%208.png)
+9)	En el centro de implementación de nuestro App Service podemos actualizar la imagen de docker conforme publiquemos nuevos avances.
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%209.png)
+10)	A continuación se muestra el acceso al API application desplegado, la ruta por defecto está restringida:
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%2010.png)
+11)	Por fines académicos, si añadimos a la ruta “swagger-ui/index.html” podremos acceder a la documentación.
+![Evidencias](https://github.com/UPC-GosTech/swiftport-report/blob/c178655cb5b49ab1730ccd5024efdf743561c4d7/assets/md-images/Azure%2011.png)
+
+
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint 3
 
