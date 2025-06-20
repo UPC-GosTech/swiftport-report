@@ -5271,7 +5271,30 @@ En esta sección se presentan los avances en la implementación de la solución,
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-### 5.2.3.8. Team Collaboration Insights during Sprint
+
+### 5.2.3.8. Team Collaboration Insights during Sprint 3
+
+Durante el Sprint 3, el equipo colaboró de forma coordinada para avanzar en la implementación del backend de la solución SwiftPort, empleando Spring Boot. A continuación se muestra la participación de cada integrante, agrupada por áreas de responsabilidad principal:
+
+| Nombre                            | Actividad                                                                                           |
+|----------------------------------|-----------------------------------------------------------------------------------------------------|
+| **Natalia Bertha Roman Cruz**    | Desarrollo de los servicios `TaskService`, `PhaseService`, `ChangeRequestService`, `NotificationService`, `ResourceService` y lógica en `Shared`. |
+| **Angelo Hector Solano Armas**   | Estructura base del proyecto, entidades principales (`Phase`, `Employee`, `Task`, `Resource`), lógica de login y endpoints de tareas por usuario. |
+| **Santiago Armando Baldeón Vivar** | Modelado de entidades (`Task`, `Phase`, `ChangeRequest`, `Resource`), programación condicional y lógica de ejecución planificada. |
+| **Sergio Sebastián Iglesias Pérez** | Controladores REST (`Task`, `Employee`, `Notification`, `Resource`), validaciones backend y definición de configuración `SharedConfig`. |
+| **Carlos Arturo Adrianzén Flores** | Entidades auxiliares (`Incident`, `Notification`, `ExecutionReport`, `SharedUtils`), lógica compartida y soporte en controladores REST. |
+
+
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+![Colaboración GitHub - FrontEnd](https://github.com/UPC-GosTech/swiftport-report/blob/6cb63257fc2590365fbecd1c88d4418436c17116/assets/md-images/sprint%203%20github.png) 
+![Colaboración GitHub - FrontEnd](https://github.com/UPC-GosTech/swiftport-report/blob/6cb63257fc2590365fbecd1c88d4418436c17116/assets/md-images/sprint%203%20github%202.png) 
+
+##### Repositorio de trabajo:
+
+- [Repositorio de la Aplicación Web en GitHub](https://github.com/UPC-GosTech/swiftport-frontend)
+
+ Se puede observar que el equipo ha colaborado de manera coordinada, siguiendo el flujo de trabajo establecido y garantizando que cada entrega del Sprint refleje la contribución de todos sus integrantes.
 
 ## 5.3. Validation Interviews
 
