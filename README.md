@@ -4188,13 +4188,13 @@ Diagrama de clases basado en bounded contexts:
 * Resource Context
 
 <div>
-  <p align="center"><img src="assets/md-images/class-diagram/resource-class-diagram.png" alt="Resource Class Diagram" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/class-diagram/resources-class-diagram.png" alt="Resource Class Diagram" width="700px" /></p>
 </div>
 
 * Plannification Context
 
 <div>
-  <p align="center"><img src="assets/md-images/class-diagram/plannification-class-diagram.png" alt="Plannification Class Diagram" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/class-diagram/planification-class-diagram.png" alt="Plannification Class Diagram" width="700px" /></p>
 </div>
 
 * Execution Context
