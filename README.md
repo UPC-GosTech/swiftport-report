@@ -5267,6 +5267,36 @@ En esta sección se presentan los avances en la implementación de la solución,
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 3 se avanzó significativamente en la implementación del backend de SwiftPort, desarrollando los principales servicios, entidades y controladores que darán soporte a las funcionalidades del sistema
+
+#### Vista general del Swagger UI - Endpoints disponibles
+![Vista general del Swagger UI - Endpoints disponibles](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20009.jpg)
+
+#### Ventana emergente de autorización
+![Ventana emergente de autorización](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20002.jpg)
+
+#### Definición de recursos - Parte 1 
+![Definición de recursos](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20003.jpg)
+
+#### Definición de recursos - Parte 2 
+![Definición de recursos](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20004.jpg)
+
+#### Endpoints del módulo Usuarios, Cargos y Equipos
+![Endpoints del módulo Usuarios, Cargos y Equipos](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20005.jpg)
+
+#### Endpoints del módulo Zonas y Reservas
+![Endpoints del módulo Zonas y Reservas](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20006.jpg)
+
+#### Endpoints del módulo Empleados, Roles y Actividades
+![Endpoints del módulo Empleados, Roles y Actividades](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20007.jpg)
+
+#### Endpoints del módulo Ejecuciones 
+![Endpoints del módulo Ejecuciones](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20008.jpg)
+
+#### Endpoints del módulo Reporte de Incidentes  
+![Endpoints del módulo Reporte de Incidentes](https://github.com/UPC-GosTech/swiftport-report/blob/a08853f2cc7059b03665be51fbf0c958a336c82e/assets/md-images/Imagen%20001.jpg)
+
+
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
