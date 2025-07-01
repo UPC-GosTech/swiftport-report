@@ -5290,15 +5290,15 @@ En este sprint, nuestro objetivo principal es implementar la primera versión de
 
 | Sprint # | Sprint 3 |
 |----------|----------|
-| Date | 2025 - 05 - 31 |
-| Time | 6:00 PM |
-| Location | Reunión virtual a través de Discord |
-| Prepared by | Sergio Sebastián Iglesias Pérez, Natalia Bertha Roman Cruz |
-| Attendees (to planning meeting) | Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando; Adrianzén Flores, Carlos Arturo |
-| Sprint 2 Review Summary |Sprint 2 focused on developing the core screens of the SwiftPort web application using Angular, making significant progress in the front-end implementation. We successfully deployed the updated landing page and integrated multiple features. |
-| Sprint 3 Goal | Our focus is to implement the first version of the backend. This will enable the core functionalities of the application to work and provide a solid foundation for further development. |
-| Sprint 3 Velocity |  story points |
-| Sum of story points |  story points |
+| Fecha | 2025 - 05 - 31 |
+| Hora | 6:00 PM |
+| Lugar | Reunión virtual a través de Discord |
+| Preparado por | Sergio Sebastián Iglesias Pérez, Natalia Bertha Roman Cruz |
+| Asistentes (a la reunión de planificación) | Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando; Adrianzén Flores, Carlos Arturo |
+| Resumen de la revisión del Sprint 2 | El Sprint 2 se centró en el desarrollo de las pantallas principales de la aplicación web SwiftPort utilizando Angular, logrando un avance significativo en la implementación del front-end. Se desplegó exitosamente la landing page actualizada y se integraron múltiples funcionalidades. |
+| Objetivo del Sprint 3 | El objetivo es implementar la primera versión del backend. Esto permitirá que las funcionalidades principales de la aplicación funcionen y proporcionará una base sólida para el desarrollo futuro. |
+| Velocidad del Sprint 3 | 40 story points |
+| Suma de story points | 40 story points |
 
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
