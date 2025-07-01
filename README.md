@@ -7,7 +7,7 @@
   <p align="center">Universidad Peruana de Ciencias Aplicadas</p>
   <p align="center">Ingeniería de Software</p>
   <p align="center">Desarrollo de Aplicaciones Open Source</p>
-  <p align="center">4304</p>
+  <p align="center">NRC: 4304</p>
   <p align="center">Efraín Ricardo Bautista Ubillús</p>
   <p align="center">Startup: GosTech</p>
   <p align="center">Producto: SwiftPort</p>
