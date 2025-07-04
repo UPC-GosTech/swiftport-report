@@ -6212,7 +6212,30 @@ Durante este sprint se desarrolló el backend completo utilizando Spring Boot, l
 | Sprint 3 | US21           |  Servicio de lógica para recursos                    | T72     | Crear controlador ResourceController     | Endpoints para crear, listar y eliminar recursos                       | 3              | Sergio Sebastián Iglesias Pérez| Done   | 2             |
 | Sprint 3 | US21           | Controlador para gestión de recursos                | T73     | Crear servicio ResourceService           | Lógica de negocio para manejar recursos                                | 3              | Natalia Bertha Roman Cruz      | Done   | 2             |
 | Sprint 3 | US15           | Compartir lógica entre contextos           | T74     | Crear clase utilitaria SharedUtils       | Funciones compartidas para validaciones y cálculos                     | 2              | Carlos Arturo Adrianzén Flores | Done   | 1             |
-| Sprint 3 | US15           | Configurar entorno compartido entre módulos  | T75     | Definir configuración SharedConfig       | Configuraciones compartidas (caching, logs, validaciones)              | 2              | Sergio Sebastián Iglesias Pérez| Done   | 1             |
+| Sprint 3 | US15           | Configurar entorno compartido entre módulos  | T75     | Definir configuración SharedConfig       | Configuraciones compartidas (caching, logs, validaciones)              | 2              | Sergio Sebastián Iglesias Pérez | Done   | 1             |
+| Sprint 3 | TS01 | Post Employee | T76 | Registrar un nuevo empleado mediante API | Endpoint: `POST /api/v1/employees`<br>Retorna: `EmployeeResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS02 | Get Employee by ID | T77 | Obtener datos de un empleado específico | Endpoint: `GET /api/v1/employees/{id}`<br>Retorna: `EmployeeResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS03 | Get All Employees | T78 | Recuperar lista de todos los empleados | Endpoint: `GET /api/v1/employees`<br>Retorna: `EmployeeResource[]` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS04 | Patch Employee Status | T79 | Modificar estado de disponibilidad de un empleado | Endpoint: `PATCH /api/v1/employees/{id}/status`<br>Retorna: `EmployeeResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS05 | Get Employees by Status | T80 | Consultar empleados por estado | Endpoint: `GET /api/v1/employees/status/{status}`<br>Retorna: `EmployeeResource[]` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS06 | Post Incident Report to Execution | T81 | Registrar un incidente en una ejecución | Endpoint: `POST /api/v1/incident-reports/{executionId}/incidents`<br>Retorna: `IncidentReportResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS07 | Get Incident Report by ID | T82 | Obtener un reporte de incidente por ID | Endpoint: `GET /api/v1/incident-reports/incidents/{incidentId}`<br>Retorna: `IncidentReportResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS08 | Get Incident Reports by Execution | T83 | Obtener todos los incidentes de una ejecución | Endpoint: `GET /api/v1/incident-reports/{executionId}/incidents`<br>Retorna: `IncidentReportResource[]` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS09 | Get All Incident Reports | T84 | Obtener todos los incidentes registrados | Endpoint: `GET /api/v1/incident-reports/incidents`<br>Retorna: `IncidentReportResource[]` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS10 | Patch Incident Report Description | T85 | Actualizar descripción de un incidente | Endpoint: `PATCH /api/v1/incident-reports/incidents/{id}`<br>Retorna: `IncidentReportResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS11 | Patch Employee ID on Incident Report | T86 | Actualizar ID del empleado asignado a un incidente | Endpoint: `PATCH /api/v1/incident-reports/{incidentReportId}/employeeId`<br>Retorna: `IncidentReportResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS12 | Post Sign-In | T87 | Iniciar sesión mediante API | Endpoint: `POST /api/v1/authentications/sign-in`<br>Retorna: `AuthenticatedUserResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS13 | Post Sign-Up | T88 | Registrar un nuevo usuario | Endpoint: `POST /api/v1/authentications/sign-up`<br>Retorna: `UserResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS14 | Post Execution | T89 | Crear una nueva ejecución | Endpoint: `POST /api/v1/executions`<br>Retorna: `ExecutionResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS15 | Get Execution By ID | T90 | Obtener ejecución específica por ID | Endpoint: `GET /api/v1/executions/{executionId}`<br>Retorna: `ExecutionResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS16 | Get All Executions | T91 | Obtener todas las ejecuciones | Endpoint: `GET /api/v1/executions`<br>Retorna: `ExecutionResource[]` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS17 | Add Employee To Execution | T92 | Asignar un empleado a una ejecución | Endpoint: `POST /api/v1/executions/{executionId}/employees/{employeeId}`<br>Retorna: `ExecutionResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS18 | Add Equipment To Execution | T93 | Asignar equipo a una ejecución | Endpoint: `POST /api/v1/executions/{executionId}/equipment/{equipmentId}`<br>Retorna: `ExecutionResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS19 | Put Execution | T94 | Actualizar todos los campos de una ejecución | Endpoint: `PUT /api/v1/executions/{executionId}`<br>Retorna: `ExecutionResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS20 | Patch Execution Status | T95 | Actualizar estado de una ejecución | Endpoint: `PATCH /api/v1/executions/{executionId}/status`<br>Retorna: `ExecutionResource` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS21 | Get All Roles | T96 | Obtener todos los roles | Endpoint: `GET /api/v1/roles`<br>Retorna: `RoleResource[]` | 2 | Por asignar | Todo | 1 |
+| Sprint 3 | TS22 | Get All Users | T97 | Obtener todos los usuarios | Endpoint: `GET /api/v1/users`<br>Retorna: `UserResource[]` | 2 | Por asignar | Todo | 1 |
+
 ### 5.2.3.4. Development Evidence for Sprint Review
 
 En esta sección se presentan los avances en la implementación de la solución, enfocados específicamente en el desarrollo del **backend de la aplicación web SwiftPort**. Se detallan los commits realizados en el repositorio `tracklab-backend`, evidenciando la construcción de estructuras de dominio, servicios, controladores REST y configuraciones basadas en DDD. A continuación, se muestra la tabla que resume los commits relevantes asociados a este sprint:
@@ -6392,6 +6415,17 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 - [Repositorio de la Aplicación Web en GitHub](https://github.com/UPC-GosTech/swiftport-frontend)
 
  Se puede observar que el equipo ha colaborado de manera coordinada, siguiendo el flujo de trabajo establecido y garantizando que cada entrega del Sprint refleje la contribución de todos sus integrantes.
+
+### 5.2.4. Sprint 4
+### 5.2.4.1. Sprint Planning 4.
+### 5.2.4.2. Aspect Leaders and Collaborators.
+### 5.2.4.3. Sprint Backlog 4.
+
+### 5.2.4.4. Development Evidence for Sprint Review.
+### 5.2.4.5. Execution Evidence for Sprint Review.
+### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+### 5.2.4.8. Team Collaboration Insights during Sprint.
 
 ## 5.3. Validation Interviews
 
