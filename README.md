@@ -2097,86 +2097,90 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
     ENTONCES el sistema muestra todas las tareas con su estado correspondiente<br>
 </td>
 
-
--- ME QUEDE ACA NAT
-
 <tr>
   <td>US19</td>
-  <td>Bloquear tareas automáticamente por eventos naturales sincronizados desde el ERP</td>
-  <td>Como supervisor logístico, quiero que los eventos naturales críticos registrados en el ERP (como deslizamientos o bloqueos de vía) bloqueen automáticamente las tareas vinculadas, para evitar riesgos y reprocesos.</td>
+  <td>Bloquear programación de herramientas simultáneamente</td>
+  <td>Como supervisor logístico, quiero que una herramienta o equipo no pueda tener dos reservas simultáneas para evitar casos de overlap, retrasos y conflicto</td>
   <td>
-    Escenario 1: Bloquear tareas por deslizamiento registrado desde el ERP<br>
-    DADO que el supervisor registra un deslizamiento en el ERP<br>
-    CUANDO el sistema sincroniza el evento con la zona logística<br>
-    ENTONCES el sistema bloquea automáticamente las tareas asignadas a esa zona<br>
-    Y marca el motivo como "Evento Natural: Deslizamiento"<br><br>
-    Escenario 2: Suspender tareas por inundación notificada desde el ERP<br>
-    DADO que el supervisor ingresa un reporte de inundación en el ERP<br>
-    CUANDO el sistema integra esa información<br>
-    ENTONCES suspende temporalmente las tareas en rutas afectadas<br>
-    Y notifica a los operarios sobre la interrupción<br><br>
-    Escenario 3: Alerta automática por bloqueo de vía desde el ERP<br>
-    DADO que el supervisor informa un derrumbe en el ERP<br>
-    CUANDO el sistema sincroniza el evento con las rutas asignadas<br>
-    ENTONCES el sistema muestra una alerta a los operarios involucrados<br>
-    Y genera una reprogramación sugerida de tareas para el supervisor
+    Escenario 1: Ingreso de programación de herramienta o equipo<br>
+    DADO que el supervisor desea programar una herramienta o equipo<br>
+    CUANDO ingresa el tipo de recurso, su identificador, la hora de inicio y fin<br>
+    ENTONCES el sistema registra la programación en la base de datos<br>
+    Y la asocia correctamente al recurso indicado<br><br>
+    Escenario 2: Detección de programación duplicada<br>
+    DADO que ya existe una programación para una herramienta o equipo en un rango horario<br>
+    CUANDO el supervisor intenta registrar una programación idéntica<br>
+    ENTONCES el sistema lanza un mensaje de error indicando que ya existe una programación en ese horario<br>
+    Y bloquea el registro de la programación duplicada<br><br>
+    Escenario 3: Rechazo de reserva con solapamiento (overlap)<br>
+    DADO que hay una reserva activa o futura en un rango horario específico para una herramienta o equipo<br>
+    CUANDO el supervisor intenta ingresar una nueva reserva que se superpone parcialmente o totalmente<br>
+    ENTONCES el sistema lanza un mensaje de error indicando conflicto de horarios<br>
+    Y bloquea el registro de la nueva reserva<br><br>
+    Escenario 4: Registro exitoso de reserva sin conflicto<br>
+    DADO que no existe ninguna programación previa en el rango horario indicado<br>
+    CUANDO el supervisor ingresa una nueva reserva<br>
+    ENTONCES el sistema guarda la reserva exitosamente<br>
+    Y confirma al usuario que no existe ningún solapamiento
   </td>
   <td>EP09</td>
 </tr>
 <tr>
-  <td>US24</td>
-  <td>Solicitar reprogramación de tarea</td>
-  <td>Como operario, quiero solicitar cambiar la fecha/hora de una tarea por mal clima u otros factores para evitar incidentes.</td>
+  <td>US20</td>
+  <td>Evitar reprogramación con conflictos de horario</td>
+  <td>Como operario, quiero reprogramar una reserva de herramienta o equipo solo si no se cruza con otra existente, para evitar conflictos de uso simultáneo</td>
   <td>
-    Escenario 1: Solicitar reprogramación por lluvia intensa<br>
-    DADO que el operario se encuentra en ruta durante una lluvia intensa<br>
-    CUANDO accede al módulo de tareas activas<br>
-    Y selecciona “Solicitar reprogramación” indicando “Clima adverso”<br>
-    ENTONCES el sistema registra la solicitud<br>
-    Y la notifica al supervisor para evaluación<br><br>
-    Escenario 2: Evitar reprogramación sin justificación válida<br>
-    DADO que el operario desea cambiar la hora de una tarea<br>
-    CUANDO no selecciona una causa válida (clima, accidente, protesta)<br>
-    ENTONCES el sistema impide el envío<br>
-    Y muestra un mensaje indicando que debe especificar el motivo<br><br>
-    Escenario 3: Verificar ubicación al solicitar reprogramación por clima<br>
-    DADO que el operario solicita reprogramar por mal clima<br>
-    CUANDO el sistema tiene GPS activado<br>
-    ENTONCES valida si hay condiciones climáticas adversas en su ubicación<br>
-    Y adjunta esa verificación a la solicitud
+    Escenario 1: Reprogramación de reserva<br>
+    DADO que el operario necesita modificar el horario de una reserva existente<br>
+    CUANDO actualiza la hora de inicio y fin para una herramienta o equipo<br>
+    ENTONCES el sistema verifica si hay conflictos con otras reservas activas<br>
+    Y actualiza la programación si no hay solapamientos<br><br>
+    Escenario 2: Detección de conflicto por cruce de horarios<br>
+    DADO que existe otra reserva activa para la misma herramienta o equipo<br>
+    CUANDO el operario intenta reprogramar una reserva con un horario que se solapa total o parcialmente<br>
+    ENTONCES el sistema lanza un mensaje de error indicando conflicto de horarios<br>
+    Y no permite completar la reprogramación<br><br>
+    Escenario 3: Reprogramación exitosa sin conflicto<br>
+    DADO que la herramienta o equipo está libre en el nuevo horario propuesto<br>
+    CUANDO el operario actualiza la reserva con el nuevo horario<br>
+    ENTONCES el sistema registra la reprogramación exitosamente<br>
+    Y confirma que no existen reservas en conflicto<br><br>
+    Escenario 4: Validación previa antes de guardar<br>
+    DADO que el operario ha ingresado un nuevo rango horario<br>
+    CUANDO el sistema detecta que no hay cruce con otras reservas<br>
+    ENTONCES el sistema guarda y registra la reserva
   </td>
-  <td>EP07</td>
+  <td>EP09</td>
 </tr>
 <tr>
-  <td>US25</td>
-  <td>Aprobar o rechazar reprogramación</td>
-  <td>Como supervisor logístico, quiero aprobar o denegar solicitudes de reprogramación según prioridades para mantener las entregas a tiempo pero con seguridad.</td>
+  <td>US21</td>
+  <td>Supervisor evita reprogramación con conflictos de horario</td>
+  <td>Como supervisor logístico, quiero reprogramar una reserva de herramienta o equipo solo si no se cruza con otra existente, para evitar conflictos de uso simultáneo</td>
   <td>
-    Escenario 1: Aprobar solicitud por clima adverso<br>
-    DADO que el supervisor recibe una solicitud por lluvia intensa<br>
-    CUANDO verifica que las condiciones afectan la seguridad<br>
-    ENTONCES el sistema permite aprobarla<br>
-    Y actualiza la fecha/hora de ejecución<br><br>
-    Escenario 2: Rechazar solicitud sin justificación adecuada<br>
-    DADO que la solicitud no está sustentada<br>
-    CUANDO el supervisor la revisa<br>
-    ENTONCES puede rechazarla<br>
-    Y registrar el motivo del rechazo con un mensaje al operario<br><br>
-    Escenario 3: Notificar decisión al operario<br>
-    DADO que el supervisor aprueba o rechaza una solicitud<br>
-    CUANDO registra su decisión<br>
-    ENTONCES el sistema notifica al operario<br>
-    Y muestra los comentarios del supervisor si los hay<br><br>
-    Escenario 4: Registrar historial de solicitudes evaluadas<br>
-    DADO que el supervisor gestiona múltiples solicitudes<br>
-    CUANDO accede al módulo de historial<br>
-    ENTONCES el sistema muestra todas las solicitudes evaluadas con estado, motivo y fecha<br>
-    Y permite exportar los datos para análisis
+    Escenario 1: Reprogramación de reserva<br>
+    DADO que el supervisor necesita modificar el horario de una reserva existente<br>
+    CUANDO actualiza la hora de inicio y fin para una herramienta o equipo<br>
+    ENTONCES el sistema verifica si hay conflictos con otras reservas activas<br>
+    Y actualiza la programación si no hay solapamientos<br><br>
+    Escenario 2: Detección de conflicto por cruce de horarios<br>
+    DADO que existe otra reserva activa para la misma herramienta o equipo<br>
+    CUANDO el supervisor intenta reprogramar una reserva con un horario que se solapa total o parcialmente<br>
+    ENTONCES el sistema lanza un mensaje de error indicando conflicto de horarios<br>
+    Y no permite completar la reprogramación<br><br>
+    Escenario 3: Reprogramación exitosa sin conflicto<br>
+    DADO que la herramienta o equipo está libre en el nuevo horario propuesto<br>
+    CUANDO el supervisor actualiza la reserva con el nuevo horario<br>
+    ENTONCES el sistema registra la reprogramación exitosamente<br>
+    Y confirma que no existen reservas en conflicto<br><br>
+    Escenario 4: Validación previa antes de guardar<br>
+    DADO que el supervisor ha ingresado un nuevo rango horario<br>
+    CUANDO el sistema detecta que no hay cruce con otras reservas<br>
+    ENTONCES el sistema guarda y registra la reserva
   </td>
-  <td>EP07</td>
+  <td>EP09</td>
 </tr>
 <tr>
-  <td>US26</td>
+  <td>US22</td>
   <td>Crear nuevos usuarios</td>
   <td>Como supervisor logístico, quiero registrar nuevos usuarios en el sistema para permitirles acceder y participar en los procesos logísticos.</td>
   <td>
@@ -2200,7 +2204,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <td>EP10</td>
 </tr>
 <tr>
-  <td>US27</td>
+  <td>US23</td>
   <td>Asignar roles y permisos</td>
   <td>Como supervisor logístico, quiero asignar roles (ej. operario, supervisor, gerente) para definir qué acciones puede realizar cada usuario.</td>
   <td>
@@ -2223,48 +2227,25 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <td>EP10</td>
 </tr>
 <tr>
-  <td>US28</td>
-  <td>Restringir acceso según el rol</td>
-  <td>Como supervisor logístico, quiero restringir la visualización o edición de información según el rol del usuario para evitar errores o accesos indebidos.</td>
+  <td>US24</td>
+  <td>Eliminar usuarios inactivos</td>
+  <td>Como supervisor logístico, quiero eliminar las cuentas de usuarios que ya no usan el sistema para mantener la seguridad y el orden del acceso.</td>
   <td>
-    Escenario 1: Evitar acceso de operario a datos administrativos<br>
-    DADO que el operario inicia sesión<br>
-    CUANDO intenta acceder a módulos de configuración, usuarios o reportes de alto nivel<br>
-    ENTONCES el sistema bloquea el acceso<br>
-    Y muestra un mensaje indicando que la función no está disponible para su rol<br><br>
-    Escenario 2: Permitir solo visualización a supervisores sin edición<br>
-    DADO que el supervisor tiene permisos de solo lectura<br>
-    CUANDO accede a un módulo<br>
-    ENTONCES puede ver el contenido<br>
-    Pero las opciones de edición están deshabilitadas<br><br>
-    Escenario 3: Revisar historial de accesos restringidos<br>
-    DADO que se desea auditar la seguridad<br>
-    CUANDO el supervisor accede al módulo de control de accesos<br>
-    ENTONCES el sistema muestra un historial de intentos denegados<br>
-    Con información del usuario, módulo, fecha y motivo
-  </td>
-  <td>EP10</td>
-</tr>
-<tr>
-  <td>US29</td>
-  <td>Desactivar usuarios inactivos</td>
-  <td>Como supervisor logístico, quiero desactivar cuentas de usuarios que ya no usan el sistema para mantener la seguridad y el orden del acceso.</td>
-  <td>
-    Escenario 1: Desactivar manualmente un usuario inactivo<br>
+    Escenario 1: Eliminar manualmente un usuario inactivo<br>
     DADO que el supervisor detecta inactividad prolongada<br>
-    CUANDO accede al módulo de administración y selecciona “Desactivar cuenta”<br>
+    CUANDO accede al módulo de administración y selecciona “Eliminar cuenta”<br>
     ENTONCES el sistema marca la cuenta como inactiva<br>
     Y registra la fecha y motivo de desactivación<br><br>
-    Escenario 2: Reactivar cuenta de usuario desactivado<br>
-    DADO que un usuario fue desactivado previamente<br>
-    CUANDO el supervisor decide reactivarlo<br>
-    ENTONCES el sistema restablece el acceso<br>
+    Escenario 2: Agregar cuenta de usuario nuevamente<br>
+    DADO que un usuario fue eliminado previamente<br>
+    CUANDO el supervisor decide regresarlo al sistema<br>
+    ENTONCES el sistema lo agrega con normalidad<br>
     Y envía notificación al usuario con condiciones de uso
   </td>
   <td>EP10</td>
 </tr>
 <tr>
-  <td>US30</td>
+  <td>US25</td>
   <td>Generar plan de actividades</td>
   <td>Como supervisor logístico, quiero generar un plan de todas las actividades programadas según los recursos y prioridades, para organizar eficientemente las actividades del día.</td>
   <td>
@@ -2274,52 +2255,53 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
     Y selecciona la opción “Generar plan de actividades”<br>
     ENTONCES el sistema agrupa las tareas por recurso (vehículo, operario, zona)<br>
     Y genera un listado estructurado con horarios estimados<br><br>
-    Escenario 2: Priorizar actividades críticas<br>
-    DADO que el supervisor ha definido tareas críticas<br>
-    CUANDO genera el plan<br>
-    ENTONCES el sistema posiciona las tareas urgentes al inicio del itinerario<br>
-    Y resalta su nivel de prioridad<br><br>
-    Escenario 3: Exportar plan diario de actividades<br>
-    DADO que el plan ha sido generado<br>
-    CUANDO el supervisor desea compartirlo<br>
-    ENTONCES el sistema permite exportarlo en PDF o Excel<br>
-    Y enviar notificaciones a los operarios con sus asignaciones<br><br>
-    Escenario 4: Visualizar el plan en formato calendario o lista<br>
+    Escenario 2: Visualizar el plan en formato calendario o lista<br>
     DADO que el plan ya fue generado<br>
     CUANDO el supervisor accede a la vista<br>
     ENTONCES el sistema ofrece una vista tipo calendario por hora/zona<br>
-    Y otra vista tipo lista con detalles por recurso asignado
+    Y otra vista tipo lista con detalles por recurso asignado<br><br>
+    Escenario 3: Filtrar actividades por estado<br>
+    DADO que el plan de actividades está disponible<br>
+    CUANDO el supervisor aplica un filtro por estado (pendiente, en curso, finalizado)<br>
+    ENTONCES el sistema muestra únicamente las actividades que coinciden con ese estado<br>
+    Y actualiza dinámicamente la vista del plan<br><br>
+    Escenario 4: Filtro vacío o incorrecto<br>
+    DADO que el supervisor no aplica ningún filtro o ingresa un valor inválido<br>
+    CUANDO intenta visualizar el plan de actividades<br>
+    ENTONCES el sistema muestra todas las actividades programadas sin aplicar ningún filtro<br>
+    Y notifica que el filtro no es válido (en caso de error)
   </td>
   <td>EP11</td>
 </tr>
 <tr>
-  <td>US31</td>
-  <td>Ver disponibilidad de personal y recursos</td>
-  <td>Como supervisor logístico, quiero ver la disponibilidad de personal, vehículos y espacios, para asignar tareas sin generar conflictos o sobrecargas.</td>
+  <td>US26</td>
+  <td>Ver tareas programadas y disponibilidad de recursos</td>
+  <td>Como supervisor logístico, quiero ver las tareas programadas junto con sus recursos utilizados, para evitar conflictos al registrar nuevas actividades</td>
   <td>
-    Escenario 1: Consultar disponibilidad de operarios por turno<br>
-    DADO que el supervisor va a asignar tareas<br>
-    CUANDO accede al módulo de disponibilidad de personal<br>
-    ENTONCES el sistema muestra operarios por turno, zona y estado<br>
-    Y permite filtrar por habilidades o historial<br><br>
-    Escenario 2: Visualizar disponibilidad de vehículos asignados<br>
-    DADO que se desea planificar una entrega<br>
-    CUANDO el supervisor consulta el módulo de flota<br>
-    ENTONCES el sistema muestra qué vehículos están activos, en mantenimiento o ya asignados<br>
-    Y detalla su capacidad y ubicación actual<br><br>
-    Escenario 3: Consultar disponibilidad de espacios logísticos<br>
-    DADO que se necesita programar una actividad<br>
-    CUANDO el supervisor accede al calendario de espacios<br>
-    ENTONCES el sistema muestra cuáles están reservados o libres<br>
-    Y permite programar nuevas actividades<br><br>
-    Escenario 4: Generar reporte de disponibilidad general<br>
-    DADO que el supervisor necesita planificar con antelación<br>
-    CUANDO selecciona “Ver disponibilidad general”<br>
-    ENTONCES el sistema genera un reporte consolidado con operarios, vehículos y espacios<br>
-    Y permite exportarlo o integrarlo al plan diario
+    Escenario 1: Visualizar tareas programadas por operario<br>
+    DADO que el supervisor desea revisar la carga de trabajo del personal<br>
+    CUANDO accede al módulo de planificación<br>
+    ENTONCES el sistema muestra las tareas asignadas a cada operario<br>
+    Y permite aplicar filtros únicamente por estado (pendiente, en curso, finalizado)<br><br>
+    Escenario 2: Consultar uso de espacios logísticos en tareas<br>
+    DADO que se requiere programar una operación en un espacio logístico<br>
+    CUANDO el supervisor revisa la programación de espacios<br>
+    ENTONCES el sistema muestra qué espacios están ocupados y por qué tareas<br>
+    Y detalla los horarios disponibles para nuevas actividades<br><br>
+    Escenario 3: Verificación de conflictos al registrar nueva tarea<br>
+    DADO que el supervisor desea registrar una nueva tarea con recursos asignados<br>
+    CUANDO el sistema detecta que uno o más recursos ya están ocupados en el mismo horario<br>
+    ENTONCES lanza un mensaje de error indicando el conflicto<br>
+    Y no permite guardar la programación hasta resolver el solapamiento<br><br>
+    Escenario 4: Registro exitoso sin conflictos<br>
+    DADO que los recursos seleccionados están disponibles en el horario ingresado<br>
+    CUANDO el supervisor confirma la nueva programación<br>
+    ENTONCES el sistema registra la tarea exitosamente<br>
+    Y la asocia a los recursos seleccionados
   </td>
   <td>EP11</td>
 </tr>
+
 <tr>
   <td>US32</td>
   <td>Selección de plan de empresa según volumen de envíos</td>
