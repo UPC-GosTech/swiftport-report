@@ -1820,33 +1820,16 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
 <tr>
   <td>US06</td>
   <td>Establecer prioridad y riesgo externo</td>
-  <td>Como supervisor logístico, quiero registrar si una tarea está sujeta a factores externos para monitorear de cerca.</td>
+  <td>Como supervisor logístico, quiero agregar comentarios a una tarea para que esta contenga especificaciones en cuanto a su desarrollo.</td>
   <td>
-    Escenario 1: Marcar tarea con riesgo por clima<br>
+    Escenario 1: Ingresar comentario a una tarea<br>
     DADO que el supervisor se encuentra creando una nueva tarea<br>
-    CUANDO selecciona la opción de riesgo “Clima”<br>
-    ENTONCES el sistema registra la tarea con marca de riesgo climático<br>
-    Y la muestra destacada en la lista<br><br>
-    Escenario 2: Asignar prioridad alta a una tarea crítica<br>
-    DADO que el supervisor está editando una tarea urgente<br>
-    CUANDO configura su prioridad como “Alta”<br>
-    ENTONCES el sistema debe resaltarla visualmente<br>
-    Y posicionarla primero en el panel<br><br>
-    Escenario 3: Intentar guardar una tarea con riesgo sin causa especificada<br>
-    DADO que el supervisor marca una tarea con riesgo externo<br>
-    CUANDO no indica la causa específica<br>
-    ENTONCES el sistema bloquea el guardado<br>
-    Y muestra un mensaje solicitando completar ese campo<br><br>
-    Escenario 4: Ver resumen de tareas con riesgos externos<br>
-    DADO que el supervisor desea revisar tareas con riesgo<br>
-    CUANDO aplica el filtro “Con riesgo”<br>
-    ENTONCES el sistema muestra las tareas marcadas<br>
-    Y permite agruparlas por tipo de riesgo<br><br>
-    Escenario 5: Editar riesgo y prioridad de una tarea ya registrada<br>
-    DADO que el supervisor desea modificar una tarea<br>
-    CUANDO accede al detalle y actualiza la información<br>
-    ENTONCES el sistema guarda los cambios<br>
-    Y actualiza los datos en tiempo real
+    CUANDO ingresa texto en el recuadro de comentarios<br>
+    ENTONCES el sistema registra el comentario en la tarea<br><br>
+    Escenario 2: Visualizar comentarios de tarea<br>
+    DADO que el supervisor está visualizando la lista de tareas<br>
+    CUANDO el supervisor se acerque a una tarea<br>
+    ENTONCES el supervisor verá los comentarios registrados<br><br>
   </td>
   <td>EP04</td>
 </tr>
@@ -1886,28 +1869,14 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
 <tr>
   <td>US08</td>
   <td>Ver tareas asignadas</td>
-  <td>Como operario, quiero ver todas las tareas que tengo pendientes con sus fechas y riesgos para poder gestionarlas adecuadamente.</td>
+  <td>Como operario, quiero ver todas las tareas que tengo pendientes con sus fechas y estado para poder gestionarlas adecuadamente.</td>
   <td>
     Escenario 1: Ver listado de tareas pendientes<br>
     DADO que el operario accede al sistema<br>
     CUANDO ingresa al módulo “Mis Tareas”<br>
     ENTONCES el sistema muestra la lista de tareas asignadas<br>
-    Y cada una incluye fecha, estado y nivel de riesgo<br><br>
-    DADO que el operario tiene múltiples tareas asignadas<br>
-    CUANDO utiliza el filtro “Fecha de entrega”<br>
-    ENTONCES el sistema muestra solo las tareas próximas a vencer<br>
-    Y oculta las que no cumplan con el criterio<br><br>
-    Escenario 3: Identificar tareas con riesgo<br>
-    DADO que el operario revisa la lista de tareas<br>
-    CUANDO existen tareas sujetas a factores externos<br>
-    ENTONCES el sistema las destaca visualmente<br>
-    Y muestra el tipo de riesgo asociado (clima, acceso, etc.)<br><br>
-    Escenario 4: Ordenar tareas por prioridad<br>
-    DADO que el operario desea organizar su jornada<br>
-    CUANDO selecciona “orden por prioridad”<br>
-    ENTONCES el sistema reordena la lista<br>
-    Y coloca primero las tareas urgentes<br><br>
-    Escenario 5: Actualización en tiempo real de nuevas tareas<br>
+    Y cada una incluye fecha y estado<br><br>
+    Escenario 2: Actualización en tiempo real de nuevas tareas<br>
     DADO que el operario mantiene abierta su lista de tareas<br>
     CUANDO el supervisor le asigna una nueva tarea<br>
     ENTONCES el sistema actualiza la lista automáticamente<br>
@@ -1917,73 +1886,22 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
 </tr>
 <tr>
   <td>US09</td>
-  <td>Reportar demora por clima u otros</td>
-  <td>Como operario, quiero indicar que no pude realizar una tarea debido al mal clima o situación externa para mantener la trazabilidad de los retrasos.</td>
+  <td>Ingresar comentario a tarea</td>
+  <td>Como operario, quiero ingresar comentarios a las tareas que creo para que los demás puedan saber más de las mismas al verlas.</td>
   <td>
-    Escenario 1: Reportar demora por clima<br>
-    DADO que el operario tiene una tarea que no pudo ejecutar<br>
-    Y el motivo fue una lluvia intensa<br>
-    CUANDO selecciona “Demora por clima”<br>
-    ENTONCES el sistema registra la demora<br>
-    Y la clasifica como “Clima”<br><br>
-    Escenario 2: Evitar reporte sin seleccionar causa<br>
-    DADO que el operario intenta registrar una demora<br>
-    CUANDO no selecciona la causa en el formulario<br>
-    ENTONCES el sistema bloquea el envío<br>
-    Y muestra un mensaje indicando que el motivo es obligatorio<br><br>
-    Escenario 3: Registrar fecha y hora exacta del evento<br>
-    DADO que el operario reporta una demora<br>
-    CUANDO ingresa la información<br>
-    ENTONCES el sistema guarda fecha, hora y tipo de evento<br>
-    Y los asocia automáticamente a la tarea<br><br>
-    Escenario 4: Reportar demora por acceso bloqueado<br>
-    DADO que el operario encuentra una protesta que impide el acceso<br>
-    CUANDO selecciona “Acceso bloqueado”<br>
-    ENTONCES el sistema registra el incidente como externo<br>
-    Y genera una alerta al supervisor<br><br>
-    Escenario 5: Ver historial de demoras<br>
-    DADO que el operario accede a su historial<br>
-    CUANDO consulta sus tareas anteriores<br>
-    ENTONCES el sistema muestra las demoras registradas<br>
-    Y permite ver detalles como causa, fecha y hora
+    Escenario 1: Ingresar comentario a una tarea<br>
+    DADO que el operario se encuentra creando una nueva tarea<br>
+    CUANDO ingresa texto en el recuadro de comentarios<br>
+    ENTONCES el sistema registra el comentario en la tarea<br><br>
+    Escenario 2: Visualizar comentarios de tarea<br>
+    DADO que el operario está visualizando la lista de tareas<br>
+    CUANDO el operario se acerque a una tarea<br>
+    ENTONCES el operario verá los comentarios registrados<br><br>
   </td>
   <td>EP05</td>
 </tr>
 <tr>
   <td>US10</td>
-  <td>Definir fases del proceso logístico</td>
-  <td>Como supervisor logístico, quiero definir las fases del proceso logístico para estructurar el flujo de trabajo.</td>
-  <td>
-    Escenario 1: Registrar nuevas fases del proceso<br>
-    DADO que el supervisor accede a la configuración del sistema<br>
-    CUANDO agrega fases como “Alistamiento”, “Enviado” y “Entrega”<br>
-    ENTONCES el sistema guarda las fases en el orden definido<br>
-    Y las muestra disponibles para asignación en tareas<br><br>
-    Escenario 2: Evitar creación de fase duplicada<br>
-    DADO que el supervisor intenta registrar una fase existente<br>
-    CUANDO guarda una fase llamada “Entrega” que ya existe<br>
-    ENTONCES el sistema rechaza el registro<br>
-    Y muestra un mensaje de que ya existe<br><br>
-    Escenario 3: Editar nombre de una fase creada<br>
-    DADO que hay una fase mal nombrada como “Entregaa”<br>
-    CUANDO el supervisor la edita y cambia a “Entrega”<br>
-    ENTONCES el sistema actualiza el nombre<br>
-    Y refleja el cambio en todas las tareas asociadas<br><br>
-    Escenario 4: Eliminar fase sin tareas asociadas<br>
-    DADO que hay una fase llamada “Inspección” sin tareas<br>
-    CUANDO el supervisor presiona “Eliminar”<br>
-    ENTONCES el sistema borra la fase<br>
-    Y actualiza la lista de fases activas<br><br>
-    Escenario 5: Impedir eliminación de fase con tareas en curso<br>
-    DADO que una fase “Despacho” tiene tareas asignadas<br>
-    CUANDO el supervisor intenta eliminarla<br>
-    ENTONCES el sistema impide la acción<br>
-    Y muestra un mensaje indicando que hay tareas vinculadas
-  </td>
-  <td>EP05</td>
-</tr>
-<tr>
-  <td>US11</td>
   <td>Agrupar tareas por fase</td>
   <td>Como supervisor logístico, quiero ver las tareas agrupadas por fase para facilitar la ejecución.</td>
   <td>
@@ -1997,49 +1915,38 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
     CUANDO presiona expandir sobre “Tareas de Entrega”<br>
     ENTONCES el sistema muestra las tareas de esa fase<br>
     Y permite contraerlas de nuevo<br><br>
-    Escenario 3: Visualizar tareas sin fase asignada<br>
-    DADO que existen tareas sin fase<br>
-    CUANDO el supervisor usa la vista “Agrupado por fase”<br>
-    ENTONCES el sistema crea un grupo “Sin Fase”<br>
-    Y las ubica ahí hasta que se les asigne una<br><br>
-    Escenario 4: Cambiar la fase de una tarea desde la vista agrupada<br>
-    DADO que el supervisor ve tareas en la fase “Alistamiento”<br>
-    CUANDO arrastra una a la fase “Entrega”<br>
-    ENTONCES el sistema actualiza la fase de la tarea<br>
-    Y la reubica en el nuevo grupo automáticamente
+    Escenario 3: Visualizar tareas sin aplicar filtro<br>
+    DADO que el supervisor está en la vista agrupada por fase<br>
+    CUANDO el supervisor no ha ingresado algún filtro<br>
+    ENTONCES el sistema mostrará tareas de todas las fases<br>
   </td>
   <td>EP05</td>
 </tr>
 <tr>
-  <td>US12</td>
+  <td>US11</td>
   <td>Alerta por tarea bloqueada</td>
-  <td>Como supervisor logístico, quiero recibir una alerta cuando una tarea se declare como bloqueada por factores externos.</td>
+  <td>Como supervisor logístico, quiero recibir una alerta cuando una tarea sea bloqueada para estar al tanto de la situación</td>
   <td>
-    Escenario 1: Recibir alerta por bloqueo por clima<br>
+    Escenario 1: Recibir alerta por bloqueo<br>
     DADO que el supervisor gestiona tareas del sistema<br>
-    Y un operario marca una tarea como bloqueada por causa climática<br>
+    Y un operario marca una tarea como bloqueada<br>
     CUANDO se actualiza el estado<br>
     ENTONCES el sistema genera una alerta inmediata<br>
     Y la envía a la bandeja de notificaciones del supervisor<br><br>
     Escenario 2: No generar alerta si la tarea fue pausada voluntariamente<br>
-    DADO que una tarea fue reprogramada internamente sin riesgo externo<br>
+    DADO que una tarea fue reprogramada internamente<br>
     CUANDO se cambia su estado<br>
     ENTONCES el sistema no genera ninguna alerta<br><br>
     Escenario 3: Recibir la alerta en la app web<br>
     DADO que el supervisor tiene sesión iniciada en la web<br>
     CUANDO se bloquea una tarea por causas externas<br>
     ENTONCES el sistema envía una notificación<br>
-    Y permite acceder al detalle del bloqueo<br><br>
-    Escenario 4: Visualizar historial de alertas por bloqueos<br>
-    DADO que el supervisor accede al historial de alertas<br>
-    CUANDO consulta las notificaciones de tareas bloqueadas<br>
-    ENTONCES el sistema lista todas las alertas generadas<br>
-    Y muestra la causa, fecha, hora y quién la reportó
+    Y permite acceder al detalle del bloqueo<br>
   </td>
   <td>EP06</td>
 </tr>
 <tr>
-  <td>US13</td>
+  <td>US12</td>
   <td>Notificación de nueva tarea asignada</td>
   <td>Como operario, quiero recibir notificación inmediata cuando se me asigne una nueva tarea.</td>
   <td>
@@ -2056,36 +1963,25 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <td>EP06</td>
 </tr>
 <tr>
-  <td>US14</td>
-  <td>Validar tareas completadas o suspendidas</td>
-  <td>Como supervisor, quiero validar tareas y registrar si fueron suspendidas por clima o fallas.</td>
+  <td>US13</td>
+  <td>Cambiar estado de tarea</td>
+  <td>Como supervisor, quiero cambiar el estado de las tareas y registrar un comentario en cuanto al motivo del cambio para que exista un seguimiento.</td>
   <td>
-    Escenario 1: Validar una tarea marcada como finalizada<br>
-    DADO que el supervisor observa una tarea con estado “Finalizada”<br>
-    CUANDO ingresa al detalle de la tarea<br>
-    Y revisa que la ejecución fue correcta<br>
-    ENTONCES el sistema permite validarla<br>
-    Y cierra su ciclo en el sistema<br><br>
-    Escenario 2: Validar tarea suspendida por condiciones climáticas<br>
-    DADO que una tarea fue marcada como “Suspendida” por clima<br>
-    CUANDO el supervisor revisa el detalle<br>
-    ENTONCES el sistema permite registrar la validación<br>
-    Y guarda la causa para trazabilidad<br><br>
-    Escenario 3: Impedir validación si falta información<br>
-    DADO que el reporte de suspensión no tiene detalles<br>
-    CUANDO el supervisor intenta validarla<br>
-    ENTONCES el sistema bloquea la validación<br>
-    Y muestra un mensaje solicitando los datos faltantes<br><br>
-    Escenario 4: Visualizar todas las tareas validadas<br>
-    DADO que el supervisor accede al historial de validaciones<br>
-    CUANDO aplica un filtro por “Finalizadas” o “Suspendidas”<br>
-    ENTONCES el sistema agrupa las tareas por tipo de cierre<br>
-    Y permite exportar el listado
+    Escenario 1: Cambiar el estado de una tarea<br>
+    DADO que el supervisor observa una tarea con su estado<br>
+    CUANDO selecciona la opción "Cambiar estado"<br>
+    Y selecciona un nuevo estado<br>
+    ENTONCES el sistema registra el nuevo estado<br><br>
+    Escenario 2: Ingresa un comentario<br>
+    DADO que el supervisor ha selecciona la opción "Guardar estado"<br>
+    CUANDO el supervisor ingrese texto en la sección "Comentarios"<br>
+    ENTONCES el sistema guardará el comentario<br>
+    Y se registrarán ambos cambios<br>
   </td>
   <td>EP07</td>
 </tr>
 <tr>
-  <td>US15</td>
+  <td>US14</td>
   <td>Añadir observaciones a una tarea</td>
   <td>Como operario, quiero dejar comentarios sobre problemas o incidencias al realizar una tarea.</td>
   <td>
@@ -2107,7 +2003,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <td>EP07</td>
 </tr>
 <tr>
-  <td>US16</td>
+  <td>US15</td>
   <td>Reportar incidencias</td>
   <td>Como operario, quiero reportar una incidencia durante la ejecución de una tarea para que sea atendida.</td>
   <td>
@@ -2135,176 +2031,77 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <td>EP08</td>
 </tr>
 <tr>
-  <td>US17</td>
-  <td>Asignar responsable de resolver incidencia</td>
-  <td>Como supervisor logístico, quiero asignar un responsable a cada incidencia para su seguimiento.</td>
+  <td>US16</td>
+  <td>Programar entrega con condiciones</td>
+  <td>Como supervisor logístico, quiero registrar si una entrega posee ciertos requisitos para que estos se tengan en cuenta en su ejecución.</td>
   <td>
-    Escenario 1: Asignar responsable desde el panel de incidencias<br>
-    DADO que el supervisor identifica una nueva incidencia<br>
-    CUANDO selecciona un operario desde la lista de usuarios disponibles<br>
-    ENTONCES el sistema asigna al responsable<br>
-    Y registra la hora de asignación<br><br>
-    Escenario 2: Reasignar una incidencia a otro usuario<br>
-    DADO que el responsable inicial no puede atenderla<br>
-    CUANDO el supervisor accede al detalle y selecciona un nuevo responsable<br>
-    ENTONCES el sistema actualiza la asignación<br>
-    Y guarda el historial del cambio<br><br>
-    Escenario 3: Impedir asignación sin responsable<br>
-    DADO que el supervisor intenta asignar una incidencia<br>
-    CUANDO no selecciona a ningún usuario<br>
-    ENTONCES el sistema bloquea el guardado<br>
-    Y muestra un mensaje de advertencia<br><br>
-    Escenario 4: Notificar automáticamente al responsable asignado<br>
-    DADO que el supervisor confirma la asignación<br>
-    CUANDO el sistema la registra<br>
-    ENTONCES el operario recibe una notificación inmediata<br>
-    Y puede ver el detalle de la incidencia en su panel
-  </td>
-  <td>EP08</td>
+    Escenario 1: Supervisor crea nuevo incidente asociado a una entrega<br>
+    DADO que el supervisor está gestionando una entrega<br>
+    CUANDO decide registrar un nuevo incidente<br>
+    ENTONCES el sistema permite ingresar un nuevo incidente vinculado a esa entrega<br>
+    Y lo asocia como una condición externa a considerar en su ejecución<br><br>
+    Escenario 2: Supervisor ingresa la severidad del incidente<br>
+    DADO que el supervisor está registrando un incidente<br>
+    CUANDO selecciona el nivel de severidad (leve, moderado, crítico)<br>
+    ENTONCES el sistema guarda el nivel de severidad<br>
+    Y lo utiliza para priorizar o alertar durante la planificación y ejecución<br><br>
+    Escenario 3: Supervisor ingresa título y tipo de restricción del incidente<br>
+    DADO que el supervisor está completando los datos del incidente<br>
+    CUANDO ingresa un título descriptivo y selecciona el tipo de restricción (acceso, clima, tránsito)<br>
+    ENTONCES el sistema registra dicha información<br>
+    Y la muestra como advertencia visible durante el seguimiento de la entrega<br>
+</td>
+
+  <td>EP05</td>
+</tr>
+<tr>
+  <td>US17</td>
+  <td>Operario crea un incident report</td>
+  <td>Como operario, quiero crear reportes de incidentes con comentarios para que mis compañeros estén al tanto de su camino.</td>
+<td>
+    Escenario 1: Operario visualiza entregas con incidentes registrados<br>
+    DADO que el operario accede a su panel de entregas asignadas<br>
+    CUANDO una entrega tiene incidentes registrados<br>
+    ENTONCES el sistema muestra un ícono de advertencia<br>
+    Y permite consultar los detalles del incidente<br><br>
+    Escenario 2: Operario revisa severidad y tipo de restricción<br>
+    DADO que el operario está consultando los detalles de un incidente<br>
+    CUANDO accede a la información del incidente<br>
+    ENTONCES el sistema muestra la severidad y el tipo de restricción asociado<br>
+    Y destaca si se requiere alguna acción preventiva<br><br>
+    Escenario 3: Operario reporta imposibilidad de cumplir con la entrega<br>
+    DADO que el operario detecta que una restricción impide realizar la entrega<br>
+    CUANDO selecciona la opción “No se pudo entregar” e indica el motivo<br>
+    ENTONCES el sistema registra la incidencia reportada<br>
+    Y notifica al supervisor para tomar acciones correctivas<br>
+</td>
+
+  <td>EP05</td>
 </tr>
 <tr>
   <td>US18</td>
-  <td>Programar entrega con condiciones</td>
-  <td>Como supervisor logístico, quiero registrar si una entrega depende de condiciones externas (clima, acceso).</td>
-  <td>
-    Escenario 1: Programar entrega condicionada por clima<br>
-    DADO que el supervisor está creando una nueva entrega<br>
-    CUANDO selecciona “Condicionada por clima” como restricción externa<br>
-    Y establece la fecha tentativa de entrega<br>
-    ENTONCES el sistema registra la condición meteorológica<br>
-    Y marca la entrega como sujeta a verificación climática<br><br>
-    Escenario 2: Programar entrega con restricción por acceso limitado<br>
-    DADO que la zona de destino tiene ingreso restringido<br>
-    CUANDO se marca “Acceso restringido” y se define la ventana horaria<br>
-    ENTONCES el sistema guarda la configuración<br>
-    Y la muestra como advertencia visible<br><br>
-    Escenario 3: Impedir guardar entrega condicionada sin motivo<br>
-    DADO que el supervisor marca una entrega como condicionada<br>
-    CUANDO no especifica la causa<br>
-    ENTONCES el sistema bloquea el guardado<br>
-    Y muestra un mensaje indicando que debe seleccionarse una causa<br><br>
-    Escenario 4: Editar condiciones externas de entrega ya programada<br>
-    DADO que el supervisor detecta un nuevo factor externo<br>
-    CUANDO actualiza la condición correspondiente<br>
-    ENTONCES el sistema guarda los cambios<br>
-    Y registra el historial de modificaciones<br><br>
-    Escenario 5: Ver condiciones externas desde el panel de seguimiento<br>
-    DADO que la entrega está condicionada<br>
-    CUANDO el supervisor revisa el dashboard<br>
-    ENTONCES el sistema muestra un ícono de advertencia<br>
-    Y permite consultar el detalle de la condición
-  </td>
-  <td>EP05</td>
-</tr>
+  <td>Filtrado de tareas</td>
+  <td>Como supervisor logístico, quiero filtrar las tareas existentes en cuanto a su estado.</td>
+<td>
+    Escenario 1: Ingreso a pantalla de filtros<br>
+    DADO que el supervisor desea gestionar tareas<br>
+    CUANDO accede a la sección de tareas en el sistema<br>
+    ENTONCES se muestra la interfaz con opciones de filtrado por estado<br><br>
+    Escenario 2: Aplicar filtro por estado específico<br>
+    DADO que el supervisor está en la pantalla de filtros<br>
+    CUANDO selecciona un estado como “En ejecución”, “Pausada” o “Completada”<br>
+    ENTONCES el sistema muestra únicamente las tareas que coinciden con ese estado<br><br>
+    Escenario 3: Visualizar todas las tareas sin aplicar filtro<br>
+    DADO que el supervisor no selecciona ningún filtro de estado<br>
+    CUANDO accede al listado de tareas<br>
+    ENTONCES el sistema muestra todas las tareas con su estado correspondiente<br>
+</td>
+
+
+-- ME QUEDE ACA NAT
+
 <tr>
   <td>US19</td>
-  <td>Marcar entrega como postergada</td>
-  <td>Como operario, quiero indicar que no se pudo realizar una entrega por motivos externos para mantener informados a mis superiores.</td>
-  <td>
-    Escenario 1: Postergar entrega por bloqueo en la vía<br>
-    DADO que el operario está en ruta<br>
-    CUANDO encuentra una protesta que impide el acceso<br>
-    Y selecciona “Bloqueo” como motivo<br>
-    ENTONCES el sistema marca la entrega como postergada<br>
-    Y notifica al supervisor<br><br>
-    Escenario 2: Marcar entrega como postergada por clima<br>
-    DADO que la ruta está intransitable por lluvia intensa<br>
-    CUANDO el operario actualiza el estado a “Postergada”<br>
-    Y selecciona “Clima” como causa<br>
-    ENTONCES el sistema registra la postergación<br>
-    Y mantiene la entrega en estado pendiente<br><br>
-    Escenario 3: Impedir postergar sin motivo definido<br>
-    DADO que el operario quiere cambiar el estado<br>
-    CUANDO no selecciona causa válida<br>
-    ENTONCES el sistema bloquea el cambio<br>
-    Y muestra un mensaje de advertencia<br><br>
-    Escenario 4: Registrar fecha y hora exacta de postergación<br>
-    DADO que la postergación fue confirmada<br>
-    CUANDO se actualiza el estado<br>
-    ENTONCES el sistema guarda automáticamente fecha y hora<br>
-    Y los asocia a la entrega afectada
-  </td>
-  <td>EP05</td>
-</tr>
-<tr>
-  <td>US20</td>
-  <td>Dashboard de estado de tareas</td>
-  <td>Como supervisor logístico, quiero ver cuántas tareas están en pausa por clima, tráfico u otras causas para tomar acciones al respecto.</td>
-  <td>
-    Escenario 1: Ver resumen de tareas en pausa por tipo de causa<br>
-    DADO que el supervisor accede al dashboard de tareas<br>
-    Y desea una visión general del estado operativo<br>
-    CUANDO consulta el resumen de ejecución<br>
-    ENTONCES el sistema muestra la cantidad de tareas en pausa agrupadas por causa<br><br>
-    Escenario 2: Visualizar gráfico de distribución de causas de pausa<br>
-    DADO que hay múltiples tareas en pausa<br>
-    CUANDO el supervisor activa la vista gráfica<br>
-    ENTONCES el sistema muestra un gráfico (de barras o pastel)<br>
-    Y segmenta por categoría con conteo<br><br>
-    Escenario 3: Actualización automática del dashboard en tiempo real<br>
-    DADO que una tarea es pausada<br>
-    CUANDO se actualiza su estado<br>
-    ENTONCES el dashboard refleja el cambio inmediatamente<br>
-    Y actualiza todos los indicadores<br><br>
-    Escenario 4: Filtrar tareas pausadas por sede o zona<br>
-    DADO que se desea analizar retrasos por ubicación<br>
-    CUANDO se usa el filtro de sede o zona<br>
-    ENTONCES el sistema muestra solo las tareas pausadas de esa ubicación<br><br>
-    Escenario 5: Exportar listado de tareas en pausa desde el dashboard<br>
-    DADO que el supervisor quiere documentar las pausas<br>
-    CUANDO presiona el botón de exportación<br>
-    ENTONCES el sistema genera un archivo descargable con el detalle por causa, fecha y responsable
-  </td>
-  <td>EP08</td>
-</tr>
-<tr>
-  <td>US21</td>
-  <td>Reporte de incidentes externos</td>
-  <td>Como operario, quiero generar reportes de incidencias externas para futuras mejoras de planificación.</td>
-  <td>
-    Escenario 1: Visualizar reporte de incidencias<br>
-    DADO que el supervisor ha recibido reportes previos<br>
-    CUANDO accede al módulo de historial de incidentes<br>
-    ENTONCES el sistema muestra una lista con fecha, tipo y ubicación<br>
-    Y permite exportar los datos para análisis de planificación
-  </td>
-  <td>EP08</td>
-</tr>
-<tr>
-  <td>US22</td>
-  <td>Integrar sistema meteorológico</td>
-  <td>Como supervisor logístico, quiero que el sistema consulte el clima para anticipar retrasos.</td>
-  <td>
-    Escenario 1: Consultar clima antes de iniciar la ruta<br>
-    DADO que el supervisor necesita planificar tareas<br>
-    CUANDO accede al módulo de monitoreo climático integrado<br>
-    ENTONCES el sistema muestra el pronóstico por zona geográfica<br>
-    Y resalta eventos climáticos adversos<br><br>
-    Escenario 2: Recibir alertas de clima severo durante la ruta<br>
-    DADO que el operario ejecuta una tarea en ruta<br>
-    CUANDO el sistema detecta una alerta meteorológica severa<br>
-    ENTONCES envía una notificación automática al operario<br>
-    Y registra el evento para trazabilidad<br><br>
-    Escenario 3: Reprogramar tareas por condiciones climáticas<br>
-    DADO que el supervisor identifica clima adverso<br>
-    CUANDO decide modificar la planificación<br>
-    ENTONCES el sistema permite reprogramar las tareas afectadas<br>
-    Y notifica a los operarios involucrados<br><br>
-    Escenario 4: Visualizar historial de condiciones climáticas<br>
-    DADO que el supervisor desea analizar retrasos<br>
-    CUANDO accede al historial meteorológico<br>
-    ENTONCES el sistema muestra un resumen por fecha y zona<br>
-    Y permite exportar los datos<br><br>
-    Escenario 5: Asociar reporte climático a incidente registrado<br>
-    DADO que el operario reporta un incidente relacionado al clima<br>
-    CUANDO el evento coincide con un registro del sistema meteorológico<br>
-    ENTONCES el sistema asocia el informe climático al incidente<br>
-    Y guarda ambos datos para análisis conjunto
-  </td>
-  <td>EP09</td>
-</tr>
-<tr>
-  <td>US23</td>
   <td>Bloquear tareas automáticamente por eventos naturales sincronizados desde el ERP</td>
   <td>Como supervisor logístico, quiero que los eventos naturales críticos registrados en el ERP (como deslizamientos o bloqueos de vía) bloqueen automáticamente las tareas vinculadas, para evitar riesgos y reprocesos.</td>
   <td>
