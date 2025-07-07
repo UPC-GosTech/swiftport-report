@@ -2813,10 +2813,11 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <td>Como desarrollador, quiero eliminar (desactivar) un usuario mediante la API, para revocar su acceso al sistema.</td>
   <td>
     Escenario 1: Eliminación válida<br>
-    DADO un ID válido<br>
+    DADO que se ingresa un ID válido<br>
     CUANDO hago DELETE a /api/v1/users/{userId}<br>
     ENTONCES se desactiva el usuario y se retorna con estado 200<br><br>
     Escenario 2: Usuario no encontrado<br>
+    DADO que se ingresa un ID innexistente<br>
     CUANDO el ID no existe<br>
     ENTONCES se retorna 404
   </td>
