@@ -5423,20 +5423,20 @@ Durante el Sprint 4, se lograron las siguientes metas principales:
 #### Capturas de prueba de flujo completo de usuario
 
 
-`![Endpoints equipment ](assets/md-images/Execution-evidence-4/1.png)`
+![Endpoints equipment ](assets/md-images/Execution-evidence-4/1.png)
   
-`![Endpoints employees incident report](assets/md-images/Execution-evidence-4/2.png)`
+![Endpoints employees incident report](assets/md-images/Execution-evidence-4/2.png)
 
  
-`![Endpoints roles authentication executions](assets/md-images/Execution-evidence-4/3.png)`
+![Endpoints roles authentication executions](assets/md-images/Execution-evidence-4/3.png)
 
-`![Endpoints zones reservations](assets/md-images/Execution-evidence-4/4.png)`
+![Endpoints zones reservations](assets/md-images/Execution-evidence-4/4.png)
 
-`![Endpoints task programming users](assets/md-images/Execution-evidence-4/5.png)`
+![Endpoints task programming users](assets/md-images/Execution-evidence-4/5.png)
 
-`![Endpoints activities tasks](assets/md-images/Execution-evidence-4/6.png)`
+![Endpoints activities tasks](assets/md-images/Execution-evidence-4/6.png)
 
-`![Endpoints teams positions](assets/md-images/Execution-evidence-4/7.png)`
+![Endpoints teams positions](assets/md-images/Execution-evidence-4/7.png)
 
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.
