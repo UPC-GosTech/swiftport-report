@@ -40,7 +40,7 @@
 | 1.2       | 25/04/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Implementación de los Capítulos IV y V - Entrevistas, Ubiquitous language y Capítulo III completados|
 |2.0        | 13/05/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Continuación del Capítulo V - Implementación de los artefactos correspondientes al segundo sprint. Se añadió i18n a la landing page, se corrigieron los diagramas c4 y el diagrama de base de datos. Primer avance del Front End de la aplicación web.
 |3.0        | 18/06/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Continuación del Capítulo V - Desarrollo de artefactos correspondientes al tercer sprint. Se realizaron correciones en el documento y en el Front End. Se desarrolló una primera versión del backend.
-|4.0        | 06/07/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Continuación del Capítulo V - Desarrollo de artefactos correspondientes al cuarto sprint. Se realizaron correciones en el documento y en el Back End. Se termio la aplicación, tanto en Front End como en Back End.
+|4.0        | 06/07/2025 | Adrianzén, Baldeón, Iglesias, Roman, Solano | Conclusión del Capítulo V - Desarrollo de artefactos correspondientes al cuarto sprint. Se realizaron correciones en el documento y en el Back End. Se termio la aplicación, tanto en Front End como en Back End.
 
 ---
 
@@ -156,10 +156,10 @@ __TB2__
 __TF__
 
 <div>
-  <p><img src="assets/md-images/github-insights/github-insights-TF-A.jpg.png" alt="Contributors TB2" width="700px" /></p>
+  <p><img src="assets/md-images/github-insights/github-insights-TF-A.jpg" alt="Contributors TF" width="700px" /></p>
 </div>
 <div>
-  <p><img src="assets/md-images/github-insights/github-insights-TF-B.jpg.png" alt="Overview TB2" width="700px" /></p>
+  <p><img src="assets/md-images/github-insights/github-insights-TF-B.jpg" alt="Overview TF" width="700px" /></p>
 </div>
 ---
 
