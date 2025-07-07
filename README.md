@@ -6018,6 +6018,7 @@ DELETE /api/v1/teams/3/members/7
 
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
+Durante este sprint no se realizó ningún despliegue específico, para ver el proceso de despliegue del FrontEnd y el BackEnd de la aplicación puede revisar los puntos correspondientes al sprint 2 y 3 correspondientemente.
 
 ### 5.2.4.8. Team Collaboration Insights during Sprint.
 Durante el Sprint 4, el equipo trabajó de forma intensiva en la integración final del sistema. La colaboración entre áreas de backend y frontend fue clave para lograr una experiencia fluida para el usuario final. Se realizaron sesiones de debugging compartido, pruebas cruzadas y ajustes conjuntos.
@@ -6030,8 +6031,9 @@ Durante el Sprint 4, el equipo trabajó de forma intensiva en la integración fi
 | **Sergio Sebastián Iglesias Pérez** | Ajustes de CORS, controladores y validación completa de Swagger UI.                                |
 | **Carlos Arturo Adrianzén Flores** | Soporte en validaciones, pruebas de integración y depuración de errores entre módulos.             |
 
-imagen contribuciones
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
 
+![Insights para el sprint 4](assets/md-images/insights-sprint4)
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
