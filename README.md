@@ -6418,7 +6418,31 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 ### 5.2.4. Sprint 4
 ### 5.2.4.1. Sprint Planning 4.
+En este sprint, nuestro objetivo principal fue **finalizar el desarrollo del backend** y lograr la **integración total con el frontend** de la aplicación web. Con esta entrega, buscamos que todas las funcionalidades principales estén operativas de extremo a extremo, permitiendo a los usuarios interactuar con el sistema de manera efectiva. La validación de este avance se dará al comprobar el funcionamiento conjunto de frontend y backend, mediante pruebas funcionales completas.
+
+| Sprint # | Sprint 4 |
+|----------|----------|
+| Fecha | 2025 - 06 - 28 |
+| Hora | 6:00 PM |
+| Lugar | Reunión virtual a través de Discord |
+| Preparado por | Sergio Sebastián Iglesias Pérez, Natalia Bertha Roman Cruz |
+| Asistentes (a la reunión de planificación) | Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando; Adrianzén Flores, Carlos Arturo |
+| Resumen de la revisión del Sprint 3 | El Sprint 3 permitió implementar la primera versión funcional del backend con servicios REST y lógica de negocio. Se integraron múltiples módulos y se desplegó en la nube mediante Azure, dejando la base lista para conexión con el frontend. |
+| Objetivo del Sprint 4 | Finalizar completamente el backend y conectar todas sus funcionalidades con el frontend web de SwiftPort. Validar el flujo completo de datos entre cliente y servidor. |
+| Velocidad del Sprint 4 | 42 story points |
+| Suma de story points | 42 story points |
+
 ### 5.2.4.2. Aspect Leaders and Collaborators.
+En este sprint, nos enfocamos en integrar completamente el backend con el frontend, realizando pruebas de extremo a extremo, corrigiendo errores y garantizando la operatividad del sistema. Se realizaron ajustes en ambos lados del sistema para asegurar la compatibilidad entre los módulos desarrollados.
+
+| Team Member                         | GitHub username     | Desarrollo BackEnd AppWeb | Integración y Validación FrontEnd |
+|------------------------------------|----------------------|----------------------------|-----------------------------------|
+| Roman Cruz, Natalia Bertha         | natRC2005            | L                          | L                                 |
+| Solano Armas, Angelo Hector        | Angelo5214           | C                          | C                                 |
+| Iglesias Pérez, Sergio Sebastián   | ghostrider101218     | L                          | L                                 |
+| Baldeón Vivar, Santiago Armando    | Santibal11           | C                          | C                                 |
+| Adrianzén Flores, Carlos Arturo    | choliwys             | C                          | C                                 |
+
 ### 5.2.4.3. Sprint Backlog 4.
 
 | Sprint   | User Story ID | User Story title                            | Task ID | Task Title                               | Descripción tarea                                                       | Estimated (h) | Assigned To                     | Status | Story Points |
@@ -6476,11 +6500,638 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 | Sprint 4 | TS72      | Update Location Status            | T148     | Actualizar estado de ubicación                | Endpoint: PATCH /api/v1/zones/{locationId}/status permite cambiar estado activo/inactivo | 2                | Sergio Sebastián Iglesias Pérez            | Done   | 1               |
 | Sprint 4 | TS73      | Get Locations By Status           | T149     | Filtrar ubicaciones por estado                | Endpoint: GET /api/v1/zones/status/{status} retorna ubicaciones activas o inactivas      | 1                | Sergio Sebastián Iglesias Pérez             | Done   | 1               |                           | 2                | Carlos Arturo Adrianzén Flores             | Done   | 1               |
 
-### 5.2.4.4. Development Evidence for Sprint Review.
+
+### 5.2.4.4. Development Evidence for Sprint Review
+
+En esta sección se presenta evidencia del progreso alcanzado durante el Sprint 4, centrado en la integración total del backend con el frontend, permitiendo la funcionalidad completa del sistema desde la interfaz web. A continuación, se muestran los commits más relevantes realizados en el repositorio `swiftport-backend`.
+
+| Repository                    | Branch                    | Commit Id | Commit Message                        | Commit Message Body                                                                                             | Description                                                                                              | Committed on (Date) |
+|------------------------------|---------------------------|-----------|---------------------------------------|------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------|
+| UPC-GosTech/swiftport-backend | feature/basic-auth        | 03co2f3   | chore: update connection string       | Se actualizó la cadena de conexión para entornos de producción, permitiendo conexión segura a la base de datos. | Ajuste técnico necesario para despliegue en Azure con entorno productivo funcionando correctamente.       | 2025-06-26           |
+| UPC-GosTech/swiftport-backend | feature/deployment-config | c4e0ded   | fix: auth routes                      | Se corrigieron rutas del sistema de autenticación y se aseguraron encabezados y métodos válidos para CORS.      | Las rutas de inicio de sesión y registro ya pueden ser consumidas desde frontend sin errores de red.     | 2025-06-26           |
+| UPC-GosTech/swiftport-backend | feature/email-notifications | 412c48f | chore: db prod connection string      | Se estableció la cadena de conexión para base de datos en Azure en entorno productivo.                          | Permite que las notificaciones y servicios persistentes funcionen correctamente en entorno real.          | 2025-06-27           |
+| UPC-GosTech/swiftport-backend | feature/iam-context       | 1795b3a   | feat: crud for users. Sign Up updated | Se implementó el CRUD completo de usuarios, con mejoras en el registro y validaciones adicionales.              | Ahora el sistema permite registrar nuevos usuarios desde el frontend e integrarlos al flujo de login.     | 2025-06-28           |
+
 ### 5.2.4.5. Execution Evidence for Sprint Review.
+Durante el Sprint 4, se lograron las siguientes metas principales:
+
+- Integración funcional de todos los módulos backend con la aplicación web.
+- Validación de flujo completo desde la interfaz hasta la base de datos.
+- Despliegue final del sistema en Azure listo para pruebas finales de usuario.
+
+#### Capturas de prueba de flujo completo de usuario
+
+
+`![Endpoints equipment ](assets/md-images/Execution-evidence-4/1.png)`
+
+  
+`!Endpoints employees incident report](assets/md-images/Execution-evidence-4/2.png)`
+
+ 
+`![Endpoints roles authentication executions](assets/md-images/Execution-evidence-4/3.png)`
+
+`![Endpoints zones reservations](assets/md-images/Execution-evidence-4/4.png)`
+
+`![Endpoints task programming users](assets/md-images/Execution-evidence-4/5.png)`
+
+`![Endpoints activities tasks](assets/md-images/Execution-evidence-4/6.png)`
+
+`![Endpoints teams positions](assets/md-images/Execution-evidence-4/7.png)`
+
+
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+Durante este sprint se validaron todos los servicios REST desarrollados, incluyendo pruebas desde el frontend y ajustes necesarios para la compatibilidad. A continuación se presentan algunos de los servicios documentados y sus respuestas:
+
+###  ZoneController – /api/v1/zones
+
+| HTTP Verb | Endpoint                           | Descripción                                                             |
+|-----------|------------------------------------|-------------------------------------------------------------------------|
+| `POST`    | `/`                                | Crea una nueva zona.                                                    |
+| `GET`     | `/{zoneId}`                        | Obtiene los detalles de una zona específica.                            |
+| `GET`     | `/`                                | Lista todas las zonas disponibles.                                      |
+| `POST`    | `/{zoneId}/locations`              | Crea una ubicación y la asocia a una zona.                              |
+| `GET`     | `/locations/{locationId}`          | Recupera una ubicación por su ID.                                       |
+| `GET`     | `/zones/locations`                 | Lista todas las ubicaciones del sistema.                                |
+| `GET`     | `/zones/{zoneId}`                  | Lista ubicaciones por zona específica.                                  |
+| `PATCH`   | `/{locationId}/status`             | Actualiza el estado de una ubicación.                                   |
+| `GET`     | `/status/{status}`                 | Lista ubicaciones según su estado (AVAILABLE, IN_USE, etc).             |
+
+**Ejemplo de Request:**
+```json
+POST /api/v1/zones
+{
+  "name": "Zona A",
+  "code": "ZONA-01"
+}
+```
+
+**Ejemplo de Response:**
+```json
+{
+  "id": 1,
+  "name": "Zona A",
+  "code": "ZONA-01"
+}
+```
+
+### ExecutionController – /api/v1/executions
+
+| HTTP Verb | Endpoint                                 | Descripción                               |
+| --------- | ---------------------------------------- | ----------------------------------------- |
+| `POST`    | `/`                                      | Crea una nueva ejecución.                 |
+| `GET`     | `/{executionId}`                         | Obtiene detalles de una ejecución.        |
+| `GET`     | `/`                                      | Lista todas las ejecuciones registradas.  |
+| `POST`    | `/{executionId}/employees/{employeeId}`  | Asocia un empleado a una ejecución.       |
+| `POST`    | `/{executionId}/equipment/{equipmentId}` | Asocia un equipo a una ejecución.         |
+| `PUT`     | `/{executionId}`                         | Actualiza completamente una ejecución.    |
+| `PATCH`   | `/{executionId}/status`                  | Actualiza solo el estado de la ejecución. |
+
+**Ejemplo de Request:**
+```json
+POST /api/v1/executions
+{
+  "taskProgrammingId": 10,
+  "startDateTime": "2025-07-07T09:00:00",
+  "endDateTime": "2025-07-07T12:00:00"
+}
+```
+
+**Ejemplo de Response:**
+```json
+{
+  "id": 5,
+  "status": "PENDING",
+  "startDateTime": "2025-07-07T09:00:00",
+  "endDateTime": "2025-07-07T12:00:00"
+}
+```
+
+###  IncidentReportController – /api/v1/incident-reports
+
+| HTTP Verb | Endpoint                         | Descripción                                                  |
+| --------- | -------------------------------- | ------------------------------------------------------------ |
+| `POST`    | `/{executionId}/incidents`       | Crea un nuevo reporte de incidente asociado a una ejecución. |
+| `GET`     | `/incidents/{incidentId}`        | Obtiene un incidente por su ID.                              |
+| `GET`     | `/{executionId}/incidents`       | Lista todos los incidentes de una ejecución.                 |
+| `GET`     | `/incidents`                     | Lista todos los incidentes del sistema.                      |
+| `PATCH`   | `/incidents/{incidentReportId}`  | Actualiza la descripción de un incidente.                    |
+| `PATCH`   | `/{incidentReportId}/employeeId` | Actualiza el empleado asignado a un incidente.               |
+
+**Ejemplo de Request:**
+```json
+POST /api/v1/incident-reports/5/incidents
+{
+  "description": "Derrame de aceite en planta norte",
+  "severity": "HIGH"
+}
+```
+
+**Ejemplo de Response:**
+```json
+{
+  "id": 23,
+  "description": "Derrame de aceite en planta norte",
+  "severity": "HIGH",
+  "executionId": 5
+}
+```
+
+### AuthenticationController – /api/v1/authentication
+| HTTP Verb | Endpoint   | Descripción                                    |
+| --------- | ---------- | ---------------------------------------------- |
+| `POST`    | `/sign-in` | Inicia sesión con credenciales proporcionadas. |
+| `POST`    | `/sign-up` | Registra un nuevo usuario en el sistema.       |
+
+
+**Ejemplo de Request (sign-in):**
+
+```json
+POST /api/v1/authentication/sign-in
+{
+  "username": "admin",
+  "password": "admin123"
+}
+```
+
+**Ejemplo de Response (sign-in):**
+```json
+{
+  "id": 1,
+  "username": "admin",
+  "roles": ["ADMIN"]
+}
+```
+
+**Ejemplo de Request (sign-up):**
+
+```json
+POST /api/v1/authentication/sign-up
+{
+  "username": "nuevo_user",
+  "password": "password123",
+  "email": "nuevo@correo.com"
+}
+```
+
+**Ejemplo de Response (sign-up):**
+```json
+{
+  "id": 2,
+  "username": "nuevo_user",
+  "email": "nuevo@correo.com"
+}
+```
+
+### RolesController – /api/v1/roles
+
+| HTTP Verb | Endpoint | Descripción                        |
+| --------- | -------- | ---------------------------------- |
+| `GET`     | `/`      | Lista todos los roles disponibles. |
+
+**Ejemplo de Request**
+```json
+GET /api/v1/roles
+```
+
+### UsersController – /api/v1/users
+
+| HTTP Verb | Endpoint           | Descripción                                          |
+| --------- | ------------------ | ---------------------------------------------------- |
+| `GET`     | `/`                | Lista todos los usuarios del sistema.                |
+| `GET`     | `/{userId}`        | Obtiene los datos de un usuario específico.          |
+| `POST`    | `/`                | Crea un nuevo usuario.                               |
+| `PUT`     | `/{userId}`        | Actualiza los datos de un usuario existente.         |
+| `PUT`     | `/{userId}/status` | Actualiza el estado (activo/inactivo) de un usuario. |
+| `DELETE`  | `/{userId}`        | Elimina (desactiva) un usuario del sistema.          |
+
+
+**Ejemplo de Request Crear usuario**
+
+```json
+POST /api/v1/users
+{
+  "username": "usuario1",
+  "password": "secure123",
+  "email": "usuario1@correo.com",
+  "roleId": 2
+}
+```
+
+**Ejemplo de Response 201**
+```json
+{
+  "id": 5,
+  "username": "usuario1",
+  "email": "usuario1@correo.com",
+  "role": "OPERATOR"
+}
+```
+
+**Ejemplo de Request Actualizar estado**
+```json
+
+PUT /api/v1/users/5/status
+{
+  "active": false
+}
+```
+
+
+**Ejemplo de Response**
+```json
+
+PUT /api/v1/users/5/status
+{
+  "active": false
+}
+```
+
+### ActivityController – /api/v1/activities
+
+| HTTP Verb | Endpoint                | Descripción                                            |
+| --------- | ----------------------- | ------------------------------------------------------ |
+| `POST`    | `/`                     | Crea una nueva actividad.                              |
+| `GET`     | `/{activityId}`         | Obtiene una actividad por su ID.                       |
+| `GET`     | `/`                     | Lista todas las actividades.                           |
+| `GET`     | `/status/{status}`      | Lista actividades según su estado.                     |
+| `PATCH`   | `/{activityId}/status`  | Actualiza el estado de una actividad.                  |
+
+**Ejemplo de Request Crear actividad**
+```json
+POST /api/v1/activities
+{
+  "name": "Inspección de maquinaria",
+  "status": "PENDING"
+}
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 10,
+  "name": "Inspección de maquinaria",
+  "status": "PENDING"
+}
+```
+
+**Ejemplo de Request Actualizar estado**
+```json
+PATCH /api/v1/activities/10/status
+{
+  "status": "IN_PROGRESS"
+}
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 10,
+  "name": "Inspección de maquinaria",
+  "status": "IN_PROGRESS"
+}
+```
+
+
+
+### TaskController – /api/v1/tasks
+
+| HTTP Verb | Endpoint                        | Descripción                                                        |
+| --------- | ------------------------------- | ------------------------------------------------------------------ |
+| `POST`    | `/`                              | Crea una nueva tarea.                                              |
+| `GET`     | `/{taskId}`                      | Obtiene una tarea por su ID.                                       |
+| `GET`     | `/activities/{activityId}`       | Lista todas las tareas asociadas a una actividad.                  |
+| `PATCH`   | `/{taskId}/employeeId`           | Actualiza el empleado asignado a una tarea.                        |
+| `PATCH`   | `/{taskId}/description`          | Actualiza la descripción de una tarea.                             |
+| `PATCH`   | `/{taskId}/status`               | Actualiza el estado de una tarea.                                  |
+| `GET`     | `/`                              | Lista todas las tareas del sistema.                                |
+| `GET`     | `/status/{status}`               | Lista todas las tareas según su estado.                            |
+
+**Ejemplo de Request Crear tarea**
+```json
+POST /api/v1/tasks
+{
+  "activityId": 10,
+  "description": "Revisión de filtros",
+  "employeeId": 3
+}
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 25,
+  "activityId": 10,
+  "description": "Revisión de filtros",
+  "employeeId": 3,
+  "status": "PENDING"
+}
+```
+
+**Ejemplo de Request Actualizar descripción**
+```json
+PATCH /api/v1/tasks/25/description
+{
+  "description": "Cambio de filtros"
+}
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 25,
+  "description": "Cambio de filtros"
+}
+```
+
+
+
+### TaskProgrammingController – /api/v1/task-programming
+
+| HTTP Verb | Endpoint                                 | Descripción                                                        |
+| --------- | ---------------------------------------- | ------------------------------------------------------------------ |
+| `POST`    | `/`                                      | Crea la programación de una tarea.                                 |
+| `GET`     | `/{programmingId}`                       | Obtiene una programación de tarea por su ID.                       |
+| `GET`     | `/tasks/{taskId}`                        | Lista las programaciones asociadas a una tarea.                    |
+| `PATCH`   | `/{taskProgrammingId}/time-interval`     | Actualiza el intervalo de tiempo de una programación.              |
+| `PATCH`   | `/{taskProgrammingId}/status`            | Actualiza el estado de una programación de tarea.                  |
+| `GET`     | `/`                                      | Lista todas las programaciones del sistema.                        |
+| `GET`     | `/activities/{activityId}`               | Lista las programaciones de tareas por actividad.                  |
+
+**Ejemplo de Request Crear programación**
+```json
+POST /api/v1/task-programming
+{
+  "taskId": 25,
+  "startTime": "2025-07-08T09:00:00",
+  "endTime": "2025-07-08T11:00:00"
+}
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 44,
+  "taskId": 25,
+  "startTime": "2025-07-08T09:00:00",
+  "endTime": "2025-07-08T11:00:00",
+  "status": "PLANNED"
+}
+```
+
+**Ejemplo de Request Actualizar intervalo**
+```json
+PATCH /api/v1/task-programming/44/time-interval
+{
+  "startTime": "2025-07-08T08:00:00",
+  "endTime": "2025-07-08T10:30:00"
+}
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 44,
+  "startTime": "2025-07-08T08:00:00",
+  "endTime": "2025-07-08T10:30:00"
+}
+```
+
+### EmployeeController – /api/v1/employees
+
+| HTTP Verb | Endpoint               | Descripción                                         |
+| --------- | ---------------------- | --------------------------------------------------- |
+| `POST`    | `/`                    | Crea un nuevo empleado.                             |
+| `GET`     | `/{employeeId}`        | Obtiene un empleado por su ID.                      |
+| `GET`     | `/`                    | Lista todos los empleados.                          |
+| `PATCH`   | `/{employeeId}/status` | Actualiza el estado (disponibilidad) de un empleado.|
+| `GET`     | `/status/{status}`     | Lista empleados por estado.                         |
+
+**Ejemplo de Request Crear empleado**
+```json
+POST /api/v1/employees
+{
+  "firstName": "Carlos",
+  "lastName": "Ramírez",
+  "positionId": 2,
+  "status": "AVAILABLE"
+}
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 12,
+  "firstName": "Carlos",
+  "lastName": "Ramírez",
+  "position": "Supervisor",
+  "status": "AVAILABLE"
+}
+```
+
+**Ejemplo de Request Actualizar estado**
+```json
+PATCH /api/v1/employees/12/status
+{
+  "status": "UNAVAILABLE"
+}
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 12,
+  "status": "UNAVAILABLE"
+}
+```
+
+
+
+### EquipmentController – /api/v1/equipment
+
+| HTTP Verb | Endpoint               | Descripción                                            |
+| --------- | ---------------------- | ------------------------------------------------------ |
+| `POST`    | `/`                    | Crea un nuevo equipo.                                  |
+| `GET`     | `/{equipmentId}`       | Obtiene un equipo por su ID.                           |
+| `GET`     | `/`                    | Lista todos los equipos.                               |
+| `PATCH`   | `/{equipmentId}/status`| Actualiza el estado (disponibilidad) de un equipo.     |
+| `GET`     | `/status/{status}`     | Lista equipos por estado de disponibilidad.            |
+
+**Ejemplo de Request Crear equipo**
+```json
+POST /api/v1/equipment
+{
+  "name": "Excavadora X200",
+  "status": "AVAILABLE"
+}
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 8,
+  "name": "Excavadora X200",
+  "status": "AVAILABLE"
+}
+```
+
+**Ejemplo de Request Actualizar estado**
+```json
+PATCH /api/v1/equipment/8/status
+{
+  "status": "IN_USE"
+}
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 8,
+  "status": "IN_USE"
+}
+```
+
+
+
+### PositionController – /api/v1/positions
+
+| HTTP Verb | Endpoint        | Descripción                            |
+| --------- | --------------- | -------------------------------------- |
+| `POST`    | `/`             | Crea un nuevo cargo o posición.        |
+| `GET`     | `/{positionId}` | Obtiene una posición por su ID.        |
+| `GET`     | `/`             | Lista todas las posiciones.            |
+
+**Ejemplo de Request Crear posición**
+```json
+POST /api/v1/positions
+{
+  "name": "Supervisor"
+}
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 2,
+  "name": "Supervisor"
+}
+```
+
+**Ejemplo de Request Obtener por ID**
+```json
+GET /api/v1/positions/2
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 2,
+  "name": "Supervisor"
+}
+```
+
+### ReservationController – /api/v1/reservations
+
+| HTTP Verb | Endpoint                             | Descripción                                                                 |
+| --------- | ------------------------------------ | --------------------------------------------------------------------------- |
+| `POST`    | `/`                                  | Crea una nueva reserva.                                                     |
+| `GET`     | `/{reservationId}`                   | Obtiene una reserva por su ID.                                              |
+| `GET`     | `/by-resource/{resourceType}/{id}`   | Lista las reservas asociadas a un tipo e ID de recurso (equipo, empleado).  |
+| `GET`     | `/`                                  | Lista todas las reservas.                                                   |
+
+**Ejemplo de Request Crear reserva**
+```json
+POST /api/v1/reservations
+{
+  "employeeId": 12,
+  "equipmentId": 8,
+  "startTime": "2025-07-08T08:00:00",
+  "endTime": "2025-07-08T10:00:00"
+}
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 5,
+  "employee": "Carlos Ramírez",
+  "equipment": "Excavadora X200",
+  "startTime": "2025-07-08T08:00:00",
+  "endTime": "2025-07-08T10:00:00"
+}
+```
+
+
+
+### TeamController – /api/v1/teams
+
+| HTTP Verb | Endpoint                                   | Descripción                                                       |
+| --------- | ------------------------------------------ | ----------------------------------------------------------------- |
+| `POST`    | `/`                                        | Crea un nuevo equipo.                                             |
+| `GET`     | `/{teamId}`                                | Obtiene un equipo por su ID.                                      |
+| `GET`     | `/`                                        | Lista todos los equipos.                                          |
+| `POST`    | `/teams/{teamId}/members`                 | Crea un nuevo miembro de equipo y lo asigna al equipo.            |
+| `GET`     | `/members/{memberId}`                      | Obtiene un miembro de equipo por su ID.                           |
+| `DELETE`  | `/teams/{teamId}/members/{memberId}`      | Elimina (desactiva) un miembro de un equipo.                      |
+
+**Ejemplo de Request Crear equipo**
+```json
+POST /api/v1/teams
+{
+  "name": "Equipo de Turno A"
+}
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 3,
+  "name": "Equipo de Turno A"
+}
+```
+
+**Ejemplo de Request Agregar miembro**
+```json
+POST /api/v1/teams/3/members
+{
+  "employeeId": 12
+}
+```
+
+**Ejemplo de Response**
+```json
+{
+  "id": 7,
+  "employeeId": 12,
+  "teamId": 3
+}
+```
+
+**Ejemplo de Request Eliminar miembro**
+```http
+DELETE /api/v1/teams/3/members/7
+```
+
+**Response**
+```http
+204 No Content
+```
+
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+
 ### 5.2.4.8. Team Collaboration Insights during Sprint.
+Durante el Sprint 4, el equipo trabajó de forma intensiva en la integración final del sistema. La colaboración entre áreas de backend y frontend fue clave para lograr una experiencia fluida para el usuario final. Se realizaron sesiones de debugging compartido, pruebas cruzadas y ajustes conjuntos.
+
+| Nombre                            | Actividad                                                                                           |
+|----------------------------------|-----------------------------------------------------------------------------------------------------|
+| **Natalia Bertha Roman Cruz**    | Validación e integración de servicios con frontend, pruebas funcionales, soporte en recursos.      |
+| **Angelo Hector Solano Armas**   | Lógica de programación de tareas, integración de endpoints con Angular.                            |
+| **Santiago Armando Baldeón Vivar** | Programación de lógica condicional, pruebas del módulo Planning y ejecución.                        |
+| **Sergio Sebastián Iglesias Pérez** | Ajustes de CORS, controladores y validación completa de Swagger UI.                                |
+| **Carlos Arturo Adrianzén Flores** | Soporte en validaciones, pruebas de integración y depuración de errores entre módulos.             |
+
+📌 **(Reemplazar con imagen de contribuciones GitHub del Sprint 4)**  
+`![GitHub Contributions - Sprint 4](assets/md-images/sprint4-github-activity.png)`
 
 ## 5.3. Validation Interviews
 
