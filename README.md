@@ -7662,7 +7662,7 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - [Video exposición TB1](https://youtu.be/BFcNvl_Vn40)
 - [Video exposición TP1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215705_upc_edu_pe/EXQFdS5PbwRFgN0f2Xpt6KIB-W6afw9Q_1Uk9mtvM41nNw?e=bMwBdc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - [Video exposición TB2](https://youtu.be/2Wihmg0JOv0)
-- [Video exposición TF](https://drive.google.com/file/d/14LyXuXGl3NNd7zoL0WXqqaiHjLPCiMRM/view?usp=sharing)
+- [Video exposición TF](https://drive.google.com/file/d/15kWdiyJuFFxQaf2NiS3Jri_VO_M1HVfF/view?usp=sharing)
 - [Entrevistas](https://drive.google.com/file/d/1udzj8dn2yLbXioaveQDqf2aTqAV0QMet/view?usp=sharing)
 - [About the product viejo](https://youtu.be/0kiDjPnpHq0)
 - [About the product nuevo](https://drive.google.com/file/d/1tiqeFDFzL45ZcO2iCoUBIpvFBhvdRNzd/view?usp=sharing)
