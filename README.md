@@ -5193,11 +5193,11 @@ Diagrama de clases basado en bounded contexts:
 </div>
 
 <div>
-  <p align="center"><img src="assets/md-images/DIAGMRAAMS/BILLING/Domain2.png" alt="CD" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/BILLING/2.png" alt="CD" width="700px" /></p>
 </div>
 
 <div>
-  <p align="center"><img src="assets/md-images/DIAGMRAAMS/BILLING/domain3.png" alt="CD" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/BILLING/3.png" alt="CD" width="700px" /></p>
 </div>
 
 
