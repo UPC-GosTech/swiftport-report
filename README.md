@@ -5440,7 +5440,7 @@ Durante el Sprint 4, se lograron las siguientes metas principales:
 
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.
-Durante este sprint se validaron todos los servicios REST desarrollados, incluyendo pruebas desde el frontend y ajustes necesarios para la compatibilidad. A continuación se presentan algunos de los servicios documentados y sus respuestas:
+Durante el Sprint 4 se completó la documentación de todos los endpoints correspondientes. Utilizando OpenAPI y Swagger UI, se definieron los contratos de los servicios, incluyendo los métodos HTTP, parámetros de entrada, estructuras de respuesta y ejemplos con datos reales.
 
 ###  ZoneController – /api/v1/zones
 
@@ -6015,6 +6015,9 @@ DELETE /api/v1/teams/3/members/7
 ```http
 204 No Content
 ```
+
+ [Repositorio Web Services - SwiftPort](https://github.com/UPC-GosTech/swiftport-backend)
+
 
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
