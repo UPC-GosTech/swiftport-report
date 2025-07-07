@@ -7311,6 +7311,8 @@ Validar la usabilidad, claridad y efectividad de la aplicación SwiftPort desde 
 
 ### 5.3.2. Registro de Entrevistas
 
+[Video Entrevistas]([https://youtu.be/BFcNvl_Vn40](https://drive.google.com/file/d/1udzj8dn2yLbXioaveQDqf2aTqAV0QMet/view?usp=sharing))
+
 ### Entrevista 1:  
 **Operarios**
 
@@ -7319,7 +7321,7 @@ Validar la usabilidad, claridad y efectividad de la aplicación SwiftPort desde 
 | **Edad**                     | 25 Años                            |
 | **Profesión**                | Operario                           |
 | **Departamento**             | Lima, Perú                         |
-| **Duración de la Entrevista**| 05:33 min                          |
+| **Duración de la Entrevista**| 00:05 a 05:36 min                          |
 
 ### Análisis de la Entrevista
 
@@ -7331,26 +7333,6 @@ Validar la usabilidad, claridad y efectividad de la aplicación SwiftPort desde 
 | **Consulta de Incidencias**           | Las incidencias registradas fueron fáciles de encontrar. La sección podría mejorar visualmente y con filtros adicionales para facilitar la búsqueda. |
 
 ### Entrevista 2:  
-**Operarios**
-
-| **Nombre Entrevistado**       | Anedyib Pérez                     |
-|------------------------------|------------------------------------|
-| **Edad**                     | 25 Años                            |
-| **Profesión**                | Operaria                           |
-| **Departamento**             | Lima, Perú                         |
-| **Duración de la Entrevista**| 02:37 min                          |
-
-### Análisis de la Entrevista
-
-| **Sección**                               | **Observación** |
-|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Inicio de sesión**             | El inicio de sesión fue rápido y sencillo. El mensaje de error fue claro, explicando el problema y permitiendo corregirlo sin complicaciones. |
-| **Actualización de Tareas**                | Cambiar el estado de las tareas fue fácil y el sistema confirmó que los cambios se guardaron correctamente con un mensaje emergente. |
-| **Reprogramación de Tareas** | Reprogramar tareas fue fácil al arrastrarlas en el calendario, y el sistema actualizó el horario sin problemas. También se recibió una notificación confirmando la actualización. |
-| **Consulta de Incidencias**           | Las incidencias fueron fáciles de encontrar. Se sugirió agregar la opción de añadir comentarios a las incidencias y recibir notificaciones automáticas cuando se resuelvan. |
-
-
-### Entrevista 3:  
 **Supervisores**
 
 | **Nombre Entrevistado**       | Matias Salcedo                   |
@@ -7358,7 +7340,7 @@ Validar la usabilidad, claridad y efectividad de la aplicación SwiftPort desde 
 | **Edad**                     | 25 Años                            |
 | **Profesión**                | Supervisor                         |
 | **Departamento**             | Lima, Perú                         |
-| **Duración de la Entrevista**| 04:31 min                          |
+| **Duración de la Entrevista**| 05:36 a 10:06 min                          |
 
 ### Análisis de la Entrevista
 
@@ -7370,7 +7352,7 @@ Validar la usabilidad, claridad y efectividad de la aplicación SwiftPort desde 
 | **Gestión de Usuarios**           | La edición y bloqueo de usuarios fue fácil. El sistema tiene una interfaz intuitiva, y los iconos de acción eran claros, sin necesidad de texto o ayuda adicional. |
 | **Historial de Ejecución**                    | Buscar tareas ejecutadas fue sencillo. Aunque no probó la función de exportación, sugirió que sería útil poder exportar los datos a formatos como Excel para análisis detallados y generación de reportes. |
 
-### Entrevista 4:  
+### Entrevista 3:  
 **Supervisores**
 
 | **Nombre Entrevistado**       | Taira Millones                    |
@@ -7378,7 +7360,7 @@ Validar la usabilidad, claridad y efectividad de la aplicación SwiftPort desde 
 | **Edad**                     | 24 Años                            |
 | **Profesión**                | Supervisor                         |
 | **Departamento**             | Lima, Perú                         |
-| **Duración de la Entrevista**| 04:52 min                          |
+| **Duración de la Entrevista**| 10:06 a 14:22 min                          |
 
 ### Análisis de la Entrevista
 
@@ -7389,6 +7371,65 @@ Validar la usabilidad, claridad y efectividad de la aplicación SwiftPort desde 
 | **Visualización del Dashboard** | La información en el Dashboard estaba bien estructurada, lo que permitió entender rápidamente los datos relacionados con los envíos, entregas y recursos. El diseño era limpio y ayudaba a tomar decisiones de forma ágil. |
 | **Gestión de Usuarios**           | Modificar o bloquear usuarios fue un proceso simple y directo. La interfaz intuitiva hizo que estas acciones se realizaran de manera rápida, y los iconos eran fáciles de comprender sin necesidad de ayuda adicional. |
 | **Historial de Ejecución**                    | La búsqueda de tareas pasadas fue rápida y sencilla. Aunque no utilizó la función de exportación, sugirió que sería útil contar con la opción de exportar los datos a formatos como Excel para un análisis más detallado o para generar reportes. |
+
+### Entrevista 4:  
+**Operarios**
+
+| **Nombre Entrevistado**       | Anedyib Pérez                     |
+|------------------------------|------------------------------------|
+| **Edad**                     | 25 Años                            |
+| **Profesión**                | Operaria                           |
+| **Departamento**             | Lima, Perú                         |
+| **Duración de la Entrevista**| 14:22 a 17:10 min                          |
+
+### Análisis de la Entrevista
+
+| **Sección**                               | **Observación** |
+|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Inicio de sesión**             | El inicio de sesión fue rápido y sencillo. El mensaje de error fue claro, explicando el problema y permitiendo corregirlo sin complicaciones. |
+| **Actualización de Tareas**                | Cambiar el estado de las tareas fue fácil y el sistema confirmó que los cambios se guardaron correctamente con un mensaje emergente. |
+| **Reprogramación de Tareas** | Reprogramar tareas fue fácil al arrastrarlas en el calendario, y el sistema actualizó el horario sin problemas. También se recibió una notificación confirmando la actualización. |
+| **Consulta de Incidencias**           | Las incidencias fueron fáciles de encontrar. Se sugirió agregar la opción de añadir comentarios a las incidencias y recibir notificaciones automáticas cuando se resuelvan. |
+
+### Entrevista 5:  
+**Supervisores**
+
+| **Nombre Entrevistado**       | Mariana Gonzales                    |
+|------------------------------|------------------------------------|
+| **Edad**                     | 24 Años                            |
+| **Profesión**                | Supervisor                         |
+| **Departamento**             | Lima, Perú                         |
+| **Duración de la Entrevista**| 17:10 a 19:46 min                          |
+
+### Análisis de la Entrevista
+
+| **Sección**                               | **Observación**       |
+|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Inicio de sesión**                      | Mariana no tuvo problemas para ingresar al sistema; todo fue fluido y rápido. El mensaje de error en caso de datos inválidos fue claro y directo, indicándole exactamente qué debía corregir sin dejar lugar a dudas. |
+| **Actualización de tareas**               | Cambiar el estado de una tarea fue muy sencillo para Mariana. Solo tuvo que seleccionar el estado adecuado y todo se actualizó rápidamente. El sistema también mostró un mensaje de confirmación, lo que le dio tranquilidad de que los cambios se habían guardado correctamente. |
+| **Reprogramación de tareas**              | Reprogramar tareas fue fácil para Mariana, ya que solo tuvo que arrastrar la tarea al nuevo horario y el sistema actualizó la información instantáneamente. Además, recibió una notificación de confirmación, asegurándose de que el proceso fue exitoso. |
+| **Consulta de incidencias**               | Mariana encontró la sección de incidencias bien organizada, lo que le permitió encontrar rápidamente las incidencias utilizando los filtros disponibles. Sugerió que sería útil poder agregar notas o comentarios directamente en cada incidencia para tener más contexto al consultar los detalles. |
+
+### Entrevista 6:  
+**Supervisores**
+
+| **Nombre Entrevistado**       | Fabricio Buselleu                    |
+|------------------------------|------------------------------------|
+| **Edad**                     | 24 Años                            |
+| **Profesión**                | Supervisor                         |
+| **Departamento**             | Lima, Perú                         |
+| **Duración de la Entrevista**| 19:46 a 24:29 min                          |
+
+### Análisis de la Entrevista
+
+| **Sección**                               | **Observación**       |
+|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Inicio de sesión**                      | El formulario de inicio de sesión fue claro y fácil de entender, con campos bien etiquetados y una estructura intuitiva. Cuando se ingresaron credenciales incorrectas, el sistema mostró un mensaje de error específico, lo que ayudó a entender el problema rápidamente. También mostró un indicador de carga durante el proceso. |
+| **Navegación entre módulos**              | La navegación entre módulos fue sencilla para el usuario. El menú lateral estaba bien estructurado, permitiendo un acceso rápido a las secciones de “Tareas”, “Fases” e “Incidencias”. La interfaz indicaba claramente la sección activa, lo que facilitó la orientación. Se sugirió agregar una opción para personalizar el orden de los módulos según las preferencias del usuario. |
+| **Visualización del Dashboard**           | El usuario entendió fácilmente los datos de clima logístico, como envíos, entregas y recursos, gracias a una presentación clara de las métricas. El diseño del Dashboard fue útil y comprensible, con una disposición lógica de los elementos y gráficos bien organizados para facilitar la interpretación rápida de la información. |
+| **Gestión de usuarios**                   | Editar o bloquear un usuario fue sencillo debido a la visibilidad y accesibilidad de las opciones en el panel de administración. Los iconos de acción eran comprensibles, aunque se sugirió agregar una pequeña descripción emergente para mejorar la accesibilidad, especialmente para nuevos usuarios. |
+| **Historial de ejecución**                | La búsqueda de tareas ejecutadas fue positiva, con una función de búsqueda rápida y efectiva. Aunque no se probó la función de exportación, el usuario la considera interesante y posiblemente útil. |
+
 
 ### 5.3.3. Evaluaciones según heurísticas
 
@@ -7605,13 +7646,18 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - [Video exposición TB1](https://youtu.be/BFcNvl_Vn40)
 - [Video exposición TP1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215705_upc_edu_pe/EXQFdS5PbwRFgN0f2Xpt6KIB-W6afw9Q_1Uk9mtvM41nNw?e=bMwBdc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - [Video exposición TB2](https://youtu.be/2Wihmg0JOv0)
-- [About the product](https://youtu.be/0kiDjPnpHq0)
-- [About the team](https://youtu.be/tQraiV9aHSU)
+- [Video exposición TF](https://drive.google.com/file/d/14LyXuXGl3NNd7zoL0WXqqaiHjLPCiMRM/view?usp=sharing)
+- [Entrevistas](https://drive.google.com/file/d/1udzj8dn2yLbXioaveQDqf2aTqAV0QMet/view?usp=sharing)
+- [About the product viejo](https://youtu.be/0kiDjPnpHq0)
+- [About the product nuevo](https://drive.google.com/file/d/1tiqeFDFzL45ZcO2iCoUBIpvFBhvdRNzd/view?usp=sharing)
+- [About the team viejo](https://youtu.be/tQraiV9aHSU)
+- [About the team nuevo](https://drive.google.com/file/d/1wGj20qWDBsI5_AlkcgN74566VRAP-K2J/view?usp=sharing)
 - [Landing Page desplegado del proyecto](https://black-desert-0b23d3a0f.6.azurestaticapps.net)
 - [Repositorio de la Landing Page](https://github.com/UPC-GosTech/swiftport-landing-page)
 - [Documentación del Proyecto](https://github.com/UPC-GosTech/swiftport-report)
 - [Diagramas del Proyecto](https://github.com/UPC-GosTech/swiftport-docs)
 - [Aplicación Web desplegada del proyecto](https://yellow-flower-081ba590f.6.azurestaticapps.net/)
 - [Repositorio de la aplicación backend](http://swiftport-api.azurewebsites.net)
+- [Repositorio de los unit test](https://github.com/UPC-GosTech/testing)
 
 
