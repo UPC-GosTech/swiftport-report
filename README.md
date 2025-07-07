@@ -2748,11 +2748,11 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <td>Como desarrollador, quiero obtener la información de un usuario específico por su ID, para visualizar sus datos.</td>
   <td>
     Escenario 1: Usuario encontrado<br>
-    DADO un ID válido<br>
+    DADO que se ingresa un ID válido<br>
     CUANDO hago GET a /api/v1/users/{userId}<br>
     ENTONCES obtengo el recurso del usuario con estado 200<br><br>
     Escenario 2: Usuario no encontrado<br>
-    DADO que un ID de usuario inexistente<br>
+    DADO que se ingresa un ID de usuario inexistente<br>
     CUANDO realizo la solicitud GET a /api/v1/users/{userId}<br>
     ENTONCES recibo una respuesta con código 404 Not Found y un cuerpo de error JSON
   </td>
@@ -2780,11 +2780,11 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <td>Como desarrollador, quiero actualizar los datos de un usuario por su ID, para modificar su información personal o de rol.</td>
   <td>
     Escenario 1: Actualización exitosa<br>
-    DADO un ID válido y datos correctos<br>
+    DADO que ingreso un ID válido y datos correctos<br>
     CUANDO realizo PUT a /api/v1/users/{userId}<br>
     ENTONCES se actualiza y retorna el usuario actualizado con estado 200<br><br>
     Escenario 2: Usuario no encontrado<br>
-    DADO un ID inexistente<br>
+    DADO que ingreso un ID inexistente<br>
     CUANDO realizo la solicitud<br>
     ENTONCES se devuelve estado 404
   </td>
