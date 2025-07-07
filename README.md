@@ -5063,11 +5063,56 @@ Diagrama de clases basado en bounded contexts:
   <p align="center"><img src="assets/md-images/class-diagram/resources-class-diagram.png" alt="Resource Class Diagram" width="700px" /></p>
 </div>
 
+* Domain
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/REsOURCE/domain.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
+* Infrastructure 
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/REsOURCE/infrastructure.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
+* Interfaces
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/REsOURCE/interfaces.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
+* Application
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/REsOURCE/aaplication.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
+
+
 * Plannification Context
 
 <div>
   <p align="center"><img src="assets/md-images/class-diagram/planification-class-diagram.png" alt="Plannification Class Diagram" width="700px" /></p>
 </div>
+
+* Domain
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/PLANIFICATION/domain.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
+* Infrastructure y Application
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/PLANIFICATION/app-infrast.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
+* Interfaces
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/PLANIFICATION/interfaces.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
 
 * Execution Context
 
@@ -5075,23 +5120,85 @@ Diagrama de clases basado en bounded contexts:
   <p align="center"><img src="assets/md-images/class-diagram/execution-class-diagram.png" alt="Execution Class Diagram" width="700px" /></p>
 </div>
 
-* IAM Context
+* Domain
 
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/EXECUTION/domain.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
+* Infrastructure 
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/EXECUTION/infrastructure.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
+* Interfaces
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/EXECUTION/interface.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
+* Application
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/EXECUTION/aaplication.png" alt="Resource Class Diagram" width="700px" /></p>
+</div>
+
+
+
+* IAM Context
 <div>
   <p align="center"><img src="assets/md-images/class-diagram/iam-class-diagram.png" alt="IAM  Class Diagram" width="700px" /></p>
 </div>
 
+* Domain
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/IAM/domain.png" alt="CD" width="700px" /></p>
+</div>
+
+* Infrastructure 
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/IAM/infrastructure.png" alt="CD" width="700px" /></p>
+</div>
+
+* Interfaces
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/IAM/interfaces.png" alt="CD" width="700px" /></p>
+</div>
+
+* Application
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/IAM/Application.png" alt="CD" width="700px" /></p>
+</div>
+
+
 * Notifications Context
 
 <div>
-  <p align="center"><img src="assets/md-images/class-diagram/notifications-class-diagram.png" alt="Notifications Class Diagram" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/NotificationsContext.png" alt="CD" width="700px" /></p>
 </div>
 
 * Billing Context
 
 <div>
-  <p align="center"><img src="assets/md-images/class-diagram/billing-class-diagram.png" alt="Billing  Class Diagram" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/class-diagram/billing-class-diagram.png" alt="CD" width="700px" /></p>
 </div>
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/BILLING/domain.png" alt="CD" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/DIAGMRAAMS/BILLING/Domain2.png" alt="CD" width="700px" /></p>
+</div>
+
+
+
+
 
 ### 4.7.2. Class Dictionary
 
