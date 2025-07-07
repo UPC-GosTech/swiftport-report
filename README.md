@@ -7616,6 +7616,18 @@ __Validación con usuarios reales__
 
 Durante el tercer sprint también se diseñaron y ejecutaron entrevistas de validación con usuarios, cuyo feedback fue clave para ajustar aspectos del diseño y funcionalidad del sistema. A través de la aplicación de heurísticas de usabilidad y la recopilación de observaciones cualitativas, se identificaron oportunidades de mejora que ya comenzaron a ser incorporadas en esta entrega.
 
+__Aplicación de DDD__
+
+A través de todo el desarrollo del proyecto hemos considerado la aplicación de Domain Driven para mantener un orden y estructura óptima. Esto nos ayudó a alinearnos con las necesidades del negocio y a identificar los aspectos que podían ser agrupados en dominios, de forma que pudimos trabajar en cada uno progresivamente y posteriormente conectarlos. 
+
+__Reglas del negocio__
+
+Al aplicar DDD, consideramos la aplicación de las reglas del negocio para asegurar un funcionamiento óptimo de nuestra aplicación. Dentro de las mismas, tomamos en cuenta el correcto registro de elementos, es decir, estos debían contar con un ID válido, así como el resto de sus campos debían recibir solo el tipo de dato que necesitaban y, por supuesto, debían estar completos a menos de que fuesen opcionales. Esto ayuda a evitar registros incorrectos que pudieran derivar en problemas o retrasos para la empresa contratante.
+
+__Colaboración de equipo__
+
+Para la creación de tanto el frontend como backend, optamos por dividirnos las tareas de forma equitativa y tener reuniones de equipo regularmente para revisar nuestros avances, de forma que todos estábamos enterados de lo que se tenía en proceso y podíamos realizar sugerencias hacia nuestros compañeros.
+
 ## 6.2. Recomendaciones
 
 Dado que hemos terminado con un avance del presente trabajo, nos gustaría incluir algunas recomendaciones en cuanto a su elaboración e implementación, ya sea punto que no hemos podido tocar dadas ciertas limitaciones o que nos gustaría incluir en el futuro.
@@ -7623,6 +7635,8 @@ Dado que hemos terminado con un avance del presente trabajo, nos gustaría inclu
 En primer lugar, nos gustaría incluir una sección de alertas frente a emergencia que también llegue como notificación al correo u otro canal de mensajería de preferencia de la empresa. Se sabe que, dentro del ámbito en que nos enfocamos, pueden existir urgencias o problemas durante el traslado de un envío. Este tipo de eventos deben ser atendidos con urgencia, por lo que recibir una alerta en el momento sería de alta utilidad tanto para operadores como para supervisores.
 
 En segundo lugar, nos gustaría expandir los usuarios de la aplicación, dando acceso también a la empresa que está contratando los servicios de envíos. Este sería un acceso más limitado, dado que solo podría visualizar ciertas partes de sus envíos para estar al tanto de la situación, mas si se incluye una sección en donde pueda realizar nuevas solicitudes de envíos, esto sería altamente útil para la organización y actividades de ambas empresas.
+
+En tercer lugar, nos gustaría recomendar que se utilicen más servicios externos que permitan ingresar nuevas funcionalidades a la aplicación propuesta. Esto puede comenzar por integrar otras formas de pago para que el cliente no tenga dificultades al contratar el servicio así como coloca servicios de mapa interactivo con la capacidad de guiarte en tu ruta o la opción de generación de QRs para tracking.
 
 Por último, nos gustaría, una vez implementado el producto en el mercado, realizar reuniones cortas mensuales con algunos supervisores y operarios de forma que ellos tengan la oportunidad de exponernos en persona aquellas funcionalidad que les han causado problemas, aquellas que más les gustan y aquellas que les gustaría que se implementen en un futuro. Así, recibiríamos feedback constantemente y podríamos mejorar nuestras funciones a favor de los más interesados. Al mismo tiempo, podríamos preguntarles su opinión cuando ya hayamos implementado algo nuevo respecto a lo mencionado.
 
