@@ -7101,7 +7101,7 @@ DELETE /api/v1/teams/3/members/7
 
 Durante este sprint no se realizó ningún despliegue específico, para ver el proceso de despliegue del FrontEnd y el BackEnd de la aplicación puede revisar los puntos correspondientes al sprint 2 y 3 correspondientemente.
 
-### 5.2.4.8. Team Collaboration Insights during Sprint.
+### 5.2.4.8. Team Collaboration Insights during Sprint 4.
 Durante el Sprint 4, el equipo trabajó de forma intensiva en la integración final del sistema. La colaboración entre áreas de backend y frontend fue clave para lograr una experiencia fluida para el usuario final. Se realizaron sesiones de debugging compartido, pruebas cruzadas y ajustes conjuntos.
 
 | Nombre                            | Actividad                                                                                           |
