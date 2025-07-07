@@ -87,6 +87,20 @@ Para el desarrollo de la parte del informe correspondiente al TB2, se dividió l
 
 El proceso de colaboración durante el informe se realizó tanto con commits como compartiendo avances a través de documentos de google. 
 
+
+
+**TF**
+
+Para el desarrollo de la parte del informe correspondiente al TF, se dividió la implementación de secciones de la siguiente forma entre los integrantes del grupo:
+
+| **Integrantes**                  | **Tareas asignadas** |
+| ---------------------------------|----------------------|
+| Roman Cruz, Natalia Bertha       | Sprint Planning 4, Aspect Leaders and Collaborators |
+| Solano Armas, Angelo Hector      | Sprint Backlog 4, Development Evidence for Sprint Review |
+| Iglesias Pérez, Sergio Sebastián | Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review |
+| Baldeón Vivar, Santiago Armando  | Software Deployment Evidence for Sprint Review |
+|  Adrianzén Flores, Carlos Arturo | Team Collaboration Insights during Sprint 4 |
+
 ---
 
 ## Github Collaboration Insights
@@ -138,6 +152,15 @@ __TB2__
   <p><img src="assets/md-images/github-insights/github-insights-TB2-B.jpg.png" alt="Overview TB2" width="700px" /></p>
 </div>
 
+
+__TF__
+
+<div>
+  <p><img src="assets/md-images/github-insights/github-insights-TF-A.jpg.png" alt="Contributors TB2" width="700px" /></p>
+</div>
+<div>
+  <p><img src="assets/md-images/github-insights/github-insights-TF-B.jpg.png" alt="Overview TB2" width="700px" /></p>
+</div>
 ---
 
 ## Students Outcomes
