@@ -5617,8 +5617,27 @@ A continuación se documentan todas las clases, interfaces y enums del diagrama 
 ### 4.8.1. Database Diagram
 
 <div>
-  <p align="center"><img src="assets/md-images/database-diagram/swiftport-database-diagram.png" alt="Database Diagram" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/DATABASE DIAGRAM/COMPLETO.jpg" alt="Database Diagram" width="700px" /></p>
 </div>
+
+Para una mejor visualizacion se muestra el diagrama por partes:
+
+<div>
+  <p align="center"><img src="assets/md-images/DATABASE DIAGRAM/1.jpg" alt="Database Diagram" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/DATABASE DIAGRAM/2.jpg" alt="Database Diagram" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/DATABASE DIAGRAM/3.jpg" alt="Database Diagram" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/md-images/DATABASE DIAGRAM/4.jpg" alt="Database Diagram" width="700px" /></p>
+</div>
+
 
 # 5. Capítulo V: Product Implementation, Validation & Deployment
 
