@@ -161,7 +161,7 @@ __TF__
 <div>
   <p><img src="assets/md-images/github-insights/github-insights-TF-B.jpg" alt="Overview TF" width="700px" /></p>
 </div>
----
+
 
 ## Students Outcomes
 
@@ -205,6 +205,12 @@ __TF__
         <li>Implementación de Resources</li>
         <li>Implementación de Plannification</li>
       </ul>
+      TF
+       <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Avance del codigo</li>
+        <li>Sprint planning 4</li>
+        <li>Aspect Leaders and Collaborators</li>
+      </ul>
       <strong>Solano Armas, Angelo Hector</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Assumptions</li>
@@ -233,6 +239,12 @@ __TF__
         <li>Sprint 3</li>
         <li>Soporte en diagramas </li>
       </ul>
+      TF
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Avance del codigo</li>
+        <li>Sprint Backlog 4</li>
+        <li>Development Evidence for Sprint Review</li>
+      </ul>
       <strong>Iglesias Pérez, Sergio Sebastián</strong> 
       <br>TB1
         <ul>
@@ -258,6 +270,12 @@ __TF__
         <li>Implementación de Iam</li>
         <li>Despliegue</li>
       </ul>
+      TF
+       <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Avance del codigo</li>
+        <li>Services Documentation Evidence for Sprint Revie</li>
+        <li>Software Deployment Evidence for Sprint Review</li>
+      </ul>
       <strong>Baldeón Vivar, Santiago Armando</strong> 
       <br>TB1
       <ul>
@@ -282,6 +300,11 @@ __TF__
         <li>Video about the product</li>
         <li>Diseño y análisis de entrevistas</li>
       </ul>
+      TF
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Sprint Backlog 4</li>
+        <li>Development Evidence for Sprint Review</li>
+      </ul>
       <strong>Adrianzén Flores, Carlos Arturo</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Analisis de competidores</li>
@@ -302,32 +325,36 @@ __TF__
         <li>Soporte en diagramas </li>
         <li>Soporte en heurísticas</li>
       </ul>
+      TF
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Team Collaboration Insights during Sprint</li>
+      </ul>
     </td>
-    <td style="border: 1px solid white; padding: 8px;">TB1: Al haber concluido con la primera entrega, hemos llegado a la conclusión de que logramos comunicarnos no solamente a través de las grabaciones incluídas, las cuales son las entrevistas y video de exposición, sino también antes los maestros que consultamos para la realización del trabajo y entre nosotros mismos como grupo y nuestros demás compañeros. Al comunicarnos, logramos expresar nuestras ideas de forma clara, comprensible, respetuosa y con un lenguaje adecuado acorde con el contexto.<br><br>TP: Al haber concluido la segunda entrega (entrega parcial), hemos llegado a la conclusión de que la comunicación oral es fundamental para el desarrollo de cualquier trabajo en equipo, esta permite seguir repartiendo las partes de buena forma. Además la comunicación permite ir dando retroalimentaciones positivas sobre lo que se va haciendo en el trabajo.<br><br>TB2:En esta entrega de la TB2, la comunicación oral fue clave durante la exposición del sistema completo y el sustento de los aportes individuales. Cada integrante logró defender con claridad sus entregables, usando un lenguaje técnico y adecuado al nivel del jurado evaluador. Además, las presentaciones grabadas y en vivo permitieron conectar los módulos desarrollados, evidenciando dominio y colaboración grupal.</td>
+    <td style="border: 1px solid white; padding: 8px;">TB1: Al haber concluido con la primera entrega, hemos llegado a la conclusión de que logramos comunicarnos no solamente a través de las grabaciones incluídas, las cuales son las entrevistas y video de exposición, sino también antes los maestros que consultamos para la realización del trabajo y entre nosotros mismos como grupo y nuestros demás compañeros. Al comunicarnos, logramos expresar nuestras ideas de forma clara, comprensible, respetuosa y con un lenguaje adecuado acorde con el contexto.<br><br>TP: Al haber concluido la segunda entrega (entrega parcial), hemos llegado a la conclusión de que la comunicación oral es fundamental para el desarrollo de cualquier trabajo en equipo, esta permite seguir repartiendo las partes de buena forma. Además la comunicación permite ir dando retroalimentaciones positivas sobre lo que se va haciendo en el trabajo.<br><br>TB2:En esta entrega de la TB2, la comunicación oral fue clave durante la exposición del sistema completo y el sustento de los aportes individuales. Cada integrante logró defender con claridad sus entregables, usando un lenguaje técnico y adecuado al nivel del jurado evaluador. Además, las presentaciones grabadas y en vivo permitieron conectar los módulos desarrollados, evidenciando dominio y colaboración grupal.<br><br>TF: En esta entrega, la comunicación oral siempre fue clave, mediante esta se pudo realizar la repartición del trabajo y además comunicar que es lo que creiamos que estaba mal y que podía mejorar. Todos pudimos participar oralmente para manejar el proyecto de forma correcta.</td>
   </tr>
   <tr>
     <td style="border: 1px solid white; padding: 8px;">Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
     <td style="border: 1px solid white; padding: 8px;">
       <strong>Roman Cruz, Natalia Bertha</strong> 
       <br>TB1
-        <ul style="margin-top: 5px; padding-left: 20px;">
-          <li>Antecedentes y problemática</li>
-          <li>Lean UX Problem Statements</li>
-          <li>Análisis de entrevistas</li>
-          <li>Needfinding</li>
-          <li>Requirements Specification</li>
-          <li>Organization Systems</li>
-          <li>Labeling Systems</li>
-          <li>Web Applications Wireflow Diagrams</li>
-          <li>Domain-Driven Software Architecture</li>
-          <li>Software Object-Oriented Design</li>
-          <li>Database Design</li>
-          <li>Team Collaboration Insights during Sprint</li>
-          <li>Landing page</li>
-          <li>Conclusiones</li>
-          <li>Recomendaciones</li>
-        </ul>
-        TP
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Antecedentes y problemática</li>
+        <li>Lean UX Problem Statements</li>
+        <li>Análisis de entrevistas</li>
+        <li>Needfinding</li>
+        <li>Requirements Specification</li>
+        <li>Organization Systems</li>
+        <li>Labeling Systems</li>
+        <li>Web Applications Wireflow Diagrams</li>
+        <li>Domain-Driven Software Architecture</li>
+        <li>Software Object-Oriented Design</li>
+        <li>Database Design</li>
+        <li>Team Collaboration Insights during Sprint</li>
+        <li>Landing page</li>
+        <li>Conclusiones</li>
+        <li>Recomendaciones</li>
+      </ul>
+      TP
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Vistas de la aplicación web</li>
         <li>Sprint Planning 2</li>
@@ -339,39 +366,49 @@ __TF__
         <li>Implementación de Resources</li>
         <li>Implementación de Plannification</li>
       </ul>
-      <strong>Solano Armas, Angelo Hector</strong> 
-      <br>TB1
-        <ul style="margin-top: 5px; padding-left: 20px;">
-          <li>Assumptions</li>
-          <li>Hypothesis Statements</li>
-          <li>Análisis de Entrevistas</li>
-          <li>Needfinding</li>
-          <li>Requirements Specification</li>
-          <li>Searching Systems</li>
-          <li>Navigation Systems</li>
-          <li>Wireframes</li>
-          <li>Domain-Driven Software Architecture</li>
-          <li>Database Diagram</li>
-          <li>Class Diagram</li>
-          <li>Aspect Leaders and Collaborators</li>
-          <li>Development Evidence for Sprint</li>
-          <li>Landing Page</li>
-        </ul>
-        TP
+      TF
+       <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Avance del codigo</li>
+        <li>Sprint planning 4</li>
+        <li>Aspect Leaders and Collaborators</li>
+      </ul>
+      <strong>Solano Armas, Angelo Hector</strong> <br>TB1
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Assumptions</li>
+        <li>Hypothesis Statements</li>
+        <li>Análisis de Entrevistas</li>
+        <li>Needfinding</li>
+        <li>Requirements Specification</li>
+        <li>Searching Systems</li>
+        <li>Navigation Systems</li>
+        <li>Wireframes</li>
+        <li>Domain-Driven Software Architecture</li>
+        <li>Database Diagram</li>
+        <li>Class Diagram</li>
+        <li>Aspect Leaders and Collaborators</li>
+        <li>Development Evidence for Sprint</li>
+        <li>Landing Page</li>
+      </ul>
+      TP
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Vistas de la aplicación web</li>
         <li>Sprint Backlog 2</li>
         <li>Development Evidence for Sprint Review</li>
       </ul>
-      TB2
+        TB2
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Sprint 3</li>
         <li>Soporte en diagramas </li>
       </ul>
-      <strong>Iglesias Pérez, Sergio Sebastián</strong>
+      TF
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Avance del codigo</li>
+        <li>Sprint Backlog 4</li>
+        <li>Development Evidence for Sprint Review</li>
+      </ul>
+      <strong>Iglesias Pérez, Sergio Sebastián</strong> 
       <br>TB1
         <ul>
-          <li>Descripción del startup</li>
           <li>Segmentos Objetivos</li>
           <li>Diseño de entrevistas</li>
           <li>Ubiquitous Language</li>
@@ -381,12 +418,8 @@ __TF__
           <li>Class Diagrams</li>
           <li>Class Dictionary</li>
           <li>Database Diagram</li>
-          <li>Software Development Enviroment Configuration</li>
-          <li>Source Code Management</li>
-          <li>Source Code Style Guide & Conventions</li>
-          <li>Software Deployment Configuration</li>
         </ul>
-         TP
+      TP
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Vistas de la aplicación web</li>
         <li>Execution Evidence for Sprint Review</li>
@@ -398,8 +431,15 @@ __TF__
         <li>Implementación de Iam</li>
         <li>Despliegue</li>
       </ul>
-      <strong>Baldeón Vivar, Santiago Armando</strong> <br>TB1
-        <ul>
+      TF
+       <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Avance del codigo</li>
+        <li>Services Documentation Evidence for Sprint Revie</li>
+        <li>Software Deployment Evidence for Sprint Review</li>
+      </ul>
+      <strong>Baldeón Vivar, Santiago Armando</strong> 
+      <br>TB1
+      <ul>
           <li>Canvas</li>
           <li>Diseño de entrevistas</li>
           <li>Style Guidelines</li>
@@ -415,11 +455,16 @@ __TF__
         <li>Vistas de la aplicación web</li>
         <li>Software Deployment Evidence for Sprint Review</li>
       </ul>
-      TB2
+          TB2
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Video about the team</li>
         <li>Video about the product</li>
         <li>Diseño y análisis de entrevistas</li>
+      </ul>
+      TF
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Sprint Backlog 4</li>
+        <li>Development Evidence for Sprint Review</li>
       </ul>
       <strong>Adrianzén Flores, Carlos Arturo</strong> <br>TB1
       <ul style="margin-top: 5px; padding-left: 20px;">
@@ -431,18 +476,22 @@ __TF__
         <li>Execution Evidence for Sprint Review</li>
         <li>Team collaboration insigths</li>
       </ul>
-       TP
+      TP
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Vistas de la aplicación web</li>
         <li>Team Collaboration Insights during Sprint 2</li>
       </ul>
-     TB2
+      TB2
       <ul style="margin-top: 5px; padding-left: 20px;">
         <li>Soporte en diagramas </li>
         <li>Soporte en heurísticas</li>
       </ul>
+      TF
+      <ul style="margin-top: 5px; padding-left: 20px;">
+        <li>Team Collaboration Insights during Sprint</li>
+      </ul>
     </td>
-    <td style="border: 1px solid white; padding: 8px;">TB1: Al termino de la TB1, podemos concluir que logramos expresar nuestras ideas y el mensaje central de nuestro trabajo de forma escrita. Esto, dado que redactamos todo el análisis que realizamos para comenzar a implementar nuestro trabajo. Esto es apreciable al revisar las historias de usuario, análisis Lean UX y descripción de demás elementos incluídos. Asimismo, logramos identificar el lengujae correcto a utilizar al diseñar nuestro landing page de forma que los usuarios puedan comprenderlo sin problema.<br><br>TP: Al concluir la segunda entrega (parcial), concluimos que la comunicación escrita es fundamental para el desarrollo del trabajo, ya que esta ayuda a definir los requerimientos correctos, lo que permite que el desarrllo siga un único rumbo. También se ve esta comunicación escrita al momento de programar, al ser claros y ordenados con lo que codificamos.<br><br>TB2:La documentación escrita consolidó la presentación del trabajo final. Se mantuvo un lenguaje técnico, ordenado y coherente con las necesidades del proyecto. Cada documento fue redactado con precisión, permitiendo comprender el funcionamiento del sistema y las decisiones técnicas tomadas. La comunicación escrita también fortaleció la colaboración entre integrantes al tener una base clara sobre los desarrollos.</td>
+    <td style="border: 1px solid white; padding: 8px;">TB1: Al termino de la TB1, podemos concluir que logramos expresar nuestras ideas y el mensaje central de nuestro trabajo de forma escrita. Esto, dado que redactamos todo el análisis que realizamos para comenzar a implementar nuestro trabajo. Esto es apreciable al revisar las historias de usuario, análisis Lean UX y descripción de demás elementos incluídos. Asimismo, logramos identificar el lengujae correcto a utilizar al diseñar nuestro landing page de forma que los usuarios puedan comprenderlo sin problema.<br><br>TP: Al concluir la segunda entrega (parcial), concluimos que la comunicación escrita es fundamental para el desarrollo del trabajo, ya que esta ayuda a definir los requerimientos correctos, lo que permite que el desarrllo siga un único rumbo. También se ve esta comunicación escrita al momento de programar, al ser claros y ordenados con lo que codificamos.<br><br>TB2:La documentación escrita consolidó la presentación del trabajo final. Se mantuvo un lenguaje técnico, ordenado y coherente con las necesidades del proyecto. Cada documento fue redactado con precisión, permitiendo comprender el funcionamiento del sistema y las decisiones técnicas tomadas. La comunicación escrita también fortaleció la colaboración entre integrantes al tener una base clara sobre los desarrollos.<br><br>TF: Al finalizar la enterga del TF, la comunicacón escrita siguió siendo clave para poder lograr un buen desarrollo del informe, haciendo que cada parte esté bien formulada y se entienda perfectamente. Además la comunicación escrita también nos ayudó para comunicarnos por medios de mensajería como WhatsApp y Discord, y mediante estos realizar el trabajo y comentar cosas importantes.</td>
   </tr>
 </table>
 
