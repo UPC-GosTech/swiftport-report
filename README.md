@@ -2372,273 +2372,1277 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
 </tr>
 <tr>
   <td>TS01</td>
-  <td>Post Company</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero registrar una nueva empresa mediante una API para visualizar las empresas afiliadas a nuestra aplicación.</td>
+  <td>Post Employee</td>
+  <td>Como desarrollador de SwiftPort, quiero registrar un nuevo empleado mediante una API para gestionar el personal disponible dentro del sistema.</td>
   <td>
     Escenario 1: Solicitud válida<br>
-    DADO que tengo acceso a la API de registro de empresas<br>
-    CUANDO envío una solicitud con datos válidos<br>
-    ENTONCES la empresa se registra exitosamente en la base de datos<br>
-    Y recibo un mensaje de confirmación<br><br>
-    Escenario 2: Solicitud inválida<br>
-    DADO que tengo acceso a la API de registro de empresas<br>
-    CUANDO envío una solicitud con datos inválidos<br>
-    ENTONCES la solicitud es rechazada<br>
-    Y recibo un mensaje de error adecuado
+    DADO que tengo acceso al endpoint POST /api/v1/employees<br>
+    CUANDO envío una solicitud con un cuerpo válido (nombre, correo, etc.)<br>
+    ENTONCES se crea el nuevo empleado en la base de datos<br>
+    Y recibo un objeto `EmployeeResource` con los datos del empleado creado<br><br>
+    Escenario 2: Solicitud con datos inválidos<br>
+    DADO que tengo acceso al endpoint<br>
+    CUANDO envío una solicitud con campos faltantes o inválidos<br>
+    ENTONCES recibo una respuesta con error 400<br><br>
+    Escenario 3: Error inesperado al consultar después de crear<br>
+    DADO que se ejecutó correctamente la creación<br>
+    CUANDO se intenta recuperar el empleado y no se encuentra<br>
+    ENTONCES recibo un 404 Not Found
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS02</td>
-  <td>Get Company</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de una empresa mediante una API para mostrarla cuando se solicite.</td>
+  <td>Get Employee by ID</td>
+  <td>Como desarrollador de SwiftPort, quiero obtener los datos de un empleado específico mediante su ID, para mostrar información detallada o validar su estado.</td>
   <td>
-    Escenario 1: Solicitud válida<br>
-    DADO que tengo acceso a la API de obtención de información de empresas<br>
-    CUANDO solicito la información de una empresa existente<br>
-    ENTONCES recibo la información en el formato esperado<br><br>
-    Escenario 2: Solicitud inválida<br>
-    DADO que tengo acceso a la API de obtención de información de empresas<br>
-    CUANDO solicito la información de una empresa que no existe<br>
-    ENTONCES recibo un mensaje de error adecuado
+    Escenario 1: Empleado existente<br>
+    DADO que existe un empleado registrado<br>
+    CUANDO hago una solicitud GET a /api/v1/employees/{id}<br>
+    ENTONCES recibo el objeto `EmployeeResource` correspondiente<br><br>
+    Escenario 2: No hay empleados registrados<br>
+    DADO que no existen empleados en el sistema<br>
+    CUANDO hago una solicitud GET a /api/v1/employees<br>
+    ENTONCES recibo una respuesta con código 200 y una lista vacía  
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS03</td>
-  <td>Post User</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero registrar un nuevo usuario mediante una API para visualizar los usuarios afiliados a nuestra aplicación.</td>
+  <td>Get All Employees</td>
+  <td>Como desarrollador de SwiftPort, quiero recuperar una lista de todos los empleados registrados mediante una API, para usarlos en la interfaz de gestión del personal.</td>
   <td>
-    Escenario 1: Solicitud válida<br>
-    DADO que tengo acceso a la API de registro de usuarios<br>
-    CUANDO envío una solicitud con datos válidos<br>
-    ENTONCES el usuario se registra exitosamente en la base de datos<br>
-    Y recibo un mensaje de confirmación<br><br>
-    Escenario 2: Solicitud inválida<br>
-    DADO que tengo acceso a la API de registro de usuarios<br>
-    CUANDO envío una solicitud con datos inválidos<br>
-    ENTONCES la solicitud es rechazada<br>
-    Y recibo un mensaje de error adecuado
+    Escenario 1: Empleados disponibles<br>
+    DADO que existen empleados en el sistema<br>
+    CUANDO hago una solicitud GET a /api/v1/employees<br>
+    ENTONCES recibo una lista de objetos `EmployeeResource`<br><br>
+    Escenario 2: No hay empleados registrados<br>
+    DADO que la base de datos está vacía<br>
+    CUANDO hago la solicitud<br>
+    ENTONCES recibo una respuesta 404
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS04</td>
-  <td>Get User</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de un usuario mediante una API para mostrarla cuando se solicite.</td>
+  <td>Patch Employee Status</td>
+  <td>Como desarrollador de SwiftPort, quiero modificar el estado de disponibilidad de un empleado específico, para reflejar cambios operativos en tiempo real.</td>
   <td>
-    Escenario 1: Solicitud válida<br>
-    DADO que tengo acceso a la API de obtención de información de usuarios<br>
-    CUANDO solicito la información de un usuario existente<br>
-    ENTONCES recibo la información del usuario en el formato esperado<br><br>
-    Escenario 2: Solicitud inválida<br>
-    DADO que tengo acceso a la API de obtención de información de usuarios<br>
-    CUANDO solicito la información de un usuario que no existe<br>
-    ENTONCES recibo un mensaje de error adecuado
+    Escenario 1: Cambio válido de estado<br>
+    DADO que existe un empleado<br>
+    CUANDO hago una solicitud PATCH a /api/v1/employees/{id}/status con un estado válido<br>
+    ENTONCES el estado del empleado se actualiza correctamente<br>
+    Y recibo el objeto `EmployeeResource` actualizado<br><br>
+    Escenario 2: Empleado no existe<br>
+    DADO que el ID proporcionado no corresponde a un empleado existente<br>
+    CUANDO hago la solicitud<br>
+    ENTONCES recibo una respuesta 404
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS05</td>
-  <td>Post Task</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero registrar una nueva tarea mediante una API para mantener el registro de las tareas actualizado.</td>
+  <td>Get Employees by Status</td>
+  <td>Como desarrollador de SwiftPort, quiero consultar todos los empleados filtrados por su estado de disponibilidad, para tareas de asignación o monitoreo.</td>
   <td>
-    Escenario 1: Registro válido<br>
-    DADO que tengo acceso a la API de registro de tareas<br>
-    CUANDO envío una solicitud con datos válidos<br>
-    ENTONCES la tarea se registra exitosamente en la base de datos<br>
-    Y recibo un mensaje de confirmación<br><br>
-    Escenario 2: Registro inválido<br>
-    DADO que tengo acceso a la API de registro de tareas<br>
-    CUANDO envío una solicitud con datos inválidos<br>
-    ENTONCES la solicitud es rechazada<br>
-    Y recibo un mensaje de error adecuado
+    Escenario 1: Hay empleados con el estado solicitado<br>
+    DADO que existen empleados con el estado “AVAILABLE” u otro<br>
+    CUANDO hago una solicitud GET a /api/v1/employees/status/{status}<br>
+    ENTONCES recibo una lista de objetos `EmployeeResource`<br><br>
+    Escenario 2: No hay empleados con ese estado<br>
+    DADO que no hay empleados que coincidan con el estado solicitado<br>
+    CUANDO hago la solicitud<br>
+    ENTONCES recibo una respuesta con código 200 y una lista vacía
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS06</td>
-  <td>Get Task</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de las tareas mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+  <td>Post Incident Report to Execution</td>
+  <td>Como desarrollador de SwiftPort, quiero registrar un reporte de incidente asociado a una ejecución específica, para documentar problemas ocurridos durante una tarea.</td>
   <td>
-    Escenario 1: Solicitud válida<br>
-    DADO que tengo acceso a la API de obtención de información de tareas<br>
-    CUANDO solicito la información de una tarea existente<br>
-    ENTONCES recibo la información de la tarea en el formato esperado<br><br>
-    Escenario 2: Solicitud inválida<br>
-    DADO que tengo acceso a la API de obtención de información de tareas<br>
-    CUANDO solicito la información de una tarea que no existe<br>
-    ENTONCES recibo un mensaje de error adecuado
+    Escenario 1: Ejecución existente y datos válidos<br>
+    DADO que tengo una ejecución registrada<br>
+    CUANDO envío una solicitud POST a /api/v1/incident-reports/{executionId}/incidents con datos válidos<br>
+    ENTONCES el reporte se crea y asocia correctamente<br>
+    Y recibo un objeto IncidentReportResource con estado 201<br><br>
+    Escenario 2: Datos inválidos<br>
+    DADO que tengo acceso al endpoint<br>
+    CUANDO envío datos inválidos<br>
+    ENTONCES recibo un error 400<br><br>
+    Escenario 3: Ejecución no encontrada<br>
+    DADO que el executionId no corresponde a ninguna ejecución<br>
+    CUANDO hago la solicitud<br>
+    ENTONCES recibo un error 404
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS07</td>
-  <td>Post Change Request</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero registrar una nueva solicitud de cambio mediante una API para mantener el registro de las solicitudes actualizado.</td>
+  <td>Get Incident Report by ID</td>
+  <td>Como desarrollador de SwiftPort, quiero obtener un reporte de incidente específico mediante su ID, para mostrar sus detalles en la interfaz de usuario.</td>
   <td>
-    Escenario 1: Registro válido<br>
-    DADO que tengo acceso a la API de registro de solicitudes<br>
-    CUANDO envío una solicitud con datos válidos de una nueva solicitud de cambio<br>
-    ENTONCES la solicitud se registra exitosamente en la base de datos<br>
-    Y recibo un mensaje de confirmación<br><br>
-    Escenario 2: Registro inválido<br>
-    DADO que tengo acceso a la API de registro de solicitudes<br>
-    CUANDO envío una solicitud con datos inválidos<br>
-    ENTONCES la solicitud es rechazada<br>
-    Y recibo un mensaje de error adecuado
+    Escenario 1: Reporte existente<br>
+    DADO que el ID de incidente corresponde a un reporte<br>
+    CUANDO hago una solicitud GET a /api/v1/incident-reports/incidents/{incidentId}<br>
+    ENTONCES recibo el recurso correspondiente con código 200<br><br>
+    Escenario 2: Reporte no encontrado<br>
+    DADO que el ID no existe<br>
+    CUANDO hago la solicitud<br>
+    ENTONCES recibo un error 404
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS08</td>
-  <td>Get Change Request</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de las solicitudes de cambio mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+  <td>Get Incident Reports by Execution</td>
+  <td>Como desarrollador de SwiftPort, quiero obtener todos los reportes de incidentes asociados a una ejecución específica, para facilitar la trazabilidad y seguimiento de eventos.</td>
   <td>
-    Escenario 1: Solicitud válida<br>
-    DADO que tengo acceso a la API de obtención de solicitudes<br>
-    CUANDO solicito la información de una solicitud de cambio existente<br>
-    ENTONCES recibo la información de la solicitud en el formato esperado<br><br>
-    Escenario 2: Solicitud inválida<br>
-    DADO que tengo acceso a la API de obtención de solicitudes<br>
-    CUANDO solicito la información de una solicitud de cambio que no existe<br>
-    ENTONCES recibo un mensaje de error adecuado
+    Escenario 1: Ejecución con reportes<br>
+    DADO que hay incidentes relacionados a una ejecución<br>
+    CUANDO hago una solicitud GET a /api/v1/incident-reports/{executionId}/incidents<br>
+    ENTONCES recibo una lista de IncidentReportResource<br><br>
+    Escenario 2: Ejecución sin reportes asociados<br>
+    DADO que la ejecución existe pero no tiene reportes de incidentes<br>
+    CUANDO hago la solicitud<br>
+    ENTONCES recibo una respuesta con código 200 y una lista vacía
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS09</td>
-  <td>Post Payment Card</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero registrar la información de pago de las empresas mediante una API para guardar la información para futuros pagos.</td>
+  <td>Get All Incident Reports</td>
+  <td>Como desarrollador de SwiftPort, quiero obtener todos los reportes de incidentes del sistema, para mostrarlos en una vista general de administración.</td>
   <td>
-    Escenario 1: Solicitud válida<br>
-    DADO que tengo acceso a la API de registro de tarjetas de pago<br>
-    CUANDO envío una solicitud con datos válidos de una tarjeta de pago<br>
-    ENTONCES la tarjeta se registra exitosamente en la base de datos<br>
-    Y recibo un mensaje de confirmación<br><br>
-    Escenario 2: Solicitud inválida<br>
-    DADO que tengo acceso a la API de registro de tarjetas de pago<br>
-    CUANDO envío una solicitud con datos inválidos<br>
-    ENTONCES la solicitud es rechazada<br>
-    Y recibo un mensaje de error adecuado
+    Escenario 1: Hay reportes disponibles<br>
+    DADO que existen incidentes registrados<br>
+    CUANDO hago una solicitud GET a /api/v1/incident-reports/incidents<br>
+    ENTONCES recibo una lista de IncidentReportResource<br><br>
+    Escenario 2: No hay reportes registrados<br>
+    DADO que no existen incidentes en el sistema<br>
+    CUANDO hago la solicitud<br>
+    ENTONCES recibo una respuesta con código 200 y una lista vacía
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS10</td>
-  <td>Get Payment Card</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de pago de las empresas mediante una API para recibir los pagos en la aplicación cuando sea necesario.</td>
+  <td>Patch Incident Report Description</td>
+  <td>Como desarrollador de SwiftPort, quiero actualizar la descripción de un reporte de incidente existente, para corregir o ampliar la información ingresada inicialmente.</td>
   <td>
-    Escenario 1: Solicitud válida<br>
-    DADO que tengo acceso a la API de obtención de tarjetas de pago<br>
-    CUANDO solicito la información de una tarjeta registrada de una empresa<br>
-    ENTONCES recibo la información de la tarjeta en el formato esperado<br><br>
-    Escenario 2: Solicitud inválida<br>
-    DADO que tengo acceso a la API de obtención de tarjetas de pago<br>
-    CUANDO solicito la información de una empresa sin tarjeta registrada<br>
-    ENTONCES recibo un mensaje de error indicando que no existen tarjetas registradas
+    Escenario 1: Actualización válida<br>
+    DADO que el ID del incidente existe<br>
+    CUANDO envío una solicitud PATCH a /api/v1/incident-reports/incidents/{id} con nueva descripción<br>
+    ENTONCES la descripción se actualiza correctamente<br><br>
+    Escenario 2: ID inexistente<br>
+    DADO que el ID no corresponde a ningún incidente<br>
+    CUANDO hago la solicitud<br>
+    ENTONCES recibo un error 404<br><br>
+    Escenario 3: Entrada inválida<br>
+    DADO que la descripción está vacía o malformada<br>
+    CUANDO hago la solicitud<br>
+    ENTONCES recibo un error 400
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS11</td>
-  <td>Post Dashboard</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero registrar un nuevo dashboard mediante una API para mantener el registro de los dashboards.</td>
+  <td>Patch Employee ID on Incident Report</td>
+  <td>Como desarrollador de SwiftPort, quiero actualizar el ID del empleado asociado a un incidente, para reflejar una asignación o corrección de responsabilidad.</td>
   <td>
-    Escenario 1: Registro válido<br>
-    DADO que tengo acceso a la API de registro de dashboards<br>
-    CUANDO envío una solicitud con datos válidos de un nuevo dashboard<br>
-    ENTONCES el dashboard se registra exitosamente en la base de datos<br>
-    Y recibo un mensaje de confirmación<br><br>
-    Escenario 2: Registro inválido<br>
-    DADO que tengo acceso a la API de registro de dashboards<br>
-    CUANDO envío una solicitud con datos inválidos<br>
-    ENTONCES la solicitud es rechazada<br>
-    Y recibo un mensaje de error adecuado
+    Escenario 1: Actualización exitosa<br>
+    DADO que el incidente y el nuevo empleado existen<br>
+    CUANDO envío un nuevo ID de empleado en la solicitud PATCH a /api/v1/incident-reports/{incidentReportId}/employeeId<br>
+    ENTONCES el campo employeeId se actualiza<br>
+    Y recibo el recurso `IncidentReportResource` actualizado con código 200<br><br>
+    Escenario 2: Reporte no encontrado<br>
+    DADO que el ID del incidente no existe<br>
+    CUANDO hago la solicitud PATCH a /api/v1/incident-reports/{incidentReportId}/employeeId<br>
+    ENTONCES recibo un error 404<br><br>
+    Escenario 3: Nuevo Empleado no encontrado (Escenario faltante)<br>
+    DADO que el incidente existe pero el nuevo ID de empleado NO existe<br>
+    CUANDO hago la solicitud PATCH a /api/v1/incident-reports/{incidentReportId}/employeeId<br>
+    ENTONCES recibo un error 404 (o 400 si la validación del ID de empleado es estricta)
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS12</td>
-  <td>Get Dashboard</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de los dashboards mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+  <td>Post Sign-In</td>
+  <td>Como desarrollador de SwiftPort, quiero permitir a los usuarios iniciar sesión mediante una API de autenticación, para que accedan a sus recursos protegidos.</td>
   <td>
-    Escenario 1: Solicitud válida<br>
-    DADO que tengo acceso a la API de obtención de información de dashboards<br>
-    CUANDO solicito la información de un dashboard existente<br>
-    ENTONCES recibo la información del dashboard en el formato esperado<br><br>
-    Escenario 2: Solicitud inválida<br>
-    DADO que tengo acceso a la API de obtención de información de dashboards<br>
-    CUANDO solicito la información de un dashboard que no existe<br>
-    ENTONCES recibo un mensaje de error adecuado
+    Escenario 1: Credenciales válidas<br>
+    DADO que el usuario existe y sus credenciales son correctas<br>
+    CUANDO realiza una solicitud POST a /api/v1/authentications/sign-in<br>
+    ENTONCES recibe un objeto AuthenticatedUserResource con estado 200<br><br>
+    Escenario 2: Credenciales inválidas<br>
+    DADO que las credenciales proporcionadas son incorrectas o no pertenecen a un usuario existente<br>
+    CUANDO se realiza la solicitud<br>
+    ENTONCES el sistema responde con un error 401 Unauthorized y un cuerpo JSON con detalles del error
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS13</td>
-  <td>Get Workers by Zone and Schedule</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de los operarios según su zona y turno mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+  <td>Post Sign-Up</td>
+  <td>Como desarrollador de SwiftPort, quiero permitir a nuevos usuarios registrarse mediante una API, para que puedan autenticarse y usar la aplicación.</td>
   <td>
-    Escenario 1: Solicitud válida<br>
-    DADO que tengo acceso a la API de obtención de información de operarios<br>
-    CUANDO solicito la información según una zona y un turno existentes<br>
-    ENTONCES recibo la información de los operarios en dicho turno y zona en el formato esperado<br><br>
-    Escenario 2: Solicitud inválida<br>
-    DADO que tengo acceso a la API de obtención de información de operarios<br>
-    CUANDO solicito la información según una zona o turno inexistente<br>
-    ENTONCES recibo un mensaje de error adecuado
+    Escenario 1: Registro exitoso<br>
+    DADO que el usuario envía datos válidos de registro<br>
+    CUANDO hace una solicitud POST a /api/v1/authentications/sign-up<br>
+    ENTONCES se crea el usuario y se retorna un UserResource con estado 201<br><br>
+    Escenario 2: Registro con datos inválidos<br>
+    DADO que el usuario envía un request con datos incompletos o inválidos<br>
+    CUANDO hace la solicitud<br>
+    ENTONCES el sistema devuelve un error 400 con detalles JSON del problema
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS14</td>
-  <td>Get Tasks by State</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de las tareas según su estado mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+  <td>Post Execution</td>
+  <td>Como desarrollador de SwiftPort, quiero crear una nueva ejecución mediante la API, para registrar una programación de tareas.</td>
   <td>
-    Escenario 1: Solicitud válida<br>
-    DADO que tengo acceso a la API de obtención de información de tareas según estado<br>
-    CUANDO solicito la información de tareas con un estado existente<br>
-    ENTONCES recibo la información de las tareas en ese estado en el formato esperado<br><br>
-    Escenario 2: Solicitud inválida<br>
-    DADO que tengo acceso a la API de obtención de información de tareas según estado<br>
-    CUANDO solicito información con un estado inexistente<br>
-    ENTONCES recibo un mensaje de error adecuado
+    Escenario 1: Crear ejecución con datos válidos<br>
+    DADO que tengo acceso a la API y envío datos correctos<br>
+    CUANDO realizo una solicitud POST a /api/v1/executions<br>
+    ENTONCES se registra la ejecución y retorna el recurso con estado 201<br><br>
+    Escenario 2: Datos inválidos<br>
+    DADO que envío una solicitud con campos faltantes o malformados<br>
+    CUANDO realizo la operación<br>
+    ENTONCES se devuelve un código 400
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS15</td>
-  <td>Get Users per Role</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de los usuarios según su rol mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+  <td>Get Execution By ID</td>
+  <td>Como desarrollador, quiero obtener una ejecución específica por su ID desde la API, para ver sus detalles asociados.</td>
   <td>
-    Escenario 1: Solicitud válida<br>
-    DADO que tengo acceso a la API de obtención de información de usuarios según rol<br>
-    CUANDO solicito la información de usuarios según un rol existente<br>
-    ENTONCES recibo la información en el formato esperado<br><br>
-    Escenario 2: Solicitud inválida<br>
-    DADO que tengo acceso a la API de obtención de información de usuarios según rol<br>
-    CUANDO solicito la información con un rol inexistente<br>
-    ENTONCES recibo un mensaje de error adecuado
+    Escenario 1: Ejecución encontrada<br>
+    DADO que existe una ejecución registrada con el ID dado<br>
+    CUANDO realizo GET a /api/v1/executions/{executionId}<br>
+    ENTONCES obtengo el recurso con estado 200<br><br>
+    Escenario 2: Ejecución no encontrada<br>
+    DADO que no hay ejecución con ese ID<br>
+    CUANDO realizo la solicitud<br>
+    ENTONCES recibo un error 404 Not Found
   </td>
   <td>No corresponde</td>
 </tr>
 <tr>
   <td>TS16</td>
-  <td>Get Workers by Abilities</td>
-  <td>Como desarrollador que trabaja en la aplicación de SwiftPort, quiero obtener la información de los operarios según sus habilidades mediante una API para mostrarla en la aplicación cuando se solicite.</td>
+  <td>Get All Executions</td>
+  <td>Como desarrollador, quiero obtener todas las ejecuciones mediante la API, para revisar la información consolidada de tareas programadas.</td>
   <td>
-    Escenario 1: Solicitud válida<br>
-    DADO que tengo acceso a la API de obtención de operarios por habilidades<br>
-    CUANDO solicito la información con habilidades existentes<br>
-    ENTONCES recibo la información de los operarios que las cumplen en el formato esperado<br><br>
-    Escenario 2: Solicitud inválida<br>
-    DADO que tengo acceso a la API de obtención de operarios por habilidades<br>
-    CUANDO solicito información usando una habilidad inexistente<br>
-    ENTONCES recibo un mensaje de error adecuado
+    Escenario 1: Hay ejecuciones registradas<br>
+    DADO que existen ejecuciones<br>
+    CUANDO hago GET a /api/v1/executions<br>
+    ENTONCES el sistema devuelve una lista con estado 200<br><br>
+    Escenario 2: No hay ejecuciones<br>
+    DADO que no existen registros de ejecuciones<br>
+    CUANDO realizo la solicitud<br>
+    ENTONCES recibo una respuesta con código 200 y una lista vacía
   </td>
   <td>No corresponde</td>
 </tr>
-  </tbody>
+<tr>
+  <td>TS17</td>
+  <td>Add Employee To Execution</td>
+  <td>Como desarrollador, quiero asignar un empleado a una ejecución mediante la API, para registrar su participación.</td>
+  <td>
+    Escenario 1: Asociación válida<br>
+    DADO que existen tanto ejecución como empleado<br>
+    CUANDO hago POST a /api/v1/executions/{executionId}/employees/{employeeId}<br>
+    ENTONCES el empleado se asocia a la ejecución y retorna el recurso actualizado<br><br>
+    Escenario 2: Ejecución o empleado no encontrados<br>
+    DADO que alguno de los IDs (executionId o employeeId) no existe<br>
+    CUANDO se realiza la solicitud<br>
+    ENTONCES se devuelve código 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS18</td>
+  <td>Add Equipment To Execution</td>
+  <td>Como desarrollador, quiero asociar un equipo a una ejecución, para reflejar los recursos utilizados.</td>
+  <td>
+    Escenario 1: Asociación exitosa<br>
+    DADO que hay ejecución y equipo válidos<br>
+    CUANDO se realiza POST a /api/v1/executions/{executionId}/equipment/{equipmentId}<br>
+    ENTONCES el sistema los vincula y responde con estado 200<br><br>
+    Escenario 2: Ejecución o equipo no encontrados<br>
+    DADO que alguno de los IDs (executionId o equipmentId) no es válido o no existe<br>
+    CUANDO se hace la solicitud<br>
+    ENTONCES el sistema responde con código 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS19</td>
+  <td>Put Execution</td>
+  <td>Como desarrollador, quiero actualizar completamente los campos editables de una ejecución mediante la API, para corregir información registrada.</td>
+  <td>
+    Escenario 1: Actualización exitosa<br>
+    DADO que envío una solicitud PUT a /api/v1/executions/{executionId} con datos válidos<br>
+    CUANDO se procesa la solicitud<br>
+    ENTONCES se actualiza la ejecución y retorna estado 200<br><br>
+    Escenario 2: Ejecución no encontrada<br>
+    DADO que el ID no corresponde a ninguna ejecución<br>
+    CUANDO intento actualizar<br>
+    ENTONCES se devuelve un error 404
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS20</td>
+  <td>Patch Execution Status</td>
+  <td>Como desarrollador, quiero actualizar solo el estado de ejecución de una tarea mediante la API, para mantener actualizado su progreso.</td>
+  <td>
+    Escenario 1: Cambio de estado exitoso<br>
+    DADO que se identifica una ejecución válida<br>
+    CUANDO se realiza PATCH a /api/v1/executions/{executionId}/status con un nuevo estado<br>
+    ENTONCES se actualiza y retorna estado 200<br><br>
+    Escenario 2: Ejecución no encontrada<br>
+    DADO que el ID proporcionado es inválido<br>
+    CUANDO realizo la solicitud<br>
+    ENTONCES se devuelve un error 404
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS21</td>
+  <td>Get All Roles</td>
+  <td>Como desarrollador, quiero obtener todos los roles disponibles mediante la API, para usarlos en la asignación de permisos o visualización.</td>
+  <td>
+    Escenario 1: Hay roles registrados<br>
+    DADO que existen roles en el sistema<br>
+    CUANDO realizo GET a /api/v1/roles<br>
+    ENTONCES recibo una lista con estado 200<br><br>
+    Escenario 2: No hay roles registrados<br>
+    DADO que no existen roles en el sistema<br>
+    CUANDO realizo GET a /api/v1/roles<br>
+    ENTONCES recibo una respuesta con código 200 y una lista vacía  
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS22</td>
+  <td>Get All Users</td>
+  <td>Como desarrollador, quiero obtener todos los usuarios registrados para el tenant actual mediante la API, para gestionarlos.</td>
+  <td>
+    Escenario 1: Existen usuarios registrados<br>
+    DADO que hay usuarios en el sistema<br>
+    CUANDO hago GET a /api/v1/users<br>
+    ENTONCES obtengo una lista con estado 200<br><br>
+    Escenario 2: No hay usuarios registrados<br>
+    DADO que no existen usuarios en el sistema para el tenant actual<br>
+    CUANDO hago GET a /api/v1/users<br>
+    ENTONCES obtengo una lista vacía con estado 200
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS23</td>
+  <td>Get User By ID</td>
+  <td>Como desarrollador, quiero obtener la información de un usuario específico por su ID, para visualizar sus datos.</td>
+  <td>
+    Escenario 1: Usuario encontrado<br>
+    DADO un ID válido<br>
+    CUANDO hago GET a /api/v1/users/{userId}<br>
+    ENTONCES obtengo el recurso del usuario con estado 200<br><br>
+    Escenario 2: Usuario no encontrado<br>
+    DADO que un ID de usuario inexistente<br>
+    CUANDO realizo la solicitud GET a /api/v1/users/{userId}<br>
+    ENTONCES recibo una respuesta con código 404 Not Found y un cuerpo de error JSON
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS24</td>
+  <td>Create User</td>
+  <td>Como desarrollador, quiero crear un nuevo usuario mediante la API, para registrar un nuevo acceso en el sistema.</td>
+  <td>
+    Escenario 1: Datos válidos<br>
+    DADO que envío un cuerpo JSON válido<br>
+    CUANDO realizo POST a /api/v1/users<br>
+    ENTONCES se crea el usuario y se retorna con estado 201<br><br>
+    Escenario 2: Datos inválidos<br>
+    DADO que envío una solicitud con un cuerpo JSON que contiene datos inválidos o faltantes<br>
+    CUANDO realizo la solicitud POST a /api/v1/users<br>
+    ENTONCES se retorna estado 400 Bad Request y un cuerpo de error JSON
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS25</td>
+  <td>Update User</td>
+  <td>Como desarrollador, quiero actualizar los datos de un usuario por su ID, para modificar su información personal o de rol.</td>
+  <td>
+    Escenario 1: Actualización exitosa<br>
+    DADO un ID válido y datos correctos<br>
+    CUANDO realizo PUT a /api/v1/users/{userId}<br>
+    ENTONCES se actualiza y retorna el usuario actualizado con estado 200<br><br>
+    Escenario 2: Usuario no encontrado<br>
+    DADO un ID inexistente<br>
+    CUANDO realizo la solicitud<br>
+    ENTONCES se devuelve estado 404
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS26</td>
+  <td>Update User Status</td>
+  <td>Como desarrollador, quiero activar o desactivar un usuario mediante un endpoint, para controlar su acceso al sistema.</td>
+  <td>
+    Escenario 1: Activación/desactivación válida<br>
+    DADO que existe un usuario con el {userId} dado<br>
+    CUANDO realizo PUT a /api/v1/users/{userId}/status con un cuerpo JSON que contiene el campo 'active' (true/false)<br>
+    ENTONCES el estado del usuario se actualiza correctamente<br>
+    Y recibo el recurso del usuario actualizado con estado 200<br><br>
+    Escenario 2: Usuario no encontrado<br>
+    DADO que el ID de usuario no existe<br>
+    CUANDO realizo la solicitud<br>
+    ENTONCES se retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS27</td>
+  <td>Delete User</td>
+  <td>Como desarrollador, quiero eliminar (desactivar) un usuario mediante la API, para revocar su acceso al sistema.</td>
+  <td>
+    Escenario 1: Eliminación válida<br>
+    DADO un ID válido<br>
+    CUANDO hago DELETE a /api/v1/users/{userId}<br>
+    ENTONCES se desactiva el usuario y se retorna con estado 200<br><br>
+    Escenario 2: Usuario no encontrado<br>
+    CUANDO el ID no existe<br>
+    ENTONCES se retorna 404
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS28</td>
+  <td>Create Activity</td>
+  <td>Como desarrollador, quiero crear una nueva actividad mediante la API, para registrar tareas planificadas.</td>
+  <td>
+    Escenario 1: Datos válidos<br>
+    DADO que tengo un cuerpo JSON con datos válidos para la actividad<br>
+    CUANDO hago POST a /api/v1/activities<br>
+    ENTONCES se crea la actividad<br>
+    Y retorna el recurso de la actividad creada con estado 201<br><br>
+    Escenario 2: Datos inválidos<br>
+    DADO que el cuerpo de la solicitud contiene datos incorrectos o faltantes<br>
+    CUANDO realizo la solicitud<br>
+    ENTONCES retorna estado 400 Bad Request y un cuerpo de error JSON
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS29</td>
+  <td>Get Activity By ID</td>
+  <td>Como desarrollador, quiero obtener una actividad específica por su ID mediante la API, para ver sus detalles.</td>
+  <td>
+    Escenario 1: Actividad encontrada<br>
+    DADO que existe una actividad con el {activityId} dado<br>
+    CUANDO hago GET a /api/v1/activities/{activityId}<br>
+    ENTONCES se retorna el recurso de la actividad con estado 200 OK<br><br>
+    Escenario 2: Actividad no encontrada por ID<br>
+    DADO que el {activityId} proporcionado no corresponde a ninguna actividad existente<br>
+    CUANDO hago GET a /api/v1/activities/{activityId}<br>
+    ENTONCES retorna estado 404 Not Found<br><br>
+    Escenario 3: ID con formato inválido<br>
+    DADO que el {activityId} proporcionado tiene un formato incorrecto (ej. texto en lugar de número)<br>
+    CUANDO hago GET a /api/v1/activities/{activityId}<br>
+    ENTONCES retorna estado 400 Bad Request
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS30</td>
+  <td>Get All Activities</td>
+  <td>Como desarrollador, quiero obtener todas las actividades disponibles mediante la API, para visualizar la planificación.</td>
+  <td>
+    Escenario 1: Actividades disponibles<br>
+    DADO que hay actividades registradas en el sistema<br>
+    CUANDO realizo GET a /api/v1/activities<br>
+    ENTONCES recibo una lista con estado 200<br><br>
+    Escenario 2: Lista vacía<br>
+    DADO que no hay actividades registradas en el sistema<br>
+    CUANDO realizo GET a /api/v1/activities<br>
+    ENTONCES recibo una lista vacía con estado 200 OK
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS31</td>
+  <td>Get Activities By Status</td>
+  <td>Como desarrollador, quiero obtener las actividades filtradas por estado para mostrar las pendientes o completadas.</td>
+  <td>
+    Escenario 1: Existen actividades con ese estado<br>
+    DADO que hay actividades que coincidan con el estado solicitado<br>
+    CUANDO hago GET a /api/v1/activities/status/{status}<br>
+    ENTONCES obtengo una lista con estado 200<br><br>
+    Escenario 2: No existen actividades con ese estado<br>
+    DADO que no hay actividades que coincidan con el estado solicitado<br>
+    CUANDO hago GET a /api/v1/activities/status/{status}<br>
+    ENTONCES obtengo una lista vacía con estado 200 OK
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS32</td>
+  <td>Update Activity Status</td>
+  <td>Como desarrollador, quiero actualizar el estado de una actividad para reflejar su progreso dentro del sistema.</td>
+  <td>
+    Escenario 1: Actualización exitosa<br>
+    DADO que existe una actividad con el {activityId} dado y un estado válido para actualizar<br>
+    CUANDO hago PATCH a /api/v1/activities/{activityId}/status con el nuevo estado<br>
+    ENTONCES el estado de la actividad se actualiza<br>
+    Y se devuelve el recurso actualizado con estado 200 OK<br><br>
+    Escenario 2: Actividad no encontrada<br>
+    DADO que el ID de la actividad no corresponde a ninguna actividad existente<br>
+    CUANDO hago PATCH a /api/v1/activities/{activityId}/status<br>
+    ENTONCES se retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS33</td>
+  <td>Create Task</td>
+  <td>Como desarrollador, quiero crear una nueva tarea mediante la API para planificar el trabajo de una actividad.</td>
+  <td>
+    Escenario 1: Datos válidos<br>
+    DADO que tengo un cuerpo JSON con datos válidos para la creación de una tarea<br>
+    CUANDO hago POST a /api/v1/tasks<br>
+    ENTONCES se crea la tarea<br>
+    Y retorna el recurso de la tarea creada con estado 201 Created<br><br>
+    Escenario 2: Datos inválidos<br>
+    DADO que el cuerpo de la solicitud contiene datos incorrectos o faltantes<br>
+    CUANDO realizo la solicitud POST a /api/v1/tasks<br>
+    ENTONCES retorna estado 400 Bad Request
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS34</td>
+  <td>Get Task By ID</td>
+  <td>Como desarrollador, quiero obtener una tarea específica por su ID para visualizar su detalle.</td>
+  <td>
+    Escenario 1: Tarea encontrada<br>
+    DADO que existe una tarea con el {taskId} dado<br>
+    CUANDO hago GET a /api/v1/tasks/{taskId}<br>
+    ENTONCES retorna estado 200 OK y el recurso de la tarea<br><br>
+    Escenario 2: Tarea no encontrada<br>
+    DADO que el {taskId} proporcionado no corresponde a ninguna tarea existente<br>
+    CUANDO realizo la solicitud GET a /api/v1/tasks/{taskId}<br>
+    ENTONCES retorna estado 404 Not Found<br><br>
+    Escenario 3: ID con formato inválido (Opcional pero recomendable)<br>
+    DADO que el {taskId} proporcionado tiene un formato incorrecto<br>
+    CUANDO hago GET a /api/v1/tasks/{taskId}<br>
+    ENTONCES retorna estado 400 Bad Request
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS35</td>
+  <td>Get Tasks By Activity ID</td>
+  <td>Como desarrollador, quiero obtener las tareas de una actividad específica para mostrar su planificación.</td>
+  <td>
+    Escenario 1: Actividad con tareas<br>
+    DADO que existe una actividad con el {activityId} dado que tiene tareas asociadas<br>
+    CUANDO hago GET a /api/v1/tasks/activities/{activityId}<br>
+    ENTONCES retorna una lista de tareas con estado 200 OK<br><br>
+    Escenario 2: Actividad sin tareas<br>
+    DADO que existe una actividad con el {activityId} dado pero no tiene tareas asociadas<br>
+    CUANDO realizo la solicitud GET a /api/v1/tasks/activities/{activityId}<br>
+    ENTONCES retorna una lista vacía con estado 200 OK<br><br>
+    Escenario 3: Actividad no encontrada<br>
+    DADO que el {activityId} proporcionado no corresponde a ninguna actividad existente<br>
+    CUANDO hago GET a /api/v1/tasks/activities/{activityId}<br>
+    ENTONCES retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS36</td>
+  <td>Update Task Employee ID</td>
+  <td>Como desarrollador, quiero actualizar el empleado asignado a una tarea para reasignar responsabilidades.</td>
+  <td>
+    Escenario 1: Tarea actualizada con empleado existente<br>
+    DADO que existe una tarea con el {taskId} dado y un empleado con el nuevo {employeeId}<br>
+    CUANDO hago PATCH a /api/v1/tasks/{taskId}/employeeId con el nuevo ID de empleado en el cuerpo de la solicitud<br>
+    ENTONCES la tarea se actualiza correctamente<br>
+    Y retorna estado 200 OK con el recurso de la tarea actualizado<br><br>
+    Escenario 2: Tarea no encontrada<br>
+    DADO que el {taskId} de la tarea no existe<br>
+    CUANDO hago PATCH a /api/v1/tasks/{taskId}/employeeId<br>
+    ENTONCES retorna estado 404 Not Found<br><br>
+    Escenario 3: Nuevo empleado no encontrado<br>
+    DADO que la tarea existe pero el nuevo {employeeId} proporcionado no existe<br>
+    CUANDO hago PATCH a /api/v1/tasks/{taskId}/employeeId<br>
+    ENTONCES retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS37</td>
+  <td>Update Task Description</td>
+  <td>Como desarrollador, quiero actualizar la descripción de una tarea para detallar mejor sus actividades.</td>
+  <td>
+    Escenario 1: Descripción actualizada<br>
+    DADO que existe una tarea con el {taskId} dado y una descripción válida para actualizar<br>
+    CUANDO hago PATCH a /api/v1/tasks/{taskId}/description con la nueva descripción en el cuerpo de la solicitud<br>
+    ENTONCES la descripción de la tarea se actualiza<br>
+    Y retorna estado 200 OK con el recurso de la tarea actualizado<br><br>
+    Escenario 2: Tarea no encontrada<br>
+    DADO que el {taskId} de la tarea no existe<br>
+    CUANDO hago PATCH a /api/v1/tasks/{taskId}/description<br>
+    ENTONCES retorna estado 404 Not Found<br><br>
+    Escenario 3: ID con formato inválido<br>
+    DADO que el {taskId} proporcionado tiene un formato incorrecto<br>
+    CUANDO hago PATCH a /api/v1/tasks/{taskId}/description<br>
+    ENTONCES retorna estado 400 Bad Request
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS38</td>
+  <td>Update Task Status</td>
+  <td>Como desarrollador, quiero actualizar el estado de una tarea para reflejar su progreso.</td>
+  <td>
+    Escenario 1: Estado actualizado<br>
+DADO que existe una tarea con el {taskId} dado y un estado válido para actualizar<br>
+CUANDO hago PATCH a /api/v1/tasks/{taskId}/status con el nuevo estado en el cuerpo de la solicitud<br>
+ENTONCES el estado de la tarea se actualiza<br>
+Y retorna estado 200 OK con el recurso de la tarea actualizado<br><br>
+Escenario 2: Tarea no encontrada<br>
+DADO que el {taskId} de la tarea no existe<br>
+CUANDO hago PATCH a /api/v1/tasks/{taskId}/status<br>
+ENTONCES retorna estado 404 Not Found<br><br>
+Escenario 3: ID con formato inválido<br>
+DADO que el {taskId} proporcionado tiene un formato incorrecto<br>
+CUANDO hago PATCH a /api/v1/tasks/{taskId}/status<br>
+ENTONCES retorna estado 400 Bad Request
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS39</td>
+  <td>Get All Tasks</td>
+  <td>Como desarrollador, quiero obtener todas las tareas registradas mediante la API para mostrarlas en el sistema.</td>
+  <td>
+    Escenario 1: Existen tareas<br>
+DADO que existen tareas registradas en el sistema<br>
+CUANDO hago GET a /api/v1/tasks<br>
+ENTONCES retorna estado 200 OK y una lista de tareas<br><br>
+Escenario 2: Lista vacía<br>
+DADO que no hay tareas registradas en el sistema<br>
+CUANDO hago GET a /api/v1/tasks<br>
+ENTONCES retorna estado 200 OK y una lista vacía
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS40</td>
+  <td>Get Tasks By Status</td>
+  <td>Como desarrollador, quiero obtener las tareas filtradas por estado para mostrar solo las relevantes según su progreso.</td>
+  <td>
+    Escenario 1: Tareas encontradas<br>
+DADO que existen tareas con el estado solicitado<br>
+CUANDO hago GET a /api/v1/tasks/status/{status}<br>
+ENTONCES retorna una lista de tareas con estado 200 OK<br><br>
+Escenario 2: No hay coincidencias<br>
+DADO que no hay tareas con el estado solicitado<br>
+CUANDO hago GET a /api/v1/tasks/status/{status}<br>
+ENTONCES retorna una lista vacía con estado 200 OK
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS41</td>
+  <td>Create Task Programming</td>
+  <td>Como desarrollador, quiero programar una tarea mediante la API para definir cuándo debe realizarse.</td>
+  <td>
+    Escenario 1: Programación válida<br>
+DADO que tengo un cuerpo JSON con datos válidos para la programación de una tarea<br>
+CUANDO hago POST a /api/v1/task-programming con esos datos<br>
+ENTONCES se crea la programación<br>
+Y retorna el recurso de la programación creada con estado 201 Created<br><br>
+Escenario 2: Datos inválidos<br>
+DADO que el cuerpo de la solicitud contiene datos incorrectos o faltantes<br>
+CUANDO envío la solicitud POST a /api/v1/task-programming<br>
+ENTONCES retorna estado 400 Bad Request<br><br>
+Escenario 3: Tarea no encontrada<br>
+DADO que el ID de la tarea referenciada en la programación no existe<br>
+CUANDO intento crear la programación de la tarea<br>
+ENTONCES retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS42</td>
+  <td>Get Task Programming By ID</td>
+  <td>Como desarrollador, quiero obtener una programación de tarea por su ID para consultar su información detallada.</td>
+  <td>
+    Escenario 1: Programación encontrada<br>
+DADO que existe una programación de tarea con el {programmingId} dado<br>
+CUANDO hago GET a /api/v1/task-programming/{programmingId}<br>
+ENTONCES retorna estado 200 OK y el recurso de la programación<br><br>
+Escenario 2: No encontrada<br>
+DADO que el {programmingId} de la programación no existe<br>
+CUANDO hago GET a /api/v1/task-programming/{programmingId}<br>
+ENTONCES retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS43</td>
+  <td>Get Task Programmings By Task ID</td>
+  <td>Como desarrollador, quiero obtener todas las programaciones asociadas a una tarea para gestionar su ejecución.</td>
+  <td>
+    Escenario 1: Programaciones encontradas<br>
+DADO que existe una tarea con el {taskId} dado y tiene programaciones asociadas<br>
+CUANDO hago GET a /api/v1/task-programming/tasks/{taskId}<br>
+ENTONCES retorna una lista de programaciones con estado 200 OK<br><br>
+Escenario 2: No hay programaciones para esa tarea<br>
+DADO que existe una tarea con el {taskId} dado pero no tiene programaciones asociadas<br>
+CUANDO hago GET a /api/v1/task-programming/tasks/{taskId}<br>
+ENTONCES retorna una lista vacía con estado 200 OK<br><br>
+Escenario 3: Tarea no encontrada<br>
+DADO que el {taskId} de la tarea no existe<br>
+CUANDO hago GET a /api/v1/task-programming/tasks/{taskId}<br>
+ENTONCES retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS44</td>
+  <td>Update Task Programming Time Interval</td>
+  <td>Como desarrollador, quiero actualizar el intervalo de tiempo de una programación para reflejar un nuevo horario.</td>
+  <td>
+    Escenario 1: Actualización exitosa<br>
+DADO que existe una programación de tarea con el {taskProgrammingId} dado y un nuevo intervalo de tiempo válido<br>
+CUANDO hago PATCH a /api/v1/task-programming/{taskProgrammingId}/time-interval con el nuevo intervalo<br>
+ENTONCES se actualiza el tiempo de la programación<br>
+Y retorna estado 200 OK con el recurso actualizado<br><br>
+Escenario 2: Programación no encontrada<br>
+DADO que el {taskProgrammingId} de la programación no existe<br>
+CUANDO hago PATCH a /api/v1/task-programming/{taskProgrammingId}/time-interval<br>
+ENTONCES retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS45</td>
+  <td>Update Task Programming Status</td>
+  <td>Como desarrollador, quiero actualizar el estado de una programación de tarea para reflejar su progreso.</td>
+  <td>
+    Escenario 1: Actualización válida<br>
+DADO que existe una programación de tarea con el {taskProgrammingId} dado y un estado válido para actualizar<br>
+CUANDO hago PATCH a /api/v1/task-programming/{taskProgrammingId}/status con el nuevo estado<br>
+ENTONCES se actualiza el estado de la programación<br>
+Y retorna estado 200 OK con el recurso actualizado<br><br>
+Escenario 2: Programación no encontrada<br>
+DADO que el {taskProgrammingId} de la programación no existe<br>
+CUANDO hago PATCH a /api/v1/task-programming/{taskProgrammingId}/status<br>
+ENTONCES retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS46</td>
+  <td>Get All Task Programmings</td>
+  <td>Como desarrollador, quiero obtener todas las programaciones de tareas del sistema para mostrarlas en una vista general.</td>
+  <td>
+    Escenario 1: Existen programaciones<br>
+DADO que existen programaciones de tareas registradas en el sistema<br>
+CUANDO hago GET a /api/v1/task-programming<br>
+ENTONCES retorna una lista de programaciones con estado 200 OK<br><br>
+Escenario 2: No hay programaciones<br>
+DADO que no hay programaciones de tareas registradas en el sistema<br>
+CUANDO hago GET a /api/v1/task-programming<br>
+ENTONCES retorna una lista vacía con estado 200 OK
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS47</td>
+  <td>Get Task Programmings By Activity ID</td>
+  <td>Como desarrollador, quiero obtener las programaciones asociadas a una actividad para verificar su planificación.</td>
+  <td>
+   Escenario 1: Coincidencias encontradas<br>
+DADO que existe una actividad con el {activityId} dado que tiene programaciones asociadas<br>
+CUANDO hago GET a /api/v1/task-programming/activities/{activityId}<br>
+ENTONCES retorna una lista de programaciones con estado 200 OK<br><br>
+Escenario 2: No hay programaciones para esa actividad<br>
+DADO que existe una actividad con el {activityId} dado pero no tiene programaciones asociadas<br>
+CUANDO hago GET a /api/v1/task-programming/activities/{activityId}<br>
+ENTONCES retorna una lista vacía con estado 200 OK<br><br>
+Escenario 3: Actividad no encontrada<br>
+DADO que el {activityId} de la actividad no existe<br>
+CUANDO hago GET a /api/v1/task-programming/activities/{activityId}<br>
+ENTONCES retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS48</td>
+  <td>Create Equipment</td>
+  <td>Como desarrollador, quiero registrar un nuevo equipo mediante la API para que esté disponible en el sistema.</td>
+  <td>
+    Escenario 1: Datos válidos<br>
+DADO que tengo un cuerpo JSON con datos válidos para el nuevo equipo<br>
+CUANDO hago POST a /api/v1/equipment con esos datos<br>
+ENTONCES se crea el equipo<br>
+Y retorna el recurso del equipo creado con estado 201 Created<br><br>
+Escenario 2: Datos inválidos<br>
+DADO que el cuerpo de la solicitud contiene datos incorrectos o faltantes<br>
+CUANDO envío la solicitud POST a /api/v1/equipment<br>
+ENTONCES retorna estado 400 Bad Request
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS49</td>
+  <td>Get Equipment By ID</td>
+  <td>Como desarrollador, quiero obtener un equipo específico por su ID mediante la API para consultar sus detalles.</td>
+  <td>
+    Escenario 1: Equipo encontrado<br>
+DADO que existe un equipo con el {equipmentId} dado<br>
+CUANDO hago GET a /api/v1/equipment/{equipmentId}<br>
+ENTONCES retorna el recurso del equipo con estado 200 OK<br><br>
+Escenario 2: Equipo no encontrado<br>
+DADO que el {equipmentId} no corresponde a ningún equipo existente<br>
+CUANDO hago GET a /api/v1/equipment/{equipmentId}<br>
+ENTONCES retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS50</td>
+  <td>Get All Equipment</td>
+  <td>Como desarrollador, quiero obtener todos los equipos registrados mediante la API para visualizarlos o gestionarlos.</td>
+  <td>
+    Escenario 1: Equipos disponibles<br>
+DADO que existen equipos registrados en el sistema<br>
+CUANDO hago GET a /api/v1/equipment<br>
+ENTONCES se retorna una lista de equipos con estado 200 OK<br><br>
+Escenario 2: No hay equipos<br>
+DADO que no existe ningún equipo registrado en el sistema<br>
+CUANDO hago GET a /api/v1/equipment<br>
+ENTONCES retorna una lista vacía con estado 200 OK
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS51</td>
+  <td>Update Equipment Status</td>
+  <td>Como desarrollador, quiero actualizar el estado de disponibilidad de un equipo para reflejar si está activo o inactivo.</td>
+  <td>
+    Escenario 1: Actualización exitosa<br>
+DADO que existe un equipo con el {equipmentId} dado y un estado válido para actualizar<br>
+CUANDO hago PATCH a /api/v1/equipment/{equipmentId}/status con el nuevo estado en el cuerpo de la solicitud<br>
+ENTONCES se actualiza el estado del equipo<br>
+Y retorna estado 200 OK con el recurso actualizado<br><br>
+Escenario 2: Equipo no encontrado<br>
+DADO que el {equipmentId} del equipo no existe<br>
+CUANDO hago PATCH a /api/v1/equipment/{equipmentId}/status<br>
+ENTONCES retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS52</td>
+  <td>Get Equipments By Status</td>
+  <td>Como desarrollador, quiero obtener los equipos filtrados por su estado de disponibilidad para realizar asignaciones o monitoreo.</td>
+  <td>
+    Escenario 1: Equipos encontrados<br>
+DADO que existen equipos con el estado de disponibilidad solicitado<br>
+CUANDO hago GET a /api/v1/equipment/status/{status}<br>
+ENTONCES se retorna una lista de equipos con estado 200 OK<br><br>
+Escenario 2: No hay coincidencias<br>
+DADO que no existen equipos con el estado de disponibilidad solicitado<br>
+CUANDO hago GET a /api/v1/equipment/status/{status}<br>
+ENTONCES retorna una lista vacía con estado 200 OK
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS53</td>
+  <td>Create Position</td>
+  <td>Como desarrollador, quiero crear una nueva posición mediante la API para registrar una nueva ubicación en el sistema.</td>
+  <td>
+   Escenario 1: Datos válidos<br>
+DADO que tengo un cuerpo JSON con datos válidos para la nueva posición<br>
+CUANDO realizo POST a /api/v1/positions con esos datos<br>
+ENTONCES se crea la posición<br>
+Y retorna el recurso de la posición creada con estado 201 Created<br><br>
+Escenario 2: Datos inválidos<br>
+DADO que el cuerpo de la solicitud contiene datos incorrectos o faltantes<br>
+CUANDO envío la solicitud POST a /api/v1/positions<br>
+ENTONCES se retorna estado 400 Bad Request
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS54</td>
+  <td>Get Position By ID</td>
+  <td>Como desarrollador, quiero obtener una posición específica por su ID mediante la API para visualizar sus coordenadas o nombre.</td>
+  <td>
+   Escenario 1: Posición encontrada<br>
+DADO que existe una posición con el {positionId} dado<br>
+CUANDO hago GET a /api/v1/positions/{positionId}<br>
+ENTONCES retorna el recurso de la posición con estado 200 OK<br><br>
+Escenario 2: Posición no encontrada<br>
+DADO que el {positionId} no corresponde a ninguna posición existente<br>
+CUANDO hago GET a /api/v1/positions/{positionId}<br>
+ENTONCES se retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS55</td>
+  <td>Get All Positions</td>
+  <td>Como desarrollador, quiero obtener todas las posiciones registradas mediante la API para visualizarlas o asignarlas.</td>
+  <td>
+   Escenario 1: Posiciones disponibles<br>
+DADO que existen posiciones registradas en el sistema<br>
+CUANDO hago GET a /api/v1/positions<br>
+ENTONCES se retorna una lista de posiciones con estado 200 OK<br><br>
+Escenario 2: Lista vacía<br>
+DADO que no existen posiciones registradas en el sistema<br>
+CUANDO hago GET a /api/v1/positions<br>
+ENTONCES se retorna una lista vacía con estado 200 OK
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS56</td>
+  <td>Create Reservation</td>
+  <td>Como desarrollador, quiero crear una nueva reserva mediante la API, para gestionar la asignación de recursos.</td>
+  <td>
+   Escenario 1: Datos válidos<br>
+DADO que tengo un cuerpo JSON con datos válidos para la nueva reserva<br>
+CUANDO realizo POST a /api/v1/reservations con esos datos<br>
+ENTONCES se crea la reserva<br>
+Y retorna el recurso de la reserva creada con estado 201 Created<br><br>
+Escenario 2: Datos inválidos<br>
+DADO que el cuerpo de la solicitud contiene datos incorrectos o faltantes<br>
+CUANDO envío la solicitud POST a /api/v1/reservations<br>
+ENTONCES se retorna estado 400 Bad Request
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS57</td>
+  <td>Get Reservation By ID</td>
+  <td>Como desarrollador, quiero obtener los detalles de una reserva específica mediante su ID, para consultar su información.</td>
+  <td>
+    Escenario 1: Reserva encontrada<br>
+DADO que existe una reserva con el {reservationId} dado<br>
+CUANDO hago GET a /api/v1/reservations/{reservationId}<br>
+ENTONCES se retorna el recurso de la reserva con estado 200 OK<br><br>
+Escenario 2: Reserva no encontrada<br>
+DADO que el {reservationId} no existe<br>
+CUANDO hago GET a /api/v1/reservations/{reservationId}<br>
+ENTONCES se retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS58</td>
+  <td>Get Reservations By Resource Reference</td>
+  <td>Como desarrollador, quiero obtener todas las reservas asociadas a un recurso determinado (por tipo e ID), para visualizar su historial o uso actual.</td>
+  <td>
+    Escenario 1: Reservas encontradas<br>
+DADO que existen reservas asociadas al {resourceType} y {resourceId} dados<br>
+CUANDO hago GET a /api/v1/reservations/by-resource/{resourceType}/{resourceId}<br>
+ENTONCES obtengo una lista de reservas con estado 200 OK<br><br>
+Escenario 2: No hay reservas para ese recurso<br>
+DADO que no existen reservas asociadas al {resourceType} y {resourceId} dados<br>
+CUANDO hago GET a /api/v1/reservations/by-resource/{resourceType}/{resourceId}<br>
+ENTONCES se retorna una lista vacía con estado 200 OK<br><br>
+Escenario 3: Tipo de recurso o ID de recurso inválido (Opcional pero recomendable)<br>
+DADO que el {resourceType} o el {resourceId} tienen un formato inválido o no son válidos<br>
+CUANDO hago GET a /api/v1/reservations/by-resource/{resourceType}/{resourceId}<br>
+ENTONCES se retorna estado 400 Bad Request
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS59</td>
+  <td>Create Team</td>
+  <td>Como desarrollador, quiero crear un nuevo equipo mediante la API, para organizar a los trabajadores en grupos funcionales.</td>
+  <td>
+    Escenario 1: Datos válidos<br>
+DADO que tengo un cuerpo JSON con datos válidos para el nuevo equipo<br>
+CUANDO realizo POST a /api/v1/teams con ese cuerpo<br>
+ENTONCES se crea el equipo<br>
+Y retorna el recurso del equipo creado con estado 201 Created<br><br>
+Escenario 2: Datos inválidos<br>
+DADO que el cuerpo de la solicitud contiene datos incorrectos o faltantes para el equipo<br>
+CUANDO envío la solicitud POST a /api/v1/teams<br>
+ENTONCES se retorna estado 400 Bad Request
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS60</td>
+  <td>Get Team By ID</td>
+  <td>Como desarrollador, quiero obtener los datos de un equipo específico mediante su ID, para consultar su información.</td>
+  <td>
+   Escenario 1: Equipo encontrado<br>
+DADO que existe un equipo con el {teamId} dado<br>
+CUANDO hago GET a /api/v1/teams/{teamId}<br>
+ENTONCES se retorna el recurso del equipo con estado 200 OK<br><br>
+Escenario 2: Equipo no encontrado<br>
+DADO que el {teamId} no existe<br>
+CUANDO hago GET a /api/v1/teams/{teamId}<br>
+ENTONCES se retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS61</td>
+  <td>Get All Teams</td>
+  <td>Como desarrollador, quiero obtener todos los equipos registrados mediante la API, para listarlos o gestionarlos.</td>
+  <td>
+    Escenario 1: Existen equipos<br>
+DADO que hay equipos registrados en el sistema<br>
+CUANDO hago GET a /api/v1/teams<br>
+ENTONCES recibo una lista de equipos con estado 200 OK<br><br>
+Escenario 2: No existen equipos<br>
+DADO que no hay equipos registrados en el sistema<br>
+CUANDO hago GET a /api/v1/teams<br>
+ENTONCES recibo una lista vacía con estado 200 OK
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS62</td>
+  <td>Add Team Member</td>
+  <td>Como desarrollador, quiero agregar un miembro a un equipo mediante la API, para conformar el grupo de trabajo.</td>
+  <td>
+    Escenario 1: Miembro agregado exitosamente<br>
+DADO que el {teamId} existe y tengo datos válidos para el nuevo miembro<br>
+CUANDO realizo POST a /api/v1/teams/{teamId}/members con esos datos<br>
+ENTONCES se crea el miembro<br>
+Y retorna el recurso del miembro con estado 201 Created<br><br>
+Escenario 2: Datos inválidos<br>
+DADO que el cuerpo de la solicitud contiene datos incorrectos o faltantes<br>
+CUANDO realizo POST a /api/v1/teams/{teamId}/members<br>
+ENTONCES se retorna estado 400 Bad Request<br><br>
+Escenario 3: Equipo no encontrado<br>
+DADO que el {teamId} proporcionado no existe<br>
+CUANDO intento agregar un miembro a ese equipo<br>
+ENTONCES se retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS63</td>
+  <td>Get Team Member By ID</td>
+  <td>Como desarrollador, quiero obtener la información de un miembro de equipo mediante su ID, para visualizar su asignación.</td>
+  <td>
+    Escenario 1: Miembro encontrado<br>
+DADO que existe un miembro de equipo con el {memberId} dado<br>
+CUANDO hago GET a /api/v1/teams/members/{memberId}<br>
+ENTONCES recibo el recurso del miembro con estado 200 OK<br><br>
+Escenario 2: Miembro no encontrado<br>
+DADO que el {memberId} no existe<br>
+CUANDO hago GET a /api/v1/teams/members/{memberId}<br>
+ENTONCES se retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS64</td>
+  <td>Delete Team Member</td>
+  <td>Como desarrollador, quiero eliminar o desactivar un miembro de un equipo, para remover su asignación.</td>
+  <td>
+    Escenario 1: Eliminación exitosa<br>
+DADO que existe un miembro de equipo con el {memberId} dado<br>
+CUANDO realizo DELETE a /api/v1/teams/members/{memberId}<br>
+ENTONCES el miembro es eliminado (o desactivado, si esa es la semántica de "eliminar")<br>
+Y retorna estado 200 OK (o 204 No Content si no se retorna un cuerpo)<br><br>
+Escenario 2: Miembro no encontrado<br>
+DADO que el {memberId} no corresponde a ningún miembro existente<br>
+CUANDO realizo DELETE a /api/v1/teams/members/{memberId}<br>
+ENTONCES se retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>TS65</td>
+  <td>Create Zone</td>
+  <td>Como desarrollador, quiero registrar una nueva zona mediante la API para organizar las ubicaciones dentro del sistema.</td>
+  <td>
+    Escenario 1: Zona válida<br>
+DADO que tengo un cuerpo JSON con datos válidos para la nueva zona<br>
+CUANDO hago POST a /api/v1/zones con esos datos<br>
+ENTONCES se crea la zona<br>
+Y retorna el recurso de la zona creada con estado 201 Created<br><br>
+Escenario 2: Datos inválidos<br>
+DADO que el cuerpo de la solicitud contiene datos incorrectos o faltantes<br>
+CUANDO hago POST a /api/v1/zones<br>
+ENTONCES se retorna estado 400 Bad Request
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS66</td>
+  <td>Get Zone By ID</td>
+  <td>Como desarrollador, quiero obtener los detalles de una zona específica por su ID, para consultarla desde el frontend o backend.</td>
+  <td>
+    Escenario 1: Zona encontrada<br>
+DADO que existe una zona con el {zoneId} dado<br>
+CUANDO hago GET a /api/v1/zones/{zoneId}<br>
+ENTONCES recibo la información de la zona con estado 200 OK<br><br>
+Escenario 2: Zona no encontrada<br>
+DADO que el {zoneId} no existe<br>
+CUANDO hago GET a /api/v1/zones/{zoneId}<br>
+ENTONCES se retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS67</td>
+  <td>Get All Zones</td>
+  <td>Como desarrollador, quiero recuperar todas las zonas existentes, para mostrarlas en una lista o visualización.</td>
+  <td>
+    Escenario 1: Hay zonas<br>
+DADO que hay zonas registradas en el sistema<br>
+CUANDO hago GET a /api/v1/zones<br>
+ENTONCES recibo una lista de zonas con estado 200 OK<br><br>
+Escenario 2: No hay zonas<br>
+DADO que no hay ninguna zona registrada en el sistema<br>
+CUANDO hago GET a /api/v1/zones<br>
+ENTONCES recibo una lista vacía con estado 200 OK
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS68</td>
+  <td>Add Location to Zone</td>
+  <td>Como desarrollador, quiero crear una nueva ubicación y asociarla a una zona, para representar físicamente las áreas.</td>
+  <td>
+    Escenario 1: Ubicación válida<br>
+DADO que el {zoneId} existe y tengo datos válidos para la nueva ubicación<br>
+CUANDO hago POST a /api/v1/zones/{zoneId}/locations con esos datos<br>
+ENTONCES se crea la ubicación<br>
+Y retorna el recurso de la ubicación con estado 201 Created<br><br>
+Escenario 2: Datos inválidos<br>
+DADO que el cuerpo de la solicitud contiene datos incorrectos o faltantes<br>
+CUANDO hago POST a /api/v1/zones/{zoneId}/locations<br>
+ENTONCES se retorna estado 400 Bad Request<br><br>
+Escenario 3: Zona no encontrada<br>
+DADO que el {zoneId} proporcionado no existe<br>
+CUANDO intento crear una ubicación para esa zona<br>
+ENTONCES se retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS69</td>
+  <td>Get Location By ID</td>
+  <td>Como desarrollador, quiero obtener la información de una ubicación específica por su ID, para visualizar su detalle.</td>
+  <td>
+    Escenario 1: Ubicación encontrada<br>
+DADO que existe una ubicación con el {locationId} dado<br>
+CUANDO hago GET a /api/v1/zones/locations/{locationId}<br>
+ENTONCES recibo la información de la ubicación con estado 200 OK<br><br>
+Escenario 2: Ubicación no encontrada<br>
+DADO que el {locationId} no existe<br>
+CUANDO hago GET a /api/v1/zones/locations/{locationId}<br>
+ENTONCES se retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS70</td>
+  <td>Get All Locations</td>
+  <td>Como desarrollador, quiero obtener todas las ubicaciones registradas, para tener una vista completa del sistema físico.</td>
+  <td>
+    Escenario 1: Hay ubicaciones<br>
+DADO que hay ubicaciones registradas en el sistema<br>
+CUANDO hago GET a /api/v1/zones/locations<br>
+ENTONCES recibo una lista de ubicaciones con estado 200 OK<br><br>
+Escenario 2: No hay ubicaciones<br>
+DADO que no hay ubicaciones registradas en el sistema<br>
+CUANDO hago GET a /api/v1/zones/locations<br>
+ENTONCES recibo una lista vacía con estado 200 OK
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS71</td>
+  <td>Get Locations By Zone ID</td>
+  <td>Como desarrollador, quiero listar todas las ubicaciones asociadas a una zona específica, para consultar su distribución.</td>
+  <td>
+    Escenario 1: Ubicaciones encontradas<br>
+DADO que existe una zona con el {zoneId} dado y tiene ubicaciones asociadas<br>
+CUANDO hago GET a /api/v1/zones/{zoneId}/locations<br>
+ENTONCES recibo una lista de ubicaciones con estado 200 OK<br><br>
+Escenario 2: No hay ubicaciones para esa zona<br>
+DADO que existe una zona con el {zoneId} dado pero no tiene ubicaciones asociadas<br>
+CUANDO hago GET a /api/v1/zones/{zoneId}/locations<br>
+ENTONCES recibo una lista vacía con estado 200 OK<br><br>
+Escenario 3: Zona no encontrada<br>
+DADO que el {zoneId} de la zona no existe<br>
+CUANDO hago GET a /api/v1/zones/{zoneId}/locations<br>
+ENTONCES se retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS72</td>
+  <td>Update Location Status</td>
+  <td>Como desarrollador, quiero actualizar el estado de una ubicación específica, para reflejar si está activa o inactiva.</td>
+  <td>
+    Escenario 1: Actualización exitosa<br>
+DADO que existe una ubicación con el {locationId} dado y un estado válido para actualizar<br>
+CUANDO hago PATCH a /api/v1/locations/{locationId}/status con el nuevo estado en el cuerpo de la solicitud<br>
+ENTONCES se actualiza el estado de la ubicación<br>
+Y se retorna estado 200 OK con los datos actualizados<br><br>
+Escenario 2: Ubicación no encontrada<br>
+DADO que el {locationId} de la ubicación no existe<br>
+CUANDO hago PATCH a /api/v1/locations/{locationId}/status<br>
+ENTONCES se retorna estado 404 Not Found
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>TS73</td>
+  <td>Get Locations By Status</td>
+  <td>Como desarrollador, quiero filtrar las ubicaciones por estado (activo, inactivo), para poder clasificarlas visualmente.</td>
+  <td>
+    Escenario 1: Ubicaciones encontradas<br>
+DADO que existen ubicaciones registradas con el {status} solicitado<br>
+CUANDO hago GET a /api/v1/locations/status/{status}<br>
+ENTONCES recibo una lista de ubicaciones con estado 200 OK<br><br>
+Escenario 2: No hay coincidencias<br>
+DADO que no existen ubicaciones con el {status} solicitado<br>
+CUANDO hago GET a /api/v1/locations/status/{status}<br>
+ENTONCES recibo una lista vacía con estado 200 OK
+  </td>
+  <td>No corresponde</td>
+</tr>
+</tbody>
 </table>
 
 ## 3.3 Impact Mapping
