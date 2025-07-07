@@ -6033,7 +6033,8 @@ Durante el Sprint 4, el equipo trabajó de forma intensiva en la integración fi
 
 A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
 
-![Insights para el sprint 4](assets/md-images/insights-sprint4)
+![Insights para el sprint 4](assets/md-images/insights-sprint4.png)
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
