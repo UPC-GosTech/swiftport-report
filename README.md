@@ -6269,9 +6269,11 @@ En este sprint, nuestro objetivo principal es implementar la primera versión de
 | Preparado por | Sergio Sebastián Iglesias Pérez, Natalia Bertha Roman Cruz |
 | Asistentes (a la reunión de planificación) | Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando; Adrianzén Flores, Carlos Arturo |
 | Resumen de la revisión del Sprint 2 | El Sprint 2 se centró en el desarrollo de las pantallas principales de la aplicación web SwiftPort utilizando Angular, logrando un avance significativo en la implementación del front-end. Se desplegó exitosamente la landing page actualizada y se integraron múltiples funcionalidades. |
-| Objetivo del Sprint 3 | El objetivo es implementar la primera versión del backend. Esto permitirá que las funcionalidades principales de la aplicación funcionen y proporcionará una base sólida para el desarrollo futuro. |
+| Sprint 3 Goal| Our focus is to enable the fundamental management of activities and their associated tasks within the backend, which we believe delivers to logistics planners the crucial capability to begin structuring and organizing shipping operations. This will be confirmed when the backend APIs allow for the successful creation, viewing, and basic updating of activities and their related tasks. |
 | Velocidad del Sprint 3 | 40 story points |
 | Suma de story points | 40 story points |
+
+
 
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
@@ -6514,7 +6516,7 @@ En este sprint, nuestro objetivo principal fue **finalizar el desarrollo del bac
 | Preparado por | Sergio Sebastián Iglesias Pérez, Natalia Bertha Roman Cruz |
 | Asistentes (a la reunión de planificación) | Solano Armas, Angelo Hector; Roman Cruz, Natalia Bertha; Iglesias Pérez, Sergio Sebastián; Baldeón Vivar, Santiago Armando; Adrianzén Flores, Carlos Arturo |
 | Resumen de la revisión del Sprint 3 | El Sprint 3 permitió implementar la primera versión funcional del backend con servicios REST y lógica de negocio. Se integraron múltiples módulos y se desplegó en la nube mediante Azure, dejando la base lista para conexión con el frontend. |
-| Objetivo del Sprint 4 | Finalizar completamente el backend y conectar todas sus funcionalidades con el frontend web de SwiftPort. Validar el flujo completo de datos entre cliente y servidor. |
+| Sprint 4 Goal | Our focus is to provide an integrated solution for resource planning and assignment by fully connecting the backend with the SwiftPort web frontend, which we believe delivers to operators and planners a comprehensive, interactive, and reliable view for optimizing the allocation of employees, equipment, and zones. This will be confirmed when users can seamlessly manage (create, modify, view) the complete scheduling of activities and resources through the web interface, and the system effectively validates and prevents overlapping resource reservation conflicts. |
 | Velocidad del Sprint 4 | 42 story points |
 | Suma de story points | 42 story points |
 
