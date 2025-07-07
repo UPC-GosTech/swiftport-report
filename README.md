@@ -5424,9 +5424,8 @@ Durante el Sprint 4, se lograron las siguientes metas principales:
 
 
 `![Endpoints equipment ](assets/md-images/Execution-evidence-4/1.png)`
-
   
-`!Endpoints employees incident report](assets/md-images/Execution-evidence-4/2.png)`
+`![Endpoints employees incident report](assets/md-images/Execution-evidence-4/2.png)`
 
  
 `![Endpoints roles authentication executions](assets/md-images/Execution-evidence-4/3.png)`
